@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-22",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 7,
+  "habits": {
+    "gym": false,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "ska0c2jnloj5",
+      "description": "Streaming",
+      "amount": 11.3,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

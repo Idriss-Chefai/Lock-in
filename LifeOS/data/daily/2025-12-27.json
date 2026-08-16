@@ -1,0 +1,36 @@
+{
+  "date": "2025-12-27",
+  "sleep": {
+    "hours": 6.2,
+    "quality": 6
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "y8deznh6loj3",
+      "type": "Yoga",
+      "durationMinutes": 23
+    },
+    {
+      "id": "yf3ntv3kloj3",
+      "type": "Cycling",
+      "durationMinutes": 17
+    }
+  ],
+  "tasks": [
+    {
+      "id": "lqns0pywloj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

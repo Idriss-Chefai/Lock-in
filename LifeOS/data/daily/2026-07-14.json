@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-14",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "vshwlvt5loj5",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "ogrbku19loj5",
+      "description": "Groceries",
+      "amount": 54.57,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

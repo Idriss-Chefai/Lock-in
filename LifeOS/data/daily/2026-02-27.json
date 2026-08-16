@@ -1,0 +1,37 @@
+{
+  "date": "2026-02-27",
+  "sleep": {
+    "hours": 7.8,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "fpseepz2loj3",
+      "type": "Yoga",
+      "durationMinutes": 32
+    },
+    {
+      "id": "ho1c13rploj3",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "w5seyncmloj3",
+      "description": "Groceries",
+      "amount": 46.63,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

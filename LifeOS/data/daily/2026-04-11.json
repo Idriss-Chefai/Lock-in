@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-11",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "0pe787okloj4",
+      "type": "Cycling",
+      "durationMinutes": 20
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

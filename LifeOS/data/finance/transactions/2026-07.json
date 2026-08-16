@@ -1,0 +1,131 @@
+{
+  "month": "2026-07",
+  "transactions": [
+    {
+      "id": "inve4yw5lop9",
+      "date": "2026-07-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "tqgtkc5tlop9",
+      "date": "2026-07-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "m428jvxzlop9",
+      "date": "2026-07-02",
+      "description": "Dinner out",
+      "amount": 25.28,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "iaqxeiqglop9",
+      "date": "2026-07-15",
+      "description": "Dinner out",
+      "amount": 66.54,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "sst81dyzlop9",
+      "date": "2026-07-18",
+      "description": "Dinner out",
+      "amount": 34.85,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "a4mn75djlop9",
+      "date": "2026-07-27",
+      "description": "Uber",
+      "amount": 61.49,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "grp5wwkwlop9",
+      "date": "2026-07-07",
+      "description": "Pharmacy",
+      "amount": 24.62,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "tld8hikjlop9",
+      "date": "2026-07-23",
+      "description": "Pharmacy",
+      "amount": 68.53,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "rmuz8wzclop9",
+      "date": "2026-07-09",
+      "description": "Groceries",
+      "amount": 60.18,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "akla0aeolop9",
+      "date": "2026-07-08",
+      "description": "Pharmacy",
+      "amount": 33.16,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "hijdr4splop9",
+      "date": "2026-07-20",
+      "description": "Dinner out",
+      "amount": 31.33,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "dwhv342tlop9",
+      "date": "2026-07-27",
+      "description": "Uber",
+      "amount": 58.69,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "66zjy64wlop9",
+      "date": "2026-07-27",
+      "description": "Pharmacy",
+      "amount": 48.29,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "9bm3q9pdlop9",
+      "date": "2026-07-27",
+      "description": "Groceries",
+      "amount": 50.45,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    }
+  ]
+}

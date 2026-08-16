@@ -1,0 +1,23 @@
+{
+  "date": "2025-10-07",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "vze8ul0kloj1",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

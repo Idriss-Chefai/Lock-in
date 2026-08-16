@@ -1,0 +1,41 @@
+{
+  "date": "2025-12-13",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "hflpf5sjloj2",
+      "type": "Squat"
+    },
+    {
+      "id": "lk31cqyhloj3",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "l81cas4mloj2",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [
+    {
+      "id": "rzygq24bloj2",
+      "description": "Uber",
+      "amount": 14.21,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

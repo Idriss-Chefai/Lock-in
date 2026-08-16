@@ -1,0 +1,25 @@
+{
+  "date": "2025-09-19",
+  "sleep": {
+    "hours": 7.1,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": false,
+    "read": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "c75r790sloj1",
+      "description": "Coffee",
+      "amount": 3.23,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

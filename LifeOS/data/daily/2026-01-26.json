@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-26",
+  "sleep": {
+    "hours": 6.7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "9nb6o0h6loj3",
+      "type": "Yoga",
+      "durationMinutes": 28
+    },
+    {
+      "id": "wdrwjwcoloj3",
+      "type": "Cycling",
+      "durationMinutes": 12
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

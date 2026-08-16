@@ -1,0 +1,36 @@
+{
+  "date": "2025-12-09",
+  "sleep": {
+    "hours": 7.3,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "e93um23wloj2",
+      "type": "Pull-ups"
+    },
+    {
+      "id": "0n3lkje9loj2",
+      "type": "Cycling",
+      "durationMinutes": 12
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "wnnbdk98loj2",
+      "description": "Coffee",
+      "amount": 3.71,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

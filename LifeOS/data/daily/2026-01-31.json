@@ -1,0 +1,27 @@
+{
+  "date": "2026-01-31",
+  "sleep": {
+    "hours": 6.3,
+    "quality": 6
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 5,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "ph7fs9zgloj3",
+      "description": "Coffee",
+      "amount": 4.11,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

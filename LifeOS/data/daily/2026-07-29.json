@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-29",
+  "sleep": {
+    "hours": 7.3,
+    "quality": 7
+  },
+  "energy": 8,
+  "mood": 8,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "grqad9teloj5",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "rc94aca3loj5",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

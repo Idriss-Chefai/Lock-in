@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-09",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "gu027skzloj3",
+      "type": "Deadlift"
+    },
+    {
+      "id": "vbiijyxdloj3",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "26iy1133loj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "eharx8swloj3",
+      "description": "Streaming",
+      "amount": 10.2,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

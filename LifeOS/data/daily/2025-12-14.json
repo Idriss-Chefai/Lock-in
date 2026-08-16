@@ -1,0 +1,37 @@
+{
+  "date": "2025-12-14",
+  "sleep": {
+    "hours": 6.5,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 6,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "1xxm919xloj3",
+      "type": "Yoga",
+      "durationMinutes": 27
+    },
+    {
+      "id": "8g8df5brloj3",
+      "type": "Cycling",
+      "durationMinutes": 14
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "d9he8omgloj3",
+      "description": "Streaming",
+      "amount": 14.1,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

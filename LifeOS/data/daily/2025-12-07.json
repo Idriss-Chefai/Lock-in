@@ -1,0 +1,35 @@
+{
+  "date": "2025-12-07",
+  "sleep": {
+    "hours": 6.7,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": false
+  },
+  "training": [
+    {
+      "id": "wyodbafoloj2",
+      "type": "Deadlift"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "naf4vwa4loj2",
+      "title": "Review project backlog",
+      "done": false
+    },
+    {
+      "id": "et8e8neploj2",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

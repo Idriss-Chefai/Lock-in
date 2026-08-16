@@ -1,0 +1,19 @@
+{
+  "date": "2025-11-06",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-02",
+  "sleep": {
+    "hours": 7.3,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": false,
+    "read": false,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "u5bunz9yloj4",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "8ukpxsbrloj4",
+      "description": "Streaming",
+      "amount": 12.17,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

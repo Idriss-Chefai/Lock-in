@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-21",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "h9ca4yw2loj4",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "uio0re26loj4",
+      "description": "Groceries",
+      "amount": 57.79,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

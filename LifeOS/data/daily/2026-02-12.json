@@ -1,0 +1,29 @@
+{
+  "date": "2026-02-12",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "9waqeyvtloj3",
+      "type": "Bench Press"
+    },
+    {
+      "id": "hzorvewlloj3",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

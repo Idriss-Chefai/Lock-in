@@ -1,0 +1,25 @@
+{
+  "date": "2026-03-03",
+  "sleep": {
+    "hours": 7.4,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "y4w1455zloj3",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

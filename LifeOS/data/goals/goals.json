@@ -1,0 +1,79 @@
+{
+  "goals": [
+    {
+      "id": "2jaudfwuloj5",
+      "title": "Launch LifeOS v1",
+      "description": "Ship a daily-usable version with all core modules working.",
+      "category": "career",
+      "tier": "yearly",
+      "startDate": "2025-10-20",
+      "targetDate": "2026-09-15",
+      "metric": "% complete",
+      "currentValue": 80,
+      "targetValue": 100,
+      "status": "in_progress",
+      "taskIds": [
+        "rggw1zqxloj5",
+        "fxwtab8vloj5",
+        "uag4m91lloj5",
+        "9wo1xdncloj5"
+      ]
+    },
+    {
+      "id": "g9yb8bqtloj5",
+      "title": "Bench press bodyweight",
+      "description": "Progressive overload over the year.",
+      "category": "health",
+      "tier": "yearly",
+      "startDate": "2025-10-20",
+      "targetDate": "2026-10-15",
+      "metric": "kg",
+      "currentValue": 65,
+      "targetValue": 80,
+      "status": "in_progress",
+      "taskIds": []
+    },
+    {
+      "id": "ws4i4nd3loj5",
+      "title": "Read 12 books this year",
+      "description": "",
+      "category": "growth",
+      "tier": "yearly",
+      "startDate": "2025-10-20",
+      "targetDate": "2026-10-20",
+      "metric": "books",
+      "currentValue": 7,
+      "targetValue": 12,
+      "status": "in_progress",
+      "taskIds": []
+    },
+    {
+      "id": "yzj6rskaloj5",
+      "title": "Train 5x this week",
+      "description": "",
+      "category": "health",
+      "tier": "weekly",
+      "startDate": "2026-08-10",
+      "targetDate": "2026-08-16",
+      "metric": "sessions",
+      "currentValue": 3,
+      "targetValue": 5,
+      "status": "in_progress",
+      "taskIds": []
+    },
+    {
+      "id": "p9mbcdz8loj5",
+      "title": "Clear inbox today",
+      "description": "",
+      "category": "productivity",
+      "tier": "daily",
+      "startDate": "2026-08-16",
+      "targetDate": "2026-08-16",
+      "metric": "% complete",
+      "currentValue": 60,
+      "targetValue": 100,
+      "status": "in_progress",
+      "taskIds": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-06-29",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 4,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": false
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "abwlux30loj5",
+      "title": "Review project backlog",
+      "done": true
+    },
+    {
+      "id": "l45t18iiloj5",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1i4qryphloj5",
+      "description": "Coffee",
+      "amount": 3.94,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

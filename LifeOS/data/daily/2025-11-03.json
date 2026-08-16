@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-03",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false
+  },
+  "training": [
+    {
+      "id": "6m9rcnpqloj1",
+      "type": "Bench Press"
+    },
+    {
+      "id": "avs4e1b2loj1",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

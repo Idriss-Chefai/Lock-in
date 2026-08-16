@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-21",
+  "sleep": {
+    "hours": 6.1,
+    "quality": 6
+  },
+  "energy": 5,
+  "mood": 4,
+  "productivity": 3,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "seqorx2rloj5",
+      "type": "Cycling",
+      "durationMinutes": 20
+    },
+    {
+      "id": "ni8lsnsmloj5",
+      "type": "Running",
+      "durationMinutes": 40
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

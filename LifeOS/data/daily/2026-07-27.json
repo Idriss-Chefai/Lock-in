@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-27",
+  "sleep": {
+    "hours": 6.1,
+    "quality": 6
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "qn8opkkiloj5",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

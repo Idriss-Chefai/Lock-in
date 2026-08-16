@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-02",
+  "sleep": {
+    "hours": 6.2,
+    "quality": 6
+  },
+  "energy": 6,
+  "mood": 5,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "fnyyxghkloj5",
+      "type": "Running",
+      "durationMinutes": 35
+    },
+    {
+      "id": "nmp0f7dkloj5",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "0opvaoe6loj5",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "yqokaq8lloj5",
+      "description": "Uber",
+      "amount": 22.58,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

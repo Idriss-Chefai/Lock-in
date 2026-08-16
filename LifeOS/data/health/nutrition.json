@@ -1,0 +1,6871 @@
+{
+  "entries": [
+    {
+      "id": "hsh4plm2loj0",
+      "date": "2025-08-17",
+      "mealName": "Breakfast",
+      "calories": 550,
+      "proteinG": 17,
+      "carbsG": 33,
+      "fatG": 10
+    },
+    {
+      "id": "836iq4l4loj0",
+      "date": "2025-08-17",
+      "mealName": "Lunch",
+      "calories": 551,
+      "proteinG": 34,
+      "carbsG": 58,
+      "fatG": 25
+    },
+    {
+      "id": "cp0plkzxloj0",
+      "date": "2025-08-17",
+      "mealName": "Dinner",
+      "calories": 723,
+      "proteinG": 42,
+      "carbsG": 53,
+      "fatG": 23
+    },
+    {
+      "id": "em92423iloj0",
+      "date": "2025-08-18",
+      "mealName": "Breakfast",
+      "calories": 387,
+      "proteinG": 19,
+      "carbsG": 60,
+      "fatG": 15
+    },
+    {
+      "id": "i1cfb1izloj0",
+      "date": "2025-08-18",
+      "mealName": "Lunch",
+      "calories": 550,
+      "proteinG": 37,
+      "carbsG": 66,
+      "fatG": 17
+    },
+    {
+      "id": "03eyotsjloj0",
+      "date": "2025-08-18",
+      "mealName": "Dinner",
+      "calories": 672,
+      "proteinG": 29,
+      "carbsG": 50,
+      "fatG": 17
+    },
+    {
+      "id": "nkn1rkwdloj0",
+      "date": "2025-08-19",
+      "mealName": "Breakfast",
+      "calories": 423,
+      "proteinG": 19,
+      "carbsG": 49,
+      "fatG": 12
+    },
+    {
+      "id": "8qi1dotploj0",
+      "date": "2025-08-19",
+      "mealName": "Lunch",
+      "calories": 650,
+      "proteinG": 39,
+      "carbsG": 68,
+      "fatG": 21
+    },
+    {
+      "id": "ks8g0020loj0",
+      "date": "2025-08-19",
+      "mealName": "Dinner",
+      "calories": 696,
+      "proteinG": 38,
+      "carbsG": 63,
+      "fatG": 20
+    },
+    {
+      "id": "i2kfz7agloj0",
+      "date": "2025-08-21",
+      "mealName": "Breakfast",
+      "calories": 540,
+      "proteinG": 17,
+      "carbsG": 36,
+      "fatG": 9
+    },
+    {
+      "id": "xvicbfkzloj0",
+      "date": "2025-08-21",
+      "mealName": "Lunch",
+      "calories": 599,
+      "proteinG": 33,
+      "carbsG": 70,
+      "fatG": 19
+    },
+    {
+      "id": "udx3ib21loj0",
+      "date": "2025-08-21",
+      "mealName": "Dinner",
+      "calories": 695,
+      "proteinG": 39,
+      "carbsG": 57,
+      "fatG": 23
+    },
+    {
+      "id": "ozhi7lhnloj1",
+      "date": "2025-08-23",
+      "mealName": "Breakfast",
+      "calories": 372,
+      "proteinG": 16,
+      "carbsG": 38,
+      "fatG": 13
+    },
+    {
+      "id": "8msal6kzloj1",
+      "date": "2025-08-23",
+      "mealName": "Dinner",
+      "calories": 647,
+      "proteinG": 29,
+      "carbsG": 75,
+      "fatG": 16
+    },
+    {
+      "id": "2vv8w9whloj1",
+      "date": "2025-08-24",
+      "mealName": "Breakfast",
+      "calories": 476,
+      "proteinG": 18,
+      "carbsG": 58,
+      "fatG": 15
+    },
+    {
+      "id": "hmxm4hmxloj1",
+      "date": "2025-08-24",
+      "mealName": "Lunch",
+      "calories": 713,
+      "proteinG": 44,
+      "carbsG": 76,
+      "fatG": 16
+    },
+    {
+      "id": "y08zhjyhloj1",
+      "date": "2025-08-24",
+      "mealName": "Dinner",
+      "calories": 601,
+      "proteinG": 27,
+      "carbsG": 63,
+      "fatG": 17
+    },
+    {
+      "id": "86my5weuloj1",
+      "date": "2025-08-25",
+      "mealName": "Breakfast",
+      "calories": 374,
+      "proteinG": 22,
+      "carbsG": 57,
+      "fatG": 9
+    },
+    {
+      "id": "n2xp4rtbloj1",
+      "date": "2025-08-25",
+      "mealName": "Lunch",
+      "calories": 708,
+      "proteinG": 40,
+      "carbsG": 74,
+      "fatG": 22
+    },
+    {
+      "id": "62il8lcaloj1",
+      "date": "2025-08-25",
+      "mealName": "Dinner",
+      "calories": 515,
+      "proteinG": 28,
+      "carbsG": 63,
+      "fatG": 15
+    },
+    {
+      "id": "n1qd26wnloj1",
+      "date": "2025-08-26",
+      "mealName": "Breakfast",
+      "calories": 489,
+      "proteinG": 23,
+      "carbsG": 50,
+      "fatG": 16
+    },
+    {
+      "id": "rh74n0hhloj1",
+      "date": "2025-08-26",
+      "mealName": "Lunch",
+      "calories": 625,
+      "proteinG": 35,
+      "carbsG": 63,
+      "fatG": 22
+    },
+    {
+      "id": "p8cgd8kuloj1",
+      "date": "2025-08-26",
+      "mealName": "Dinner",
+      "calories": 529,
+      "proteinG": 31,
+      "carbsG": 57,
+      "fatG": 17
+    },
+    {
+      "id": "dvb51zjaloj1",
+      "date": "2025-08-27",
+      "mealName": "Breakfast",
+      "calories": 504,
+      "proteinG": 19,
+      "carbsG": 46,
+      "fatG": 10
+    },
+    {
+      "id": "rudiujrgloj1",
+      "date": "2025-08-27",
+      "mealName": "Lunch",
+      "calories": 682,
+      "proteinG": 31,
+      "carbsG": 54,
+      "fatG": 16
+    },
+    {
+      "id": "rik44wd9loj1",
+      "date": "2025-08-28",
+      "mealName": "Lunch",
+      "calories": 688,
+      "proteinG": 33,
+      "carbsG": 57,
+      "fatG": 15
+    },
+    {
+      "id": "f3cw1hx5loj1",
+      "date": "2025-08-28",
+      "mealName": "Dinner",
+      "calories": 713,
+      "proteinG": 34,
+      "carbsG": 48,
+      "fatG": 22
+    },
+    {
+      "id": "p4yw8mmmloj1",
+      "date": "2025-09-03",
+      "mealName": "Breakfast",
+      "calories": 415,
+      "proteinG": 20,
+      "carbsG": 44,
+      "fatG": 10
+    },
+    {
+      "id": "n314vrdhloj1",
+      "date": "2025-09-03",
+      "mealName": "Lunch",
+      "calories": 699,
+      "proteinG": 33,
+      "carbsG": 58,
+      "fatG": 21
+    },
+    {
+      "id": "go0cg71aloj1",
+      "date": "2025-09-03",
+      "mealName": "Dinner",
+      "calories": 717,
+      "proteinG": 28,
+      "carbsG": 65,
+      "fatG": 19
+    },
+    {
+      "id": "p9z03u4cloj1",
+      "date": "2025-09-04",
+      "mealName": "Breakfast",
+      "calories": 432,
+      "proteinG": 17,
+      "carbsG": 33,
+      "fatG": 10
+    },
+    {
+      "id": "he19fr8rloj1",
+      "date": "2025-09-04",
+      "mealName": "Lunch",
+      "calories": 557,
+      "proteinG": 25,
+      "carbsG": 74,
+      "fatG": 20
+    },
+    {
+      "id": "0hqidk1floj1",
+      "date": "2025-09-04",
+      "mealName": "Dinner",
+      "calories": 501,
+      "proteinG": 41,
+      "carbsG": 69,
+      "fatG": 23
+    },
+    {
+      "id": "o678ty23loj1",
+      "date": "2025-09-06",
+      "mealName": "Breakfast",
+      "calories": 384,
+      "proteinG": 19,
+      "carbsG": 42,
+      "fatG": 8
+    },
+    {
+      "id": "kllu76y2loj1",
+      "date": "2025-09-06",
+      "mealName": "Lunch",
+      "calories": 559,
+      "proteinG": 27,
+      "carbsG": 76,
+      "fatG": 15
+    },
+    {
+      "id": "h8rtqf1eloj1",
+      "date": "2025-09-06",
+      "mealName": "Dinner",
+      "calories": 712,
+      "proteinG": 34,
+      "carbsG": 50,
+      "fatG": 17
+    },
+    {
+      "id": "rpsqykjfloj1",
+      "date": "2025-09-07",
+      "mealName": "Breakfast",
+      "calories": 382,
+      "proteinG": 20,
+      "carbsG": 51,
+      "fatG": 16
+    },
+    {
+      "id": "0x9r8iu1loj1",
+      "date": "2025-09-07",
+      "mealName": "Lunch",
+      "calories": 574,
+      "proteinG": 31,
+      "carbsG": 53,
+      "fatG": 15
+    },
+    {
+      "id": "vp34rsjyloj1",
+      "date": "2025-09-07",
+      "mealName": "Dinner",
+      "calories": 685,
+      "proteinG": 31,
+      "carbsG": 45,
+      "fatG": 22
+    },
+    {
+      "id": "bg2zfh3tloj1",
+      "date": "2025-09-11",
+      "mealName": "Breakfast",
+      "calories": 417,
+      "proteinG": 24,
+      "carbsG": 45,
+      "fatG": 16
+    },
+    {
+      "id": "6jilwyrfloj1",
+      "date": "2025-09-11",
+      "mealName": "Lunch",
+      "calories": 796,
+      "proteinG": 41,
+      "carbsG": 59,
+      "fatG": 22
+    },
+    {
+      "id": "shwm8368loj1",
+      "date": "2025-09-13",
+      "mealName": "Lunch",
+      "calories": 701,
+      "proteinG": 27,
+      "carbsG": 73,
+      "fatG": 25
+    },
+    {
+      "id": "cvmiil1wloj1",
+      "date": "2025-09-14",
+      "mealName": "Lunch",
+      "calories": 767,
+      "proteinG": 26,
+      "carbsG": 70,
+      "fatG": 15
+    },
+    {
+      "id": "sib26qfkloj1",
+      "date": "2025-09-14",
+      "mealName": "Dinner",
+      "calories": 617,
+      "proteinG": 32,
+      "carbsG": 52,
+      "fatG": 20
+    },
+    {
+      "id": "coutfa7tloj1",
+      "date": "2025-09-15",
+      "mealName": "Lunch",
+      "calories": 620,
+      "proteinG": 44,
+      "carbsG": 73,
+      "fatG": 20
+    },
+    {
+      "id": "lzlq8kqlloj1",
+      "date": "2025-09-15",
+      "mealName": "Dinner",
+      "calories": 693,
+      "proteinG": 34,
+      "carbsG": 56,
+      "fatG": 19
+    },
+    {
+      "id": "bxyiybquloj1",
+      "date": "2025-09-16",
+      "mealName": "Breakfast",
+      "calories": 354,
+      "proteinG": 24,
+      "carbsG": 35,
+      "fatG": 12
+    },
+    {
+      "id": "e3m3bw9vloj1",
+      "date": "2025-09-16",
+      "mealName": "Lunch",
+      "calories": 643,
+      "proteinG": 30,
+      "carbsG": 59,
+      "fatG": 22
+    },
+    {
+      "id": "5f2thyrtloj1",
+      "date": "2025-09-16",
+      "mealName": "Dinner",
+      "calories": 733,
+      "proteinG": 39,
+      "carbsG": 65,
+      "fatG": 22
+    },
+    {
+      "id": "cne6wm4lloj1",
+      "date": "2025-09-17",
+      "mealName": "Breakfast",
+      "calories": 455,
+      "proteinG": 23,
+      "carbsG": 46,
+      "fatG": 11
+    },
+    {
+      "id": "z9d4scjfloj1",
+      "date": "2025-09-17",
+      "mealName": "Lunch",
+      "calories": 719,
+      "proteinG": 41,
+      "carbsG": 72,
+      "fatG": 17
+    },
+    {
+      "id": "zs6oi2ckloj1",
+      "date": "2025-09-17",
+      "mealName": "Dinner",
+      "calories": 534,
+      "proteinG": 32,
+      "carbsG": 54,
+      "fatG": 21
+    },
+    {
+      "id": "il945jibloj1",
+      "date": "2025-09-18",
+      "mealName": "Lunch",
+      "calories": 617,
+      "proteinG": 44,
+      "carbsG": 66,
+      "fatG": 22
+    },
+    {
+      "id": "3ysv3myaloj1",
+      "date": "2025-09-18",
+      "mealName": "Dinner",
+      "calories": 511,
+      "proteinG": 44,
+      "carbsG": 48,
+      "fatG": 23
+    },
+    {
+      "id": "jmev4b7vloj1",
+      "date": "2025-09-19",
+      "mealName": "Breakfast",
+      "calories": 466,
+      "proteinG": 15,
+      "carbsG": 49,
+      "fatG": 15
+    },
+    {
+      "id": "e31wt85aloj1",
+      "date": "2025-09-19",
+      "mealName": "Lunch",
+      "calories": 673,
+      "proteinG": 45,
+      "carbsG": 64,
+      "fatG": 16
+    },
+    {
+      "id": "22n3h4ohloj1",
+      "date": "2025-09-19",
+      "mealName": "Dinner",
+      "calories": 500,
+      "proteinG": 35,
+      "carbsG": 71,
+      "fatG": 18
+    },
+    {
+      "id": "pgd95dcsloj1",
+      "date": "2025-09-21",
+      "mealName": "Breakfast",
+      "calories": 403,
+      "proteinG": 29,
+      "carbsG": 40,
+      "fatG": 14
+    },
+    {
+      "id": "yt6gpujdloj1",
+      "date": "2025-09-21",
+      "mealName": "Lunch",
+      "calories": 583,
+      "proteinG": 36,
+      "carbsG": 79,
+      "fatG": 23
+    },
+    {
+      "id": "qgnvvovhloj1",
+      "date": "2025-09-24",
+      "mealName": "Breakfast",
+      "calories": 352,
+      "proteinG": 20,
+      "carbsG": 34,
+      "fatG": 17
+    },
+    {
+      "id": "tn4nfsi9loj1",
+      "date": "2025-09-24",
+      "mealName": "Lunch",
+      "calories": 576,
+      "proteinG": 40,
+      "carbsG": 57,
+      "fatG": 24
+    },
+    {
+      "id": "w1utk7uyloj1",
+      "date": "2025-09-24",
+      "mealName": "Dinner",
+      "calories": 537,
+      "proteinG": 36,
+      "carbsG": 66,
+      "fatG": 25
+    },
+    {
+      "id": "vhsx171yloj1",
+      "date": "2025-09-26",
+      "mealName": "Breakfast",
+      "calories": 541,
+      "proteinG": 16,
+      "carbsG": 41,
+      "fatG": 11
+    },
+    {
+      "id": "qnnqi88dloj1",
+      "date": "2025-09-26",
+      "mealName": "Lunch",
+      "calories": 682,
+      "proteinG": 36,
+      "carbsG": 78,
+      "fatG": 22
+    },
+    {
+      "id": "pyj3yz16loj1",
+      "date": "2025-09-26",
+      "mealName": "Dinner",
+      "calories": 589,
+      "proteinG": 33,
+      "carbsG": 53,
+      "fatG": 16
+    },
+    {
+      "id": "lz7bqqhvloj1",
+      "date": "2025-09-28",
+      "mealName": "Breakfast",
+      "calories": 487,
+      "proteinG": 24,
+      "carbsG": 45,
+      "fatG": 13
+    },
+    {
+      "id": "mx25w1o5loj1",
+      "date": "2025-09-28",
+      "mealName": "Lunch",
+      "calories": 665,
+      "proteinG": 40,
+      "carbsG": 62,
+      "fatG": 18
+    },
+    {
+      "id": "q17z7w5gloj1",
+      "date": "2025-09-28",
+      "mealName": "Dinner",
+      "calories": 673,
+      "proteinG": 32,
+      "carbsG": 48,
+      "fatG": 21
+    },
+    {
+      "id": "hg1qx9lkloj1",
+      "date": "2025-09-29",
+      "mealName": "Breakfast",
+      "calories": 484,
+      "proteinG": 21,
+      "carbsG": 33,
+      "fatG": 16
+    },
+    {
+      "id": "y1zpyij4loj1",
+      "date": "2025-09-29",
+      "mealName": "Lunch",
+      "calories": 652,
+      "proteinG": 42,
+      "carbsG": 68,
+      "fatG": 21
+    },
+    {
+      "id": "279yy1sqloj1",
+      "date": "2025-09-29",
+      "mealName": "Dinner",
+      "calories": 663,
+      "proteinG": 41,
+      "carbsG": 58,
+      "fatG": 19
+    },
+    {
+      "id": "ujb0zv3hloj1",
+      "date": "2025-09-30",
+      "mealName": "Lunch",
+      "calories": 563,
+      "proteinG": 38,
+      "carbsG": 65,
+      "fatG": 15
+    },
+    {
+      "id": "ec574nf4loj1",
+      "date": "2025-09-30",
+      "mealName": "Dinner",
+      "calories": 538,
+      "proteinG": 26,
+      "carbsG": 61,
+      "fatG": 21
+    },
+    {
+      "id": "v5le1whcloj1",
+      "date": "2025-10-02",
+      "mealName": "Breakfast",
+      "calories": 426,
+      "proteinG": 19,
+      "carbsG": 48,
+      "fatG": 15
+    },
+    {
+      "id": "suye3y45loj1",
+      "date": "2025-10-02",
+      "mealName": "Dinner",
+      "calories": 647,
+      "proteinG": 40,
+      "carbsG": 50,
+      "fatG": 24
+    },
+    {
+      "id": "gg8c00hkloj1",
+      "date": "2025-10-03",
+      "mealName": "Breakfast",
+      "calories": 455,
+      "proteinG": 21,
+      "carbsG": 32,
+      "fatG": 9
+    },
+    {
+      "id": "pts1xn5zloj1",
+      "date": "2025-10-03",
+      "mealName": "Lunch",
+      "calories": 789,
+      "proteinG": 32,
+      "carbsG": 59,
+      "fatG": 17
+    },
+    {
+      "id": "e82ws26wloj1",
+      "date": "2025-10-03",
+      "mealName": "Dinner",
+      "calories": 604,
+      "proteinG": 32,
+      "carbsG": 58,
+      "fatG": 19
+    },
+    {
+      "id": "q6h3fb1cloj1",
+      "date": "2025-10-04",
+      "mealName": "Breakfast",
+      "calories": 421,
+      "proteinG": 15,
+      "carbsG": 40,
+      "fatG": 15
+    },
+    {
+      "id": "do81it04loj1",
+      "date": "2025-10-04",
+      "mealName": "Lunch",
+      "calories": 703,
+      "proteinG": 42,
+      "carbsG": 60,
+      "fatG": 19
+    },
+    {
+      "id": "n4a7fprdloj1",
+      "date": "2025-10-04",
+      "mealName": "Dinner",
+      "calories": 567,
+      "proteinG": 29,
+      "carbsG": 53,
+      "fatG": 21
+    },
+    {
+      "id": "9k5x7j9zloj1",
+      "date": "2025-10-05",
+      "mealName": "Breakfast",
+      "calories": 431,
+      "proteinG": 18,
+      "carbsG": 41,
+      "fatG": 9
+    },
+    {
+      "id": "7jd3s2dlloj1",
+      "date": "2025-10-05",
+      "mealName": "Lunch",
+      "calories": 559,
+      "proteinG": 35,
+      "carbsG": 53,
+      "fatG": 18
+    },
+    {
+      "id": "f94vh4m5loj1",
+      "date": "2025-10-05",
+      "mealName": "Dinner",
+      "calories": 634,
+      "proteinG": 33,
+      "carbsG": 47,
+      "fatG": 20
+    },
+    {
+      "id": "nt6pokybloj1",
+      "date": "2025-10-06",
+      "mealName": "Breakfast",
+      "calories": 550,
+      "proteinG": 19,
+      "carbsG": 32,
+      "fatG": 13
+    },
+    {
+      "id": "z9j0jdytloj1",
+      "date": "2025-10-06",
+      "mealName": "Lunch",
+      "calories": 718,
+      "proteinG": 45,
+      "carbsG": 68,
+      "fatG": 24
+    },
+    {
+      "id": "wry1nj4iloj1",
+      "date": "2025-10-06",
+      "mealName": "Dinner",
+      "calories": 664,
+      "proteinG": 35,
+      "carbsG": 54,
+      "fatG": 19
+    },
+    {
+      "id": "gf1hu59eloj1",
+      "date": "2025-10-07",
+      "mealName": "Breakfast",
+      "calories": 545,
+      "proteinG": 16,
+      "carbsG": 38,
+      "fatG": 8
+    },
+    {
+      "id": "2j5i0o4ploj1",
+      "date": "2025-10-07",
+      "mealName": "Lunch",
+      "calories": 770,
+      "proteinG": 33,
+      "carbsG": 77,
+      "fatG": 20
+    },
+    {
+      "id": "tzzb4pyiloj1",
+      "date": "2025-10-07",
+      "mealName": "Dinner",
+      "calories": 578,
+      "proteinG": 29,
+      "carbsG": 48,
+      "fatG": 21
+    },
+    {
+      "id": "omcgoerkloj1",
+      "date": "2025-10-08",
+      "mealName": "Breakfast",
+      "calories": 503,
+      "proteinG": 30,
+      "carbsG": 30,
+      "fatG": 13
+    },
+    {
+      "id": "6k2dya61loj1",
+      "date": "2025-10-08",
+      "mealName": "Lunch",
+      "calories": 594,
+      "proteinG": 33,
+      "carbsG": 80,
+      "fatG": 18
+    },
+    {
+      "id": "mkrmdl23loj1",
+      "date": "2025-10-08",
+      "mealName": "Dinner",
+      "calories": 558,
+      "proteinG": 41,
+      "carbsG": 64,
+      "fatG": 24
+    },
+    {
+      "id": "gk4a6qxyloj1",
+      "date": "2025-10-09",
+      "mealName": "Dinner",
+      "calories": 711,
+      "proteinG": 36,
+      "carbsG": 73,
+      "fatG": 17
+    },
+    {
+      "id": "ysuys295loj1",
+      "date": "2025-10-10",
+      "mealName": "Breakfast",
+      "calories": 518,
+      "proteinG": 27,
+      "carbsG": 60,
+      "fatG": 12
+    },
+    {
+      "id": "0d6renuiloj1",
+      "date": "2025-10-10",
+      "mealName": "Dinner",
+      "calories": 514,
+      "proteinG": 44,
+      "carbsG": 57,
+      "fatG": 18
+    },
+    {
+      "id": "ly5q9j3oloj1",
+      "date": "2025-10-11",
+      "mealName": "Breakfast",
+      "calories": 396,
+      "proteinG": 26,
+      "carbsG": 37,
+      "fatG": 13
+    },
+    {
+      "id": "kl220mx3loj1",
+      "date": "2025-10-11",
+      "mealName": "Lunch",
+      "calories": 602,
+      "proteinG": 31,
+      "carbsG": 61,
+      "fatG": 20
+    },
+    {
+      "id": "wf4mkterloj1",
+      "date": "2025-10-11",
+      "mealName": "Dinner",
+      "calories": 576,
+      "proteinG": 35,
+      "carbsG": 56,
+      "fatG": 24
+    },
+    {
+      "id": "8qflnbnvloj1",
+      "date": "2025-10-12",
+      "mealName": "Breakfast",
+      "calories": 536,
+      "proteinG": 29,
+      "carbsG": 36,
+      "fatG": 13
+    },
+    {
+      "id": "x2lk7pgqloj1",
+      "date": "2025-10-12",
+      "mealName": "Lunch",
+      "calories": 745,
+      "proteinG": 44,
+      "carbsG": 65,
+      "fatG": 15
+    },
+    {
+      "id": "08dlka8mloj1",
+      "date": "2025-10-13",
+      "mealName": "Lunch",
+      "calories": 645,
+      "proteinG": 25,
+      "carbsG": 76,
+      "fatG": 19
+    },
+    {
+      "id": "3m9kgtltloj1",
+      "date": "2025-10-13",
+      "mealName": "Dinner",
+      "calories": 672,
+      "proteinG": 44,
+      "carbsG": 54,
+      "fatG": 21
+    },
+    {
+      "id": "aa5z102uloj1",
+      "date": "2025-10-14",
+      "mealName": "Breakfast",
+      "calories": 369,
+      "proteinG": 22,
+      "carbsG": 54,
+      "fatG": 17
+    },
+    {
+      "id": "8onr2z6jloj1",
+      "date": "2025-10-14",
+      "mealName": "Lunch",
+      "calories": 738,
+      "proteinG": 44,
+      "carbsG": 73,
+      "fatG": 16
+    },
+    {
+      "id": "hkzo1ep5loj1",
+      "date": "2025-10-14",
+      "mealName": "Dinner",
+      "calories": 640,
+      "proteinG": 39,
+      "carbsG": 52,
+      "fatG": 22
+    },
+    {
+      "id": "go4xe2crloj1",
+      "date": "2025-10-15",
+      "mealName": "Breakfast",
+      "calories": 377,
+      "proteinG": 23,
+      "carbsG": 41,
+      "fatG": 11
+    },
+    {
+      "id": "q9j17fleloj1",
+      "date": "2025-10-15",
+      "mealName": "Lunch",
+      "calories": 576,
+      "proteinG": 36,
+      "carbsG": 51,
+      "fatG": 21
+    },
+    {
+      "id": "rehumhqzloj1",
+      "date": "2025-10-15",
+      "mealName": "Dinner",
+      "calories": 515,
+      "proteinG": 35,
+      "carbsG": 47,
+      "fatG": 25
+    },
+    {
+      "id": "g8igxf27loj1",
+      "date": "2025-10-16",
+      "mealName": "Breakfast",
+      "calories": 531,
+      "proteinG": 17,
+      "carbsG": 40,
+      "fatG": 16
+    },
+    {
+      "id": "qi1m1fp5loj1",
+      "date": "2025-10-16",
+      "mealName": "Lunch",
+      "calories": 658,
+      "proteinG": 26,
+      "carbsG": 52,
+      "fatG": 22
+    },
+    {
+      "id": "ku6v1xrdloj1",
+      "date": "2025-10-16",
+      "mealName": "Dinner",
+      "calories": 615,
+      "proteinG": 39,
+      "carbsG": 58,
+      "fatG": 22
+    },
+    {
+      "id": "7eg7fkyuloj1",
+      "date": "2025-10-17",
+      "mealName": "Breakfast",
+      "calories": 478,
+      "proteinG": 15,
+      "carbsG": 46,
+      "fatG": 11
+    },
+    {
+      "id": "ffygrdrzloj1",
+      "date": "2025-10-17",
+      "mealName": "Lunch",
+      "calories": 619,
+      "proteinG": 26,
+      "carbsG": 66,
+      "fatG": 24
+    },
+    {
+      "id": "qb3v4x8lloj1",
+      "date": "2025-10-17",
+      "mealName": "Dinner",
+      "calories": 658,
+      "proteinG": 40,
+      "carbsG": 67,
+      "fatG": 20
+    },
+    {
+      "id": "9orledb4loj1",
+      "date": "2025-10-18",
+      "mealName": "Breakfast",
+      "calories": 361,
+      "proteinG": 22,
+      "carbsG": 32,
+      "fatG": 11
+    },
+    {
+      "id": "8s2avl42loj1",
+      "date": "2025-10-18",
+      "mealName": "Lunch",
+      "calories": 558,
+      "proteinG": 35,
+      "carbsG": 55,
+      "fatG": 17
+    },
+    {
+      "id": "xdjv4jbfloj1",
+      "date": "2025-10-18",
+      "mealName": "Dinner",
+      "calories": 747,
+      "proteinG": 39,
+      "carbsG": 65,
+      "fatG": 18
+    },
+    {
+      "id": "xpzju8sgloj1",
+      "date": "2025-10-19",
+      "mealName": "Breakfast",
+      "calories": 422,
+      "proteinG": 18,
+      "carbsG": 35,
+      "fatG": 11
+    },
+    {
+      "id": "3lq9xdkbloj1",
+      "date": "2025-10-19",
+      "mealName": "Lunch",
+      "calories": 589,
+      "proteinG": 34,
+      "carbsG": 69,
+      "fatG": 24
+    },
+    {
+      "id": "0yky9kkvloj1",
+      "date": "2025-10-19",
+      "mealName": "Dinner",
+      "calories": 620,
+      "proteinG": 38,
+      "carbsG": 48,
+      "fatG": 20
+    },
+    {
+      "id": "z6cbs343loj1",
+      "date": "2025-10-20",
+      "mealName": "Breakfast",
+      "calories": 517,
+      "proteinG": 18,
+      "carbsG": 32,
+      "fatG": 10
+    },
+    {
+      "id": "zwcc6wmwloj1",
+      "date": "2025-10-20",
+      "mealName": "Lunch",
+      "calories": 622,
+      "proteinG": 27,
+      "carbsG": 64,
+      "fatG": 23
+    },
+    {
+      "id": "blktmq0wloj1",
+      "date": "2025-10-20",
+      "mealName": "Dinner",
+      "calories": 563,
+      "proteinG": 41,
+      "carbsG": 74,
+      "fatG": 22
+    },
+    {
+      "id": "bnm4ywt0loj1",
+      "date": "2025-10-21",
+      "mealName": "Breakfast",
+      "calories": 499,
+      "proteinG": 17,
+      "carbsG": 57,
+      "fatG": 18
+    },
+    {
+      "id": "jguyr3pqloj1",
+      "date": "2025-10-21",
+      "mealName": "Lunch",
+      "calories": 709,
+      "proteinG": 30,
+      "carbsG": 50,
+      "fatG": 18
+    },
+    {
+      "id": "nype3al6loj1",
+      "date": "2025-10-21",
+      "mealName": "Dinner",
+      "calories": 504,
+      "proteinG": 35,
+      "carbsG": 46,
+      "fatG": 19
+    },
+    {
+      "id": "y1rrvfbmloj1",
+      "date": "2025-10-22",
+      "mealName": "Dinner",
+      "calories": 743,
+      "proteinG": 33,
+      "carbsG": 63,
+      "fatG": 23
+    },
+    {
+      "id": "suvke08iloj1",
+      "date": "2025-10-24",
+      "mealName": "Breakfast",
+      "calories": 531,
+      "proteinG": 25,
+      "carbsG": 56,
+      "fatG": 11
+    },
+    {
+      "id": "qxx328icloj1",
+      "date": "2025-10-24",
+      "mealName": "Lunch",
+      "calories": 628,
+      "proteinG": 44,
+      "carbsG": 76,
+      "fatG": 19
+    },
+    {
+      "id": "mziyncjbloj1",
+      "date": "2025-10-24",
+      "mealName": "Dinner",
+      "calories": 674,
+      "proteinG": 34,
+      "carbsG": 63,
+      "fatG": 22
+    },
+    {
+      "id": "694f05piloj1",
+      "date": "2025-10-25",
+      "mealName": "Breakfast",
+      "calories": 530,
+      "proteinG": 19,
+      "carbsG": 56,
+      "fatG": 14
+    },
+    {
+      "id": "uffkbfo1loj1",
+      "date": "2025-10-25",
+      "mealName": "Dinner",
+      "calories": 613,
+      "proteinG": 27,
+      "carbsG": 62,
+      "fatG": 23
+    },
+    {
+      "id": "ynwnmlbrloj1",
+      "date": "2025-10-26",
+      "mealName": "Breakfast",
+      "calories": 513,
+      "proteinG": 26,
+      "carbsG": 35,
+      "fatG": 14
+    },
+    {
+      "id": "9wdg5phnloj1",
+      "date": "2025-10-26",
+      "mealName": "Lunch",
+      "calories": 594,
+      "proteinG": 26,
+      "carbsG": 74,
+      "fatG": 20
+    },
+    {
+      "id": "g8cu9aylloj1",
+      "date": "2025-10-26",
+      "mealName": "Dinner",
+      "calories": 707,
+      "proteinG": 36,
+      "carbsG": 57,
+      "fatG": 23
+    },
+    {
+      "id": "2u158gtmloj1",
+      "date": "2025-10-27",
+      "mealName": "Breakfast",
+      "calories": 501,
+      "proteinG": 26,
+      "carbsG": 43,
+      "fatG": 12
+    },
+    {
+      "id": "1b4ldz9qloj1",
+      "date": "2025-10-27",
+      "mealName": "Lunch",
+      "calories": 770,
+      "proteinG": 39,
+      "carbsG": 67,
+      "fatG": 19
+    },
+    {
+      "id": "k2lihrs0loj1",
+      "date": "2025-10-27",
+      "mealName": "Dinner",
+      "calories": 558,
+      "proteinG": 33,
+      "carbsG": 46,
+      "fatG": 25
+    },
+    {
+      "id": "ok9h381ploj1",
+      "date": "2025-10-28",
+      "mealName": "Breakfast",
+      "calories": 543,
+      "proteinG": 19,
+      "carbsG": 42,
+      "fatG": 15
+    },
+    {
+      "id": "fi6b7237loj1",
+      "date": "2025-10-28",
+      "mealName": "Lunch",
+      "calories": 606,
+      "proteinG": 32,
+      "carbsG": 74,
+      "fatG": 16
+    },
+    {
+      "id": "9v1ctkv9loj1",
+      "date": "2025-10-28",
+      "mealName": "Dinner",
+      "calories": 746,
+      "proteinG": 27,
+      "carbsG": 60,
+      "fatG": 24
+    },
+    {
+      "id": "prxo26ybloj1",
+      "date": "2025-10-30",
+      "mealName": "Breakfast",
+      "calories": 545,
+      "proteinG": 30,
+      "carbsG": 51,
+      "fatG": 12
+    },
+    {
+      "id": "az4avf1iloj1",
+      "date": "2025-10-30",
+      "mealName": "Lunch",
+      "calories": 739,
+      "proteinG": 33,
+      "carbsG": 62,
+      "fatG": 17
+    },
+    {
+      "id": "2mv53tc6loj1",
+      "date": "2025-10-30",
+      "mealName": "Dinner",
+      "calories": 602,
+      "proteinG": 40,
+      "carbsG": 49,
+      "fatG": 17
+    },
+    {
+      "id": "5zzr06gxloj1",
+      "date": "2025-10-31",
+      "mealName": "Breakfast",
+      "calories": 477,
+      "proteinG": 17,
+      "carbsG": 39,
+      "fatG": 9
+    },
+    {
+      "id": "zj6fbkxploj1",
+      "date": "2025-10-31",
+      "mealName": "Lunch",
+      "calories": 770,
+      "proteinG": 26,
+      "carbsG": 79,
+      "fatG": 17
+    },
+    {
+      "id": "y75yq4j5loj1",
+      "date": "2025-10-31",
+      "mealName": "Dinner",
+      "calories": 606,
+      "proteinG": 36,
+      "carbsG": 65,
+      "fatG": 16
+    },
+    {
+      "id": "ip0jpdxrloj1",
+      "date": "2025-11-01",
+      "mealName": "Breakfast",
+      "calories": 532,
+      "proteinG": 26,
+      "carbsG": 56,
+      "fatG": 9
+    },
+    {
+      "id": "nabe3io3loj1",
+      "date": "2025-11-01",
+      "mealName": "Lunch",
+      "calories": 793,
+      "proteinG": 44,
+      "carbsG": 58,
+      "fatG": 15
+    },
+    {
+      "id": "0l6sfb9oloj1",
+      "date": "2025-11-02",
+      "mealName": "Breakfast",
+      "calories": 476,
+      "proteinG": 30,
+      "carbsG": 57,
+      "fatG": 14
+    },
+    {
+      "id": "0gsblv75loj1",
+      "date": "2025-11-02",
+      "mealName": "Dinner",
+      "calories": 559,
+      "proteinG": 37,
+      "carbsG": 57,
+      "fatG": 23
+    },
+    {
+      "id": "85zetdlploj1",
+      "date": "2025-11-03",
+      "mealName": "Lunch",
+      "calories": 628,
+      "proteinG": 28,
+      "carbsG": 77,
+      "fatG": 22
+    },
+    {
+      "id": "e6iq2y7iloj1",
+      "date": "2025-11-03",
+      "mealName": "Dinner",
+      "calories": 611,
+      "proteinG": 39,
+      "carbsG": 46,
+      "fatG": 19
+    },
+    {
+      "id": "t6w1i73sloj1",
+      "date": "2025-11-04",
+      "mealName": "Lunch",
+      "calories": 680,
+      "proteinG": 27,
+      "carbsG": 72,
+      "fatG": 17
+    },
+    {
+      "id": "4enog9z5loj1",
+      "date": "2025-11-04",
+      "mealName": "Dinner",
+      "calories": 703,
+      "proteinG": 33,
+      "carbsG": 57,
+      "fatG": 25
+    },
+    {
+      "id": "23r7lx99loj1",
+      "date": "2025-11-05",
+      "mealName": "Breakfast",
+      "calories": 401,
+      "proteinG": 17,
+      "carbsG": 59,
+      "fatG": 8
+    },
+    {
+      "id": "elij5rd6loj1",
+      "date": "2025-11-05",
+      "mealName": "Lunch",
+      "calories": 633,
+      "proteinG": 32,
+      "carbsG": 50,
+      "fatG": 23
+    },
+    {
+      "id": "t2cdw4uiloj1",
+      "date": "2025-11-06",
+      "mealName": "Lunch",
+      "calories": 748,
+      "proteinG": 26,
+      "carbsG": 65,
+      "fatG": 16
+    },
+    {
+      "id": "s7h6f7kmloj1",
+      "date": "2025-11-06",
+      "mealName": "Dinner",
+      "calories": 658,
+      "proteinG": 37,
+      "carbsG": 49,
+      "fatG": 20
+    },
+    {
+      "id": "lbiqy2ibloj1",
+      "date": "2025-11-07",
+      "mealName": "Breakfast",
+      "calories": 384,
+      "proteinG": 29,
+      "carbsG": 38,
+      "fatG": 15
+    },
+    {
+      "id": "2ugo7vrmloj1",
+      "date": "2025-11-07",
+      "mealName": "Lunch",
+      "calories": 701,
+      "proteinG": 38,
+      "carbsG": 79,
+      "fatG": 18
+    },
+    {
+      "id": "jt7ulorploj1",
+      "date": "2025-11-07",
+      "mealName": "Dinner",
+      "calories": 700,
+      "proteinG": 26,
+      "carbsG": 66,
+      "fatG": 23
+    },
+    {
+      "id": "83jlfwzmloj1",
+      "date": "2025-11-08",
+      "mealName": "Lunch",
+      "calories": 728,
+      "proteinG": 30,
+      "carbsG": 74,
+      "fatG": 15
+    },
+    {
+      "id": "l02gjgc4loj1",
+      "date": "2025-11-08",
+      "mealName": "Dinner",
+      "calories": 702,
+      "proteinG": 35,
+      "carbsG": 69,
+      "fatG": 18
+    },
+    {
+      "id": "rqfssqjuloj1",
+      "date": "2025-11-09",
+      "mealName": "Breakfast",
+      "calories": 366,
+      "proteinG": 21,
+      "carbsG": 31,
+      "fatG": 13
+    },
+    {
+      "id": "mn3bms65loj1",
+      "date": "2025-11-09",
+      "mealName": "Lunch",
+      "calories": 556,
+      "proteinG": 36,
+      "carbsG": 59,
+      "fatG": 20
+    },
+    {
+      "id": "crspf8xxloj1",
+      "date": "2025-11-09",
+      "mealName": "Dinner",
+      "calories": 600,
+      "proteinG": 37,
+      "carbsG": 65,
+      "fatG": 19
+    },
+    {
+      "id": "cntfw2l5loj1",
+      "date": "2025-11-10",
+      "mealName": "Breakfast",
+      "calories": 389,
+      "proteinG": 29,
+      "carbsG": 46,
+      "fatG": 15
+    },
+    {
+      "id": "1k56862nloj1",
+      "date": "2025-11-10",
+      "mealName": "Lunch",
+      "calories": 781,
+      "proteinG": 43,
+      "carbsG": 55,
+      "fatG": 17
+    },
+    {
+      "id": "nknn4t1floj1",
+      "date": "2025-11-10",
+      "mealName": "Dinner",
+      "calories": 638,
+      "proteinG": 40,
+      "carbsG": 73,
+      "fatG": 21
+    },
+    {
+      "id": "5oi3rnylloj1",
+      "date": "2025-11-11",
+      "mealName": "Breakfast",
+      "calories": 545,
+      "proteinG": 28,
+      "carbsG": 53,
+      "fatG": 12
+    },
+    {
+      "id": "ybrxaeigloj1",
+      "date": "2025-11-11",
+      "mealName": "Lunch",
+      "calories": 792,
+      "proteinG": 27,
+      "carbsG": 70,
+      "fatG": 22
+    },
+    {
+      "id": "gnzmm7wjloj1",
+      "date": "2025-11-11",
+      "mealName": "Dinner",
+      "calories": 696,
+      "proteinG": 33,
+      "carbsG": 45,
+      "fatG": 17
+    },
+    {
+      "id": "9pyb10hhloj2",
+      "date": "2025-11-12",
+      "mealName": "Breakfast",
+      "calories": 546,
+      "proteinG": 22,
+      "carbsG": 50,
+      "fatG": 9
+    },
+    {
+      "id": "ina7vwu2loj2",
+      "date": "2025-11-12",
+      "mealName": "Lunch",
+      "calories": 727,
+      "proteinG": 31,
+      "carbsG": 67,
+      "fatG": 17
+    },
+    {
+      "id": "mf7h1ii2loj2",
+      "date": "2025-11-13",
+      "mealName": "Breakfast",
+      "calories": 356,
+      "proteinG": 19,
+      "carbsG": 31,
+      "fatG": 9
+    },
+    {
+      "id": "n498vyokloj2",
+      "date": "2025-11-13",
+      "mealName": "Lunch",
+      "calories": 599,
+      "proteinG": 26,
+      "carbsG": 79,
+      "fatG": 25
+    },
+    {
+      "id": "gi7z2dneloj2",
+      "date": "2025-11-13",
+      "mealName": "Dinner",
+      "calories": 603,
+      "proteinG": 30,
+      "carbsG": 49,
+      "fatG": 24
+    },
+    {
+      "id": "og46t1obloj2",
+      "date": "2025-11-14",
+      "mealName": "Breakfast",
+      "calories": 389,
+      "proteinG": 26,
+      "carbsG": 43,
+      "fatG": 12
+    },
+    {
+      "id": "yd5n13xjloj2",
+      "date": "2025-11-14",
+      "mealName": "Lunch",
+      "calories": 675,
+      "proteinG": 26,
+      "carbsG": 66,
+      "fatG": 20
+    },
+    {
+      "id": "qtxv4ng0loj2",
+      "date": "2025-11-14",
+      "mealName": "Dinner",
+      "calories": 515,
+      "proteinG": 33,
+      "carbsG": 70,
+      "fatG": 18
+    },
+    {
+      "id": "xix7axq9loj2",
+      "date": "2025-11-15",
+      "mealName": "Breakfast",
+      "calories": 473,
+      "proteinG": 23,
+      "carbsG": 35,
+      "fatG": 14
+    },
+    {
+      "id": "mupbj1z4loj2",
+      "date": "2025-11-15",
+      "mealName": "Lunch",
+      "calories": 650,
+      "proteinG": 27,
+      "carbsG": 63,
+      "fatG": 17
+    },
+    {
+      "id": "mb96l30kloj2",
+      "date": "2025-11-17",
+      "mealName": "Breakfast",
+      "calories": 528,
+      "proteinG": 28,
+      "carbsG": 32,
+      "fatG": 12
+    },
+    {
+      "id": "x73en9wkloj2",
+      "date": "2025-11-17",
+      "mealName": "Lunch",
+      "calories": 558,
+      "proteinG": 26,
+      "carbsG": 75,
+      "fatG": 23
+    },
+    {
+      "id": "gouzse6uloj2",
+      "date": "2025-11-17",
+      "mealName": "Dinner",
+      "calories": 629,
+      "proteinG": 38,
+      "carbsG": 48,
+      "fatG": 16
+    },
+    {
+      "id": "x2jv2hnsloj2",
+      "date": "2025-11-18",
+      "mealName": "Breakfast",
+      "calories": 407,
+      "proteinG": 26,
+      "carbsG": 51,
+      "fatG": 12
+    },
+    {
+      "id": "kd3gex8ploj2",
+      "date": "2025-11-18",
+      "mealName": "Lunch",
+      "calories": 596,
+      "proteinG": 43,
+      "carbsG": 65,
+      "fatG": 20
+    },
+    {
+      "id": "xjd2fz0kloj2",
+      "date": "2025-11-18",
+      "mealName": "Dinner",
+      "calories": 591,
+      "proteinG": 41,
+      "carbsG": 54,
+      "fatG": 19
+    },
+    {
+      "id": "r8901d3qloj2",
+      "date": "2025-11-19",
+      "mealName": "Breakfast",
+      "calories": 447,
+      "proteinG": 24,
+      "carbsG": 40,
+      "fatG": 12
+    },
+    {
+      "id": "fo3sm7ncloj2",
+      "date": "2025-11-19",
+      "mealName": "Lunch",
+      "calories": 700,
+      "proteinG": 31,
+      "carbsG": 78,
+      "fatG": 19
+    },
+    {
+      "id": "sspf7w7bloj2",
+      "date": "2025-11-19",
+      "mealName": "Dinner",
+      "calories": 707,
+      "proteinG": 26,
+      "carbsG": 73,
+      "fatG": 19
+    },
+    {
+      "id": "fyibfv0zloj2",
+      "date": "2025-11-21",
+      "mealName": "Breakfast",
+      "calories": 452,
+      "proteinG": 26,
+      "carbsG": 59,
+      "fatG": 12
+    },
+    {
+      "id": "c5wnlcdkloj2",
+      "date": "2025-11-21",
+      "mealName": "Lunch",
+      "calories": 563,
+      "proteinG": 40,
+      "carbsG": 58,
+      "fatG": 23
+    },
+    {
+      "id": "8w3l9v8eloj2",
+      "date": "2025-11-21",
+      "mealName": "Dinner",
+      "calories": 679,
+      "proteinG": 39,
+      "carbsG": 57,
+      "fatG": 19
+    },
+    {
+      "id": "vh9rvxd7loj2",
+      "date": "2025-11-22",
+      "mealName": "Breakfast",
+      "calories": 509,
+      "proteinG": 28,
+      "carbsG": 35,
+      "fatG": 11
+    },
+    {
+      "id": "px3mrytfloj2",
+      "date": "2025-11-22",
+      "mealName": "Lunch",
+      "calories": 713,
+      "proteinG": 34,
+      "carbsG": 64,
+      "fatG": 16
+    },
+    {
+      "id": "40s65ichloj2",
+      "date": "2025-11-22",
+      "mealName": "Dinner",
+      "calories": 729,
+      "proteinG": 38,
+      "carbsG": 75,
+      "fatG": 21
+    },
+    {
+      "id": "pun91s2jloj2",
+      "date": "2025-11-23",
+      "mealName": "Breakfast",
+      "calories": 496,
+      "proteinG": 16,
+      "carbsG": 41,
+      "fatG": 13
+    },
+    {
+      "id": "oqxficmcloj2",
+      "date": "2025-11-23",
+      "mealName": "Dinner",
+      "calories": 694,
+      "proteinG": 43,
+      "carbsG": 53,
+      "fatG": 21
+    },
+    {
+      "id": "yh6nt9r4loj2",
+      "date": "2025-11-24",
+      "mealName": "Breakfast",
+      "calories": 445,
+      "proteinG": 23,
+      "carbsG": 44,
+      "fatG": 11
+    },
+    {
+      "id": "x1cdvoiqloj2",
+      "date": "2025-11-24",
+      "mealName": "Lunch",
+      "calories": 570,
+      "proteinG": 41,
+      "carbsG": 69,
+      "fatG": 24
+    },
+    {
+      "id": "7tz43fb1loj2",
+      "date": "2025-11-24",
+      "mealName": "Dinner",
+      "calories": 611,
+      "proteinG": 36,
+      "carbsG": 52,
+      "fatG": 16
+    },
+    {
+      "id": "h9k7fl6ploj2",
+      "date": "2025-11-25",
+      "mealName": "Breakfast",
+      "calories": 394,
+      "proteinG": 17,
+      "carbsG": 47,
+      "fatG": 16
+    },
+    {
+      "id": "el98z93rloj2",
+      "date": "2025-11-25",
+      "mealName": "Lunch",
+      "calories": 576,
+      "proteinG": 42,
+      "carbsG": 60,
+      "fatG": 22
+    },
+    {
+      "id": "dcffu4kcloj2",
+      "date": "2025-11-25",
+      "mealName": "Dinner",
+      "calories": 664,
+      "proteinG": 39,
+      "carbsG": 55,
+      "fatG": 17
+    },
+    {
+      "id": "kg920btaloj2",
+      "date": "2025-11-26",
+      "mealName": "Breakfast",
+      "calories": 457,
+      "proteinG": 29,
+      "carbsG": 56,
+      "fatG": 16
+    },
+    {
+      "id": "qb8akcs4loj2",
+      "date": "2025-11-26",
+      "mealName": "Lunch",
+      "calories": 620,
+      "proteinG": 37,
+      "carbsG": 63,
+      "fatG": 20
+    },
+    {
+      "id": "a09vp7seloj2",
+      "date": "2025-11-26",
+      "mealName": "Dinner",
+      "calories": 714,
+      "proteinG": 42,
+      "carbsG": 73,
+      "fatG": 19
+    },
+    {
+      "id": "5l2vx89lloj2",
+      "date": "2025-11-28",
+      "mealName": "Dinner",
+      "calories": 643,
+      "proteinG": 39,
+      "carbsG": 56,
+      "fatG": 24
+    },
+    {
+      "id": "gluhh0inloj2",
+      "date": "2025-11-29",
+      "mealName": "Breakfast",
+      "calories": 416,
+      "proteinG": 28,
+      "carbsG": 55,
+      "fatG": 16
+    },
+    {
+      "id": "5co3qfrploj2",
+      "date": "2025-11-29",
+      "mealName": "Lunch",
+      "calories": 790,
+      "proteinG": 43,
+      "carbsG": 51,
+      "fatG": 24
+    },
+    {
+      "id": "s0201jwiloj2",
+      "date": "2025-11-30",
+      "mealName": "Breakfast",
+      "calories": 353,
+      "proteinG": 25,
+      "carbsG": 51,
+      "fatG": 15
+    },
+    {
+      "id": "zj6zuaavloj2",
+      "date": "2025-11-30",
+      "mealName": "Lunch",
+      "calories": 708,
+      "proteinG": 39,
+      "carbsG": 68,
+      "fatG": 16
+    },
+    {
+      "id": "2z4w8eh4loj2",
+      "date": "2025-11-30",
+      "mealName": "Dinner",
+      "calories": 653,
+      "proteinG": 32,
+      "carbsG": 50,
+      "fatG": 23
+    },
+    {
+      "id": "wlo93l7xloj2",
+      "date": "2025-12-02",
+      "mealName": "Breakfast",
+      "calories": 427,
+      "proteinG": 16,
+      "carbsG": 45,
+      "fatG": 14
+    },
+    {
+      "id": "gd9j6bauloj2",
+      "date": "2025-12-02",
+      "mealName": "Lunch",
+      "calories": 609,
+      "proteinG": 35,
+      "carbsG": 72,
+      "fatG": 21
+    },
+    {
+      "id": "hmsvzogqloj2",
+      "date": "2025-12-02",
+      "mealName": "Dinner",
+      "calories": 527,
+      "proteinG": 44,
+      "carbsG": 65,
+      "fatG": 24
+    },
+    {
+      "id": "y32100f8loj2",
+      "date": "2025-12-03",
+      "mealName": "Breakfast",
+      "calories": 495,
+      "proteinG": 24,
+      "carbsG": 44,
+      "fatG": 15
+    },
+    {
+      "id": "bxajrlieloj2",
+      "date": "2025-12-03",
+      "mealName": "Lunch",
+      "calories": 728,
+      "proteinG": 40,
+      "carbsG": 62,
+      "fatG": 23
+    },
+    {
+      "id": "s9csbhj2loj2",
+      "date": "2025-12-04",
+      "mealName": "Lunch",
+      "calories": 748,
+      "proteinG": 38,
+      "carbsG": 57,
+      "fatG": 20
+    },
+    {
+      "id": "wdwifeojloj2",
+      "date": "2025-12-04",
+      "mealName": "Dinner",
+      "calories": 698,
+      "proteinG": 39,
+      "carbsG": 52,
+      "fatG": 21
+    },
+    {
+      "id": "878yq9lxloj2",
+      "date": "2025-12-05",
+      "mealName": "Breakfast",
+      "calories": 481,
+      "proteinG": 22,
+      "carbsG": 47,
+      "fatG": 14
+    },
+    {
+      "id": "00g2yya8loj2",
+      "date": "2025-12-05",
+      "mealName": "Lunch",
+      "calories": 769,
+      "proteinG": 27,
+      "carbsG": 73,
+      "fatG": 18
+    },
+    {
+      "id": "t28tufwkloj2",
+      "date": "2025-12-05",
+      "mealName": "Dinner",
+      "calories": 517,
+      "proteinG": 31,
+      "carbsG": 51,
+      "fatG": 19
+    },
+    {
+      "id": "qgkm77r4loj2",
+      "date": "2025-12-06",
+      "mealName": "Breakfast",
+      "calories": 524,
+      "proteinG": 24,
+      "carbsG": 40,
+      "fatG": 18
+    },
+    {
+      "id": "kz7ul3zzloj2",
+      "date": "2025-12-06",
+      "mealName": "Lunch",
+      "calories": 582,
+      "proteinG": 31,
+      "carbsG": 79,
+      "fatG": 24
+    },
+    {
+      "id": "hl87mlbvloj2",
+      "date": "2025-12-06",
+      "mealName": "Dinner",
+      "calories": 724,
+      "proteinG": 44,
+      "carbsG": 73,
+      "fatG": 25
+    },
+    {
+      "id": "gqygk7l0loj2",
+      "date": "2025-12-07",
+      "mealName": "Breakfast",
+      "calories": 380,
+      "proteinG": 21,
+      "carbsG": 50,
+      "fatG": 14
+    },
+    {
+      "id": "b2oh22fcloj2",
+      "date": "2025-12-07",
+      "mealName": "Lunch",
+      "calories": 703,
+      "proteinG": 38,
+      "carbsG": 78,
+      "fatG": 25
+    },
+    {
+      "id": "57e9n616loj2",
+      "date": "2025-12-08",
+      "mealName": "Breakfast",
+      "calories": 447,
+      "proteinG": 16,
+      "carbsG": 51,
+      "fatG": 12
+    },
+    {
+      "id": "mlcxb8noloj2",
+      "date": "2025-12-08",
+      "mealName": "Dinner",
+      "calories": 626,
+      "proteinG": 34,
+      "carbsG": 69,
+      "fatG": 16
+    },
+    {
+      "id": "9jw0yezoloj2",
+      "date": "2025-12-09",
+      "mealName": "Breakfast",
+      "calories": 545,
+      "proteinG": 28,
+      "carbsG": 40,
+      "fatG": 14
+    },
+    {
+      "id": "tn12n2m2loj2",
+      "date": "2025-12-09",
+      "mealName": "Lunch",
+      "calories": 561,
+      "proteinG": 43,
+      "carbsG": 59,
+      "fatG": 17
+    },
+    {
+      "id": "xsko8k8rloj2",
+      "date": "2025-12-09",
+      "mealName": "Dinner",
+      "calories": 733,
+      "proteinG": 37,
+      "carbsG": 72,
+      "fatG": 21
+    },
+    {
+      "id": "cdacqaubloj2",
+      "date": "2025-12-10",
+      "mealName": "Breakfast",
+      "calories": 421,
+      "proteinG": 28,
+      "carbsG": 38,
+      "fatG": 12
+    },
+    {
+      "id": "8lb5isi0loj2",
+      "date": "2025-12-10",
+      "mealName": "Lunch",
+      "calories": 643,
+      "proteinG": 31,
+      "carbsG": 53,
+      "fatG": 21
+    },
+    {
+      "id": "ntyypp78loj2",
+      "date": "2025-12-10",
+      "mealName": "Dinner",
+      "calories": 607,
+      "proteinG": 32,
+      "carbsG": 54,
+      "fatG": 16
+    },
+    {
+      "id": "0vgm8theloj2",
+      "date": "2025-12-11",
+      "mealName": "Breakfast",
+      "calories": 433,
+      "proteinG": 26,
+      "carbsG": 50,
+      "fatG": 9
+    },
+    {
+      "id": "m45vt2qxloj2",
+      "date": "2025-12-11",
+      "mealName": "Lunch",
+      "calories": 745,
+      "proteinG": 33,
+      "carbsG": 65,
+      "fatG": 24
+    },
+    {
+      "id": "hb94psv9loj2",
+      "date": "2025-12-11",
+      "mealName": "Dinner",
+      "calories": 568,
+      "proteinG": 25,
+      "carbsG": 71,
+      "fatG": 16
+    },
+    {
+      "id": "8rwt16leloj2",
+      "date": "2025-12-12",
+      "mealName": "Breakfast",
+      "calories": 524,
+      "proteinG": 15,
+      "carbsG": 49,
+      "fatG": 13
+    },
+    {
+      "id": "2bol07leloj2",
+      "date": "2025-12-12",
+      "mealName": "Lunch",
+      "calories": 774,
+      "proteinG": 40,
+      "carbsG": 66,
+      "fatG": 17
+    },
+    {
+      "id": "vpni3vwjloj2",
+      "date": "2025-12-12",
+      "mealName": "Dinner",
+      "calories": 539,
+      "proteinG": 30,
+      "carbsG": 52,
+      "fatG": 24
+    },
+    {
+      "id": "zowtlwxzloj3",
+      "date": "2025-12-13",
+      "mealName": "Breakfast",
+      "calories": 356,
+      "proteinG": 24,
+      "carbsG": 38,
+      "fatG": 12
+    },
+    {
+      "id": "lb53qw23loj3",
+      "date": "2025-12-13",
+      "mealName": "Lunch",
+      "calories": 766,
+      "proteinG": 30,
+      "carbsG": 77,
+      "fatG": 18
+    },
+    {
+      "id": "4gdetxvrloj3",
+      "date": "2025-12-13",
+      "mealName": "Dinner",
+      "calories": 649,
+      "proteinG": 31,
+      "carbsG": 72,
+      "fatG": 20
+    },
+    {
+      "id": "18590v3yloj3",
+      "date": "2025-12-14",
+      "mealName": "Breakfast",
+      "calories": 514,
+      "proteinG": 20,
+      "carbsG": 36,
+      "fatG": 16
+    },
+    {
+      "id": "9e64v1a5loj3",
+      "date": "2025-12-14",
+      "mealName": "Dinner",
+      "calories": 730,
+      "proteinG": 27,
+      "carbsG": 66,
+      "fatG": 15
+    },
+    {
+      "id": "9yriknemloj3",
+      "date": "2025-12-15",
+      "mealName": "Breakfast",
+      "calories": 517,
+      "proteinG": 20,
+      "carbsG": 36,
+      "fatG": 13
+    },
+    {
+      "id": "e9m0jeaqloj3",
+      "date": "2025-12-15",
+      "mealName": "Dinner",
+      "calories": 570,
+      "proteinG": 30,
+      "carbsG": 67,
+      "fatG": 15
+    },
+    {
+      "id": "0tfc3nybloj3",
+      "date": "2025-12-16",
+      "mealName": "Breakfast",
+      "calories": 519,
+      "proteinG": 22,
+      "carbsG": 50,
+      "fatG": 13
+    },
+    {
+      "id": "w6g4yfeqloj3",
+      "date": "2025-12-16",
+      "mealName": "Lunch",
+      "calories": 681,
+      "proteinG": 31,
+      "carbsG": 60,
+      "fatG": 24
+    },
+    {
+      "id": "27s9xx29loj3",
+      "date": "2025-12-17",
+      "mealName": "Breakfast",
+      "calories": 357,
+      "proteinG": 18,
+      "carbsG": 46,
+      "fatG": 11
+    },
+    {
+      "id": "spp4mfkyloj3",
+      "date": "2025-12-17",
+      "mealName": "Lunch",
+      "calories": 722,
+      "proteinG": 27,
+      "carbsG": 79,
+      "fatG": 22
+    },
+    {
+      "id": "bu87br8xloj3",
+      "date": "2025-12-17",
+      "mealName": "Dinner",
+      "calories": 604,
+      "proteinG": 45,
+      "carbsG": 48,
+      "fatG": 18
+    },
+    {
+      "id": "lz097r57loj3",
+      "date": "2025-12-19",
+      "mealName": "Breakfast",
+      "calories": 465,
+      "proteinG": 29,
+      "carbsG": 52,
+      "fatG": 13
+    },
+    {
+      "id": "mlxggfp1loj3",
+      "date": "2025-12-19",
+      "mealName": "Lunch",
+      "calories": 628,
+      "proteinG": 32,
+      "carbsG": 72,
+      "fatG": 23
+    },
+    {
+      "id": "75r7dzndloj3",
+      "date": "2025-12-19",
+      "mealName": "Dinner",
+      "calories": 682,
+      "proteinG": 39,
+      "carbsG": 61,
+      "fatG": 24
+    },
+    {
+      "id": "m429efdzloj3",
+      "date": "2025-12-20",
+      "mealName": "Dinner",
+      "calories": 553,
+      "proteinG": 27,
+      "carbsG": 68,
+      "fatG": 22
+    },
+    {
+      "id": "dkoa4fxeloj3",
+      "date": "2025-12-21",
+      "mealName": "Breakfast",
+      "calories": 453,
+      "proteinG": 23,
+      "carbsG": 41,
+      "fatG": 13
+    },
+    {
+      "id": "kf80ywpgloj3",
+      "date": "2025-12-21",
+      "mealName": "Lunch",
+      "calories": 716,
+      "proteinG": 30,
+      "carbsG": 63,
+      "fatG": 23
+    },
+    {
+      "id": "dk6ilssaloj3",
+      "date": "2025-12-21",
+      "mealName": "Dinner",
+      "calories": 707,
+      "proteinG": 41,
+      "carbsG": 74,
+      "fatG": 25
+    },
+    {
+      "id": "uhdaot7xloj3",
+      "date": "2025-12-22",
+      "mealName": "Dinner",
+      "calories": 584,
+      "proteinG": 39,
+      "carbsG": 57,
+      "fatG": 17
+    },
+    {
+      "id": "t43zbmpeloj3",
+      "date": "2025-12-25",
+      "mealName": "Breakfast",
+      "calories": 365,
+      "proteinG": 28,
+      "carbsG": 49,
+      "fatG": 14
+    },
+    {
+      "id": "x97ydwieloj3",
+      "date": "2025-12-25",
+      "mealName": "Lunch",
+      "calories": 760,
+      "proteinG": 25,
+      "carbsG": 55,
+      "fatG": 16
+    },
+    {
+      "id": "q25peqm7loj3",
+      "date": "2025-12-25",
+      "mealName": "Dinner",
+      "calories": 548,
+      "proteinG": 42,
+      "carbsG": 49,
+      "fatG": 19
+    },
+    {
+      "id": "1p0qcaauloj3",
+      "date": "2025-12-27",
+      "mealName": "Breakfast",
+      "calories": 404,
+      "proteinG": 26,
+      "carbsG": 58,
+      "fatG": 12
+    },
+    {
+      "id": "j99fiu6mloj3",
+      "date": "2025-12-27",
+      "mealName": "Dinner",
+      "calories": 524,
+      "proteinG": 43,
+      "carbsG": 54,
+      "fatG": 24
+    },
+    {
+      "id": "w16u6m3lloj3",
+      "date": "2025-12-28",
+      "mealName": "Breakfast",
+      "calories": 508,
+      "proteinG": 17,
+      "carbsG": 54,
+      "fatG": 12
+    },
+    {
+      "id": "e1h3061oloj3",
+      "date": "2025-12-28",
+      "mealName": "Lunch",
+      "calories": 615,
+      "proteinG": 38,
+      "carbsG": 56,
+      "fatG": 18
+    },
+    {
+      "id": "fb0hw22nloj3",
+      "date": "2025-12-28",
+      "mealName": "Dinner",
+      "calories": 588,
+      "proteinG": 43,
+      "carbsG": 74,
+      "fatG": 23
+    },
+    {
+      "id": "euiksx91loj3",
+      "date": "2025-12-29",
+      "mealName": "Breakfast",
+      "calories": 420,
+      "proteinG": 21,
+      "carbsG": 47,
+      "fatG": 15
+    },
+    {
+      "id": "csucrn7qloj3",
+      "date": "2025-12-29",
+      "mealName": "Lunch",
+      "calories": 770,
+      "proteinG": 27,
+      "carbsG": 70,
+      "fatG": 18
+    },
+    {
+      "id": "qjqzuql5loj3",
+      "date": "2025-12-29",
+      "mealName": "Dinner",
+      "calories": 600,
+      "proteinG": 27,
+      "carbsG": 45,
+      "fatG": 21
+    },
+    {
+      "id": "2ysjd71ploj3",
+      "date": "2025-12-30",
+      "mealName": "Breakfast",
+      "calories": 496,
+      "proteinG": 29,
+      "carbsG": 44,
+      "fatG": 14
+    },
+    {
+      "id": "d7rryy8iloj3",
+      "date": "2025-12-30",
+      "mealName": "Lunch",
+      "calories": 631,
+      "proteinG": 33,
+      "carbsG": 68,
+      "fatG": 21
+    },
+    {
+      "id": "g95zr1ualoj3",
+      "date": "2025-12-30",
+      "mealName": "Dinner",
+      "calories": 615,
+      "proteinG": 29,
+      "carbsG": 73,
+      "fatG": 19
+    },
+    {
+      "id": "f597q3rjloj3",
+      "date": "2025-12-31",
+      "mealName": "Breakfast",
+      "calories": 379,
+      "proteinG": 26,
+      "carbsG": 56,
+      "fatG": 12
+    },
+    {
+      "id": "6qznzp95loj3",
+      "date": "2025-12-31",
+      "mealName": "Lunch",
+      "calories": 658,
+      "proteinG": 25,
+      "carbsG": 60,
+      "fatG": 17
+    },
+    {
+      "id": "0yvdnm7yloj3",
+      "date": "2025-12-31",
+      "mealName": "Dinner",
+      "calories": 645,
+      "proteinG": 32,
+      "carbsG": 61,
+      "fatG": 22
+    },
+    {
+      "id": "atn03lm4loj3",
+      "date": "2026-01-01",
+      "mealName": "Breakfast",
+      "calories": 376,
+      "proteinG": 24,
+      "carbsG": 50,
+      "fatG": 11
+    },
+    {
+      "id": "d0o6u68gloj3",
+      "date": "2026-01-01",
+      "mealName": "Lunch",
+      "calories": 640,
+      "proteinG": 27,
+      "carbsG": 60,
+      "fatG": 16
+    },
+    {
+      "id": "rjv7wx79loj3",
+      "date": "2026-01-01",
+      "mealName": "Dinner",
+      "calories": 706,
+      "proteinG": 31,
+      "carbsG": 59,
+      "fatG": 19
+    },
+    {
+      "id": "fr2zssx2loj3",
+      "date": "2026-01-04",
+      "mealName": "Breakfast",
+      "calories": 509,
+      "proteinG": 21,
+      "carbsG": 37,
+      "fatG": 9
+    },
+    {
+      "id": "nd0va1ikloj3",
+      "date": "2026-01-04",
+      "mealName": "Lunch",
+      "calories": 689,
+      "proteinG": 25,
+      "carbsG": 50,
+      "fatG": 22
+    },
+    {
+      "id": "y0wxep8bloj3",
+      "date": "2026-01-04",
+      "mealName": "Dinner",
+      "calories": 542,
+      "proteinG": 43,
+      "carbsG": 66,
+      "fatG": 23
+    },
+    {
+      "id": "ctje5g1sloj3",
+      "date": "2026-01-06",
+      "mealName": "Breakfast",
+      "calories": 485,
+      "proteinG": 16,
+      "carbsG": 59,
+      "fatG": 17
+    },
+    {
+      "id": "w20pi0ivloj3",
+      "date": "2026-01-06",
+      "mealName": "Lunch",
+      "calories": 778,
+      "proteinG": 34,
+      "carbsG": 74,
+      "fatG": 17
+    },
+    {
+      "id": "eayyiu00loj3",
+      "date": "2026-01-06",
+      "mealName": "Dinner",
+      "calories": 746,
+      "proteinG": 31,
+      "carbsG": 46,
+      "fatG": 21
+    },
+    {
+      "id": "oqccycnvloj3",
+      "date": "2026-01-07",
+      "mealName": "Breakfast",
+      "calories": 474,
+      "proteinG": 17,
+      "carbsG": 53,
+      "fatG": 16
+    },
+    {
+      "id": "ii1vcwxnloj3",
+      "date": "2026-01-07",
+      "mealName": "Lunch",
+      "calories": 551,
+      "proteinG": 27,
+      "carbsG": 80,
+      "fatG": 21
+    },
+    {
+      "id": "awjq2kovloj3",
+      "date": "2026-01-07",
+      "mealName": "Dinner",
+      "calories": 659,
+      "proteinG": 29,
+      "carbsG": 70,
+      "fatG": 22
+    },
+    {
+      "id": "dwjhkz30loj3",
+      "date": "2026-01-08",
+      "mealName": "Breakfast",
+      "calories": 415,
+      "proteinG": 19,
+      "carbsG": 58,
+      "fatG": 10
+    },
+    {
+      "id": "mzhvokb5loj3",
+      "date": "2026-01-08",
+      "mealName": "Lunch",
+      "calories": 647,
+      "proteinG": 30,
+      "carbsG": 76,
+      "fatG": 19
+    },
+    {
+      "id": "u3ta9wpyloj3",
+      "date": "2026-01-09",
+      "mealName": "Breakfast",
+      "calories": 362,
+      "proteinG": 22,
+      "carbsG": 40,
+      "fatG": 10
+    },
+    {
+      "id": "vtygrhdtloj3",
+      "date": "2026-01-09",
+      "mealName": "Lunch",
+      "calories": 569,
+      "proteinG": 32,
+      "carbsG": 50,
+      "fatG": 16
+    },
+    {
+      "id": "uao7tos4loj3",
+      "date": "2026-01-09",
+      "mealName": "Dinner",
+      "calories": 569,
+      "proteinG": 29,
+      "carbsG": 58,
+      "fatG": 20
+    },
+    {
+      "id": "qrm3pkq9loj3",
+      "date": "2026-01-10",
+      "mealName": "Breakfast",
+      "calories": 372,
+      "proteinG": 23,
+      "carbsG": 40,
+      "fatG": 18
+    },
+    {
+      "id": "ije5mkwsloj3",
+      "date": "2026-01-10",
+      "mealName": "Lunch",
+      "calories": 765,
+      "proteinG": 35,
+      "carbsG": 75,
+      "fatG": 22
+    },
+    {
+      "id": "m4pvoqfzloj3",
+      "date": "2026-01-10",
+      "mealName": "Dinner",
+      "calories": 707,
+      "proteinG": 27,
+      "carbsG": 72,
+      "fatG": 20
+    },
+    {
+      "id": "o2j6j4cbloj3",
+      "date": "2026-01-11",
+      "mealName": "Breakfast",
+      "calories": 399,
+      "proteinG": 25,
+      "carbsG": 45,
+      "fatG": 14
+    },
+    {
+      "id": "tl2ie59wloj3",
+      "date": "2026-01-11",
+      "mealName": "Lunch",
+      "calories": 625,
+      "proteinG": 34,
+      "carbsG": 57,
+      "fatG": 23
+    },
+    {
+      "id": "o8r9znualoj3",
+      "date": "2026-01-13",
+      "mealName": "Breakfast",
+      "calories": 378,
+      "proteinG": 15,
+      "carbsG": 49,
+      "fatG": 12
+    },
+    {
+      "id": "y5nmskt1loj3",
+      "date": "2026-01-13",
+      "mealName": "Lunch",
+      "calories": 669,
+      "proteinG": 38,
+      "carbsG": 76,
+      "fatG": 20
+    },
+    {
+      "id": "3arlbkbvloj3",
+      "date": "2026-01-13",
+      "mealName": "Dinner",
+      "calories": 550,
+      "proteinG": 29,
+      "carbsG": 56,
+      "fatG": 18
+    },
+    {
+      "id": "81gu87o5loj3",
+      "date": "2026-01-14",
+      "mealName": "Breakfast",
+      "calories": 393,
+      "proteinG": 18,
+      "carbsG": 41,
+      "fatG": 9
+    },
+    {
+      "id": "h6s1kbrhloj3",
+      "date": "2026-01-14",
+      "mealName": "Dinner",
+      "calories": 623,
+      "proteinG": 41,
+      "carbsG": 46,
+      "fatG": 21
+    },
+    {
+      "id": "9h42ke2aloj3",
+      "date": "2026-01-15",
+      "mealName": "Breakfast",
+      "calories": 473,
+      "proteinG": 18,
+      "carbsG": 43,
+      "fatG": 15
+    },
+    {
+      "id": "dt28w3wlloj3",
+      "date": "2026-01-15",
+      "mealName": "Lunch",
+      "calories": 554,
+      "proteinG": 35,
+      "carbsG": 78,
+      "fatG": 24
+    },
+    {
+      "id": "tkekkxg2loj3",
+      "date": "2026-01-15",
+      "mealName": "Dinner",
+      "calories": 732,
+      "proteinG": 44,
+      "carbsG": 48,
+      "fatG": 20
+    },
+    {
+      "id": "zxvvdjnoloj3",
+      "date": "2026-01-16",
+      "mealName": "Breakfast",
+      "calories": 530,
+      "proteinG": 27,
+      "carbsG": 38,
+      "fatG": 10
+    },
+    {
+      "id": "sgnlp39lloj3",
+      "date": "2026-01-16",
+      "mealName": "Lunch",
+      "calories": 673,
+      "proteinG": 40,
+      "carbsG": 54,
+      "fatG": 19
+    },
+    {
+      "id": "qs2yhvjnloj3",
+      "date": "2026-01-16",
+      "mealName": "Dinner",
+      "calories": 520,
+      "proteinG": 43,
+      "carbsG": 68,
+      "fatG": 18
+    },
+    {
+      "id": "xm6wopt8loj3",
+      "date": "2026-01-17",
+      "mealName": "Lunch",
+      "calories": 555,
+      "proteinG": 33,
+      "carbsG": 79,
+      "fatG": 22
+    },
+    {
+      "id": "7gxg18wmloj3",
+      "date": "2026-01-17",
+      "mealName": "Dinner",
+      "calories": 659,
+      "proteinG": 45,
+      "carbsG": 55,
+      "fatG": 22
+    },
+    {
+      "id": "70oazpkgloj3",
+      "date": "2026-01-19",
+      "mealName": "Breakfast",
+      "calories": 443,
+      "proteinG": 19,
+      "carbsG": 32,
+      "fatG": 18
+    },
+    {
+      "id": "5trck1pfloj3",
+      "date": "2026-01-19",
+      "mealName": "Lunch",
+      "calories": 574,
+      "proteinG": 28,
+      "carbsG": 71,
+      "fatG": 24
+    },
+    {
+      "id": "2ztc743uloj3",
+      "date": "2026-01-19",
+      "mealName": "Dinner",
+      "calories": 705,
+      "proteinG": 31,
+      "carbsG": 68,
+      "fatG": 24
+    },
+    {
+      "id": "gg71hk5sloj3",
+      "date": "2026-01-20",
+      "mealName": "Breakfast",
+      "calories": 515,
+      "proteinG": 16,
+      "carbsG": 59,
+      "fatG": 16
+    },
+    {
+      "id": "13ujd4dtloj3",
+      "date": "2026-01-20",
+      "mealName": "Lunch",
+      "calories": 754,
+      "proteinG": 32,
+      "carbsG": 79,
+      "fatG": 22
+    },
+    {
+      "id": "2orkz47aloj3",
+      "date": "2026-01-20",
+      "mealName": "Dinner",
+      "calories": 654,
+      "proteinG": 36,
+      "carbsG": 60,
+      "fatG": 20
+    },
+    {
+      "id": "j5znhs2eloj3",
+      "date": "2026-01-21",
+      "mealName": "Breakfast",
+      "calories": 505,
+      "proteinG": 27,
+      "carbsG": 46,
+      "fatG": 17
+    },
+    {
+      "id": "afw7h6u1loj3",
+      "date": "2026-01-21",
+      "mealName": "Dinner",
+      "calories": 608,
+      "proteinG": 27,
+      "carbsG": 46,
+      "fatG": 19
+    },
+    {
+      "id": "7uo1wh3gloj3",
+      "date": "2026-01-22",
+      "mealName": "Breakfast",
+      "calories": 426,
+      "proteinG": 28,
+      "carbsG": 39,
+      "fatG": 16
+    },
+    {
+      "id": "tej3038zloj3",
+      "date": "2026-01-22",
+      "mealName": "Lunch",
+      "calories": 706,
+      "proteinG": 35,
+      "carbsG": 72,
+      "fatG": 22
+    },
+    {
+      "id": "ccmtwgh8loj3",
+      "date": "2026-01-22",
+      "mealName": "Dinner",
+      "calories": 552,
+      "proteinG": 41,
+      "carbsG": 54,
+      "fatG": 17
+    },
+    {
+      "id": "kqgx1oc7loj3",
+      "date": "2026-01-23",
+      "mealName": "Breakfast",
+      "calories": 548,
+      "proteinG": 23,
+      "carbsG": 48,
+      "fatG": 15
+    },
+    {
+      "id": "kf9jnx6gloj3",
+      "date": "2026-01-23",
+      "mealName": "Lunch",
+      "calories": 552,
+      "proteinG": 32,
+      "carbsG": 78,
+      "fatG": 18
+    },
+    {
+      "id": "8t9fwk1yloj3",
+      "date": "2026-01-23",
+      "mealName": "Dinner",
+      "calories": 641,
+      "proteinG": 33,
+      "carbsG": 46,
+      "fatG": 21
+    },
+    {
+      "id": "ytj86hj2loj3",
+      "date": "2026-01-24",
+      "mealName": "Breakfast",
+      "calories": 522,
+      "proteinG": 22,
+      "carbsG": 40,
+      "fatG": 15
+    },
+    {
+      "id": "1jo7mzpfloj3",
+      "date": "2026-01-24",
+      "mealName": "Lunch",
+      "calories": 743,
+      "proteinG": 34,
+      "carbsG": 69,
+      "fatG": 23
+    },
+    {
+      "id": "rc26vbd5loj3",
+      "date": "2026-01-24",
+      "mealName": "Dinner",
+      "calories": 520,
+      "proteinG": 40,
+      "carbsG": 58,
+      "fatG": 16
+    },
+    {
+      "id": "aochc5u2loj3",
+      "date": "2026-01-25",
+      "mealName": "Breakfast",
+      "calories": 404,
+      "proteinG": 24,
+      "carbsG": 34,
+      "fatG": 15
+    },
+    {
+      "id": "q3lywz8rloj3",
+      "date": "2026-01-25",
+      "mealName": "Lunch",
+      "calories": 781,
+      "proteinG": 31,
+      "carbsG": 72,
+      "fatG": 23
+    },
+    {
+      "id": "o7xgfy8xloj3",
+      "date": "2026-01-25",
+      "mealName": "Dinner",
+      "calories": 634,
+      "proteinG": 28,
+      "carbsG": 59,
+      "fatG": 15
+    },
+    {
+      "id": "h1fw3t1vloj3",
+      "date": "2026-01-26",
+      "mealName": "Breakfast",
+      "calories": 413,
+      "proteinG": 24,
+      "carbsG": 30,
+      "fatG": 17
+    },
+    {
+      "id": "8e86gzhzloj3",
+      "date": "2026-01-26",
+      "mealName": "Lunch",
+      "calories": 703,
+      "proteinG": 32,
+      "carbsG": 51,
+      "fatG": 17
+    },
+    {
+      "id": "525hncpbloj3",
+      "date": "2026-01-26",
+      "mealName": "Dinner",
+      "calories": 696,
+      "proteinG": 25,
+      "carbsG": 70,
+      "fatG": 16
+    },
+    {
+      "id": "d2l5787nloj3",
+      "date": "2026-01-27",
+      "mealName": "Breakfast",
+      "calories": 351,
+      "proteinG": 15,
+      "carbsG": 49,
+      "fatG": 16
+    },
+    {
+      "id": "szm4inaoloj3",
+      "date": "2026-01-27",
+      "mealName": "Dinner",
+      "calories": 559,
+      "proteinG": 34,
+      "carbsG": 61,
+      "fatG": 18
+    },
+    {
+      "id": "rqkntyesloj3",
+      "date": "2026-01-28",
+      "mealName": "Breakfast",
+      "calories": 523,
+      "proteinG": 29,
+      "carbsG": 38,
+      "fatG": 11
+    },
+    {
+      "id": "yd1jhty2loj3",
+      "date": "2026-01-28",
+      "mealName": "Dinner",
+      "calories": 739,
+      "proteinG": 44,
+      "carbsG": 52,
+      "fatG": 19
+    },
+    {
+      "id": "uhvgpryjloj3",
+      "date": "2026-01-29",
+      "mealName": "Breakfast",
+      "calories": 481,
+      "proteinG": 27,
+      "carbsG": 58,
+      "fatG": 12
+    },
+    {
+      "id": "02prnxu5loj3",
+      "date": "2026-01-29",
+      "mealName": "Lunch",
+      "calories": 638,
+      "proteinG": 31,
+      "carbsG": 66,
+      "fatG": 15
+    },
+    {
+      "id": "lnix7ss8loj3",
+      "date": "2026-01-29",
+      "mealName": "Dinner",
+      "calories": 748,
+      "proteinG": 30,
+      "carbsG": 55,
+      "fatG": 25
+    },
+    {
+      "id": "o1b5m3cbloj3",
+      "date": "2026-01-30",
+      "mealName": "Breakfast",
+      "calories": 396,
+      "proteinG": 16,
+      "carbsG": 56,
+      "fatG": 15
+    },
+    {
+      "id": "h3egm1ltloj3",
+      "date": "2026-01-30",
+      "mealName": "Lunch",
+      "calories": 626,
+      "proteinG": 34,
+      "carbsG": 66,
+      "fatG": 18
+    },
+    {
+      "id": "pshmmn61loj3",
+      "date": "2026-01-30",
+      "mealName": "Dinner",
+      "calories": 519,
+      "proteinG": 27,
+      "carbsG": 69,
+      "fatG": 15
+    },
+    {
+      "id": "3f27a9r7loj3",
+      "date": "2026-01-31",
+      "mealName": "Breakfast",
+      "calories": 464,
+      "proteinG": 24,
+      "carbsG": 60,
+      "fatG": 11
+    },
+    {
+      "id": "lot1vio9loj3",
+      "date": "2026-01-31",
+      "mealName": "Lunch",
+      "calories": 591,
+      "proteinG": 40,
+      "carbsG": 70,
+      "fatG": 24
+    },
+    {
+      "id": "3eicn0tjloj3",
+      "date": "2026-01-31",
+      "mealName": "Dinner",
+      "calories": 547,
+      "proteinG": 27,
+      "carbsG": 45,
+      "fatG": 18
+    },
+    {
+      "id": "ekvzievmloj3",
+      "date": "2026-02-01",
+      "mealName": "Breakfast",
+      "calories": 513,
+      "proteinG": 24,
+      "carbsG": 43,
+      "fatG": 11
+    },
+    {
+      "id": "c2qqh8d6loj3",
+      "date": "2026-02-01",
+      "mealName": "Lunch",
+      "calories": 735,
+      "proteinG": 37,
+      "carbsG": 56,
+      "fatG": 17
+    },
+    {
+      "id": "1sxwrndvloj3",
+      "date": "2026-02-02",
+      "mealName": "Breakfast",
+      "calories": 547,
+      "proteinG": 25,
+      "carbsG": 54,
+      "fatG": 9
+    },
+    {
+      "id": "87fjcgpyloj3",
+      "date": "2026-02-02",
+      "mealName": "Lunch",
+      "calories": 638,
+      "proteinG": 35,
+      "carbsG": 60,
+      "fatG": 22
+    },
+    {
+      "id": "6ctx1l5yloj3",
+      "date": "2026-02-02",
+      "mealName": "Dinner",
+      "calories": 713,
+      "proteinG": 28,
+      "carbsG": 59,
+      "fatG": 20
+    },
+    {
+      "id": "xsdq9kmtloj3",
+      "date": "2026-02-04",
+      "mealName": "Breakfast",
+      "calories": 450,
+      "proteinG": 23,
+      "carbsG": 54,
+      "fatG": 15
+    },
+    {
+      "id": "heiwk0w6loj3",
+      "date": "2026-02-04",
+      "mealName": "Lunch",
+      "calories": 744,
+      "proteinG": 38,
+      "carbsG": 68,
+      "fatG": 23
+    },
+    {
+      "id": "elwugkqeloj3",
+      "date": "2026-02-04",
+      "mealName": "Dinner",
+      "calories": 710,
+      "proteinG": 36,
+      "carbsG": 59,
+      "fatG": 17
+    },
+    {
+      "id": "f3s1n5kmloj3",
+      "date": "2026-02-05",
+      "mealName": "Breakfast",
+      "calories": 398,
+      "proteinG": 28,
+      "carbsG": 32,
+      "fatG": 15
+    },
+    {
+      "id": "pg0knvi7loj3",
+      "date": "2026-02-05",
+      "mealName": "Dinner",
+      "calories": 735,
+      "proteinG": 32,
+      "carbsG": 51,
+      "fatG": 16
+    },
+    {
+      "id": "sblza955loj3",
+      "date": "2026-02-08",
+      "mealName": "Breakfast",
+      "calories": 545,
+      "proteinG": 19,
+      "carbsG": 35,
+      "fatG": 16
+    },
+    {
+      "id": "ts1n0pxsloj3",
+      "date": "2026-02-08",
+      "mealName": "Lunch",
+      "calories": 762,
+      "proteinG": 25,
+      "carbsG": 50,
+      "fatG": 18
+    },
+    {
+      "id": "cdph1dsbloj3",
+      "date": "2026-02-08",
+      "mealName": "Dinner",
+      "calories": 726,
+      "proteinG": 37,
+      "carbsG": 48,
+      "fatG": 19
+    },
+    {
+      "id": "1yquatx7loj3",
+      "date": "2026-02-09",
+      "mealName": "Breakfast",
+      "calories": 455,
+      "proteinG": 28,
+      "carbsG": 33,
+      "fatG": 18
+    },
+    {
+      "id": "2pygs2p9loj3",
+      "date": "2026-02-09",
+      "mealName": "Lunch",
+      "calories": 626,
+      "proteinG": 39,
+      "carbsG": 64,
+      "fatG": 16
+    },
+    {
+      "id": "3m6c9r4hloj3",
+      "date": "2026-02-09",
+      "mealName": "Dinner",
+      "calories": 519,
+      "proteinG": 27,
+      "carbsG": 63,
+      "fatG": 16
+    },
+    {
+      "id": "vu205ypvloj3",
+      "date": "2026-02-10",
+      "mealName": "Lunch",
+      "calories": 763,
+      "proteinG": 25,
+      "carbsG": 73,
+      "fatG": 19
+    },
+    {
+      "id": "2uimxernloj3",
+      "date": "2026-02-11",
+      "mealName": "Breakfast",
+      "calories": 494,
+      "proteinG": 25,
+      "carbsG": 42,
+      "fatG": 13
+    },
+    {
+      "id": "4xu6entiloj3",
+      "date": "2026-02-11",
+      "mealName": "Lunch",
+      "calories": 714,
+      "proteinG": 37,
+      "carbsG": 60,
+      "fatG": 23
+    },
+    {
+      "id": "kn5ch5l6loj3",
+      "date": "2026-02-11",
+      "mealName": "Dinner",
+      "calories": 714,
+      "proteinG": 41,
+      "carbsG": 70,
+      "fatG": 17
+    },
+    {
+      "id": "t24spbr4loj3",
+      "date": "2026-02-12",
+      "mealName": "Breakfast",
+      "calories": 430,
+      "proteinG": 24,
+      "carbsG": 52,
+      "fatG": 13
+    },
+    {
+      "id": "g125wpwyloj3",
+      "date": "2026-02-12",
+      "mealName": "Lunch",
+      "calories": 602,
+      "proteinG": 35,
+      "carbsG": 78,
+      "fatG": 23
+    },
+    {
+      "id": "n4yh02qzloj3",
+      "date": "2026-02-12",
+      "mealName": "Dinner",
+      "calories": 697,
+      "proteinG": 36,
+      "carbsG": 64,
+      "fatG": 23
+    },
+    {
+      "id": "ebmhsxlfloj3",
+      "date": "2026-02-15",
+      "mealName": "Breakfast",
+      "calories": 375,
+      "proteinG": 22,
+      "carbsG": 49,
+      "fatG": 14
+    },
+    {
+      "id": "rr6mndwdloj3",
+      "date": "2026-02-15",
+      "mealName": "Lunch",
+      "calories": 592,
+      "proteinG": 45,
+      "carbsG": 71,
+      "fatG": 21
+    },
+    {
+      "id": "wo5wu0gmloj3",
+      "date": "2026-02-15",
+      "mealName": "Dinner",
+      "calories": 575,
+      "proteinG": 44,
+      "carbsG": 65,
+      "fatG": 18
+    },
+    {
+      "id": "s94scuueloj3",
+      "date": "2026-02-16",
+      "mealName": "Breakfast",
+      "calories": 350,
+      "proteinG": 19,
+      "carbsG": 39,
+      "fatG": 13
+    },
+    {
+      "id": "gxo584j2loj3",
+      "date": "2026-02-16",
+      "mealName": "Lunch",
+      "calories": 637,
+      "proteinG": 35,
+      "carbsG": 57,
+      "fatG": 22
+    },
+    {
+      "id": "s0mw05uoloj3",
+      "date": "2026-02-17",
+      "mealName": "Breakfast",
+      "calories": 542,
+      "proteinG": 27,
+      "carbsG": 54,
+      "fatG": 14
+    },
+    {
+      "id": "wlq6e22zloj3",
+      "date": "2026-02-17",
+      "mealName": "Lunch",
+      "calories": 551,
+      "proteinG": 31,
+      "carbsG": 61,
+      "fatG": 23
+    },
+    {
+      "id": "kbcrp8b6loj3",
+      "date": "2026-02-17",
+      "mealName": "Dinner",
+      "calories": 555,
+      "proteinG": 34,
+      "carbsG": 60,
+      "fatG": 17
+    },
+    {
+      "id": "u98o3y2eloj3",
+      "date": "2026-02-18",
+      "mealName": "Lunch",
+      "calories": 662,
+      "proteinG": 36,
+      "carbsG": 78,
+      "fatG": 17
+    },
+    {
+      "id": "r82l9savloj3",
+      "date": "2026-02-18",
+      "mealName": "Dinner",
+      "calories": 526,
+      "proteinG": 42,
+      "carbsG": 61,
+      "fatG": 21
+    },
+    {
+      "id": "0pflwe8rloj3",
+      "date": "2026-02-20",
+      "mealName": "Breakfast",
+      "calories": 459,
+      "proteinG": 17,
+      "carbsG": 35,
+      "fatG": 8
+    },
+    {
+      "id": "o5b9ygj0loj3",
+      "date": "2026-02-20",
+      "mealName": "Lunch",
+      "calories": 741,
+      "proteinG": 41,
+      "carbsG": 52,
+      "fatG": 24
+    },
+    {
+      "id": "ek5nm9jlloj3",
+      "date": "2026-02-20",
+      "mealName": "Dinner",
+      "calories": 742,
+      "proteinG": 36,
+      "carbsG": 68,
+      "fatG": 22
+    },
+    {
+      "id": "33qsbi4bloj3",
+      "date": "2026-02-21",
+      "mealName": "Breakfast",
+      "calories": 356,
+      "proteinG": 25,
+      "carbsG": 43,
+      "fatG": 10
+    },
+    {
+      "id": "c40ucnksloj3",
+      "date": "2026-02-21",
+      "mealName": "Lunch",
+      "calories": 753,
+      "proteinG": 43,
+      "carbsG": 72,
+      "fatG": 18
+    },
+    {
+      "id": "7c0z6boiloj3",
+      "date": "2026-02-21",
+      "mealName": "Dinner",
+      "calories": 684,
+      "proteinG": 35,
+      "carbsG": 62,
+      "fatG": 22
+    },
+    {
+      "id": "hgy9eqrjloj3",
+      "date": "2026-02-22",
+      "mealName": "Breakfast",
+      "calories": 353,
+      "proteinG": 29,
+      "carbsG": 42,
+      "fatG": 11
+    },
+    {
+      "id": "47vglxnyloj3",
+      "date": "2026-02-22",
+      "mealName": "Lunch",
+      "calories": 783,
+      "proteinG": 42,
+      "carbsG": 64,
+      "fatG": 19
+    },
+    {
+      "id": "vzxal49vloj3",
+      "date": "2026-02-23",
+      "mealName": "Breakfast",
+      "calories": 524,
+      "proteinG": 27,
+      "carbsG": 41,
+      "fatG": 11
+    },
+    {
+      "id": "l6zwipvuloj3",
+      "date": "2026-02-23",
+      "mealName": "Lunch",
+      "calories": 565,
+      "proteinG": 27,
+      "carbsG": 68,
+      "fatG": 24
+    },
+    {
+      "id": "yc260qtvloj3",
+      "date": "2026-02-24",
+      "mealName": "Dinner",
+      "calories": 732,
+      "proteinG": 29,
+      "carbsG": 71,
+      "fatG": 22
+    },
+    {
+      "id": "9yor8alhloj3",
+      "date": "2026-02-25",
+      "mealName": "Breakfast",
+      "calories": 505,
+      "proteinG": 19,
+      "carbsG": 55,
+      "fatG": 16
+    },
+    {
+      "id": "ke7gis84loj3",
+      "date": "2026-02-25",
+      "mealName": "Lunch",
+      "calories": 642,
+      "proteinG": 42,
+      "carbsG": 72,
+      "fatG": 16
+    },
+    {
+      "id": "m57vdlxtloj3",
+      "date": "2026-02-25",
+      "mealName": "Dinner",
+      "calories": 519,
+      "proteinG": 37,
+      "carbsG": 61,
+      "fatG": 18
+    },
+    {
+      "id": "kyi53xcoloj3",
+      "date": "2026-02-26",
+      "mealName": "Breakfast",
+      "calories": 460,
+      "proteinG": 20,
+      "carbsG": 39,
+      "fatG": 15
+    },
+    {
+      "id": "o4wepgo7loj3",
+      "date": "2026-02-26",
+      "mealName": "Lunch",
+      "calories": 616,
+      "proteinG": 32,
+      "carbsG": 80,
+      "fatG": 24
+    },
+    {
+      "id": "h8cngs44loj3",
+      "date": "2026-02-26",
+      "mealName": "Dinner",
+      "calories": 679,
+      "proteinG": 40,
+      "carbsG": 75,
+      "fatG": 19
+    },
+    {
+      "id": "yfdwyd11loj3",
+      "date": "2026-02-27",
+      "mealName": "Breakfast",
+      "calories": 368,
+      "proteinG": 15,
+      "carbsG": 50,
+      "fatG": 15
+    },
+    {
+      "id": "2c7y8zxmloj3",
+      "date": "2026-02-27",
+      "mealName": "Lunch",
+      "calories": 733,
+      "proteinG": 29,
+      "carbsG": 58,
+      "fatG": 20
+    },
+    {
+      "id": "6inpwx4ploj3",
+      "date": "2026-02-27",
+      "mealName": "Dinner",
+      "calories": 584,
+      "proteinG": 30,
+      "carbsG": 70,
+      "fatG": 22
+    },
+    {
+      "id": "hsqdac27loj3",
+      "date": "2026-02-28",
+      "mealName": "Breakfast",
+      "calories": 447,
+      "proteinG": 29,
+      "carbsG": 39,
+      "fatG": 8
+    },
+    {
+      "id": "hpkqeg2cloj3",
+      "date": "2026-02-28",
+      "mealName": "Lunch",
+      "calories": 642,
+      "proteinG": 34,
+      "carbsG": 55,
+      "fatG": 15
+    },
+    {
+      "id": "6amhv40cloj3",
+      "date": "2026-02-28",
+      "mealName": "Dinner",
+      "calories": 678,
+      "proteinG": 37,
+      "carbsG": 55,
+      "fatG": 20
+    },
+    {
+      "id": "xnstshzvloj3",
+      "date": "2026-03-01",
+      "mealName": "Breakfast",
+      "calories": 468,
+      "proteinG": 26,
+      "carbsG": 45,
+      "fatG": 11
+    },
+    {
+      "id": "paz6ggwdloj3",
+      "date": "2026-03-01",
+      "mealName": "Dinner",
+      "calories": 693,
+      "proteinG": 32,
+      "carbsG": 65,
+      "fatG": 18
+    },
+    {
+      "id": "8an0x0yqloj3",
+      "date": "2026-03-02",
+      "mealName": "Breakfast",
+      "calories": 464,
+      "proteinG": 26,
+      "carbsG": 42,
+      "fatG": 10
+    },
+    {
+      "id": "rna8nbz3loj3",
+      "date": "2026-03-02",
+      "mealName": "Dinner",
+      "calories": 675,
+      "proteinG": 27,
+      "carbsG": 47,
+      "fatG": 19
+    },
+    {
+      "id": "ev3m9h4kloj3",
+      "date": "2026-03-03",
+      "mealName": "Breakfast",
+      "calories": 483,
+      "proteinG": 23,
+      "carbsG": 35,
+      "fatG": 11
+    },
+    {
+      "id": "n9869xc7loj3",
+      "date": "2026-03-03",
+      "mealName": "Lunch",
+      "calories": 754,
+      "proteinG": 35,
+      "carbsG": 52,
+      "fatG": 16
+    },
+    {
+      "id": "44cov2bnloj3",
+      "date": "2026-03-03",
+      "mealName": "Dinner",
+      "calories": 652,
+      "proteinG": 34,
+      "carbsG": 49,
+      "fatG": 19
+    },
+    {
+      "id": "stmcqioqloj3",
+      "date": "2026-03-04",
+      "mealName": "Breakfast",
+      "calories": 508,
+      "proteinG": 25,
+      "carbsG": 37,
+      "fatG": 13
+    },
+    {
+      "id": "paxejsfoloj3",
+      "date": "2026-03-04",
+      "mealName": "Lunch",
+      "calories": 635,
+      "proteinG": 41,
+      "carbsG": 53,
+      "fatG": 24
+    },
+    {
+      "id": "efoqjrgaloj3",
+      "date": "2026-03-04",
+      "mealName": "Dinner",
+      "calories": 722,
+      "proteinG": 35,
+      "carbsG": 45,
+      "fatG": 19
+    },
+    {
+      "id": "gfp2sblsloj3",
+      "date": "2026-03-07",
+      "mealName": "Breakfast",
+      "calories": 441,
+      "proteinG": 25,
+      "carbsG": 60,
+      "fatG": 8
+    },
+    {
+      "id": "pfwn05goloj3",
+      "date": "2026-03-07",
+      "mealName": "Lunch",
+      "calories": 569,
+      "proteinG": 40,
+      "carbsG": 74,
+      "fatG": 19
+    },
+    {
+      "id": "edv8lvz3loj3",
+      "date": "2026-03-07",
+      "mealName": "Dinner",
+      "calories": 580,
+      "proteinG": 32,
+      "carbsG": 74,
+      "fatG": 22
+    },
+    {
+      "id": "k2xsmj9hloj3",
+      "date": "2026-03-08",
+      "mealName": "Breakfast",
+      "calories": 451,
+      "proteinG": 26,
+      "carbsG": 51,
+      "fatG": 9
+    },
+    {
+      "id": "2lkzyvmoloj3",
+      "date": "2026-03-08",
+      "mealName": "Lunch",
+      "calories": 642,
+      "proteinG": 41,
+      "carbsG": 60,
+      "fatG": 21
+    },
+    {
+      "id": "02nkcysxloj3",
+      "date": "2026-03-08",
+      "mealName": "Dinner",
+      "calories": 590,
+      "proteinG": 43,
+      "carbsG": 62,
+      "fatG": 18
+    },
+    {
+      "id": "931iouthloj3",
+      "date": "2026-03-09",
+      "mealName": "Lunch",
+      "calories": 620,
+      "proteinG": 37,
+      "carbsG": 60,
+      "fatG": 19
+    },
+    {
+      "id": "xy58f106loj3",
+      "date": "2026-03-10",
+      "mealName": "Breakfast",
+      "calories": 370,
+      "proteinG": 27,
+      "carbsG": 55,
+      "fatG": 15
+    },
+    {
+      "id": "eed8g9sploj3",
+      "date": "2026-03-10",
+      "mealName": "Dinner",
+      "calories": 573,
+      "proteinG": 32,
+      "carbsG": 68,
+      "fatG": 16
+    },
+    {
+      "id": "2wngd404loj3",
+      "date": "2026-03-11",
+      "mealName": "Breakfast",
+      "calories": 529,
+      "proteinG": 19,
+      "carbsG": 48,
+      "fatG": 15
+    },
+    {
+      "id": "3picjtzmloj3",
+      "date": "2026-03-12",
+      "mealName": "Breakfast",
+      "calories": 356,
+      "proteinG": 19,
+      "carbsG": 51,
+      "fatG": 10
+    },
+    {
+      "id": "jd7h7ybyloj3",
+      "date": "2026-03-12",
+      "mealName": "Lunch",
+      "calories": 730,
+      "proteinG": 43,
+      "carbsG": 54,
+      "fatG": 17
+    },
+    {
+      "id": "dhdx3bqlloj3",
+      "date": "2026-03-12",
+      "mealName": "Dinner",
+      "calories": 616,
+      "proteinG": 41,
+      "carbsG": 50,
+      "fatG": 20
+    },
+    {
+      "id": "90mni7b2loj3",
+      "date": "2026-03-14",
+      "mealName": "Breakfast",
+      "calories": 369,
+      "proteinG": 27,
+      "carbsG": 37,
+      "fatG": 17
+    },
+    {
+      "id": "69vds2zjloj3",
+      "date": "2026-03-14",
+      "mealName": "Lunch",
+      "calories": 572,
+      "proteinG": 44,
+      "carbsG": 60,
+      "fatG": 20
+    },
+    {
+      "id": "f608d0rsloj3",
+      "date": "2026-03-15",
+      "mealName": "Breakfast",
+      "calories": 384,
+      "proteinG": 26,
+      "carbsG": 55,
+      "fatG": 11
+    },
+    {
+      "id": "ptxveqixloj3",
+      "date": "2026-03-15",
+      "mealName": "Lunch",
+      "calories": 760,
+      "proteinG": 33,
+      "carbsG": 68,
+      "fatG": 17
+    },
+    {
+      "id": "yfwntswcloj3",
+      "date": "2026-03-15",
+      "mealName": "Dinner",
+      "calories": 595,
+      "proteinG": 34,
+      "carbsG": 48,
+      "fatG": 16
+    },
+    {
+      "id": "8uvlxgtmloj3",
+      "date": "2026-03-16",
+      "mealName": "Breakfast",
+      "calories": 436,
+      "proteinG": 29,
+      "carbsG": 34,
+      "fatG": 15
+    },
+    {
+      "id": "heq479uoloj3",
+      "date": "2026-03-16",
+      "mealName": "Lunch",
+      "calories": 585,
+      "proteinG": 42,
+      "carbsG": 74,
+      "fatG": 22
+    },
+    {
+      "id": "u3b1kpydloj3",
+      "date": "2026-03-16",
+      "mealName": "Dinner",
+      "calories": 514,
+      "proteinG": 38,
+      "carbsG": 69,
+      "fatG": 23
+    },
+    {
+      "id": "0bb1gl0eloj3",
+      "date": "2026-03-18",
+      "mealName": "Breakfast",
+      "calories": 529,
+      "proteinG": 20,
+      "carbsG": 50,
+      "fatG": 11
+    },
+    {
+      "id": "bmrsdfohloj3",
+      "date": "2026-03-18",
+      "mealName": "Lunch",
+      "calories": 594,
+      "proteinG": 37,
+      "carbsG": 69,
+      "fatG": 16
+    },
+    {
+      "id": "cwmxqid1loj3",
+      "date": "2026-03-18",
+      "mealName": "Dinner",
+      "calories": 667,
+      "proteinG": 38,
+      "carbsG": 52,
+      "fatG": 24
+    },
+    {
+      "id": "oph6lrdploj3",
+      "date": "2026-03-19",
+      "mealName": "Breakfast",
+      "calories": 516,
+      "proteinG": 19,
+      "carbsG": 37,
+      "fatG": 9
+    },
+    {
+      "id": "cora39ealoj3",
+      "date": "2026-03-19",
+      "mealName": "Lunch",
+      "calories": 786,
+      "proteinG": 31,
+      "carbsG": 61,
+      "fatG": 23
+    },
+    {
+      "id": "cssxy0cwloj3",
+      "date": "2026-03-19",
+      "mealName": "Dinner",
+      "calories": 538,
+      "proteinG": 37,
+      "carbsG": 51,
+      "fatG": 21
+    },
+    {
+      "id": "lmu53ergloj3",
+      "date": "2026-03-21",
+      "mealName": "Breakfast",
+      "calories": 487,
+      "proteinG": 25,
+      "carbsG": 32,
+      "fatG": 8
+    },
+    {
+      "id": "htzkhiakloj3",
+      "date": "2026-03-21",
+      "mealName": "Lunch",
+      "calories": 710,
+      "proteinG": 32,
+      "carbsG": 73,
+      "fatG": 24
+    },
+    {
+      "id": "d3x3rs0hloj3",
+      "date": "2026-03-21",
+      "mealName": "Dinner",
+      "calories": 668,
+      "proteinG": 38,
+      "carbsG": 57,
+      "fatG": 19
+    },
+    {
+      "id": "j4epm207loj3",
+      "date": "2026-03-23",
+      "mealName": "Breakfast",
+      "calories": 501,
+      "proteinG": 26,
+      "carbsG": 33,
+      "fatG": 15
+    },
+    {
+      "id": "2ft8p0ueloj3",
+      "date": "2026-03-23",
+      "mealName": "Lunch",
+      "calories": 553,
+      "proteinG": 40,
+      "carbsG": 67,
+      "fatG": 22
+    },
+    {
+      "id": "nxmduia4loj3",
+      "date": "2026-03-23",
+      "mealName": "Dinner",
+      "calories": 613,
+      "proteinG": 37,
+      "carbsG": 46,
+      "fatG": 16
+    },
+    {
+      "id": "q9uod6y5loj3",
+      "date": "2026-03-24",
+      "mealName": "Breakfast",
+      "calories": 478,
+      "proteinG": 19,
+      "carbsG": 40,
+      "fatG": 17
+    },
+    {
+      "id": "ablx9xo9loj3",
+      "date": "2026-03-24",
+      "mealName": "Lunch",
+      "calories": 563,
+      "proteinG": 37,
+      "carbsG": 76,
+      "fatG": 23
+    },
+    {
+      "id": "ie0xi6s2loj3",
+      "date": "2026-03-24",
+      "mealName": "Dinner",
+      "calories": 708,
+      "proteinG": 27,
+      "carbsG": 49,
+      "fatG": 21
+    },
+    {
+      "id": "hr6pxc6bloj3",
+      "date": "2026-03-26",
+      "mealName": "Dinner",
+      "calories": 587,
+      "proteinG": 40,
+      "carbsG": 64,
+      "fatG": 22
+    },
+    {
+      "id": "x81whcf5loj4",
+      "date": "2026-03-27",
+      "mealName": "Lunch",
+      "calories": 669,
+      "proteinG": 28,
+      "carbsG": 60,
+      "fatG": 23
+    },
+    {
+      "id": "peqvu06nloj4",
+      "date": "2026-03-27",
+      "mealName": "Dinner",
+      "calories": 664,
+      "proteinG": 43,
+      "carbsG": 62,
+      "fatG": 19
+    },
+    {
+      "id": "l88tm4imloj4",
+      "date": "2026-03-28",
+      "mealName": "Breakfast",
+      "calories": 438,
+      "proteinG": 29,
+      "carbsG": 49,
+      "fatG": 13
+    },
+    {
+      "id": "8fkploxaloj4",
+      "date": "2026-03-28",
+      "mealName": "Lunch",
+      "calories": 750,
+      "proteinG": 41,
+      "carbsG": 61,
+      "fatG": 25
+    },
+    {
+      "id": "ig6k5sdsloj4",
+      "date": "2026-03-28",
+      "mealName": "Dinner",
+      "calories": 657,
+      "proteinG": 29,
+      "carbsG": 52,
+      "fatG": 22
+    },
+    {
+      "id": "5u608x5kloj4",
+      "date": "2026-03-29",
+      "mealName": "Breakfast",
+      "calories": 397,
+      "proteinG": 17,
+      "carbsG": 54,
+      "fatG": 8
+    },
+    {
+      "id": "17vhjqcoloj4",
+      "date": "2026-03-29",
+      "mealName": "Lunch",
+      "calories": 550,
+      "proteinG": 29,
+      "carbsG": 67,
+      "fatG": 15
+    },
+    {
+      "id": "7z3czcykloj4",
+      "date": "2026-03-29",
+      "mealName": "Dinner",
+      "calories": 686,
+      "proteinG": 29,
+      "carbsG": 53,
+      "fatG": 25
+    },
+    {
+      "id": "gsexz5hwloj4",
+      "date": "2026-03-30",
+      "mealName": "Breakfast",
+      "calories": 372,
+      "proteinG": 25,
+      "carbsG": 53,
+      "fatG": 15
+    },
+    {
+      "id": "3w354gmcloj4",
+      "date": "2026-03-30",
+      "mealName": "Lunch",
+      "calories": 680,
+      "proteinG": 39,
+      "carbsG": 75,
+      "fatG": 22
+    },
+    {
+      "id": "g7jc5pxploj4",
+      "date": "2026-03-31",
+      "mealName": "Breakfast",
+      "calories": 428,
+      "proteinG": 21,
+      "carbsG": 60,
+      "fatG": 13
+    },
+    {
+      "id": "2zkev2n2loj4",
+      "date": "2026-04-01",
+      "mealName": "Breakfast",
+      "calories": 493,
+      "proteinG": 16,
+      "carbsG": 43,
+      "fatG": 8
+    },
+    {
+      "id": "27z2sv3vloj4",
+      "date": "2026-04-01",
+      "mealName": "Lunch",
+      "calories": 574,
+      "proteinG": 37,
+      "carbsG": 59,
+      "fatG": 16
+    },
+    {
+      "id": "4843qoaaloj4",
+      "date": "2026-04-01",
+      "mealName": "Dinner",
+      "calories": 529,
+      "proteinG": 41,
+      "carbsG": 69,
+      "fatG": 16
+    },
+    {
+      "id": "zu8b7vd2loj4",
+      "date": "2026-04-03",
+      "mealName": "Breakfast",
+      "calories": 367,
+      "proteinG": 21,
+      "carbsG": 34,
+      "fatG": 15
+    },
+    {
+      "id": "tyi5cp4ploj4",
+      "date": "2026-04-03",
+      "mealName": "Lunch",
+      "calories": 554,
+      "proteinG": 44,
+      "carbsG": 68,
+      "fatG": 22
+    },
+    {
+      "id": "3qttvvhbloj4",
+      "date": "2026-04-03",
+      "mealName": "Dinner",
+      "calories": 513,
+      "proteinG": 42,
+      "carbsG": 63,
+      "fatG": 15
+    },
+    {
+      "id": "b9k228x9loj4",
+      "date": "2026-04-04",
+      "mealName": "Breakfast",
+      "calories": 481,
+      "proteinG": 26,
+      "carbsG": 37,
+      "fatG": 8
+    },
+    {
+      "id": "sbew2c2aloj4",
+      "date": "2026-04-04",
+      "mealName": "Lunch",
+      "calories": 739,
+      "proteinG": 36,
+      "carbsG": 53,
+      "fatG": 21
+    },
+    {
+      "id": "9g2cvbwiloj4",
+      "date": "2026-04-04",
+      "mealName": "Dinner",
+      "calories": 573,
+      "proteinG": 38,
+      "carbsG": 73,
+      "fatG": 21
+    },
+    {
+      "id": "sqfpxhsgloj4",
+      "date": "2026-04-05",
+      "mealName": "Breakfast",
+      "calories": 459,
+      "proteinG": 20,
+      "carbsG": 41,
+      "fatG": 12
+    },
+    {
+      "id": "3kcpcc7oloj4",
+      "date": "2026-04-06",
+      "mealName": "Breakfast",
+      "calories": 536,
+      "proteinG": 17,
+      "carbsG": 46,
+      "fatG": 13
+    },
+    {
+      "id": "ii2ba8zjloj4",
+      "date": "2026-04-06",
+      "mealName": "Lunch",
+      "calories": 574,
+      "proteinG": 36,
+      "carbsG": 80,
+      "fatG": 23
+    },
+    {
+      "id": "jq4kzf8iloj4",
+      "date": "2026-04-06",
+      "mealName": "Dinner",
+      "calories": 566,
+      "proteinG": 39,
+      "carbsG": 67,
+      "fatG": 18
+    },
+    {
+      "id": "7hesx5fdloj4",
+      "date": "2026-04-07",
+      "mealName": "Breakfast",
+      "calories": 496,
+      "proteinG": 30,
+      "carbsG": 31,
+      "fatG": 15
+    },
+    {
+      "id": "6bdcrcdbloj4",
+      "date": "2026-04-07",
+      "mealName": "Dinner",
+      "calories": 699,
+      "proteinG": 39,
+      "carbsG": 66,
+      "fatG": 25
+    },
+    {
+      "id": "gb7ehg0uloj4",
+      "date": "2026-04-09",
+      "mealName": "Breakfast",
+      "calories": 548,
+      "proteinG": 24,
+      "carbsG": 46,
+      "fatG": 11
+    },
+    {
+      "id": "6btub5ccloj4",
+      "date": "2026-04-09",
+      "mealName": "Dinner",
+      "calories": 706,
+      "proteinG": 42,
+      "carbsG": 70,
+      "fatG": 25
+    },
+    {
+      "id": "w0mvo2zrloj4",
+      "date": "2026-04-10",
+      "mealName": "Dinner",
+      "calories": 747,
+      "proteinG": 38,
+      "carbsG": 60,
+      "fatG": 18
+    },
+    {
+      "id": "ymo87qfsloj4",
+      "date": "2026-04-11",
+      "mealName": "Breakfast",
+      "calories": 467,
+      "proteinG": 23,
+      "carbsG": 45,
+      "fatG": 15
+    },
+    {
+      "id": "bxspfc7tloj4",
+      "date": "2026-04-11",
+      "mealName": "Lunch",
+      "calories": 553,
+      "proteinG": 27,
+      "carbsG": 67,
+      "fatG": 17
+    },
+    {
+      "id": "5hk3qvinloj4",
+      "date": "2026-04-11",
+      "mealName": "Dinner",
+      "calories": 699,
+      "proteinG": 35,
+      "carbsG": 71,
+      "fatG": 24
+    },
+    {
+      "id": "rhtdgay6loj4",
+      "date": "2026-04-12",
+      "mealName": "Breakfast",
+      "calories": 368,
+      "proteinG": 17,
+      "carbsG": 43,
+      "fatG": 15
+    },
+    {
+      "id": "y26nmo4vloj4",
+      "date": "2026-04-12",
+      "mealName": "Lunch",
+      "calories": 707,
+      "proteinG": 35,
+      "carbsG": 79,
+      "fatG": 19
+    },
+    {
+      "id": "5te9j8pploj4",
+      "date": "2026-04-12",
+      "mealName": "Dinner",
+      "calories": 501,
+      "proteinG": 32,
+      "carbsG": 56,
+      "fatG": 17
+    },
+    {
+      "id": "f6to0eswloj4",
+      "date": "2026-04-13",
+      "mealName": "Breakfast",
+      "calories": 475,
+      "proteinG": 30,
+      "carbsG": 47,
+      "fatG": 10
+    },
+    {
+      "id": "0b63dln1loj4",
+      "date": "2026-04-13",
+      "mealName": "Lunch",
+      "calories": 698,
+      "proteinG": 33,
+      "carbsG": 66,
+      "fatG": 18
+    },
+    {
+      "id": "lo7sr24gloj4",
+      "date": "2026-04-13",
+      "mealName": "Dinner",
+      "calories": 679,
+      "proteinG": 35,
+      "carbsG": 59,
+      "fatG": 24
+    },
+    {
+      "id": "c5oxvse2loj4",
+      "date": "2026-04-14",
+      "mealName": "Breakfast",
+      "calories": 454,
+      "proteinG": 30,
+      "carbsG": 32,
+      "fatG": 17
+    },
+    {
+      "id": "2ltcjcnjloj4",
+      "date": "2026-04-14",
+      "mealName": "Lunch",
+      "calories": 692,
+      "proteinG": 32,
+      "carbsG": 67,
+      "fatG": 21
+    },
+    {
+      "id": "ryz30gh7loj4",
+      "date": "2026-04-14",
+      "mealName": "Dinner",
+      "calories": 628,
+      "proteinG": 33,
+      "carbsG": 68,
+      "fatG": 23
+    },
+    {
+      "id": "o2tya7lbloj4",
+      "date": "2026-04-16",
+      "mealName": "Breakfast",
+      "calories": 397,
+      "proteinG": 18,
+      "carbsG": 55,
+      "fatG": 11
+    },
+    {
+      "id": "01ui4hyploj4",
+      "date": "2026-04-16",
+      "mealName": "Lunch",
+      "calories": 670,
+      "proteinG": 32,
+      "carbsG": 68,
+      "fatG": 19
+    },
+    {
+      "id": "12s4ymktloj4",
+      "date": "2026-04-16",
+      "mealName": "Dinner",
+      "calories": 587,
+      "proteinG": 38,
+      "carbsG": 58,
+      "fatG": 16
+    },
+    {
+      "id": "yf7odkq6loj4",
+      "date": "2026-04-17",
+      "mealName": "Breakfast",
+      "calories": 358,
+      "proteinG": 20,
+      "carbsG": 31,
+      "fatG": 13
+    },
+    {
+      "id": "icebmlbbloj4",
+      "date": "2026-04-17",
+      "mealName": "Lunch",
+      "calories": 585,
+      "proteinG": 42,
+      "carbsG": 69,
+      "fatG": 24
+    },
+    {
+      "id": "6dbn1vvfloj4",
+      "date": "2026-04-17",
+      "mealName": "Dinner",
+      "calories": 641,
+      "proteinG": 42,
+      "carbsG": 57,
+      "fatG": 19
+    },
+    {
+      "id": "zy6q2562loj4",
+      "date": "2026-04-20",
+      "mealName": "Breakfast",
+      "calories": 455,
+      "proteinG": 26,
+      "carbsG": 47,
+      "fatG": 15
+    },
+    {
+      "id": "iwjockjuloj4",
+      "date": "2026-04-20",
+      "mealName": "Lunch",
+      "calories": 687,
+      "proteinG": 42,
+      "carbsG": 66,
+      "fatG": 21
+    },
+    {
+      "id": "qapv6j6eloj4",
+      "date": "2026-04-20",
+      "mealName": "Dinner",
+      "calories": 637,
+      "proteinG": 30,
+      "carbsG": 68,
+      "fatG": 22
+    },
+    {
+      "id": "1tbxenzvloj4",
+      "date": "2026-04-21",
+      "mealName": "Breakfast",
+      "calories": 510,
+      "proteinG": 26,
+      "carbsG": 39,
+      "fatG": 8
+    },
+    {
+      "id": "mo7aozsploj4",
+      "date": "2026-04-21",
+      "mealName": "Lunch",
+      "calories": 749,
+      "proteinG": 37,
+      "carbsG": 57,
+      "fatG": 25
+    },
+    {
+      "id": "aorgoeutloj4",
+      "date": "2026-04-21",
+      "mealName": "Dinner",
+      "calories": 646,
+      "proteinG": 27,
+      "carbsG": 51,
+      "fatG": 17
+    },
+    {
+      "id": "uxzbyvfrloj4",
+      "date": "2026-04-22",
+      "mealName": "Breakfast",
+      "calories": 436,
+      "proteinG": 28,
+      "carbsG": 59,
+      "fatG": 12
+    },
+    {
+      "id": "7imhy761loj4",
+      "date": "2026-04-22",
+      "mealName": "Lunch",
+      "calories": 745,
+      "proteinG": 39,
+      "carbsG": 52,
+      "fatG": 22
+    },
+    {
+      "id": "pumsycw8loj4",
+      "date": "2026-04-22",
+      "mealName": "Dinner",
+      "calories": 519,
+      "proteinG": 37,
+      "carbsG": 59,
+      "fatG": 23
+    },
+    {
+      "id": "jmvj9aefloj4",
+      "date": "2026-04-23",
+      "mealName": "Breakfast",
+      "calories": 495,
+      "proteinG": 27,
+      "carbsG": 42,
+      "fatG": 8
+    },
+    {
+      "id": "lnpwvdrxloj4",
+      "date": "2026-04-23",
+      "mealName": "Lunch",
+      "calories": 670,
+      "proteinG": 30,
+      "carbsG": 58,
+      "fatG": 22
+    },
+    {
+      "id": "n1w3l9evloj4",
+      "date": "2026-04-23",
+      "mealName": "Dinner",
+      "calories": 708,
+      "proteinG": 42,
+      "carbsG": 53,
+      "fatG": 21
+    },
+    {
+      "id": "v5sxbak8loj4",
+      "date": "2026-04-24",
+      "mealName": "Breakfast",
+      "calories": 515,
+      "proteinG": 22,
+      "carbsG": 58,
+      "fatG": 8
+    },
+    {
+      "id": "twgftnhploj4",
+      "date": "2026-04-24",
+      "mealName": "Lunch",
+      "calories": 785,
+      "proteinG": 40,
+      "carbsG": 75,
+      "fatG": 25
+    },
+    {
+      "id": "k9nqr9f5loj4",
+      "date": "2026-04-24",
+      "mealName": "Dinner",
+      "calories": 501,
+      "proteinG": 31,
+      "carbsG": 58,
+      "fatG": 21
+    },
+    {
+      "id": "g90ajn50loj4",
+      "date": "2026-04-25",
+      "mealName": "Breakfast",
+      "calories": 446,
+      "proteinG": 23,
+      "carbsG": 52,
+      "fatG": 17
+    },
+    {
+      "id": "pnxpctzwloj4",
+      "date": "2026-04-25",
+      "mealName": "Lunch",
+      "calories": 713,
+      "proteinG": 26,
+      "carbsG": 64,
+      "fatG": 25
+    },
+    {
+      "id": "omdjxm5dloj4",
+      "date": "2026-04-25",
+      "mealName": "Dinner",
+      "calories": 713,
+      "proteinG": 43,
+      "carbsG": 61,
+      "fatG": 16
+    },
+    {
+      "id": "4x25iu02loj4",
+      "date": "2026-04-26",
+      "mealName": "Breakfast",
+      "calories": 494,
+      "proteinG": 19,
+      "carbsG": 33,
+      "fatG": 13
+    },
+    {
+      "id": "gonwhhg1loj4",
+      "date": "2026-04-26",
+      "mealName": "Lunch",
+      "calories": 678,
+      "proteinG": 30,
+      "carbsG": 54,
+      "fatG": 19
+    },
+    {
+      "id": "1dp521vfloj4",
+      "date": "2026-04-26",
+      "mealName": "Dinner",
+      "calories": 660,
+      "proteinG": 42,
+      "carbsG": 64,
+      "fatG": 18
+    },
+    {
+      "id": "5snzzvnwloj4",
+      "date": "2026-04-27",
+      "mealName": "Breakfast",
+      "calories": 381,
+      "proteinG": 26,
+      "carbsG": 53,
+      "fatG": 16
+    },
+    {
+      "id": "ek6u6xoeloj4",
+      "date": "2026-04-27",
+      "mealName": "Lunch",
+      "calories": 683,
+      "proteinG": 44,
+      "carbsG": 77,
+      "fatG": 18
+    },
+    {
+      "id": "pte0ukcqloj4",
+      "date": "2026-04-27",
+      "mealName": "Dinner",
+      "calories": 700,
+      "proteinG": 40,
+      "carbsG": 67,
+      "fatG": 16
+    },
+    {
+      "id": "ynza4o98loj4",
+      "date": "2026-04-28",
+      "mealName": "Lunch",
+      "calories": 721,
+      "proteinG": 36,
+      "carbsG": 79,
+      "fatG": 24
+    },
+    {
+      "id": "eq1xyjmeloj4",
+      "date": "2026-04-28",
+      "mealName": "Dinner",
+      "calories": 622,
+      "proteinG": 37,
+      "carbsG": 53,
+      "fatG": 21
+    },
+    {
+      "id": "w3ctgqqoloj4",
+      "date": "2026-04-29",
+      "mealName": "Lunch",
+      "calories": 565,
+      "proteinG": 42,
+      "carbsG": 58,
+      "fatG": 17
+    },
+    {
+      "id": "xu27yfr7loj4",
+      "date": "2026-04-29",
+      "mealName": "Dinner",
+      "calories": 649,
+      "proteinG": 37,
+      "carbsG": 71,
+      "fatG": 16
+    },
+    {
+      "id": "91oeoyxhloj4",
+      "date": "2026-04-30",
+      "mealName": "Breakfast",
+      "calories": 363,
+      "proteinG": 25,
+      "carbsG": 38,
+      "fatG": 8
+    },
+    {
+      "id": "dp86g1tploj4",
+      "date": "2026-04-30",
+      "mealName": "Dinner",
+      "calories": 666,
+      "proteinG": 25,
+      "carbsG": 73,
+      "fatG": 23
+    },
+    {
+      "id": "rvrf0zgwloj4",
+      "date": "2026-05-03",
+      "mealName": "Breakfast",
+      "calories": 460,
+      "proteinG": 24,
+      "carbsG": 54,
+      "fatG": 8
+    },
+    {
+      "id": "b3573vntloj4",
+      "date": "2026-05-03",
+      "mealName": "Lunch",
+      "calories": 604,
+      "proteinG": 33,
+      "carbsG": 75,
+      "fatG": 20
+    },
+    {
+      "id": "2di7w50uloj4",
+      "date": "2026-05-03",
+      "mealName": "Dinner",
+      "calories": 589,
+      "proteinG": 35,
+      "carbsG": 53,
+      "fatG": 20
+    },
+    {
+      "id": "hteekravloj4",
+      "date": "2026-05-04",
+      "mealName": "Lunch",
+      "calories": 764,
+      "proteinG": 26,
+      "carbsG": 78,
+      "fatG": 21
+    },
+    {
+      "id": "l11pg9umloj4",
+      "date": "2026-05-04",
+      "mealName": "Dinner",
+      "calories": 628,
+      "proteinG": 34,
+      "carbsG": 49,
+      "fatG": 16
+    },
+    {
+      "id": "1uncng62loj4",
+      "date": "2026-05-05",
+      "mealName": "Breakfast",
+      "calories": 386,
+      "proteinG": 29,
+      "carbsG": 47,
+      "fatG": 13
+    },
+    {
+      "id": "naff0srzloj4",
+      "date": "2026-05-05",
+      "mealName": "Lunch",
+      "calories": 579,
+      "proteinG": 32,
+      "carbsG": 51,
+      "fatG": 18
+    },
+    {
+      "id": "q58t3frhloj4",
+      "date": "2026-05-05",
+      "mealName": "Dinner",
+      "calories": 621,
+      "proteinG": 35,
+      "carbsG": 67,
+      "fatG": 24
+    },
+    {
+      "id": "d8utol64loj4",
+      "date": "2026-05-06",
+      "mealName": "Dinner",
+      "calories": 539,
+      "proteinG": 29,
+      "carbsG": 53,
+      "fatG": 18
+    },
+    {
+      "id": "15a7ou75loj4",
+      "date": "2026-05-07",
+      "mealName": "Breakfast",
+      "calories": 414,
+      "proteinG": 22,
+      "carbsG": 47,
+      "fatG": 10
+    },
+    {
+      "id": "ukrhnwmaloj4",
+      "date": "2026-05-07",
+      "mealName": "Lunch",
+      "calories": 730,
+      "proteinG": 41,
+      "carbsG": 59,
+      "fatG": 16
+    },
+    {
+      "id": "lpvx0rliloj4",
+      "date": "2026-05-08",
+      "mealName": "Breakfast",
+      "calories": 518,
+      "proteinG": 22,
+      "carbsG": 33,
+      "fatG": 12
+    },
+    {
+      "id": "rebgf0q0loj4",
+      "date": "2026-05-08",
+      "mealName": "Lunch",
+      "calories": 656,
+      "proteinG": 40,
+      "carbsG": 69,
+      "fatG": 22
+    },
+    {
+      "id": "umswj8bkloj4",
+      "date": "2026-05-08",
+      "mealName": "Dinner",
+      "calories": 598,
+      "proteinG": 42,
+      "carbsG": 69,
+      "fatG": 16
+    },
+    {
+      "id": "sh8tdnucloj4",
+      "date": "2026-05-10",
+      "mealName": "Breakfast",
+      "calories": 384,
+      "proteinG": 16,
+      "carbsG": 46,
+      "fatG": 12
+    },
+    {
+      "id": "ixaxsuiuloj4",
+      "date": "2026-05-10",
+      "mealName": "Lunch",
+      "calories": 620,
+      "proteinG": 30,
+      "carbsG": 58,
+      "fatG": 15
+    },
+    {
+      "id": "jhtk6968loj4",
+      "date": "2026-05-10",
+      "mealName": "Dinner",
+      "calories": 561,
+      "proteinG": 30,
+      "carbsG": 68,
+      "fatG": 20
+    },
+    {
+      "id": "8y7m9m80loj4",
+      "date": "2026-05-13",
+      "mealName": "Breakfast",
+      "calories": 444,
+      "proteinG": 17,
+      "carbsG": 55,
+      "fatG": 16
+    },
+    {
+      "id": "imk4mglrloj4",
+      "date": "2026-05-13",
+      "mealName": "Lunch",
+      "calories": 571,
+      "proteinG": 45,
+      "carbsG": 59,
+      "fatG": 17
+    },
+    {
+      "id": "y0l9kdc9loj4",
+      "date": "2026-05-13",
+      "mealName": "Dinner",
+      "calories": 506,
+      "proteinG": 27,
+      "carbsG": 48,
+      "fatG": 23
+    },
+    {
+      "id": "xrs64n7lloj4",
+      "date": "2026-05-14",
+      "mealName": "Lunch",
+      "calories": 792,
+      "proteinG": 32,
+      "carbsG": 57,
+      "fatG": 24
+    },
+    {
+      "id": "1nhxbh4jloj4",
+      "date": "2026-05-14",
+      "mealName": "Dinner",
+      "calories": 712,
+      "proteinG": 31,
+      "carbsG": 54,
+      "fatG": 24
+    },
+    {
+      "id": "4mmld7huloj4",
+      "date": "2026-05-15",
+      "mealName": "Breakfast",
+      "calories": 388,
+      "proteinG": 17,
+      "carbsG": 51,
+      "fatG": 10
+    },
+    {
+      "id": "alysj05bloj4",
+      "date": "2026-05-15",
+      "mealName": "Lunch",
+      "calories": 628,
+      "proteinG": 30,
+      "carbsG": 63,
+      "fatG": 23
+    },
+    {
+      "id": "gll5tz78loj4",
+      "date": "2026-05-15",
+      "mealName": "Dinner",
+      "calories": 595,
+      "proteinG": 42,
+      "carbsG": 71,
+      "fatG": 25
+    },
+    {
+      "id": "uasniun3loj4",
+      "date": "2026-05-16",
+      "mealName": "Lunch",
+      "calories": 741,
+      "proteinG": 39,
+      "carbsG": 56,
+      "fatG": 22
+    },
+    {
+      "id": "d8fsz0u1loj4",
+      "date": "2026-05-16",
+      "mealName": "Dinner",
+      "calories": 519,
+      "proteinG": 41,
+      "carbsG": 74,
+      "fatG": 21
+    },
+    {
+      "id": "cl75u7obloj4",
+      "date": "2026-05-17",
+      "mealName": "Breakfast",
+      "calories": 437,
+      "proteinG": 24,
+      "carbsG": 35,
+      "fatG": 12
+    },
+    {
+      "id": "j9rxun7nloj4",
+      "date": "2026-05-17",
+      "mealName": "Lunch",
+      "calories": 590,
+      "proteinG": 27,
+      "carbsG": 62,
+      "fatG": 18
+    },
+    {
+      "id": "4dd21tnwloj4",
+      "date": "2026-05-17",
+      "mealName": "Dinner",
+      "calories": 668,
+      "proteinG": 30,
+      "carbsG": 53,
+      "fatG": 20
+    },
+    {
+      "id": "147lq1ssloj4",
+      "date": "2026-05-19",
+      "mealName": "Breakfast",
+      "calories": 444,
+      "proteinG": 26,
+      "carbsG": 54,
+      "fatG": 13
+    },
+    {
+      "id": "88dlu5w1loj4",
+      "date": "2026-05-19",
+      "mealName": "Lunch",
+      "calories": 576,
+      "proteinG": 37,
+      "carbsG": 80,
+      "fatG": 22
+    },
+    {
+      "id": "ayj0hop0loj4",
+      "date": "2026-05-19",
+      "mealName": "Dinner",
+      "calories": 557,
+      "proteinG": 43,
+      "carbsG": 73,
+      "fatG": 20
+    },
+    {
+      "id": "q4jpqf5lloj4",
+      "date": "2026-05-20",
+      "mealName": "Lunch",
+      "calories": 676,
+      "proteinG": 43,
+      "carbsG": 51,
+      "fatG": 17
+    },
+    {
+      "id": "ju8rsqteloj4",
+      "date": "2026-05-20",
+      "mealName": "Dinner",
+      "calories": 505,
+      "proteinG": 40,
+      "carbsG": 55,
+      "fatG": 24
+    },
+    {
+      "id": "8k2xdateloj4",
+      "date": "2026-05-21",
+      "mealName": "Breakfast",
+      "calories": 406,
+      "proteinG": 25,
+      "carbsG": 35,
+      "fatG": 9
+    },
+    {
+      "id": "n9jykduiloj4",
+      "date": "2026-05-21",
+      "mealName": "Lunch",
+      "calories": 701,
+      "proteinG": 35,
+      "carbsG": 60,
+      "fatG": 17
+    },
+    {
+      "id": "rpcb3bx9loj4",
+      "date": "2026-05-21",
+      "mealName": "Dinner",
+      "calories": 640,
+      "proteinG": 37,
+      "carbsG": 71,
+      "fatG": 18
+    },
+    {
+      "id": "0a03c6pfloj4",
+      "date": "2026-05-23",
+      "mealName": "Breakfast",
+      "calories": 468,
+      "proteinG": 19,
+      "carbsG": 57,
+      "fatG": 16
+    },
+    {
+      "id": "9t7i0be9loj4",
+      "date": "2026-05-23",
+      "mealName": "Lunch",
+      "calories": 781,
+      "proteinG": 34,
+      "carbsG": 77,
+      "fatG": 20
+    },
+    {
+      "id": "45qw1oxyloj4",
+      "date": "2026-05-23",
+      "mealName": "Dinner",
+      "calories": 742,
+      "proteinG": 40,
+      "carbsG": 74,
+      "fatG": 24
+    },
+    {
+      "id": "ai0ke3b6loj4",
+      "date": "2026-05-24",
+      "mealName": "Breakfast",
+      "calories": 537,
+      "proteinG": 19,
+      "carbsG": 56,
+      "fatG": 18
+    },
+    {
+      "id": "wd772clbloj4",
+      "date": "2026-05-24",
+      "mealName": "Dinner",
+      "calories": 634,
+      "proteinG": 29,
+      "carbsG": 74,
+      "fatG": 19
+    },
+    {
+      "id": "sc9iziyaloj4",
+      "date": "2026-05-25",
+      "mealName": "Breakfast",
+      "calories": 530,
+      "proteinG": 25,
+      "carbsG": 45,
+      "fatG": 11
+    },
+    {
+      "id": "gtmbq6oqloj4",
+      "date": "2026-05-25",
+      "mealName": "Lunch",
+      "calories": 577,
+      "proteinG": 27,
+      "carbsG": 73,
+      "fatG": 15
+    },
+    {
+      "id": "k2fzavfvloj4",
+      "date": "2026-05-25",
+      "mealName": "Dinner",
+      "calories": 510,
+      "proteinG": 41,
+      "carbsG": 58,
+      "fatG": 20
+    },
+    {
+      "id": "7rm939gcloj4",
+      "date": "2026-05-26",
+      "mealName": "Breakfast",
+      "calories": 532,
+      "proteinG": 29,
+      "carbsG": 53,
+      "fatG": 16
+    },
+    {
+      "id": "pxx26oaoloj4",
+      "date": "2026-05-26",
+      "mealName": "Lunch",
+      "calories": 790,
+      "proteinG": 25,
+      "carbsG": 57,
+      "fatG": 21
+    },
+    {
+      "id": "6j5hzhreloj4",
+      "date": "2026-05-26",
+      "mealName": "Dinner",
+      "calories": 620,
+      "proteinG": 33,
+      "carbsG": 68,
+      "fatG": 22
+    },
+    {
+      "id": "im940nszloj4",
+      "date": "2026-05-27",
+      "mealName": "Breakfast",
+      "calories": 536,
+      "proteinG": 19,
+      "carbsG": 56,
+      "fatG": 8
+    },
+    {
+      "id": "pqu8dwsyloj4",
+      "date": "2026-05-27",
+      "mealName": "Lunch",
+      "calories": 578,
+      "proteinG": 33,
+      "carbsG": 57,
+      "fatG": 15
+    },
+    {
+      "id": "ws1wnxk9loj4",
+      "date": "2026-05-27",
+      "mealName": "Dinner",
+      "calories": 538,
+      "proteinG": 25,
+      "carbsG": 48,
+      "fatG": 17
+    },
+    {
+      "id": "v0p0yrsxloj4",
+      "date": "2026-05-28",
+      "mealName": "Breakfast",
+      "calories": 396,
+      "proteinG": 26,
+      "carbsG": 47,
+      "fatG": 16
+    },
+    {
+      "id": "i8nk6326loj4",
+      "date": "2026-05-28",
+      "mealName": "Lunch",
+      "calories": 737,
+      "proteinG": 40,
+      "carbsG": 65,
+      "fatG": 20
+    },
+    {
+      "id": "b5taggqxloj4",
+      "date": "2026-05-29",
+      "mealName": "Breakfast",
+      "calories": 430,
+      "proteinG": 24,
+      "carbsG": 31,
+      "fatG": 10
+    },
+    {
+      "id": "zaca666qloj4",
+      "date": "2026-05-29",
+      "mealName": "Lunch",
+      "calories": 782,
+      "proteinG": 27,
+      "carbsG": 71,
+      "fatG": 17
+    },
+    {
+      "id": "xfgpb8bxloj4",
+      "date": "2026-05-29",
+      "mealName": "Dinner",
+      "calories": 512,
+      "proteinG": 43,
+      "carbsG": 62,
+      "fatG": 20
+    },
+    {
+      "id": "1buacnrxloj4",
+      "date": "2026-05-30",
+      "mealName": "Breakfast",
+      "calories": 385,
+      "proteinG": 23,
+      "carbsG": 32,
+      "fatG": 14
+    },
+    {
+      "id": "00c87fj2loj4",
+      "date": "2026-05-30",
+      "mealName": "Lunch",
+      "calories": 796,
+      "proteinG": 43,
+      "carbsG": 51,
+      "fatG": 18
+    },
+    {
+      "id": "vte428w0loj4",
+      "date": "2026-05-30",
+      "mealName": "Dinner",
+      "calories": 547,
+      "proteinG": 35,
+      "carbsG": 46,
+      "fatG": 18
+    },
+    {
+      "id": "lhxsr0bkloj4",
+      "date": "2026-05-31",
+      "mealName": "Breakfast",
+      "calories": 380,
+      "proteinG": 24,
+      "carbsG": 36,
+      "fatG": 18
+    },
+    {
+      "id": "cs78hg8floj4",
+      "date": "2026-05-31",
+      "mealName": "Lunch",
+      "calories": 668,
+      "proteinG": 34,
+      "carbsG": 70,
+      "fatG": 18
+    },
+    {
+      "id": "ln23nn2uloj4",
+      "date": "2026-05-31",
+      "mealName": "Dinner",
+      "calories": 555,
+      "proteinG": 32,
+      "carbsG": 60,
+      "fatG": 18
+    },
+    {
+      "id": "5x1sg1wnloj4",
+      "date": "2026-06-01",
+      "mealName": "Lunch",
+      "calories": 690,
+      "proteinG": 40,
+      "carbsG": 59,
+      "fatG": 24
+    },
+    {
+      "id": "veifqcflloj4",
+      "date": "2026-06-01",
+      "mealName": "Dinner",
+      "calories": 571,
+      "proteinG": 29,
+      "carbsG": 52,
+      "fatG": 19
+    },
+    {
+      "id": "2fzfloj0loj4",
+      "date": "2026-06-02",
+      "mealName": "Breakfast",
+      "calories": 474,
+      "proteinG": 29,
+      "carbsG": 33,
+      "fatG": 12
+    },
+    {
+      "id": "ickfv72nloj4",
+      "date": "2026-06-02",
+      "mealName": "Lunch",
+      "calories": 724,
+      "proteinG": 27,
+      "carbsG": 54,
+      "fatG": 23
+    },
+    {
+      "id": "k7hk6azvloj4",
+      "date": "2026-06-03",
+      "mealName": "Breakfast",
+      "calories": 505,
+      "proteinG": 30,
+      "carbsG": 37,
+      "fatG": 11
+    },
+    {
+      "id": "qnlpqzq0loj4",
+      "date": "2026-06-03",
+      "mealName": "Lunch",
+      "calories": 703,
+      "proteinG": 27,
+      "carbsG": 58,
+      "fatG": 16
+    },
+    {
+      "id": "z0mizullloj4",
+      "date": "2026-06-03",
+      "mealName": "Dinner",
+      "calories": 535,
+      "proteinG": 40,
+      "carbsG": 73,
+      "fatG": 22
+    },
+    {
+      "id": "h131n7nxloj4",
+      "date": "2026-06-04",
+      "mealName": "Breakfast",
+      "calories": 377,
+      "proteinG": 20,
+      "carbsG": 33,
+      "fatG": 17
+    },
+    {
+      "id": "3ypkv82yloj4",
+      "date": "2026-06-04",
+      "mealName": "Lunch",
+      "calories": 613,
+      "proteinG": 43,
+      "carbsG": 68,
+      "fatG": 21
+    },
+    {
+      "id": "2tnpilgxloj4",
+      "date": "2026-06-04",
+      "mealName": "Dinner",
+      "calories": 521,
+      "proteinG": 40,
+      "carbsG": 60,
+      "fatG": 19
+    },
+    {
+      "id": "264zfqlzloj4",
+      "date": "2026-06-05",
+      "mealName": "Breakfast",
+      "calories": 393,
+      "proteinG": 19,
+      "carbsG": 45,
+      "fatG": 11
+    },
+    {
+      "id": "r41ge3ugloj4",
+      "date": "2026-06-05",
+      "mealName": "Lunch",
+      "calories": 730,
+      "proteinG": 36,
+      "carbsG": 79,
+      "fatG": 22
+    },
+    {
+      "id": "n9nb8nz7loj4",
+      "date": "2026-06-05",
+      "mealName": "Dinner",
+      "calories": 675,
+      "proteinG": 35,
+      "carbsG": 65,
+      "fatG": 24
+    },
+    {
+      "id": "hejkpam6loj4",
+      "date": "2026-06-06",
+      "mealName": "Breakfast",
+      "calories": 397,
+      "proteinG": 29,
+      "carbsG": 52,
+      "fatG": 12
+    },
+    {
+      "id": "c8sb2upxloj4",
+      "date": "2026-06-06",
+      "mealName": "Lunch",
+      "calories": 777,
+      "proteinG": 45,
+      "carbsG": 65,
+      "fatG": 21
+    },
+    {
+      "id": "vh1ypkanloj4",
+      "date": "2026-06-06",
+      "mealName": "Dinner",
+      "calories": 720,
+      "proteinG": 26,
+      "carbsG": 49,
+      "fatG": 24
+    },
+    {
+      "id": "kdx4dr22loj4",
+      "date": "2026-06-07",
+      "mealName": "Breakfast",
+      "calories": 432,
+      "proteinG": 30,
+      "carbsG": 36,
+      "fatG": 10
+    },
+    {
+      "id": "2zemceqyloj4",
+      "date": "2026-06-07",
+      "mealName": "Dinner",
+      "calories": 633,
+      "proteinG": 37,
+      "carbsG": 70,
+      "fatG": 16
+    },
+    {
+      "id": "1vl9b33mloj4",
+      "date": "2026-06-08",
+      "mealName": "Breakfast",
+      "calories": 414,
+      "proteinG": 22,
+      "carbsG": 34,
+      "fatG": 8
+    },
+    {
+      "id": "su678gialoj4",
+      "date": "2026-06-08",
+      "mealName": "Lunch",
+      "calories": 708,
+      "proteinG": 31,
+      "carbsG": 67,
+      "fatG": 17
+    },
+    {
+      "id": "rxkobodyloj4",
+      "date": "2026-06-08",
+      "mealName": "Dinner",
+      "calories": 631,
+      "proteinG": 37,
+      "carbsG": 45,
+      "fatG": 23
+    },
+    {
+      "id": "f6x3lfu7loj4",
+      "date": "2026-06-10",
+      "mealName": "Breakfast",
+      "calories": 500,
+      "proteinG": 27,
+      "carbsG": 49,
+      "fatG": 16
+    },
+    {
+      "id": "65kup31bloj4",
+      "date": "2026-06-10",
+      "mealName": "Lunch",
+      "calories": 579,
+      "proteinG": 39,
+      "carbsG": 67,
+      "fatG": 15
+    },
+    {
+      "id": "ipp5zxvsloj4",
+      "date": "2026-06-10",
+      "mealName": "Dinner",
+      "calories": 587,
+      "proteinG": 25,
+      "carbsG": 63,
+      "fatG": 15
+    },
+    {
+      "id": "aeqxoaoaloj4",
+      "date": "2026-06-11",
+      "mealName": "Breakfast",
+      "calories": 367,
+      "proteinG": 17,
+      "carbsG": 31,
+      "fatG": 12
+    },
+    {
+      "id": "68bz4ygbloj4",
+      "date": "2026-06-11",
+      "mealName": "Lunch",
+      "calories": 691,
+      "proteinG": 40,
+      "carbsG": 58,
+      "fatG": 16
+    },
+    {
+      "id": "7nijfkjeloj4",
+      "date": "2026-06-11",
+      "mealName": "Dinner",
+      "calories": 506,
+      "proteinG": 44,
+      "carbsG": 70,
+      "fatG": 19
+    },
+    {
+      "id": "gjhee3z7loj4",
+      "date": "2026-06-13",
+      "mealName": "Breakfast",
+      "calories": 522,
+      "proteinG": 25,
+      "carbsG": 45,
+      "fatG": 8
+    },
+    {
+      "id": "vtsausd4loj4",
+      "date": "2026-06-13",
+      "mealName": "Lunch",
+      "calories": 630,
+      "proteinG": 28,
+      "carbsG": 59,
+      "fatG": 21
+    },
+    {
+      "id": "unn35oqploj4",
+      "date": "2026-06-13",
+      "mealName": "Dinner",
+      "calories": 720,
+      "proteinG": 42,
+      "carbsG": 45,
+      "fatG": 18
+    },
+    {
+      "id": "xssatgvkloj4",
+      "date": "2026-06-14",
+      "mealName": "Lunch",
+      "calories": 652,
+      "proteinG": 41,
+      "carbsG": 63,
+      "fatG": 18
+    },
+    {
+      "id": "ia6i8kmkloj4",
+      "date": "2026-06-14",
+      "mealName": "Dinner",
+      "calories": 722,
+      "proteinG": 40,
+      "carbsG": 56,
+      "fatG": 21
+    },
+    {
+      "id": "xs05m277loj4",
+      "date": "2026-06-15",
+      "mealName": "Breakfast",
+      "calories": 375,
+      "proteinG": 22,
+      "carbsG": 53,
+      "fatG": 9
+    },
+    {
+      "id": "y3d7klq2loj4",
+      "date": "2026-06-15",
+      "mealName": "Lunch",
+      "calories": 782,
+      "proteinG": 29,
+      "carbsG": 67,
+      "fatG": 24
+    },
+    {
+      "id": "dzy4rm73loj4",
+      "date": "2026-06-15",
+      "mealName": "Dinner",
+      "calories": 687,
+      "proteinG": 34,
+      "carbsG": 62,
+      "fatG": 20
+    },
+    {
+      "id": "hjud0sz0loj4",
+      "date": "2026-06-16",
+      "mealName": "Breakfast",
+      "calories": 487,
+      "proteinG": 21,
+      "carbsG": 45,
+      "fatG": 9
+    },
+    {
+      "id": "b9q4dadfloj4",
+      "date": "2026-06-16",
+      "mealName": "Lunch",
+      "calories": 665,
+      "proteinG": 29,
+      "carbsG": 66,
+      "fatG": 22
+    },
+    {
+      "id": "di3ie9fyloj4",
+      "date": "2026-06-16",
+      "mealName": "Dinner",
+      "calories": 518,
+      "proteinG": 32,
+      "carbsG": 54,
+      "fatG": 24
+    },
+    {
+      "id": "9n8oklp0loj5",
+      "date": "2026-06-17",
+      "mealName": "Breakfast",
+      "calories": 490,
+      "proteinG": 27,
+      "carbsG": 42,
+      "fatG": 12
+    },
+    {
+      "id": "rtsdtj2hloj5",
+      "date": "2026-06-17",
+      "mealName": "Lunch",
+      "calories": 789,
+      "proteinG": 29,
+      "carbsG": 79,
+      "fatG": 24
+    },
+    {
+      "id": "dc184l9qloj5",
+      "date": "2026-06-17",
+      "mealName": "Dinner",
+      "calories": 749,
+      "proteinG": 39,
+      "carbsG": 60,
+      "fatG": 24
+    },
+    {
+      "id": "iu3n726bloj5",
+      "date": "2026-06-19",
+      "mealName": "Dinner",
+      "calories": 594,
+      "proteinG": 37,
+      "carbsG": 59,
+      "fatG": 24
+    },
+    {
+      "id": "5dvabfzhloj5",
+      "date": "2026-06-20",
+      "mealName": "Lunch",
+      "calories": 778,
+      "proteinG": 32,
+      "carbsG": 80,
+      "fatG": 25
+    },
+    {
+      "id": "hewexg92loj5",
+      "date": "2026-06-20",
+      "mealName": "Dinner",
+      "calories": 738,
+      "proteinG": 30,
+      "carbsG": 48,
+      "fatG": 20
+    },
+    {
+      "id": "c4oudiodloj5",
+      "date": "2026-06-21",
+      "mealName": "Breakfast",
+      "calories": 535,
+      "proteinG": 29,
+      "carbsG": 55,
+      "fatG": 12
+    },
+    {
+      "id": "dtn6atboloj5",
+      "date": "2026-06-21",
+      "mealName": "Lunch",
+      "calories": 593,
+      "proteinG": 30,
+      "carbsG": 80,
+      "fatG": 22
+    },
+    {
+      "id": "dpv66247loj5",
+      "date": "2026-06-21",
+      "mealName": "Dinner",
+      "calories": 566,
+      "proteinG": 34,
+      "carbsG": 69,
+      "fatG": 25
+    },
+    {
+      "id": "zyllaubuloj5",
+      "date": "2026-06-22",
+      "mealName": "Breakfast",
+      "calories": 547,
+      "proteinG": 27,
+      "carbsG": 34,
+      "fatG": 13
+    },
+    {
+      "id": "8puxdm3dloj5",
+      "date": "2026-06-22",
+      "mealName": "Lunch",
+      "calories": 747,
+      "proteinG": 38,
+      "carbsG": 78,
+      "fatG": 19
+    },
+    {
+      "id": "qgu6xcoxloj5",
+      "date": "2026-06-22",
+      "mealName": "Dinner",
+      "calories": 742,
+      "proteinG": 43,
+      "carbsG": 56,
+      "fatG": 24
+    },
+    {
+      "id": "vosid983loj5",
+      "date": "2026-06-23",
+      "mealName": "Breakfast",
+      "calories": 360,
+      "proteinG": 24,
+      "carbsG": 48,
+      "fatG": 8
+    },
+    {
+      "id": "sc6i801yloj5",
+      "date": "2026-06-23",
+      "mealName": "Lunch",
+      "calories": 768,
+      "proteinG": 37,
+      "carbsG": 69,
+      "fatG": 17
+    },
+    {
+      "id": "be4fb57jloj5",
+      "date": "2026-06-23",
+      "mealName": "Dinner",
+      "calories": 707,
+      "proteinG": 44,
+      "carbsG": 57,
+      "fatG": 20
+    },
+    {
+      "id": "o6fb5u1jloj5",
+      "date": "2026-06-24",
+      "mealName": "Breakfast",
+      "calories": 471,
+      "proteinG": 28,
+      "carbsG": 41,
+      "fatG": 16
+    },
+    {
+      "id": "5pvq1291loj5",
+      "date": "2026-06-24",
+      "mealName": "Lunch",
+      "calories": 573,
+      "proteinG": 36,
+      "carbsG": 65,
+      "fatG": 16
+    },
+    {
+      "id": "f8e925pqloj5",
+      "date": "2026-06-25",
+      "mealName": "Breakfast",
+      "calories": 465,
+      "proteinG": 28,
+      "carbsG": 53,
+      "fatG": 12
+    },
+    {
+      "id": "ok4bu3ealoj5",
+      "date": "2026-06-25",
+      "mealName": "Lunch",
+      "calories": 700,
+      "proteinG": 37,
+      "carbsG": 53,
+      "fatG": 19
+    },
+    {
+      "id": "1kflwi63loj5",
+      "date": "2026-06-26",
+      "mealName": "Breakfast",
+      "calories": 543,
+      "proteinG": 23,
+      "carbsG": 57,
+      "fatG": 10
+    },
+    {
+      "id": "1l117405loj5",
+      "date": "2026-06-26",
+      "mealName": "Lunch",
+      "calories": 674,
+      "proteinG": 40,
+      "carbsG": 77,
+      "fatG": 24
+    },
+    {
+      "id": "58436rabloj5",
+      "date": "2026-06-26",
+      "mealName": "Dinner",
+      "calories": 512,
+      "proteinG": 32,
+      "carbsG": 51,
+      "fatG": 17
+    },
+    {
+      "id": "hue7q2b8loj5",
+      "date": "2026-06-27",
+      "mealName": "Breakfast",
+      "calories": 497,
+      "proteinG": 18,
+      "carbsG": 57,
+      "fatG": 11
+    },
+    {
+      "id": "knag4nygloj5",
+      "date": "2026-06-27",
+      "mealName": "Lunch",
+      "calories": 609,
+      "proteinG": 26,
+      "carbsG": 74,
+      "fatG": 16
+    },
+    {
+      "id": "k30biflwloj5",
+      "date": "2026-06-27",
+      "mealName": "Dinner",
+      "calories": 706,
+      "proteinG": 42,
+      "carbsG": 72,
+      "fatG": 21
+    },
+    {
+      "id": "pxsssup5loj5",
+      "date": "2026-06-28",
+      "mealName": "Breakfast",
+      "calories": 367,
+      "proteinG": 28,
+      "carbsG": 43,
+      "fatG": 10
+    },
+    {
+      "id": "pjl3arpwloj5",
+      "date": "2026-06-28",
+      "mealName": "Lunch",
+      "calories": 795,
+      "proteinG": 39,
+      "carbsG": 59,
+      "fatG": 23
+    },
+    {
+      "id": "xo5nmxvkloj5",
+      "date": "2026-06-28",
+      "mealName": "Dinner",
+      "calories": 525,
+      "proteinG": 26,
+      "carbsG": 66,
+      "fatG": 19
+    },
+    {
+      "id": "kidc1xb5loj5",
+      "date": "2026-06-29",
+      "mealName": "Breakfast",
+      "calories": 427,
+      "proteinG": 28,
+      "carbsG": 36,
+      "fatG": 10
+    },
+    {
+      "id": "wgh4hjfcloj5",
+      "date": "2026-07-01",
+      "mealName": "Breakfast",
+      "calories": 548,
+      "proteinG": 21,
+      "carbsG": 53,
+      "fatG": 17
+    },
+    {
+      "id": "xp7colo8loj5",
+      "date": "2026-07-01",
+      "mealName": "Lunch",
+      "calories": 607,
+      "proteinG": 33,
+      "carbsG": 62,
+      "fatG": 16
+    },
+    {
+      "id": "9yvhgtrbloj5",
+      "date": "2026-07-01",
+      "mealName": "Dinner",
+      "calories": 590,
+      "proteinG": 31,
+      "carbsG": 72,
+      "fatG": 24
+    },
+    {
+      "id": "1xh3j0ifloj5",
+      "date": "2026-07-02",
+      "mealName": "Breakfast",
+      "calories": 416,
+      "proteinG": 16,
+      "carbsG": 44,
+      "fatG": 16
+    },
+    {
+      "id": "z4lgrnz7loj5",
+      "date": "2026-07-02",
+      "mealName": "Lunch",
+      "calories": 568,
+      "proteinG": 35,
+      "carbsG": 63,
+      "fatG": 20
+    },
+    {
+      "id": "kktegh7bloj5",
+      "date": "2026-07-02",
+      "mealName": "Dinner",
+      "calories": 647,
+      "proteinG": 27,
+      "carbsG": 58,
+      "fatG": 25
+    },
+    {
+      "id": "cbcz4g1ploj5",
+      "date": "2026-07-03",
+      "mealName": "Breakfast",
+      "calories": 537,
+      "proteinG": 25,
+      "carbsG": 45,
+      "fatG": 14
+    },
+    {
+      "id": "tqatq53dloj5",
+      "date": "2026-07-03",
+      "mealName": "Lunch",
+      "calories": 577,
+      "proteinG": 26,
+      "carbsG": 63,
+      "fatG": 18
+    },
+    {
+      "id": "ncxw7ql4loj5",
+      "date": "2026-07-04",
+      "mealName": "Breakfast",
+      "calories": 392,
+      "proteinG": 26,
+      "carbsG": 57,
+      "fatG": 9
+    },
+    {
+      "id": "bop1fhpuloj5",
+      "date": "2026-07-04",
+      "mealName": "Lunch",
+      "calories": 567,
+      "proteinG": 33,
+      "carbsG": 69,
+      "fatG": 16
+    },
+    {
+      "id": "x6y80035loj5",
+      "date": "2026-07-04",
+      "mealName": "Dinner",
+      "calories": 654,
+      "proteinG": 42,
+      "carbsG": 69,
+      "fatG": 16
+    },
+    {
+      "id": "7f5z00vfloj5",
+      "date": "2026-07-05",
+      "mealName": "Breakfast",
+      "calories": 459,
+      "proteinG": 16,
+      "carbsG": 46,
+      "fatG": 18
+    },
+    {
+      "id": "298o1gt8loj5",
+      "date": "2026-07-05",
+      "mealName": "Lunch",
+      "calories": 653,
+      "proteinG": 26,
+      "carbsG": 67,
+      "fatG": 23
+    },
+    {
+      "id": "2rjzn4v8loj5",
+      "date": "2026-07-05",
+      "mealName": "Dinner",
+      "calories": 644,
+      "proteinG": 38,
+      "carbsG": 73,
+      "fatG": 22
+    },
+    {
+      "id": "m27oi0n9loj5",
+      "date": "2026-07-06",
+      "mealName": "Breakfast",
+      "calories": 388,
+      "proteinG": 18,
+      "carbsG": 48,
+      "fatG": 10
+    },
+    {
+      "id": "dr32jh6iloj5",
+      "date": "2026-07-06",
+      "mealName": "Lunch",
+      "calories": 753,
+      "proteinG": 35,
+      "carbsG": 65,
+      "fatG": 25
+    },
+    {
+      "id": "c5k9plwyloj5",
+      "date": "2026-07-06",
+      "mealName": "Dinner",
+      "calories": 723,
+      "proteinG": 32,
+      "carbsG": 65,
+      "fatG": 16
+    },
+    {
+      "id": "0wicf8p3loj5",
+      "date": "2026-07-07",
+      "mealName": "Breakfast",
+      "calories": 423,
+      "proteinG": 28,
+      "carbsG": 33,
+      "fatG": 10
+    },
+    {
+      "id": "ywvlz2daloj5",
+      "date": "2026-07-07",
+      "mealName": "Dinner",
+      "calories": 693,
+      "proteinG": 28,
+      "carbsG": 59,
+      "fatG": 25
+    },
+    {
+      "id": "f4fwyvjbloj5",
+      "date": "2026-07-08",
+      "mealName": "Breakfast",
+      "calories": 473,
+      "proteinG": 26,
+      "carbsG": 35,
+      "fatG": 8
+    },
+    {
+      "id": "9jtp6yxqloj5",
+      "date": "2026-07-08",
+      "mealName": "Lunch",
+      "calories": 631,
+      "proteinG": 28,
+      "carbsG": 51,
+      "fatG": 22
+    },
+    {
+      "id": "totg6bbuloj5",
+      "date": "2026-07-10",
+      "mealName": "Breakfast",
+      "calories": 506,
+      "proteinG": 23,
+      "carbsG": 57,
+      "fatG": 13
+    },
+    {
+      "id": "unh6rk9jloj5",
+      "date": "2026-07-10",
+      "mealName": "Lunch",
+      "calories": 702,
+      "proteinG": 39,
+      "carbsG": 76,
+      "fatG": 17
+    },
+    {
+      "id": "tyao3ntuloj5",
+      "date": "2026-07-10",
+      "mealName": "Dinner",
+      "calories": 623,
+      "proteinG": 33,
+      "carbsG": 66,
+      "fatG": 17
+    },
+    {
+      "id": "cnun7xfmloj5",
+      "date": "2026-07-11",
+      "mealName": "Breakfast",
+      "calories": 549,
+      "proteinG": 23,
+      "carbsG": 56,
+      "fatG": 13
+    },
+    {
+      "id": "1cyuz6wgloj5",
+      "date": "2026-07-11",
+      "mealName": "Lunch",
+      "calories": 713,
+      "proteinG": 27,
+      "carbsG": 51,
+      "fatG": 19
+    },
+    {
+      "id": "mnj6i87jloj5",
+      "date": "2026-07-11",
+      "mealName": "Dinner",
+      "calories": 573,
+      "proteinG": 32,
+      "carbsG": 48,
+      "fatG": 21
+    },
+    {
+      "id": "ppx3ainqloj5",
+      "date": "2026-07-12",
+      "mealName": "Lunch",
+      "calories": 615,
+      "proteinG": 43,
+      "carbsG": 53,
+      "fatG": 18
+    },
+    {
+      "id": "rwdo1ewbloj5",
+      "date": "2026-07-12",
+      "mealName": "Dinner",
+      "calories": 692,
+      "proteinG": 44,
+      "carbsG": 48,
+      "fatG": 16
+    },
+    {
+      "id": "bg9z8482loj5",
+      "date": "2026-07-13",
+      "mealName": "Lunch",
+      "calories": 594,
+      "proteinG": 28,
+      "carbsG": 71,
+      "fatG": 18
+    },
+    {
+      "id": "uiqcxbi1loj5",
+      "date": "2026-07-13",
+      "mealName": "Dinner",
+      "calories": 610,
+      "proteinG": 34,
+      "carbsG": 54,
+      "fatG": 20
+    },
+    {
+      "id": "9cyt93e9loj5",
+      "date": "2026-07-14",
+      "mealName": "Breakfast",
+      "calories": 534,
+      "proteinG": 24,
+      "carbsG": 59,
+      "fatG": 17
+    },
+    {
+      "id": "ns1xxf37loj5",
+      "date": "2026-07-14",
+      "mealName": "Dinner",
+      "calories": 645,
+      "proteinG": 37,
+      "carbsG": 55,
+      "fatG": 20
+    },
+    {
+      "id": "tb9uo8gwloj5",
+      "date": "2026-07-15",
+      "mealName": "Breakfast",
+      "calories": 457,
+      "proteinG": 30,
+      "carbsG": 39,
+      "fatG": 9
+    },
+    {
+      "id": "nye2r2celoj5",
+      "date": "2026-07-15",
+      "mealName": "Lunch",
+      "calories": 774,
+      "proteinG": 38,
+      "carbsG": 68,
+      "fatG": 18
+    },
+    {
+      "id": "xa8xxbh5loj5",
+      "date": "2026-07-15",
+      "mealName": "Dinner",
+      "calories": 617,
+      "proteinG": 27,
+      "carbsG": 56,
+      "fatG": 21
+    },
+    {
+      "id": "nwa5efsxloj5",
+      "date": "2026-07-16",
+      "mealName": "Breakfast",
+      "calories": 411,
+      "proteinG": 21,
+      "carbsG": 33,
+      "fatG": 17
+    },
+    {
+      "id": "zn7ovm3bloj5",
+      "date": "2026-07-16",
+      "mealName": "Lunch",
+      "calories": 670,
+      "proteinG": 45,
+      "carbsG": 75,
+      "fatG": 19
+    },
+    {
+      "id": "zeu1f715loj5",
+      "date": "2026-07-16",
+      "mealName": "Dinner",
+      "calories": 559,
+      "proteinG": 33,
+      "carbsG": 70,
+      "fatG": 18
+    },
+    {
+      "id": "sdmzs0d5loj5",
+      "date": "2026-07-18",
+      "mealName": "Breakfast",
+      "calories": 446,
+      "proteinG": 29,
+      "carbsG": 57,
+      "fatG": 18
+    },
+    {
+      "id": "5fso32d9loj5",
+      "date": "2026-07-18",
+      "mealName": "Lunch",
+      "calories": 684,
+      "proteinG": 31,
+      "carbsG": 62,
+      "fatG": 18
+    },
+    {
+      "id": "0wd025o3loj5",
+      "date": "2026-07-18",
+      "mealName": "Dinner",
+      "calories": 675,
+      "proteinG": 26,
+      "carbsG": 50,
+      "fatG": 19
+    },
+    {
+      "id": "rfqena1dloj5",
+      "date": "2026-07-19",
+      "mealName": "Breakfast",
+      "calories": 381,
+      "proteinG": 25,
+      "carbsG": 48,
+      "fatG": 12
+    },
+    {
+      "id": "gis19hkhloj5",
+      "date": "2026-07-19",
+      "mealName": "Lunch",
+      "calories": 745,
+      "proteinG": 45,
+      "carbsG": 73,
+      "fatG": 16
+    },
+    {
+      "id": "q0cbsovkloj5",
+      "date": "2026-07-19",
+      "mealName": "Dinner",
+      "calories": 525,
+      "proteinG": 27,
+      "carbsG": 54,
+      "fatG": 15
+    },
+    {
+      "id": "ifr5vyyoloj5",
+      "date": "2026-07-21",
+      "mealName": "Breakfast",
+      "calories": 520,
+      "proteinG": 18,
+      "carbsG": 41,
+      "fatG": 11
+    },
+    {
+      "id": "77k9fg7qloj5",
+      "date": "2026-07-21",
+      "mealName": "Lunch",
+      "calories": 634,
+      "proteinG": 37,
+      "carbsG": 72,
+      "fatG": 19
+    },
+    {
+      "id": "y5o7hwgiloj5",
+      "date": "2026-07-21",
+      "mealName": "Dinner",
+      "calories": 576,
+      "proteinG": 39,
+      "carbsG": 73,
+      "fatG": 17
+    },
+    {
+      "id": "13b3796floj5",
+      "date": "2026-07-22",
+      "mealName": "Breakfast",
+      "calories": 414,
+      "proteinG": 18,
+      "carbsG": 38,
+      "fatG": 10
+    },
+    {
+      "id": "jilb6df9loj5",
+      "date": "2026-07-22",
+      "mealName": "Lunch",
+      "calories": 580,
+      "proteinG": 34,
+      "carbsG": 72,
+      "fatG": 21
+    },
+    {
+      "id": "m8qw4kpvloj5",
+      "date": "2026-07-22",
+      "mealName": "Dinner",
+      "calories": 653,
+      "proteinG": 36,
+      "carbsG": 69,
+      "fatG": 17
+    },
+    {
+      "id": "hpsg500jloj5",
+      "date": "2026-07-23",
+      "mealName": "Dinner",
+      "calories": 653,
+      "proteinG": 30,
+      "carbsG": 60,
+      "fatG": 16
+    },
+    {
+      "id": "36j9isu8loj5",
+      "date": "2026-07-24",
+      "mealName": "Breakfast",
+      "calories": 420,
+      "proteinG": 18,
+      "carbsG": 31,
+      "fatG": 8
+    },
+    {
+      "id": "61tadu1gloj5",
+      "date": "2026-07-24",
+      "mealName": "Lunch",
+      "calories": 693,
+      "proteinG": 28,
+      "carbsG": 70,
+      "fatG": 21
+    },
+    {
+      "id": "keao9926loj5",
+      "date": "2026-07-24",
+      "mealName": "Dinner",
+      "calories": 593,
+      "proteinG": 39,
+      "carbsG": 74,
+      "fatG": 15
+    },
+    {
+      "id": "82hnzxjxloj5",
+      "date": "2026-07-25",
+      "mealName": "Lunch",
+      "calories": 792,
+      "proteinG": 36,
+      "carbsG": 61,
+      "fatG": 23
+    },
+    {
+      "id": "ee13y802loj5",
+      "date": "2026-07-25",
+      "mealName": "Dinner",
+      "calories": 537,
+      "proteinG": 38,
+      "carbsG": 56,
+      "fatG": 16
+    },
+    {
+      "id": "a4f87dokloj5",
+      "date": "2026-07-26",
+      "mealName": "Breakfast",
+      "calories": 387,
+      "proteinG": 23,
+      "carbsG": 38,
+      "fatG": 13
+    },
+    {
+      "id": "2lh5fbcrloj5",
+      "date": "2026-07-26",
+      "mealName": "Lunch",
+      "calories": 719,
+      "proteinG": 30,
+      "carbsG": 74,
+      "fatG": 18
+    },
+    {
+      "id": "2xk4h8qrloj5",
+      "date": "2026-07-26",
+      "mealName": "Dinner",
+      "calories": 684,
+      "proteinG": 32,
+      "carbsG": 72,
+      "fatG": 24
+    },
+    {
+      "id": "ks7ucroeloj5",
+      "date": "2026-07-27",
+      "mealName": "Breakfast",
+      "calories": 465,
+      "proteinG": 16,
+      "carbsG": 35,
+      "fatG": 8
+    },
+    {
+      "id": "5agqv4r4loj5",
+      "date": "2026-07-27",
+      "mealName": "Lunch",
+      "calories": 552,
+      "proteinG": 44,
+      "carbsG": 76,
+      "fatG": 15
+    },
+    {
+      "id": "w6rpsu8gloj5",
+      "date": "2026-07-28",
+      "mealName": "Breakfast",
+      "calories": 353,
+      "proteinG": 25,
+      "carbsG": 50,
+      "fatG": 16
+    },
+    {
+      "id": "u2ncx318loj5",
+      "date": "2026-07-28",
+      "mealName": "Dinner",
+      "calories": 725,
+      "proteinG": 39,
+      "carbsG": 50,
+      "fatG": 23
+    },
+    {
+      "id": "540djhalloj5",
+      "date": "2026-07-29",
+      "mealName": "Breakfast",
+      "calories": 415,
+      "proteinG": 23,
+      "carbsG": 32,
+      "fatG": 10
+    },
+    {
+      "id": "h8j4kl9wloj5",
+      "date": "2026-07-29",
+      "mealName": "Lunch",
+      "calories": 569,
+      "proteinG": 34,
+      "carbsG": 56,
+      "fatG": 24
+    },
+    {
+      "id": "3i4di82sloj5",
+      "date": "2026-07-29",
+      "mealName": "Dinner",
+      "calories": 596,
+      "proteinG": 29,
+      "carbsG": 57,
+      "fatG": 20
+    },
+    {
+      "id": "7oe1073bloj5",
+      "date": "2026-07-31",
+      "mealName": "Lunch",
+      "calories": 636,
+      "proteinG": 25,
+      "carbsG": 80,
+      "fatG": 25
+    },
+    {
+      "id": "0o7m0ihkloj5",
+      "date": "2026-07-31",
+      "mealName": "Dinner",
+      "calories": 563,
+      "proteinG": 44,
+      "carbsG": 51,
+      "fatG": 23
+    },
+    {
+      "id": "19ixpa90loj5",
+      "date": "2026-08-02",
+      "mealName": "Breakfast",
+      "calories": 484,
+      "proteinG": 16,
+      "carbsG": 59,
+      "fatG": 8
+    },
+    {
+      "id": "y2dr5939loj5",
+      "date": "2026-08-02",
+      "mealName": "Lunch",
+      "calories": 712,
+      "proteinG": 32,
+      "carbsG": 55,
+      "fatG": 21
+    },
+    {
+      "id": "t3br5unfloj5",
+      "date": "2026-08-02",
+      "mealName": "Dinner",
+      "calories": 563,
+      "proteinG": 35,
+      "carbsG": 72,
+      "fatG": 20
+    },
+    {
+      "id": "us3lgxh7loj5",
+      "date": "2026-08-03",
+      "mealName": "Breakfast",
+      "calories": 383,
+      "proteinG": 28,
+      "carbsG": 41,
+      "fatG": 17
+    },
+    {
+      "id": "jgf5krduloj5",
+      "date": "2026-08-03",
+      "mealName": "Lunch",
+      "calories": 723,
+      "proteinG": 32,
+      "carbsG": 76,
+      "fatG": 16
+    },
+    {
+      "id": "1frfmvf3loj5",
+      "date": "2026-08-04",
+      "mealName": "Dinner",
+      "calories": 727,
+      "proteinG": 35,
+      "carbsG": 50,
+      "fatG": 21
+    },
+    {
+      "id": "algw0l8vloj5",
+      "date": "2026-08-05",
+      "mealName": "Breakfast",
+      "calories": 501,
+      "proteinG": 28,
+      "carbsG": 37,
+      "fatG": 16
+    },
+    {
+      "id": "4n09x7v9loj5",
+      "date": "2026-08-05",
+      "mealName": "Lunch",
+      "calories": 632,
+      "proteinG": 33,
+      "carbsG": 61,
+      "fatG": 16
+    },
+    {
+      "id": "9mvf1wiqloj5",
+      "date": "2026-08-05",
+      "mealName": "Dinner",
+      "calories": 747,
+      "proteinG": 44,
+      "carbsG": 73,
+      "fatG": 21
+    },
+    {
+      "id": "cfwvw4dyloj5",
+      "date": "2026-08-06",
+      "mealName": "Breakfast",
+      "calories": 498,
+      "proteinG": 30,
+      "carbsG": 59,
+      "fatG": 17
+    },
+    {
+      "id": "353nrtqbloj5",
+      "date": "2026-08-06",
+      "mealName": "Lunch",
+      "calories": 764,
+      "proteinG": 40,
+      "carbsG": 51,
+      "fatG": 21
+    },
+    {
+      "id": "u88u0vhrloj5",
+      "date": "2026-08-06",
+      "mealName": "Dinner",
+      "calories": 550,
+      "proteinG": 43,
+      "carbsG": 75,
+      "fatG": 18
+    },
+    {
+      "id": "g89gv6ojloj5",
+      "date": "2026-08-07",
+      "mealName": "Lunch",
+      "calories": 690,
+      "proteinG": 38,
+      "carbsG": 65,
+      "fatG": 22
+    },
+    {
+      "id": "xj7al0iuloj5",
+      "date": "2026-08-07",
+      "mealName": "Dinner",
+      "calories": 694,
+      "proteinG": 32,
+      "carbsG": 50,
+      "fatG": 23
+    },
+    {
+      "id": "wjvsvbpaloj5",
+      "date": "2026-08-09",
+      "mealName": "Breakfast",
+      "calories": 498,
+      "proteinG": 24,
+      "carbsG": 57,
+      "fatG": 15
+    },
+    {
+      "id": "2zwglwrbloj5",
+      "date": "2026-08-09",
+      "mealName": "Lunch",
+      "calories": 657,
+      "proteinG": 41,
+      "carbsG": 63,
+      "fatG": 19
+    },
+    {
+      "id": "1j69yuc1loj5",
+      "date": "2026-08-10",
+      "mealName": "Breakfast",
+      "calories": 440,
+      "proteinG": 27,
+      "carbsG": 46,
+      "fatG": 15
+    },
+    {
+      "id": "5e67szqqloj5",
+      "date": "2026-08-10",
+      "mealName": "Lunch",
+      "calories": 751,
+      "proteinG": 38,
+      "carbsG": 67,
+      "fatG": 18
+    },
+    {
+      "id": "ry3y4uh0loj5",
+      "date": "2026-08-10",
+      "mealName": "Dinner",
+      "calories": 727,
+      "proteinG": 32,
+      "carbsG": 51,
+      "fatG": 16
+    },
+    {
+      "id": "e3x0jqpjloj5",
+      "date": "2026-08-12",
+      "mealName": "Breakfast",
+      "calories": 528,
+      "proteinG": 21,
+      "carbsG": 59,
+      "fatG": 12
+    },
+    {
+      "id": "qj2mpz0ploj5",
+      "date": "2026-08-12",
+      "mealName": "Lunch",
+      "calories": 747,
+      "proteinG": 31,
+      "carbsG": 63,
+      "fatG": 24
+    },
+    {
+      "id": "c9koajpsloj5",
+      "date": "2026-08-12",
+      "mealName": "Dinner",
+      "calories": 638,
+      "proteinG": 31,
+      "carbsG": 47,
+      "fatG": 15
+    },
+    {
+      "id": "agvm0hw5loj5",
+      "date": "2026-08-13",
+      "mealName": "Breakfast",
+      "calories": 511,
+      "proteinG": 30,
+      "carbsG": 47,
+      "fatG": 10
+    },
+    {
+      "id": "e5ik9jn4loj5",
+      "date": "2026-08-13",
+      "mealName": "Lunch",
+      "calories": 676,
+      "proteinG": 38,
+      "carbsG": 74,
+      "fatG": 22
+    },
+    {
+      "id": "ffmzvo8tloj5",
+      "date": "2026-08-14",
+      "mealName": "Breakfast",
+      "calories": 480,
+      "proteinG": 28,
+      "carbsG": 55,
+      "fatG": 14
+    },
+    {
+      "id": "xvntw5q1loj5",
+      "date": "2026-08-14",
+      "mealName": "Lunch",
+      "calories": 719,
+      "proteinG": 27,
+      "carbsG": 65,
+      "fatG": 25
+    },
+    {
+      "id": "rn0kyjyiloj5",
+      "date": "2026-08-14",
+      "mealName": "Dinner",
+      "calories": 695,
+      "proteinG": 39,
+      "carbsG": 46,
+      "fatG": 25
+    },
+    {
+      "id": "ubdat7taloj5",
+      "date": "2026-08-15",
+      "mealName": "Breakfast",
+      "calories": 422,
+      "proteinG": 20,
+      "carbsG": 58,
+      "fatG": 9
+    },
+    {
+      "id": "00it5dl3loj5",
+      "date": "2026-08-15",
+      "mealName": "Lunch",
+      "calories": 763,
+      "proteinG": 28,
+      "carbsG": 78,
+      "fatG": 24
+    },
+    {
+      "id": "sc6b7lrxloj5",
+      "date": "2026-08-15",
+      "mealName": "Dinner",
+      "calories": 750,
+      "proteinG": 35,
+      "carbsG": 62,
+      "fatG": 16
+    },
+    {
+      "id": "rgdv26wrloj5",
+      "date": "2026-08-16",
+      "mealName": "Dinner",
+      "calories": 550,
+      "proteinG": 26,
+      "carbsG": 46,
+      "fatG": 19
+    }
+  ]
+}

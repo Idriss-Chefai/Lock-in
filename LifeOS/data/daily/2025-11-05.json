@@ -1,0 +1,42 @@
+{
+  "date": "2025-11-05",
+  "sleep": {
+    "hours": 7.4,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "udx6yt4oloj1",
+      "type": "Bench Press"
+    },
+    {
+      "id": "r8noil6wloj1",
+      "type": "Yoga",
+      "durationMinutes": 19
+    }
+  ],
+  "tasks": [
+    {
+      "id": "6xexk4pnloj1",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "4s4hppluloj1",
+      "description": "Groceries",
+      "amount": 64.16,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

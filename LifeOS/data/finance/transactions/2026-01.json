@@ -1,0 +1,122 @@
+{
+  "month": "2026-01",
+  "transactions": [
+    {
+      "id": "k24i8iollope",
+      "date": "2026-01-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "fjymjf4glope",
+      "date": "2026-01-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "no5yes0glope",
+      "date": "2026-01-05",
+      "description": "Groceries",
+      "amount": 45.2,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "vn7pkbxmlope",
+      "date": "2026-01-21",
+      "description": "Dinner out",
+      "amount": 28.76,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "1lvq99pllope",
+      "date": "2026-01-22",
+      "description": "Groceries",
+      "amount": 30.01,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "m92eqxbplope",
+      "date": "2026-01-03",
+      "description": "Dinner out",
+      "amount": 52.67,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "xd88tb3jlope",
+      "date": "2026-01-20",
+      "description": "Pharmacy",
+      "amount": 39.59,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "fcddi2qrlope",
+      "date": "2026-01-08",
+      "description": "Dinner out",
+      "amount": 54.99,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "z7ommai0lope",
+      "date": "2026-01-18",
+      "description": "Uber",
+      "amount": 48.13,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "da6e0atylope",
+      "date": "2026-01-23",
+      "description": "Dinner out",
+      "amount": 57.09,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "2xtq5joelope",
+      "date": "2026-01-10",
+      "description": "Streaming",
+      "amount": 37.93,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "ngpaawotlope",
+      "date": "2026-01-12",
+      "description": "Uber",
+      "amount": 58.73,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "djhg8feolope",
+      "date": "2026-01-27",
+      "description": "Pharmacy",
+      "amount": 38.87,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    }
+  ]
+}

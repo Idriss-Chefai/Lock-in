@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-13",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 5,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "pfd6frijloj5",
+      "type": "Bench Press"
+    },
+    {
+      "id": "ou0yb9e3loj5",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "nemo6fo0loj5",
+      "description": "Groceries",
+      "amount": 42,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

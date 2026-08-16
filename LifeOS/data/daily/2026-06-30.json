@@ -1,0 +1,25 @@
+{
+  "date": "2026-06-30",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "xud72czeloj5",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

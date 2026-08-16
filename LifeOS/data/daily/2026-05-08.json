@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-08",
+  "sleep": {
+    "hours": 7.6,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "wivcyj5nloj4",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "auu3ruxiloj4",
+      "description": "Coffee",
+      "amount": 3.45,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

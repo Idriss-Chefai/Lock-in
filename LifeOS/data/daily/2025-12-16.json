@@ -1,0 +1,32 @@
+{
+  "date": "2025-12-16",
+  "sleep": {
+    "hours": 6,
+    "quality": 6
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 4,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "j7taykmploj3",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "p19s3knkloj3",
+      "description": "Streaming",
+      "amount": 9.71,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

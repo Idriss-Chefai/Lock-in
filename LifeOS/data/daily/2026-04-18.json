@@ -1,0 +1,49 @@
+{
+  "date": "2026-04-18",
+  "sleep": {
+    "hours": 7.6,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "ihayiqcsloj4",
+      "type": "Yoga",
+      "durationMinutes": 34
+    },
+    {
+      "id": "c2kovtx1loj4",
+      "type": "Running",
+      "durationMinutes": 36
+    }
+  ],
+  "tasks": [
+    {
+      "id": "3nwj0vk2loj4",
+      "title": "Review project backlog",
+      "done": true
+    },
+    {
+      "id": "lsiq6zneloj4",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "697l7op1loj4",
+      "description": "Groceries",
+      "amount": 30.65,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

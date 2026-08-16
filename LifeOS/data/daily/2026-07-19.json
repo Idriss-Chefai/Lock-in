@@ -1,0 +1,39 @@
+{
+  "date": "2026-07-19",
+  "sleep": {
+    "hours": 6.3,
+    "quality": 6
+  },
+  "energy": 6,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "4yzg6pl1loj5",
+      "type": "Running",
+      "durationMinutes": 46
+    }
+  ],
+  "tasks": [
+    {
+      "id": "4pjijxm2loj5",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "e9263tgoloj5",
+      "description": "Streaming",
+      "amount": 10.62,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

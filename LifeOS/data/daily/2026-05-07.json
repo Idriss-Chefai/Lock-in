@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-07",
+  "sleep": {
+    "hours": 7.6,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "qis58b20loj4",
+      "type": "Yoga",
+      "durationMinutes": 36
+    },
+    {
+      "id": "b3gql87floj4",
+      "type": "Deadlift"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

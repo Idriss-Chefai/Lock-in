@@ -1,0 +1,31 @@
+{
+  "date": "2025-08-17",
+  "sleep": {
+    "hours": 7.5,
+    "quality": 8
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "7ehcrykvloj0",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "x0kzvxy8loj0",
+      "description": "Streaming",
+      "amount": 12.69,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

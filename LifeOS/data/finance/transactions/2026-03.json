@@ -1,0 +1,113 @@
+{
+  "month": "2026-03",
+  "transactions": [
+    {
+      "id": "cr4ijuadlopc",
+      "date": "2026-03-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "lddw79rzlopc",
+      "date": "2026-03-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "9lhzgtvzlopc",
+      "date": "2026-03-03",
+      "description": "Dinner out",
+      "amount": 55.34,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "o24r868wlopc",
+      "date": "2026-03-02",
+      "description": "Streaming",
+      "amount": 20.64,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "i1sglm4alopc",
+      "date": "2026-03-21",
+      "description": "Uber",
+      "amount": 15.58,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "wwm4jgeqlopc",
+      "date": "2026-03-08",
+      "description": "Uber",
+      "amount": 41.76,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "cdu9kjxilopc",
+      "date": "2026-03-17",
+      "description": "Streaming",
+      "amount": 22.13,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "2qfb5oqqlopc",
+      "date": "2026-03-27",
+      "description": "Uber",
+      "amount": 28.82,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "jdgm122alopc",
+      "date": "2026-03-20",
+      "description": "Dinner out",
+      "amount": 45.73,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "ml10uxemlopc",
+      "date": "2026-03-26",
+      "description": "Groceries",
+      "amount": 37.29,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "vnubw7ovlopc",
+      "date": "2026-03-24",
+      "description": "Uber",
+      "amount": 56.55,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "piakwcnclopc",
+      "date": "2026-03-08",
+      "description": "Dinner out",
+      "amount": 18.59,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    }
+  ]
+}

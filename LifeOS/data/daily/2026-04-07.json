@@ -1,0 +1,36 @@
+{
+  "date": "2026-04-07",
+  "sleep": {
+    "hours": 7.4,
+    "quality": 7
+  },
+  "energy": 8,
+  "mood": 9,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "4b8vz434loj4",
+      "type": "Deadlift"
+    },
+    {
+      "id": "987vysouloj4",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "03slurquloj4",
+      "description": "Groceries",
+      "amount": 40.93,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

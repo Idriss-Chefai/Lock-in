@@ -1,0 +1,34 @@
+{
+  "date": "2025-11-10",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "a44ra5ooloj1",
+      "type": "Pull-ups"
+    },
+    {
+      "id": "qhkjlcp3loj1",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "9oj57s0xloj1",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

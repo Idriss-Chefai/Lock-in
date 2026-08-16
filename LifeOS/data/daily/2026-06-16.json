@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-16",
+  "sleep": {
+    "hours": 6.2,
+    "quality": 6
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "e2u4zwuwloj4",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "c27c4mqfloj4",
+      "description": "Coffee",
+      "amount": 4.64,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

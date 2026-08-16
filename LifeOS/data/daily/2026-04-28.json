@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-28",
+  "sleep": {
+    "hours": 6.7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "8g9p4saxloj4",
+      "type": "Running",
+      "durationMinutes": 38
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

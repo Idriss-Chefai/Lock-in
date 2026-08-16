@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-27",
+  "sleep": {
+    "hours": 6.7,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 4,
+  "productivity": 3,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "ryxc2wdrloj4",
+      "type": "Deadlift"
+    },
+    {
+      "id": "fs7kwaf6loj4",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "bvpmv228loj4",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "c9nel7hzloj4",
+      "description": "Uber",
+      "amount": 9.27,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

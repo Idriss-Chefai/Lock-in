@@ -1,0 +1,32 @@
+{
+  "date": "2025-12-23",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "h7vd2ueyloj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "xqjnxunkloj3",
+      "description": "Uber",
+      "amount": 12.93,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

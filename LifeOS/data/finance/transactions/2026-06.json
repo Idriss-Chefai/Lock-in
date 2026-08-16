@@ -1,0 +1,122 @@
+{
+  "month": "2026-06",
+  "transactions": [
+    {
+      "id": "3qgut2galopa",
+      "date": "2026-06-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "1j309j78lopa",
+      "date": "2026-06-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "4oufg2nxlopa",
+      "date": "2026-06-08",
+      "description": "Uber",
+      "amount": 16.55,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "7vq639orlopa",
+      "date": "2026-06-17",
+      "description": "Pharmacy",
+      "amount": 57.99,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "5z8a3nuelopa",
+      "date": "2026-06-21",
+      "description": "Streaming",
+      "amount": 30.94,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "00m6pp3olopa",
+      "date": "2026-06-20",
+      "description": "Uber",
+      "amount": 40.35,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "gkp6o227lopa",
+      "date": "2026-06-02",
+      "description": "Dinner out",
+      "amount": 23.15,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "ndukpeqglopa",
+      "date": "2026-06-22",
+      "description": "Dinner out",
+      "amount": 59.25,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "7x1jycqqlopa",
+      "date": "2026-06-26",
+      "description": "Streaming",
+      "amount": 18.86,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "hxxwjou3lopa",
+      "date": "2026-06-27",
+      "description": "Streaming",
+      "amount": 24.25,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "5iidifiolopa",
+      "date": "2026-06-15",
+      "description": "Dinner out",
+      "amount": 48.55,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "3fenxxi8lopa",
+      "date": "2026-06-23",
+      "description": "Dinner out",
+      "amount": 13.41,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "j7612ehxlopa",
+      "date": "2026-06-03",
+      "description": "Uber",
+      "amount": 16.96,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    }
+  ]
+}

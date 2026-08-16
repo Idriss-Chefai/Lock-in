@@ -1,0 +1,122 @@
+{
+  "month": "2026-05",
+  "transactions": [
+    {
+      "id": "tu6i4o6hlopb",
+      "date": "2026-05-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "eylqmcfblopb",
+      "date": "2026-05-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "gz0gol14lopb",
+      "date": "2026-05-16",
+      "description": "Streaming",
+      "amount": 13.46,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "yro98xcklopb",
+      "date": "2026-05-04",
+      "description": "Dinner out",
+      "amount": 58.32,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "3e23gv19lopb",
+      "date": "2026-05-19",
+      "description": "Streaming",
+      "amount": 53.01,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "4f6w54hmlopb",
+      "date": "2026-05-21",
+      "description": "Streaming",
+      "amount": 66.1,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "dpq5297dlopb",
+      "date": "2026-05-24",
+      "description": "Dinner out",
+      "amount": 45.08,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "0sd7rkhplopb",
+      "date": "2026-05-17",
+      "description": "Groceries",
+      "amount": 21.02,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "fkm3w3itlopb",
+      "date": "2026-05-23",
+      "description": "Dinner out",
+      "amount": 16.11,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "n9pe8mwplopb",
+      "date": "2026-05-10",
+      "description": "Groceries",
+      "amount": 10.84,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "7ecz95xrlopb",
+      "date": "2026-05-21",
+      "description": "Dinner out",
+      "amount": 33.63,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "zaejka3ylopb",
+      "date": "2026-05-10",
+      "description": "Dinner out",
+      "amount": 51.19,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "g8cui9pklopb",
+      "date": "2026-05-20",
+      "description": "Dinner out",
+      "amount": 44.84,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-24",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "trvjye5kloj3",
+      "type": "Yoga",
+      "durationMinutes": 26
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "akurme1sloj3",
+      "description": "Groceries",
+      "amount": 26.69,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

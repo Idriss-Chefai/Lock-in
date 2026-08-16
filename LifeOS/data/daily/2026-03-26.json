@@ -1,0 +1,32 @@
+{
+  "date": "2026-03-26",
+  "sleep": {
+    "hours": 7.7,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "gdw4ad3mloj3",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "9co6bc27loj3",
+      "description": "Coffee",
+      "amount": 3.31,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Idriss",
+  "theme": "system",
+  "weekStartsOn": "monday",
+  "currency": "USD",
+  "displayMode": "wide",
+  "fontScale": 1,
+  "hideTopBar": true,
+  "fullscreen": true,
+  "windowControlsOnHover": true,
+  "dataVersion": 1
+}

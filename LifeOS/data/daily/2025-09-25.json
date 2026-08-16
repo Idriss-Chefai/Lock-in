@@ -1,0 +1,34 @@
+{
+  "date": "2025-09-25",
+  "sleep": {
+    "hours": 6.7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "tcl8f4eqloj1",
+      "type": "Bench Press"
+    },
+    {
+      "id": "hu5q5w79loj1",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "dg6ykpmuloj1",
+      "description": "Streaming",
+      "amount": 12.99,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

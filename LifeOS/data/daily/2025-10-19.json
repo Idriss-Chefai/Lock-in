@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-19",
+  "sleep": {
+    "hours": 7.5,
+    "quality": 8
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "e6rgu9iploj1",
+      "type": "Deadlift"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "8o49qglploj1",
+      "description": "Uber",
+      "amount": 21.05,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

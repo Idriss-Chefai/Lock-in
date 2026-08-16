@@ -1,0 +1,34 @@
+{
+  "date": "2025-10-04",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false
+  },
+  "training": [
+    {
+      "id": "2qtg095iloj1",
+      "type": "Bench Press"
+    },
+    {
+      "id": "eiwz0gaqloj1",
+      "type": "Running",
+      "durationMinutes": 18
+    }
+  ],
+  "tasks": [
+    {
+      "id": "r4iofigtloj1",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-21",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "kcapiadgloj5",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

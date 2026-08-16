@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-18",
+  "sleep": {
+    "hours": 6.6,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "max7csroloj0",
+      "type": "Cycling",
+      "durationMinutes": 7
+    }
+  ],
+  "tasks": [
+    {
+      "id": "otk6vvenloj0",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

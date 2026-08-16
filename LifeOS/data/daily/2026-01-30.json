@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-30",
+  "sleep": {
+    "hours": 7.4,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "n21fyjjuloj3",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "8q5s1mqsloj3",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

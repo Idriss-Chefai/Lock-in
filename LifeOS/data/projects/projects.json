@@ -1,0 +1,123 @@
+{
+  "projects": [
+    {
+      "id": "g4biijm0loj5",
+      "name": "LifeOS",
+      "description": "Personal operating system for tracking daily life.",
+      "status": "active",
+      "priority": "high",
+      "startDate": "2025-10-20",
+      "targetDate": "2026-09-15",
+      "progress": 80,
+      "hoursInvested": 140,
+      "nextAction": "Add global search",
+      "taskIds": [
+        "rggw1zqxloj5",
+        "fxwtab8vloj5",
+        "uag4m91lloj5",
+        "9wo1xdncloj5"
+      ]
+    },
+    {
+      "id": "cjjzrq96loj5",
+      "name": "Strength Training Plan",
+      "description": "Progressive overload program across the year.",
+      "status": "active",
+      "priority": "medium",
+      "startDate": "2025-10-20",
+      "targetDate": "2026-10-15",
+      "progress": 55,
+      "hoursInvested": 90,
+      "nextAction": "Buy new running shoes",
+      "taskIds": [
+        "20bzutf7loj5",
+        "ccmu5qwjloj5"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "rggw1zqxloj5",
+      "title": "Design data model",
+      "projectId": "g4biijm0loj5",
+      "priority": "high",
+      "status": "done",
+      "tags": [
+        "backend"
+      ],
+      "createdAt": "2025-11-09"
+    },
+    {
+      "id": "fxwtab8vloj5",
+      "title": "Build Today page",
+      "projectId": "g4biijm0loj5",
+      "priority": "high",
+      "status": "done",
+      "tags": [
+        "frontend"
+      ],
+      "createdAt": "2025-11-29"
+    },
+    {
+      "id": "uag4m91lloj5",
+      "title": "Build Analytics correlations",
+      "projectId": "g4biijm0loj5",
+      "priority": "medium",
+      "status": "done",
+      "tags": [
+        "frontend"
+      ],
+      "createdAt": "2026-04-18"
+    },
+    {
+      "id": "9wo1xdncloj5",
+      "title": "Add global search",
+      "projectId": "g4biijm0loj5",
+      "priority": "medium",
+      "status": "todo",
+      "tags": [
+        "frontend"
+      ],
+      "createdAt": "2026-08-11"
+    },
+    {
+      "id": "20bzutf7loj5",
+      "title": "Research training plans",
+      "projectId": "cjjzrq96loj5",
+      "priority": "low",
+      "status": "done",
+      "tags": [],
+      "createdAt": "2025-11-09"
+    },
+    {
+      "id": "ccmu5qwjloj5",
+      "title": "Buy new running shoes",
+      "projectId": "cjjzrq96loj5",
+      "priority": "medium",
+      "dueDate": "2026-08-19",
+      "status": "todo",
+      "tags": [],
+      "createdAt": "2026-08-06"
+    },
+    {
+      "id": "ekv0nj7mloj5",
+      "title": "Book dentist appointment",
+      "priority": "low",
+      "dueDate": "2026-08-23",
+      "status": "done",
+      "tags": [
+        "errand"
+      ],
+      "createdAt": "2026-08-14"
+    },
+    {
+      "id": "029fd994-d729-4f01-9017-4c5b52745a87",
+      "title": "wassup",
+      "projectId": "cjjzrq96loj5",
+      "priority": "high",
+      "status": "todo",
+      "tags": [],
+      "createdAt": "2026-08-16"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-01-22",
+  "sleep": {
+    "hours": 7.3,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false
+  },
+  "training": [
+    {
+      "id": "mc3snpqxloj3",
+      "type": "Yoga",
+      "durationMinutes": 28
+    },
+    {
+      "id": "vog0voqaloj3",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "wtcognh8loj3",
+      "description": "Uber",
+      "amount": 8.44,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

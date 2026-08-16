@@ -1,0 +1,26 @@
+{
+  "date": "2026-01-07",
+  "sleep": {
+    "hours": 7.3,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 7,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": false
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "1yzs8jxiloj3",
+      "description": "Groceries",
+      "amount": 32.66,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-01-08",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "jp9dxzlxloj3",
+      "type": "Running",
+      "durationMinutes": 22
+    }
+  ],
+  "tasks": [
+    {
+      "id": "jl6sf68aloj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "zilzq9t0loj3",
+      "description": "Groceries",
+      "amount": 36.22,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

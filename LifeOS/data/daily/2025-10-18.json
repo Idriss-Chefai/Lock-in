@@ -1,0 +1,25 @@
+{
+  "date": "2025-10-18",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "ejd4tk1hloj1",
+      "description": "Streaming",
+      "amount": 12.38,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

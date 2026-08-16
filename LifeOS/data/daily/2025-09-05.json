@@ -1,0 +1,24 @@
+{
+  "date": "2025-09-05",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": false,
+    "read": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "1yq1di7gloj1",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

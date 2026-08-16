@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-01",
+  "sleep": {
+    "hours": 6.7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "ckc40pk6loj5",
+      "type": "Bench Press"
+    },
+    {
+      "id": "qkzml5v1loj5",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "8gh2jjxfloj5",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "qzulzk95loj5",
+      "description": "Streaming",
+      "amount": 11.43,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

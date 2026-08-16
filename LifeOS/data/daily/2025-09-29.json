@@ -1,0 +1,31 @@
+{
+  "date": "2025-09-29",
+  "sleep": {
+    "hours": 7.4,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "xyts5od7loj1",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [
+    {
+      "id": "ive8plp5loj1",
+      "description": "Groceries",
+      "amount": 31.89,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

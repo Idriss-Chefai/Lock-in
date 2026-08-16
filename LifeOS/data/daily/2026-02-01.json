@@ -1,0 +1,35 @@
+{
+  "date": "2026-02-01",
+  "sleep": {
+    "hours": 6.1,
+    "quality": 6
+  },
+  "energy": 6,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "p73zh0n6loj3",
+      "type": "Deadlift"
+    },
+    {
+      "id": "39yxj53mloj3",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "xxp7tx2oloj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

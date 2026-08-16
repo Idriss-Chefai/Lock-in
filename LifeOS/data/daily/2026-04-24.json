@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-24",
+  "sleep": {
+    "hours": 7.7,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "dp4cpym0loj4",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "kwik8mh2loj4",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-04-25",
+  "sleep": {
+    "hours": 7.6,
+    "quality": 8
+  },
+  "energy": 8,
+  "mood": 9,
+  "productivity": 8,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "tkbu4eosloj4",
+      "type": "Yoga",
+      "durationMinutes": 28
+    },
+    {
+      "id": "jzqdh5dfloj4",
+      "type": "Cycling",
+      "durationMinutes": 16
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "g6q8q461loj4",
+      "description": "Coffee",
+      "amount": 5.23,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

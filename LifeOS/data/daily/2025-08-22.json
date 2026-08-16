@@ -1,0 +1,23 @@
+{
+  "date": "2025-08-22",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 6,
+  "productivity": 3,
+  "habits": {
+    "gym": true,
+    "read": false
+  },
+  "training": [
+    {
+      "id": "owvsys42loj0",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-08",
+  "sleep": {
+    "hours": 7.7,
+    "quality": 8
+  },
+  "energy": 8,
+  "mood": 8,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "iemmihsuloj4",
+      "type": "Yoga",
+      "durationMinutes": 32
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "l24scky3loj4",
+      "description": "Coffee",
+      "amount": 3.93,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

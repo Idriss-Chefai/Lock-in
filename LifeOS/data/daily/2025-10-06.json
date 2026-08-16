@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-06",
+  "sleep": {
+    "hours": 8,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false
+  },
+  "training": [
+    {
+      "id": "nrnkuaznloj1",
+      "type": "Cycling",
+      "durationMinutes": 11
+    },
+    {
+      "id": "cc0wfjy2loj1",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

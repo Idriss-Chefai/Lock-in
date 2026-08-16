@@ -1,0 +1,35 @@
+{
+  "date": "2025-11-07",
+  "sleep": {
+    "hours": 7.1,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "3xcat3teloj1",
+      "type": "Cycling",
+      "durationMinutes": 12
+    },
+    {
+      "id": "czupxihdloj1",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "8d2rdf5jloj1",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

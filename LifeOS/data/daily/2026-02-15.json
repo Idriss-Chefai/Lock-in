@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-15",
+  "sleep": {
+    "hours": 7.1,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "7z6a9xytloj3",
+      "type": "Running",
+      "durationMinutes": 31
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

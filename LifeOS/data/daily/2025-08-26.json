@@ -1,0 +1,25 @@
+{
+  "date": "2025-08-26",
+  "sleep": {
+    "hours": 7.5,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "jbysklinloj1",
+      "description": "Coffee",
+      "amount": 3.49,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

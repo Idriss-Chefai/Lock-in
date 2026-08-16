@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-10",
+  "sleep": {
+    "hours": 7.8,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "ce0ndt4nloj4",
+      "type": "Squat"
+    },
+    {
+      "id": "u6gwuw8cloj4",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "1ch94hp8loj4",
+      "description": "Streaming",
+      "amount": 12.53,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

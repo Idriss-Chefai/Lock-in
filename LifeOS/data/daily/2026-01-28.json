@@ -1,0 +1,33 @@
+{
+  "date": "2026-01-28",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": false,
+    "nocoffee-after-2": false
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "xyc8yqjploj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "9m2ak6wxloj3",
+      "description": "Uber",
+      "amount": 13.5,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

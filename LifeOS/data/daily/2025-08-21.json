@@ -1,0 +1,38 @@
+{
+  "date": "2025-08-21",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "8674buw9loj0",
+      "type": "Deadlift"
+    },
+    {
+      "id": "r6ms11wuloj0",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "gmfur3n9loj0",
+      "title": "Review project backlog",
+      "done": true
+    },
+    {
+      "id": "jletemceloj0",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

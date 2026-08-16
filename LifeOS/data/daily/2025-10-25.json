@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-25",
+  "sleep": {
+    "hours": 7.4,
+    "quality": 7
+  },
+  "energy": 8,
+  "mood": 8,
+  "productivity": 8,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "gcfejie4loj1",
+      "description": "Coffee",
+      "amount": 5.25,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

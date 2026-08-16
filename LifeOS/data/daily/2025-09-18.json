@@ -1,0 +1,29 @@
+{
+  "date": "2025-09-18",
+  "sleep": {
+    "hours": 7.6,
+    "quality": 8
+  },
+  "energy": 8,
+  "mood": 7,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": false
+  },
+  "training": [
+    {
+      "id": "0t715lmvloj1",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "rxbss057loj1",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

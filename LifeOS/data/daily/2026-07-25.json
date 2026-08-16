@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-25",
+  "sleep": {
+    "hours": 7.1,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "vbfc2nlxloj5",
+      "type": "Cycling",
+      "durationMinutes": 22
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

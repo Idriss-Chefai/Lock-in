@@ -1,0 +1,35 @@
+{
+  "date": "2025-10-28",
+  "sleep": {
+    "hours": 6.7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "4vj5aehnloj1",
+      "type": "Bench Press"
+    },
+    {
+      "id": "m12hu6tsloj1",
+      "type": "Yoga",
+      "durationMinutes": 28
+    }
+  ],
+  "tasks": [
+    {
+      "id": "r5n6j8psloj1",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

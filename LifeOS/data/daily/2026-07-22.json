@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-22",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "h49ccx68loj5",
+      "type": "Pull-ups"
+    },
+    {
+      "id": "8ivi70tbloj5",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

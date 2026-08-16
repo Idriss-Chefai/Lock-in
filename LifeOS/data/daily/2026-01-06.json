@@ -1,0 +1,36 @@
+{
+  "date": "2026-01-06",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "ee3irpaxloj3",
+      "type": "Running",
+      "durationMinutes": 29
+    },
+    {
+      "id": "rhcgu4oqloj3",
+      "type": "Cycling",
+      "durationMinutes": 16
+    }
+  ],
+  "tasks": [
+    {
+      "id": "zltaoir0loj3",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

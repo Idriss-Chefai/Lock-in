@@ -1,0 +1,41 @@
+{
+  "date": "2026-01-27",
+  "sleep": {
+    "hours": 7.3,
+    "quality": 7
+  },
+  "energy": 8,
+  "mood": 8,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "0h5hy6ugloj3",
+      "type": "Bench Press"
+    },
+    {
+      "id": "3iujn99gloj3",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "38hhtl5dloj3",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "lp9icuhaloj3",
+      "description": "Coffee",
+      "amount": 5.75,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-05-24",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 5,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "8icvp5jrloj4",
+      "title": "Review project backlog",
+      "done": false
+    },
+    {
+      "id": "jjsmp8e3loj4",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "hfu1lm4tloj4",
+      "description": "Uber",
+      "amount": 14.92,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

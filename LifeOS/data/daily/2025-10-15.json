@@ -1,0 +1,27 @@
+{
+  "date": "2025-10-15",
+  "sleep": {
+    "hours": 7.8,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false
+  },
+  "training": [
+    {
+      "id": "p2pomjlnloj1",
+      "type": "Bench Press"
+    },
+    {
+      "id": "uh2mowssloj1",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

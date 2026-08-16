@@ -1,0 +1,38 @@
+{
+  "date": "2026-04-16",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "7or1jh1eloj4",
+      "type": "Cycling",
+      "durationMinutes": 19
+    },
+    {
+      "id": "uvdsvj63loj4",
+      "type": "Running",
+      "durationMinutes": 35
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "55y41k83loj4",
+      "description": "Groceries",
+      "amount": 58.3,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

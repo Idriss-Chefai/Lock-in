@@ -1,0 +1,26 @@
+{
+  "date": "2025-12-29",
+  "sleep": {
+    "hours": 6.6,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "16wykupploj3",
+      "description": "Coffee",
+      "amount": 5.71,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

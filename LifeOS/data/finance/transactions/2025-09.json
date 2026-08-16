@@ -1,0 +1,122 @@
+{
+  "month": "2025-09",
+  "transactions": [
+    {
+      "id": "c096h4nilopi",
+      "date": "2025-09-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "1d5o4udxlopi",
+      "date": "2025-09-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "sg0gb1chlopi",
+      "date": "2025-09-12",
+      "description": "Pharmacy",
+      "amount": 50.79,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "o7fcrxp3lopi",
+      "date": "2025-09-14",
+      "description": "Pharmacy",
+      "amount": 12.6,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "7etsvpxrlopi",
+      "date": "2025-09-05",
+      "description": "Dinner out",
+      "amount": 53.55,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "adsneykdlopi",
+      "date": "2025-09-26",
+      "description": "Dinner out",
+      "amount": 11.95,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "mlmfh1phlopi",
+      "date": "2025-09-21",
+      "description": "Uber",
+      "amount": 31.23,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "0jhk3e0nlopi",
+      "date": "2025-09-22",
+      "description": "Uber",
+      "amount": 60.89,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "jgqvib64lopi",
+      "date": "2025-09-22",
+      "description": "Dinner out",
+      "amount": 31.04,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "ci6cowbslopi",
+      "date": "2025-09-16",
+      "description": "Uber",
+      "amount": 56.64,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "nicvzubslopi",
+      "date": "2025-09-09",
+      "description": "Groceries",
+      "amount": 27.84,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "sd8vc66plopi",
+      "date": "2025-09-13",
+      "description": "Uber",
+      "amount": 34.68,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "0ns1gfr9lopi",
+      "date": "2025-09-08",
+      "description": "Groceries",
+      "amount": 47.74,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    }
+  ]
+}

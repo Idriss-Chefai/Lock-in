@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-08",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "j3pkuc1qloj5",
+      "type": "Running",
+      "durationMinutes": 44
+    },
+    {
+      "id": "74lluls2loj5",
+      "type": "Yoga",
+      "durationMinutes": 30
+    }
+  ],
+  "tasks": [
+    {
+      "id": "xk9sztpnloj5",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

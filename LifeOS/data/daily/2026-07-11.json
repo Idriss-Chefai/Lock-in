@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-11",
+  "sleep": {
+    "hours": 6.4,
+    "quality": 6
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 4,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "3zyt80m7loj5",
+      "title": "Review project backlog",
+      "done": false
+    },
+    {
+      "id": "yubsa31xloj5",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

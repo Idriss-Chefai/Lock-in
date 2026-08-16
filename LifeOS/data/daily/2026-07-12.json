@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-12",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "g7dmzj1kloj5",
+      "type": "Deadlift"
+    },
+    {
+      "id": "p8df2bujloj5",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "fun2kb4floj5",
+      "description": "Streaming",
+      "amount": 12.79,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

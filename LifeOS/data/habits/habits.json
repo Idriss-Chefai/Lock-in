@@ -1,0 +1,40 @@
+{
+  "habits": [
+    {
+      "id": "gym",
+      "name": "Gym",
+      "frequency": "daily",
+      "target": 5,
+      "active": true,
+      "category": "health",
+      "createdAt": "2025-08-06"
+    },
+    {
+      "id": "read",
+      "name": "Read 20min",
+      "frequency": "daily",
+      "target": 7,
+      "active": true,
+      "category": "growth",
+      "createdAt": "2025-08-06"
+    },
+    {
+      "id": "meditate",
+      "name": "Meditate",
+      "frequency": "daily",
+      "target": 7,
+      "active": true,
+      "category": "health",
+      "createdAt": "2025-10-20"
+    },
+    {
+      "id": "nocoffee-after-2",
+      "name": "No coffee after 2pm",
+      "frequency": "daily",
+      "target": 7,
+      "active": true,
+      "category": "health",
+      "createdAt": "2026-01-28"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-02-02",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "pzoa42atloj3",
+      "type": "Running",
+      "durationMinutes": 25
+    },
+    {
+      "id": "bvnm4wjkloj3",
+      "type": "Yoga",
+      "durationMinutes": 29
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1vn3fxbeloj3",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "n2g7b5qrloj3",
+      "description": "Coffee",
+      "amount": 5.28,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

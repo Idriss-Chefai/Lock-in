@@ -1,0 +1,113 @@
+{
+  "month": "2025-11",
+  "transactions": [
+    {
+      "id": "nz6ti99flopg",
+      "date": "2025-11-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "l92hjr7hlopg",
+      "date": "2025-11-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "psqsp1atlopg",
+      "date": "2025-11-21",
+      "description": "Groceries",
+      "amount": 30.79,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "c7q5wrhmlopg",
+      "date": "2025-11-19",
+      "description": "Dinner out",
+      "amount": 64.73,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "kja69d69lopg",
+      "date": "2025-11-15",
+      "description": "Dinner out",
+      "amount": 37.25,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "vg1d80mblopg",
+      "date": "2025-11-06",
+      "description": "Pharmacy",
+      "amount": 41.89,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "ktfcvokmlopg",
+      "date": "2025-11-18",
+      "description": "Groceries",
+      "amount": 56.89,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "ndyuhd7jlopg",
+      "date": "2025-11-02",
+      "description": "Groceries",
+      "amount": 36.18,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "ret1d62ylopg",
+      "date": "2025-11-10",
+      "description": "Uber",
+      "amount": 57.11,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "e6ljat0flopg",
+      "date": "2025-11-15",
+      "description": "Groceries",
+      "amount": 45.24,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "nhbb9uiulopg",
+      "date": "2025-11-02",
+      "description": "Dinner out",
+      "amount": 15.93,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "fi1wh5nolopg",
+      "date": "2025-11-18",
+      "description": "Dinner out",
+      "amount": 40.23,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    }
+  ]
+}

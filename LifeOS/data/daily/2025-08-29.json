@@ -1,0 +1,24 @@
+{
+  "date": "2025-08-29",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "6kyxnroxloj1",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

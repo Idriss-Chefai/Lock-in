@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-15",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "p40wss8jloj3",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "d6sbyu56loj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

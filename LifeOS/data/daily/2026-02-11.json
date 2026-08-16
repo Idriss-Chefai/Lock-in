@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-11",
+  "sleep": {
+    "hours": 7.4,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "5ike8v1yloj3",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [
+    {
+      "id": "apxoqaugloj3",
+      "description": "Coffee",
+      "amount": 5.22,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

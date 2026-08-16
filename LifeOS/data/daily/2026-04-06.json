@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-06",
+  "sleep": {
+    "hours": 8,
+    "quality": 8
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "tvg1f3jgloj4",
+      "type": "Bench Press"
+    },
+    {
+      "id": "yp7x6plsloj4",
+      "type": "Running",
+      "durationMinutes": 40
+    }
+  ],
+  "tasks": [
+    {
+      "id": "dz7j3pi4loj4",
+      "title": "Review project backlog",
+      "done": true
+    },
+    {
+      "id": "u2nlir3aloj4",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2025-09-14",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "8q6vkaxyloj1",
+      "type": "Pull-ups"
+    },
+    {
+      "id": "gytkmbn9loj1",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "kn9tpgznloj1",
+      "title": "Review project backlog",
+      "done": true
+    },
+    {
+      "id": "c4cta2dhloj1",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

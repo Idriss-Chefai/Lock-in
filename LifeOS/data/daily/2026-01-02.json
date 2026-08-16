@@ -1,0 +1,28 @@
+{
+  "date": "2026-01-02",
+  "sleep": {
+    "hours": 6.5,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "i9keobfuloj3",
+      "type": "Deadlift"
+    },
+    {
+      "id": "bdbiszrploj3",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

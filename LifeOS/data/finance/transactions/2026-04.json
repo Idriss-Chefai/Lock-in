@@ -1,0 +1,149 @@
+{
+  "month": "2026-04",
+  "transactions": [
+    {
+      "id": "rg4ecd8ulopc",
+      "date": "2026-04-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "yehinpfslopc",
+      "date": "2026-04-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "btn40ddmlopc",
+      "date": "2026-04-27",
+      "description": "Dinner out",
+      "amount": 67.99,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "tr825w84lopc",
+      "date": "2026-04-21",
+      "description": "Streaming",
+      "amount": 21.56,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "iffhbbhblopc",
+      "date": "2026-04-08",
+      "description": "Dinner out",
+      "amount": 63.24,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "be6h9jv7lopc",
+      "date": "2026-04-17",
+      "description": "Dinner out",
+      "amount": 20.61,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "5q6vlw26lopc",
+      "date": "2026-04-07",
+      "description": "Groceries",
+      "amount": 29.3,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "76oa086plopc",
+      "date": "2026-04-14",
+      "description": "Groceries",
+      "amount": 10.51,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "879477eulopc",
+      "date": "2026-04-12",
+      "description": "Groceries",
+      "amount": 44.45,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "uduenjctlopc",
+      "date": "2026-04-10",
+      "description": "Streaming",
+      "amount": 10.98,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "tl5ve18mlopc",
+      "date": "2026-04-26",
+      "description": "Pharmacy",
+      "amount": 41.27,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "dqgjnf67lopc",
+      "date": "2026-04-12",
+      "description": "Streaming",
+      "amount": 18.58,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "n1z8vlmxlopc",
+      "date": "2026-04-23",
+      "description": "Pharmacy",
+      "amount": 35.69,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "e1s8p6f5lopc",
+      "date": "2026-04-22",
+      "description": "Pharmacy",
+      "amount": 57.45,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "6al9llyylopc",
+      "date": "2026-04-15",
+      "description": "Groceries",
+      "amount": 51.95,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "sove33a5lopc",
+      "date": "2026-04-12",
+      "description": "Pharmacy",
+      "amount": 16.24,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    }
+  ]
+}

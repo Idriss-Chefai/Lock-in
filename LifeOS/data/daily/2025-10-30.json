@@ -1,0 +1,25 @@
+{
+  "date": "2025-10-30",
+  "sleep": {
+    "hours": 7.1,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false
+  },
+  "training": [
+    {
+      "id": "42edql6qloj1",
+      "type": "Cycling",
+      "durationMinutes": 14
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

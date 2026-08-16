@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-10",
+  "sleep": {
+    "hours": 7.7,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "duatcs98loj1",
+      "type": "Yoga",
+      "durationMinutes": 17
+    }
+  ],
+  "tasks": [
+    {
+      "id": "g2q4mzpuloj1",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

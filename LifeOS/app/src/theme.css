@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #fffdfb;
+  --surface-raised: #f5f1f9;
+  --surface-sunken: #f0ecf4;
+  --border: #e6dff0;
+  --ink: #1d1b24;
+  --ink-muted: #5d5b67;
+  --ink-faint: #8f8a97;
+  --accent: #6d5ef6;
+  --accent-2: #22c1b3;
+  --accent-3: #ff7b72;
+  --accent-muted: #ece7ff;
+  --success: #2bb673;
+  --warning: #e39b2d;
+  --danger: #ea4d5e;
+  --page-padding: 1rem;
+  --content-max: 1320px;
+}
+
+.dark {
+  --surface: #111521;
+  --surface-raised: #181d2b;
+  --surface-sunken: #0d111b;
+  --border: #2a3145;
+  --ink: #edf1f8;
+  --ink-muted: #a7b0c8;
+  --ink-faint: #7c859d;
+  --accent: #8f7cff;
+  --accent-2: #38d0c9;
+  --accent-3: #ff8a7c;
+  --accent-muted: #2a2758;
+  --success: #3ddc97;
+  --warning: #f8ba4d;
+  --danger: #ff7085;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--surface-sunken);
+  color: var(--ink);
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.top-bar-hidden {
+  border-top: 0;
+}
+
+.app-main {
+  width: 100%;
+  padding: var(--page-padding);
+}
+
+.app-main > * {
+  width: 100%;
+}
+
+.window-chrome {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 28px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 10px;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 150ms ease;
+  -webkit-app-region: drag;
+}
+
+.app-shell:hover .window-chrome {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.window-chrome-drag {
+  position: absolute;
+  inset: 0;
+  -webkit-app-region: drag;
+}
+
+.window-chrome-buttons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 2;
+  -webkit-app-region: no-drag;
+}
+
+.window-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.4);
+  opacity: 0.9;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15);
+}
+
+.window-btn.minimize { background: #fbbf24; }
+.window-btn.maximize { background: #34d399; }
+.window-btn.close { background: #f87171; }
+
+body[data-display-mode="compact"] .app-main {
+  padding: 0.5rem;
+}
+
+body[data-display-mode="normal"] .app-main {
+  padding: 0.9rem;
+}
+
+body[data-display-mode="wide"] .app-main {
+  padding: 1.1rem;
+}
+
+body[data-display-mode="compact"] .app-main .max-w-6xl,
+body[data-display-mode="compact"] .app-main .max-w-5xl,
+body[data-display-mode="compact"] .app-main .max-w-4xl,
+body[data-display-mode="compact"] .app-main .max-w-2xl {
+  max-width: 100% !important;
+}
+
+body[data-display-mode="wide"] .app-main .max-w-6xl,
+body[data-display-mode="wide"] .app-main .max-w-5xl,
+body[data-display-mode="wide"] .app-main .max-w-4xl,
+body[data-display-mode="wide"] .app-main .max-w-2xl {
+  max-width: 100% !important;
+}
+
+body.lifeos-fullscreen .app-shell {
+  border-radius: 0;
+}
+
+::selection {
+  background: var(--accent-muted);
+  color: var(--accent);
+}
+
+/* thin, unobtrusive scrollbars for a dense-info app */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }

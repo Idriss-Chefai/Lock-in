@@ -1,0 +1,41 @@
+{
+  "date": "2025-10-23",
+  "sleep": {
+    "hours": 7.3,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "wnnew0pzloj1",
+      "type": "Squat"
+    },
+    {
+      "id": "hahjkapoloj1",
+      "type": "Deadlift"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "yxpneirqloj1",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [
+    {
+      "id": "rglz65vkloj1",
+      "description": "Groceries",
+      "amount": 45.97,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

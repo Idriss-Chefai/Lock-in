@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-03",
+  "sleep": {
+    "hours": 7.9,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "n66j0jzyloj4",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "hkwvqhiiloj4",
+      "description": "Uber",
+      "amount": 10.67,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

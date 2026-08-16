@@ -1,0 +1,36 @@
+{
+  "date": "2026-01-19",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "wgwy3xjzloj3",
+      "type": "Bench Press"
+    },
+    {
+      "id": "p8j7t402loj3",
+      "type": "Running",
+      "durationMinutes": 31
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "f8eldi8xloj3",
+      "description": "Streaming",
+      "amount": 11.61,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

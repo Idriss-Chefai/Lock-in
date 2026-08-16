@@ -1,0 +1,14 @@
+# build artifacts
+app/node_modules/
+app/dist/
+app/src-tauri/target/
+
+# derived/rebuildable — never source of truth
+.cache/
+
+# local backups (kept out of history intentionally — see exports/README)
+exports/*.json
+
+# OS cruft
+.DS_Store
+Thumbs.db

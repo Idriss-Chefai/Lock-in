@@ -1,0 +1,35 @@
+{
+  "date": "2025-09-07",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "5e4oseqeloj1",
+      "type": "Yoga",
+      "durationMinutes": 21
+    },
+    {
+      "id": "ltqfbv60loj1",
+      "type": "Deadlift"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "ofpxjhlhloj1",
+      "description": "Streaming",
+      "amount": 11.36,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-04",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "gz95tqacloj5",
+      "type": "Running",
+      "durationMinutes": 48
+    }
+  ],
+  "tasks": [
+    {
+      "id": "6ox02d61loj5",
+      "title": "Review project backlog",
+      "done": true
+    },
+    {
+      "id": "dikny9yvloj5",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

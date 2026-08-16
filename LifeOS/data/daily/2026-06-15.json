@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-15",
+  "sleep": {
+    "hours": 6.3,
+    "quality": 6
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "ngogxsseloj4",
+      "type": "Deadlift"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "px19noq3loj4",
+      "description": "Uber",
+      "amount": 9.81,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

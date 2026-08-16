@@ -1,0 +1,36 @@
+{
+  "date": "2025-11-20",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "zpo7nmm0loj2",
+      "type": "Squat"
+    },
+    {
+      "id": "gbe9fkalloj2",
+      "type": "Running",
+      "durationMinutes": 26
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "zn4posbrloj2",
+      "description": "Streaming",
+      "amount": 11.41,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

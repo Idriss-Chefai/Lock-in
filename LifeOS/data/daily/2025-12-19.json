@@ -1,0 +1,37 @@
+{
+  "date": "2025-12-19",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": false
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "zl4ayb8bloj3",
+      "title": "Review project backlog",
+      "done": true
+    },
+    {
+      "id": "mueunv4sloj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "w97v24holoj3",
+      "description": "Groceries",
+      "amount": 40.77,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

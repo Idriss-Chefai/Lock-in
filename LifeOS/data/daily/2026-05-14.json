@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-14",
+  "sleep": {
+    "hours": 7.3,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

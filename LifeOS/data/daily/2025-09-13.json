@@ -1,0 +1,34 @@
+{
+  "date": "2025-09-13",
+  "sleep": {
+    "hours": 7.8,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false
+  },
+  "training": [
+    {
+      "id": "tm47bedtloj1",
+      "type": "Pull-ups"
+    },
+    {
+      "id": "m77jtw53loj1",
+      "type": "Deadlift"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "em5rqywyloj1",
+      "description": "Coffee",
+      "amount": 3.07,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

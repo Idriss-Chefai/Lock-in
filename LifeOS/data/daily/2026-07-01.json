@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-01",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 5,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "1sw39gv0loj5",
+      "type": "Cycling",
+      "durationMinutes": 19
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "2wa6kpryloj5",
+      "description": "Coffee",
+      "amount": 3.48,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

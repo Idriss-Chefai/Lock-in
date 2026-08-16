@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-24",
+  "sleep": {
+    "hours": 8,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "k89yw54bloj3",
+      "type": "Yoga",
+      "durationMinutes": 27
+    },
+    {
+      "id": "xppe0lysloj3",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [],
+  "expenses": [],
+  "notes": ""
+}

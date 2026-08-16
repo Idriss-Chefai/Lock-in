@@ -1,0 +1,25 @@
+{
+  "date": "2025-08-31",
+  "sleep": {
+    "hours": 7.9,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 8,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "152dazbhloj1",
+      "description": "Coffee",
+      "amount": 3.63,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

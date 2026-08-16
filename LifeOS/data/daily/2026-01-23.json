@@ -1,0 +1,26 @@
+{
+  "date": "2026-01-23",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 4,
+  "habits": {
+    "gym": false,
+    "read": true,
+    "meditate": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "x7h0qnjgloj3",
+      "description": "Uber",
+      "amount": 16.1,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

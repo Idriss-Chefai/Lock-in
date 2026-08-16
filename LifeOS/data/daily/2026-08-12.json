@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-12",
+  "sleep": {
+    "hours": 5.4,
+    "quality": 5
+  },
+  "energy": 5,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "4aqxulo3loj5",
+      "type": "Running",
+      "durationMinutes": 41
+    }
+  ],
+  "tasks": [
+    {
+      "id": "p91slkshloj5",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-14",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 5,
+  "mood": 6,
+  "productivity": 4,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "rhx2j4r3loj4",
+      "title": "Review project backlog",
+      "done": false
+    }
+  ],
+  "expenses": [],
+  "notes": ""
+}

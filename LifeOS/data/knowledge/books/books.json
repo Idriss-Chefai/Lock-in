@@ -1,0 +1,115 @@
+{
+  "books": [
+    {
+      "id": "8ecvmeroloj5",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "status": "finished",
+      "started": "2025-11-09",
+      "finished": "2025-11-29",
+      "rating": 5,
+      "topics": [
+        "habits",
+        "productivity"
+      ],
+      "notesLocation": "knowledge/books/atomic-habits.excalidraw",
+      "coverUrl": "https://imgs.search.brave.com/vfRTz8WzfZtOnQ-nEyHjTOQyREdFvZ6G_xe9rNSao7Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Ro/ZS1ib29rLWxvdmVy/cy9pbWFnZXMvZC9k/Zi9BdG9taWNfSGFi/aXRzX2NvdmVyLmpw/Zy9yZXZpc2lvbi9s/YXRlc3Q_Y2I9MjAy/MzA5MDIyMDAxMDA"
+    },
+    {
+      "id": "vb24bn2vloj5",
+      "title": "Clean Architecture",
+      "author": "Robert C. Martin",
+      "status": "finished",
+      "started": "2026-01-08",
+      "finished": "2026-01-28",
+      "rating": 4,
+      "topics": [
+        "software"
+      ],
+      "notesLocation": "knowledge/books/clean-architecture.excalidraw"
+    },
+    {
+      "id": "x6qzesmlloj5",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "status": "finished",
+      "started": "2026-02-17",
+      "finished": "2026-03-04",
+      "rating": 5,
+      "topics": [
+        "focus",
+        "productivity"
+      ],
+      "notesLocation": "knowledge/books/deep-work.excalidraw"
+    },
+    {
+      "id": "804kdgk1loj5",
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas & Andrew Hunt",
+      "status": "finished",
+      "started": "2026-03-29",
+      "finished": "2026-04-18",
+      "rating": 4,
+      "topics": [
+        "software"
+      ]
+    },
+    {
+      "id": "pkoxhdjyloj5",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "status": "finished",
+      "started": "2026-05-08",
+      "finished": "2026-06-07",
+      "rating": 5,
+      "topics": [
+        "psychology"
+      ]
+    },
+    {
+      "id": "z8i8wm5rloj5",
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "status": "finished",
+      "started": "2026-06-17",
+      "finished": "2026-07-17",
+      "rating": 5,
+      "topics": [
+        "software",
+        "systems"
+      ]
+    },
+    {
+      "id": "m7v158p6loj5",
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "status": "finished",
+      "started": "2026-07-22",
+      "finished": "2026-08-11",
+      "rating": 4,
+      "topics": [
+        "history"
+      ]
+    },
+    {
+      "id": "hwzaekivloj5",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "status": "reading",
+      "started": "2026-08-01",
+      "topics": [
+        "software"
+      ]
+    },
+    {
+      "id": "x3smosnsloj5",
+      "title": "The Almanack of Naval Ravikant",
+      "author": "Eric Jorgenson",
+      "status": "queued",
+      "topics": [
+        "philosophy",
+        "wealth"
+      ]
+    }
+  ]
+}

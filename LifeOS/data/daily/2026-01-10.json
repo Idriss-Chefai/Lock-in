@@ -1,0 +1,35 @@
+{
+  "date": "2026-01-10",
+  "sleep": {
+    "hours": 6.8,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "er2z4h5iloj3",
+      "type": "Bench Press"
+    },
+    {
+      "id": "el04gyfvloj3",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "qadpmdoploj3",
+      "description": "Groceries",
+      "amount": 45.25,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

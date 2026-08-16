@@ -1,0 +1,122 @@
+{
+  "month": "2025-10",
+  "transactions": [
+    {
+      "id": "455i2c56loph",
+      "date": "2025-10-01",
+      "description": "Salary",
+      "amount": 3200,
+      "currency": "USD",
+      "category": "Income",
+      "type": "income"
+    },
+    {
+      "id": "yeyxbis5loph",
+      "date": "2025-10-01",
+      "description": "Rent",
+      "amount": 1100,
+      "currency": "USD",
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "8u6utz8nloph",
+      "date": "2025-10-21",
+      "description": "Pharmacy",
+      "amount": 16.83,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "sgvuanrgloph",
+      "date": "2025-10-16",
+      "description": "Groceries",
+      "amount": 32.03,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "bzniidmeloph",
+      "date": "2025-10-12",
+      "description": "Dinner out",
+      "amount": 28.82,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "1eajxgugloph",
+      "date": "2025-10-10",
+      "description": "Uber",
+      "amount": 34.4,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "h5jv58ocloph",
+      "date": "2025-10-06",
+      "description": "Uber",
+      "amount": 46.77,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "zi1cn29xloph",
+      "date": "2025-10-15",
+      "description": "Groceries",
+      "amount": 11.74,
+      "currency": "USD",
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "gmipmxnrloph",
+      "date": "2025-10-25",
+      "description": "Streaming",
+      "amount": 35.31,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    },
+    {
+      "id": "vlq43gnfloph",
+      "date": "2025-10-06",
+      "description": "Dinner out",
+      "amount": 10.43,
+      "currency": "USD",
+      "category": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "dme5jnvrloph",
+      "date": "2025-10-02",
+      "description": "Pharmacy",
+      "amount": 27.77,
+      "currency": "USD",
+      "category": "Health",
+      "type": "expense"
+    },
+    {
+      "id": "ks35ahbiloph",
+      "date": "2025-10-12",
+      "description": "Uber",
+      "amount": 49.41,
+      "currency": "USD",
+      "category": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "1cb0g5txloph",
+      "date": "2025-10-08",
+      "description": "Streaming",
+      "amount": 23.41,
+      "currency": "USD",
+      "category": "Subscriptions",
+      "type": "expense"
+    }
+  ]
+}

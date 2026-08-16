@@ -1,0 +1,38 @@
+{
+  "date": "2026-02-13",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 7,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "mn8bi9wiloj3",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "5jzm9giwloj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "akl90e7tloj3",
+      "description": "Coffee",
+      "amount": 4.89,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

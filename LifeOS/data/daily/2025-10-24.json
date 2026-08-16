@@ -1,0 +1,42 @@
+{
+  "date": "2025-10-24",
+  "sleep": {
+    "hours": 7.5,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": false
+  },
+  "training": [
+    {
+      "id": "hpuwycrvloj1",
+      "type": "Running",
+      "durationMinutes": 21
+    },
+    {
+      "id": "c2em05s1loj1",
+      "type": "Pull-ups"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "trq57uxploj1",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "gybt52x7loj1",
+      "description": "Coffee",
+      "amount": 3.45,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

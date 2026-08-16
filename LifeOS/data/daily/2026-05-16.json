@@ -1,0 +1,38 @@
+{
+  "date": "2026-05-16",
+  "sleep": {
+    "hours": 7.8,
+    "quality": 8
+  },
+  "energy": 8,
+  "mood": 7,
+  "productivity": 7,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": true,
+    "nocoffee-after-2": false
+  },
+  "training": [
+    {
+      "id": "j14sfym8loj4",
+      "type": "Squat"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ri8yr97ploj4",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "euogqfaeloj4",
+      "description": "Groceries",
+      "amount": 32.65,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-12",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": false
+  },
+  "training": [
+    {
+      "id": "90jeoxdwloj1",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "std987m3loj1",
+      "description": "Uber",
+      "amount": 20.99,
+      "category": "Transport"
+    }
+  ],
+  "notes": ""
+}

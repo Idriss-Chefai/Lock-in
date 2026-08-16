@@ -1,0 +1,5331 @@
+{
+  "sessions": [
+    {
+      "id": "max7csroloj0",
+      "date": "2025-08-18",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 2.4,
+          "durationMinutes": 7
+        }
+      ]
+    },
+    {
+      "id": "so4nz3abloj0",
+      "date": "2025-08-19",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 39,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 39,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 38.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "8674buw9loj0",
+      "date": "2025-08-21",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 78.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 79.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 78.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 79,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "r6ms11wuloj0",
+      "date": "2025-08-21",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 61.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 59.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 60.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 59,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "owvsys42loj0",
+      "date": "2025-08-22",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 40,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 40,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 38.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 38.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "9arxbax6loj1",
+      "date": "2025-08-27",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 2.7,
+          "durationMinutes": 16
+        }
+      ]
+    },
+    {
+      "id": "r2ttryrbloj1",
+      "date": "2025-08-27",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 5
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 5
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "cdvfila9loj1",
+      "date": "2025-08-28",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 20
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 16
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 20
+        }
+      ]
+    },
+    {
+      "id": "bqhx6fnaloj1",
+      "date": "2025-08-30",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 40,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 39.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "5e4oseqeloj1",
+      "date": "2025-09-07",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 21
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 18
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 16
+        }
+      ]
+    },
+    {
+      "id": "ltqfbv60loj1",
+      "date": "2025-09-07",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 80,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 82.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 81,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 82.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "duatcs98loj1",
+      "date": "2025-09-10",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 17
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 22
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 20
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        }
+      ]
+    },
+    {
+      "id": "9lrhd5elloj1",
+      "date": "2025-09-11",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 3.4,
+          "durationMinutes": 20
+        }
+      ]
+    },
+    {
+      "id": "90jeoxdwloj1",
+      "date": "2025-09-12",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 40.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 39.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "tm47bedtloj1",
+      "date": "2025-09-13",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "m77jtw53loj1",
+      "date": "2025-09-13",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 81.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 79.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 83,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 79.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "8q6vkaxyloj1",
+      "date": "2025-09-14",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "gytkmbn9loj1",
+      "date": "2025-09-14",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "p2hxmqhgloj1",
+      "date": "2025-09-17",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 60,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 60.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "0t715lmvloj1",
+      "date": "2025-09-18",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 60,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 61.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 60.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 60.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "p17rnstbloj1",
+      "date": "2025-09-23",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 5
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "tcl8f4eqloj1",
+      "date": "2025-09-25",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 40.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "hu5q5w79loj1",
+      "date": "2025-09-25",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 62,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 62.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 61,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "yjd8l7r5loj1",
+      "date": "2025-09-28",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 3.6,
+          "durationMinutes": 11
+        }
+      ]
+    },
+    {
+      "id": "kpaw5szuloj1",
+      "date": "2025-09-28",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 23
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 19
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 17
+        }
+      ]
+    },
+    {
+      "id": "bdhy3aimloj1",
+      "date": "2025-10-01",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "6otgtr6vloj1",
+      "date": "2025-10-03",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 3.8,
+          "durationMinutes": 23
+        }
+      ]
+    },
+    {
+      "id": "fnoaj9wmloj1",
+      "date": "2025-10-03",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "2qtg095iloj1",
+      "date": "2025-10-04",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "eiwz0gaqloj1",
+      "date": "2025-10-04",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 3,
+          "durationMinutes": 18
+        }
+      ]
+    },
+    {
+      "id": "nrnkuaznloj1",
+      "date": "2025-10-06",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 3.7,
+          "durationMinutes": 11
+        }
+      ]
+    },
+    {
+      "id": "cc0wfjy2loj1",
+      "date": "2025-10-06",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "vze8ul0kloj1",
+      "date": "2025-10-07",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "4ecqawirloj1",
+      "date": "2025-10-08",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 61,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "txdrz3bjloj1",
+      "date": "2025-10-08",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "rfxvodlsloj1",
+      "date": "2025-10-11",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "edn8qyj3loj1",
+      "date": "2025-10-13",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "p2pomjlnloj1",
+      "date": "2025-10-15",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 41.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "uh2mowssloj1",
+      "date": "2025-10-15",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 62.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 62,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 62.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 61.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "e6rgu9iploj1",
+      "date": "2025-10-19",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 85,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 84.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 85,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 83,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "a3k1mgs6loj1",
+      "date": "2025-10-20",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "wnnew0pzloj1",
+      "date": "2025-10-23",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 65.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 65,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 64,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 62,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "hahjkapoloj1",
+      "date": "2025-10-23",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 84.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 84.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 82,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "hpuwycrvloj1",
+      "date": "2025-10-24",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 3.5,
+          "durationMinutes": 21
+        }
+      ]
+    },
+    {
+      "id": "c2em05s1loj1",
+      "date": "2025-10-24",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "4vj5aehnloj1",
+      "date": "2025-10-28",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "m12hu6tsloj1",
+      "date": "2025-10-28",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 19
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 24
+        }
+      ]
+    },
+    {
+      "id": "0vhtllc3loj1",
+      "date": "2025-10-29",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "lwqnl6hkloj1",
+      "date": "2025-10-29",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 65,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 62.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "42edql6qloj1",
+      "date": "2025-10-30",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 4.7,
+          "durationMinutes": 14
+        }
+      ]
+    },
+    {
+      "id": "pa1cmuu7loj1",
+      "date": "2025-11-01",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "lvizu6ptloj1",
+      "date": "2025-11-01",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 66,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 64.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "6m9rcnpqloj1",
+      "date": "2025-11-03",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "avs4e1b2loj1",
+      "date": "2025-11-03",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 63.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 65,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "udx6yt4oloj1",
+      "date": "2025-11-05",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 42.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "r8noil6wloj1",
+      "date": "2025-11-05",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 19
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 23
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 22
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 27
+        }
+      ]
+    },
+    {
+      "id": "3xcat3teloj1",
+      "date": "2025-11-07",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 4.1,
+          "durationMinutes": 12
+        }
+      ]
+    },
+    {
+      "id": "czupxihdloj1",
+      "date": "2025-11-07",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "0dat75tvloj1",
+      "date": "2025-11-08",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 24
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 20
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        }
+      ]
+    },
+    {
+      "id": "a74jr04jloj1",
+      "date": "2025-11-08",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        }
+      ]
+    },
+    {
+      "id": "a44ra5ooloj1",
+      "date": "2025-11-10",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "qhkjlcp3loj1",
+      "date": "2025-11-10",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "7tbza68uloj2",
+      "date": "2025-11-17",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 21
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 20
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 23
+        }
+      ]
+    },
+    {
+      "id": "zpo7nmm0loj2",
+      "date": "2025-11-20",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 66.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 64,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 66.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "gbe9fkalloj2",
+      "date": "2025-11-20",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 4.3,
+          "durationMinutes": 26
+        }
+      ]
+    },
+    {
+      "id": "pxha7zmhloj2",
+      "date": "2025-11-21",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 22
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        }
+      ]
+    },
+    {
+      "id": "n6t9cd9uloj2",
+      "date": "2025-11-21",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "amewvj29loj2",
+      "date": "2025-11-22",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 43.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 47,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "1u67t5d7loj2",
+      "date": "2025-11-22",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "h2qop2ngloj2",
+      "date": "2025-11-23",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 24
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 22
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 26
+        }
+      ]
+    },
+    {
+      "id": "mhyx5fm1loj2",
+      "date": "2025-11-23",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 85,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 85.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 83.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 86,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "xipl0lskloj2",
+      "date": "2025-11-25",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 65,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 67.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 65.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 67,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "kr7bynwkloj2",
+      "date": "2025-11-25",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "3zojx9xgloj2",
+      "date": "2025-12-02",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 44.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "9xxrt7iploj2",
+      "date": "2025-12-03",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 22
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 24
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 22
+        }
+      ]
+    },
+    {
+      "id": "gejfjyoqloj2",
+      "date": "2025-12-05",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "0q4t1vulloj2",
+      "date": "2025-12-05",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 86.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 84.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "d16xqtifloj2",
+      "date": "2025-12-06",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "d3ky6d1dloj2",
+      "date": "2025-12-06",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 84.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 88.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "wyodbafoloj2",
+      "date": "2025-12-07",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 88.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "4woduvynloj2",
+      "date": "2025-12-08",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "e93um23wloj2",
+      "date": "2025-12-09",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "0n3lkje9loj2",
+      "date": "2025-12-09",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 4.1,
+          "durationMinutes": 12
+        }
+      ]
+    },
+    {
+      "id": "p900zih2loj2",
+      "date": "2025-12-12",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 46.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "hflpf5sjloj2",
+      "date": "2025-12-13",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 65,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 65.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 68.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "lk31cqyhloj3",
+      "date": "2025-12-13",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        }
+      ]
+    },
+    {
+      "id": "1xxm919xloj3",
+      "date": "2025-12-14",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 27
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 24
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        }
+      ]
+    },
+    {
+      "id": "8g8df5brloj3",
+      "date": "2025-12-14",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 4.6,
+          "durationMinutes": 14
+        }
+      ]
+    },
+    {
+      "id": "p40wss8jloj3",
+      "date": "2025-12-15",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "066uf3b6loj3",
+      "date": "2025-12-21",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 47.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 45.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "hmk8a9o1loj3",
+      "date": "2025-12-21",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 21
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        }
+      ]
+    },
+    {
+      "id": "y8deznh6loj3",
+      "date": "2025-12-27",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 23
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 30
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "yf3ntv3kloj3",
+      "date": "2025-12-27",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 5.5,
+          "durationMinutes": 17
+        }
+      ]
+    },
+    {
+      "id": "k7tlj9q8loj3",
+      "date": "2025-12-28",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 47,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "7jmxqc1lloj3",
+      "date": "2026-01-01",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "i9keobfuloj3",
+      "date": "2026-01-02",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 88.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 86,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 89,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 86.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "bdbiszrploj3",
+      "date": "2026-01-02",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 47,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "ee3irpaxloj3",
+      "date": "2026-01-06",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 4.9,
+          "durationMinutes": 29
+        }
+      ]
+    },
+    {
+      "id": "rhcgu4oqloj3",
+      "date": "2026-01-06",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 5.2,
+          "durationMinutes": 16
+        }
+      ]
+    },
+    {
+      "id": "jp9dxzlxloj3",
+      "date": "2026-01-08",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 3.6,
+          "durationMinutes": 22
+        }
+      ]
+    },
+    {
+      "id": "er2z4h5iloj3",
+      "date": "2026-01-10",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "el04gyfvloj3",
+      "date": "2026-01-10",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 67,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 68,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 69,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "u561aqshloj3",
+      "date": "2026-01-13",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 90,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 89,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "zka389r5loj3",
+      "date": "2026-01-13",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 67,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 69,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 67.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 68,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "ah5db1wlloj3",
+      "date": "2026-01-14",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 90,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 88,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 89,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "og0t8xrvloj3",
+      "date": "2026-01-14",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 47.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "zdj4t8pbloj3",
+      "date": "2026-01-17",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 87.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 88,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 88.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 90.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "wjzqt7faloj3",
+      "date": "2026-01-18",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "wgwy3xjzloj3",
+      "date": "2026-01-19",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "p8j7t402loj3",
+      "date": "2026-01-19",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 5.1,
+          "durationMinutes": 31
+        }
+      ]
+    },
+    {
+      "id": "yyiwf4lhloj3",
+      "date": "2026-01-21",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 4.7,
+          "durationMinutes": 14
+        }
+      ]
+    },
+    {
+      "id": "mc3snpqxloj3",
+      "date": "2026-01-22",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 27
+        }
+      ]
+    },
+    {
+      "id": "vog0voqaloj3",
+      "date": "2026-01-22",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 47.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "sitqgt3bloj3",
+      "date": "2026-01-24",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 70.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 67.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 71,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "wc60qidaloj3",
+      "date": "2026-01-24",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 47.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "9nb6o0h6loj3",
+      "date": "2026-01-26",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 31
+        }
+      ]
+    },
+    {
+      "id": "wdrwjwcoloj3",
+      "date": "2026-01-26",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 4.1,
+          "durationMinutes": 12
+        }
+      ]
+    },
+    {
+      "id": "0h5hy6ugloj3",
+      "date": "2026-01-27",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 51,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "3iujn99gloj3",
+      "date": "2026-01-27",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 69,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 68,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 71,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 67.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "n21fyjjuloj3",
+      "date": "2026-01-30",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 47.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "p73zh0n6loj3",
+      "date": "2026-02-01",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 88,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 89.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 89.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "39yxj53mloj3",
+      "date": "2026-02-01",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 69.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 70.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 68.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 68.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "pzoa42atloj3",
+      "date": "2026-02-02",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 4.2,
+          "durationMinutes": 25
+        }
+      ]
+    },
+    {
+      "id": "bvnm4wjkloj3",
+      "date": "2026-02-02",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 30
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        }
+      ]
+    },
+    {
+      "id": "ct4ph6zxloj3",
+      "date": "2026-02-04",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 71.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 70,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 69,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 71.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "qbj10kzsloj3",
+      "date": "2026-02-10",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "fz06pl8cloj3",
+      "date": "2026-02-10",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "9waqeyvtloj3",
+      "date": "2026-02-12",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 51.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 51.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 48,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "hzorvewlloj3",
+      "date": "2026-02-12",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 68.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 71,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 69,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "mn8bi9wiloj3",
+      "date": "2026-02-13",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "7z6a9xytloj3",
+      "date": "2026-02-15",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 5.2,
+          "durationMinutes": 31
+        }
+      ]
+    },
+    {
+      "id": "svaqd46yloj3",
+      "date": "2026-02-23",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 5.4,
+          "durationMinutes": 32
+        }
+      ]
+    },
+    {
+      "id": "a4nzbltiloj3",
+      "date": "2026-02-23",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        }
+      ]
+    },
+    {
+      "id": "trvjye5kloj3",
+      "date": "2026-02-24",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 26
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        }
+      ]
+    },
+    {
+      "id": "fpseepz2loj3",
+      "date": "2026-02-27",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 33
+        }
+      ]
+    },
+    {
+      "id": "ho1c13rploj3",
+      "date": "2026-02-27",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 49.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "k3wl6377loj3",
+      "date": "2026-03-02",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 51,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 52,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 51.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "g7ssqw3uloj3",
+      "date": "2026-03-02",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 30
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 33
+        }
+      ]
+    },
+    {
+      "id": "y4w1455zloj3",
+      "date": "2026-03-03",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 9
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        }
+      ]
+    },
+    {
+      "id": "kmy7k6w9loj3",
+      "date": "2026-03-04",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 5.7,
+          "durationMinutes": 34
+        }
+      ]
+    },
+    {
+      "id": "ql4sz5valoj3",
+      "date": "2026-03-04",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        }
+      ]
+    },
+    {
+      "id": "6kaxztlqloj3",
+      "date": "2026-03-07",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        }
+      ]
+    },
+    {
+      "id": "2fd25ms0loj3",
+      "date": "2026-03-07",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 5.3,
+          "durationMinutes": 32
+        }
+      ]
+    },
+    {
+      "id": "osbfhkkbloj3",
+      "date": "2026-03-08",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 5.7,
+          "durationMinutes": 17
+        }
+      ]
+    },
+    {
+      "id": "viplf3iiloj3",
+      "date": "2026-03-08",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 30
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 26
+        }
+      ]
+    },
+    {
+      "id": "gu027skzloj3",
+      "date": "2026-03-09",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 93.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 91.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 91,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 92.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "vbiijyxdloj3",
+      "date": "2026-03-09",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 72,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 72,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 70,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 73.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "iettp2eoloj3",
+      "date": "2026-03-12",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6,
+          "durationMinutes": 36
+        }
+      ]
+    },
+    {
+      "id": "oiz85eo9loj3",
+      "date": "2026-03-13",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 71.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 71.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 72.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 70.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "4qgwmrvtloj3",
+      "date": "2026-03-14",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 33
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 31
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 33
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        }
+      ]
+    },
+    {
+      "id": "tes4v7svloj3",
+      "date": "2026-03-14",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 52,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 53,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 50,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "7kcuigxkloj3",
+      "date": "2026-03-15",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 72.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 73,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 72,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 71,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "97iab1okloj3",
+      "date": "2026-03-16",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6,
+          "durationMinutes": 36
+        }
+      ]
+    },
+    {
+      "id": "ylx9bgnmloj3",
+      "date": "2026-03-17",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 5,
+          "durationMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "vujl84gxloj3",
+      "date": "2026-03-21",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6,
+          "durationMinutes": 36
+        }
+      ]
+    },
+    {
+      "id": "k89yw54bloj3",
+      "date": "2026-03-24",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 27
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 27
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        }
+      ]
+    },
+    {
+      "id": "xppe0lysloj3",
+      "date": "2026-03-24",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "gdw4ad3mloj3",
+      "date": "2026-03-26",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "lcfflyeoloj4",
+      "date": "2026-03-28",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 5.3,
+          "durationMinutes": 32
+        }
+      ]
+    },
+    {
+      "id": "i4cjabhxloj4",
+      "date": "2026-04-01",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 25
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 27
+        }
+      ]
+    },
+    {
+      "id": "4gjmwm6hloj4",
+      "date": "2026-04-05",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        }
+      ]
+    },
+    {
+      "id": "7ac7wc7gloj4",
+      "date": "2026-04-05",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 35
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        }
+      ]
+    },
+    {
+      "id": "tvg1f3jgloj4",
+      "date": "2026-04-06",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 52,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 54.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 52,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "yp7x6plsloj4",
+      "date": "2026-04-06",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6.6,
+          "durationMinutes": 40
+        }
+      ]
+    },
+    {
+      "id": "4b8vz434loj4",
+      "date": "2026-04-07",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 93,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 94,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 92,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 92,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "987vysouloj4",
+      "date": "2026-04-07",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "iemmihsuloj4",
+      "date": "2026-04-08",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 30
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 31
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        }
+      ]
+    },
+    {
+      "id": "0pe787okloj4",
+      "date": "2026-04-11",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 6.5,
+          "durationMinutes": 20
+        }
+      ]
+    },
+    {
+      "id": "7or1jh1eloj4",
+      "date": "2026-04-16",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 6.4,
+          "durationMinutes": 19
+        }
+      ]
+    },
+    {
+      "id": "uvdsvj63loj4",
+      "date": "2026-04-16",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 5.9,
+          "durationMinutes": 35
+        }
+      ]
+    },
+    {
+      "id": "ihayiqcsloj4",
+      "date": "2026-04-18",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 34
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 31
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 27
+        }
+      ]
+    },
+    {
+      "id": "c2kovtx1loj4",
+      "date": "2026-04-18",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6,
+          "durationMinutes": 36
+        }
+      ]
+    },
+    {
+      "id": "nh793kfmloj4",
+      "date": "2026-04-19",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "ze8f6c6rloj4",
+      "date": "2026-04-19",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 53.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "9ramt8crloj4",
+      "date": "2026-04-22",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 74,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 73,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 76,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 72.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "j0q2j5l6loj4",
+      "date": "2026-04-22",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 5.8,
+          "durationMinutes": 17
+        }
+      ]
+    },
+    {
+      "id": "dp4cpym0loj4",
+      "date": "2026-04-24",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "tkbu4eosloj4",
+      "date": "2026-04-25",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 28
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 36
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 36
+        }
+      ]
+    },
+    {
+      "id": "jzqdh5dfloj4",
+      "date": "2026-04-25",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 5.4,
+          "durationMinutes": 16
+        }
+      ]
+    },
+    {
+      "id": "ryxc2wdrloj4",
+      "date": "2026-04-27",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 95,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 96,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 96,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 93,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "fs7kwaf6loj4",
+      "date": "2026-04-27",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 10
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "8g9p4saxloj4",
+      "date": "2026-04-28",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6.3,
+          "durationMinutes": 38
+        }
+      ]
+    },
+    {
+      "id": "59e02j19loj4",
+      "date": "2026-04-30",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "2v53ajkkloj4",
+      "date": "2026-04-30",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 6,
+          "durationMinutes": 18
+        }
+      ]
+    },
+    {
+      "id": "qis58b20loj4",
+      "date": "2026-05-07",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 36
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 27
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 29
+        }
+      ]
+    },
+    {
+      "id": "b3gql87floj4",
+      "date": "2026-05-07",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 96.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 94,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 96.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "ce0ndt4nloj4",
+      "date": "2026-05-10",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 76,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 77,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 75,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 73.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "u6gwuw8cloj4",
+      "date": "2026-05-10",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 55.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 54,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 54,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 55.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "19n66yugloj4",
+      "date": "2026-05-11",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 96,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 96.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 95,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "0gpb5vlmloj4",
+      "date": "2026-05-11",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 74,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 77,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 75,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "ynfp1wv4loj4",
+      "date": "2026-05-15",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 96,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 95.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 95,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "omlfr5j7loj4",
+      "date": "2026-05-15",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        }
+      ]
+    },
+    {
+      "id": "j14sfym8loj4",
+      "date": "2026-05-16",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 75,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 76.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 77,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 75.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "94tr5o6hloj4",
+      "date": "2026-05-17",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 5.6,
+          "durationMinutes": 17
+        }
+      ]
+    },
+    {
+      "id": "rgyiegilloj4",
+      "date": "2026-05-17",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6.3,
+          "durationMinutes": 38
+        }
+      ]
+    },
+    {
+      "id": "tzmw1yuvloj4",
+      "date": "2026-05-18",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 54,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 55.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "3vtm1ftxloj4",
+      "date": "2026-05-25",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 55,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "ldfb4anwloj4",
+      "date": "2026-05-31",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "r0ljy5r6loj4",
+      "date": "2026-05-31",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 75,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 76,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 75,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 77,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "rk2qj5efloj4",
+      "date": "2026-06-11",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        }
+      ]
+    },
+    {
+      "id": "bvenrb9yloj4",
+      "date": "2026-06-12",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 55.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "1xgcph58loj4",
+      "date": "2026-06-12",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 75,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 77,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 77,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "ngogxsseloj4",
+      "date": "2026-06-15",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 99,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 97,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 99,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 99,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "e2u4zwuwloj4",
+      "date": "2026-06-16",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 57,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 57,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "9kd6t9h1loj5",
+      "date": "2026-06-20",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 11
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        }
+      ]
+    },
+    {
+      "id": "xr3qzv6lloj5",
+      "date": "2026-06-23",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 79.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 79.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 79.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "5onp4wl0loj5",
+      "date": "2026-06-27",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "02myf0ihloj5",
+      "date": "2026-06-27",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 96.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 97,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 98.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 99,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "e9lb0h12loj5",
+      "date": "2026-06-28",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        }
+      ]
+    },
+    {
+      "id": "xud72czeloj5",
+      "date": "2026-06-30",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "1sw39gv0loj5",
+      "date": "2026-07-01",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 6.4,
+          "durationMinutes": 19
+        }
+      ]
+    },
+    {
+      "id": "fnyyxghkloj5",
+      "date": "2026-07-02",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 5.9,
+          "durationMinutes": 35
+        }
+      ]
+    },
+    {
+      "id": "nmp0f7dkloj5",
+      "date": "2026-07-02",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "01rhb6ckloj5",
+      "date": "2026-07-05",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 57.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 57,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "wze1fn7cloj5",
+      "date": "2026-07-05",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 79.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "qswuhjt7loj5",
+      "date": "2026-07-06",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 57.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 56.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "vl6gnsr3loj5",
+      "date": "2026-07-07",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 14
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 14
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "3i6f1bc0loj5",
+      "date": "2026-07-07",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 77,
+          "reps": 7
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "j3pkuc1qloj5",
+      "date": "2026-07-08",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 7.3,
+          "durationMinutes": 44
+        }
+      ]
+    },
+    {
+      "id": "74lluls2loj5",
+      "date": "2026-07-08",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 30
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 36
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 31
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 36
+        }
+      ]
+    },
+    {
+      "id": "ar79hjd1loj5",
+      "date": "2026-07-09",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "g7dmzj1kloj5",
+      "date": "2026-07-12",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 99.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 99.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 97.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "p8df2bujloj5",
+      "date": "2026-07-12",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 60,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 60.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "pfd6frijloj5",
+      "date": "2026-07-13",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 60,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 57.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "ou0yb9e3loj5",
+      "date": "2026-07-13",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 80,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "4yzg6pl1loj5",
+      "date": "2026-07-19",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 7.7,
+          "durationMinutes": 46
+        }
+      ]
+    },
+    {
+      "id": "seqorx2rloj5",
+      "date": "2026-07-21",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 6.5,
+          "durationMinutes": 20
+        }
+      ]
+    },
+    {
+      "id": "ni8lsnsmloj5",
+      "date": "2026-07-21",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6.7,
+          "durationMinutes": 40
+        }
+      ]
+    },
+    {
+      "id": "h49ccx68loj5",
+      "date": "2026-07-22",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 12
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 14
+        }
+      ]
+    },
+    {
+      "id": "8ivi70tbloj5",
+      "date": "2026-07-22",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 60,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 57.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "p36csoj9loj5",
+      "date": "2026-07-23",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 57.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 60.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58.5,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "9cz3zjjnloj5",
+      "date": "2026-07-24",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 60,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "vbsu8zgcloj5",
+      "date": "2026-07-24",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 79,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78,
+          "reps": 5
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 79.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "vbfc2nlxloj5",
+      "date": "2026-07-25",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 7.3,
+          "durationMinutes": 22
+        }
+      ]
+    },
+    {
+      "id": "grqad9teloj5",
+      "date": "2026-07-29",
+      "type": "Squat",
+      "sets": [
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 78.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "m66a08m1loj0",
+          "weightKg": 79.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "ckc40pk6loj5",
+      "date": "2026-08-01",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "qkzml5v1loj5",
+      "date": "2026-08-01",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 15
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 13
+        }
+      ]
+    },
+    {
+      "id": "gz95tqacloj5",
+      "date": "2026-08-04",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 8,
+          "durationMinutes": 48
+        }
+      ]
+    },
+    {
+      "id": "ps1ho3ywloj5",
+      "date": "2026-08-07",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 61.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 58,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "ug1ui98dloj5",
+      "date": "2026-08-07",
+      "type": "Yoga",
+      "sets": [
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 33
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 32
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 36
+        },
+        {
+          "exerciseId": "09hfxfh6loj0",
+          "durationMinutes": 37
+        }
+      ]
+    },
+    {
+      "id": "flshmlarloj5",
+      "date": "2026-08-09",
+      "type": "Bench Press",
+      "sets": [
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 61,
+          "reps": 8
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 59.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 60,
+          "reps": 5
+        },
+        {
+          "exerciseId": "9s5fgizwloj0",
+          "weightKg": 60.5,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "1sogyn0dloj5",
+      "date": "2026-08-09",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 100.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 101,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 100,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 101,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "zlbiq8o3loj5",
+      "date": "2026-08-10",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 102.5,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 102,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 98.5,
+          "reps": 5
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 99.5,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "2pkc2a6wloj5",
+      "date": "2026-08-11",
+      "type": "Pull-ups",
+      "sets": [
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 15
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 14
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 14
+        },
+        {
+          "exerciseId": "ovfijfdhloj0",
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "id": "4aqxulo3loj5",
+      "date": "2026-08-12",
+      "type": "Running",
+      "sets": [
+        {
+          "exerciseId": "nf7b0muqloj0",
+          "distanceKm": 6.8,
+          "durationMinutes": 41
+        }
+      ]
+    },
+    {
+      "id": "5gewikvkloj5",
+      "date": "2026-08-14",
+      "type": "Deadlift",
+      "sets": [
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 100.5,
+          "reps": 8
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 98.5,
+          "reps": 7
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 102,
+          "reps": 6
+        },
+        {
+          "exerciseId": "hldbjl1yloj0",
+          "weightKg": 100.5,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "459zcasfloj5",
+      "date": "2026-08-14",
+      "type": "Cycling",
+      "sets": [
+        {
+          "exerciseId": "yjofhxszloj0",
+          "distanceKm": 7.2,
+          "durationMinutes": 22
+        }
+      ]
+    }
+  ],
+  "weight": [
+    {
+      "date": "2025-08-17",
+      "kg": 79.7
+    },
+    {
+      "date": "2025-08-31",
+      "kg": 79.9
+    },
+    {
+      "date": "2025-09-14",
+      "kg": 79.9
+    },
+    {
+      "date": "2025-09-28",
+      "kg": 79.8
+    },
+    {
+      "date": "2025-10-12",
+      "kg": 79.6
+    },
+    {
+      "date": "2025-10-26",
+      "kg": 79.2
+    },
+    {
+      "date": "2025-11-09",
+      "kg": 79.5
+    },
+    {
+      "date": "2025-11-23",
+      "kg": 79
+    },
+    {
+      "date": "2025-12-07",
+      "kg": 78.9
+    },
+    {
+      "date": "2025-12-21",
+      "kg": 79
+    },
+    {
+      "date": "2026-01-04",
+      "kg": 78.8
+    },
+    {
+      "date": "2026-01-18",
+      "kg": 78.9
+    },
+    {
+      "date": "2026-02-01",
+      "kg": 78.6
+    },
+    {
+      "date": "2026-02-15",
+      "kg": 78.4
+    },
+    {
+      "date": "2026-03-01",
+      "kg": 78.3
+    },
+    {
+      "date": "2026-03-15",
+      "kg": 78.2
+    },
+    {
+      "date": "2026-03-29",
+      "kg": 77.9
+    },
+    {
+      "date": "2026-04-12",
+      "kg": 77.9
+    },
+    {
+      "date": "2026-04-26",
+      "kg": 77.9
+    },
+    {
+      "date": "2026-05-10",
+      "kg": 77.7
+    },
+    {
+      "date": "2026-05-24",
+      "kg": 77.9
+    },
+    {
+      "date": "2026-06-07",
+      "kg": 77.7
+    },
+    {
+      "date": "2026-06-21",
+      "kg": 77.3
+    },
+    {
+      "date": "2026-07-05",
+      "kg": 77.5
+    },
+    {
+      "date": "2026-07-19",
+      "kg": 77.1
+    },
+    {
+      "date": "2026-08-02",
+      "kg": 77.3
+    },
+    {
+      "date": "2026-08-16",
+      "kg": 77.1
+    }
+  ],
+  "exercises": [
+    {
+      "id": "9s5fgizwloj0",
+      "name": "Bench Press",
+      "category": "strength",
+      "primaryMetric": "weight"
+    },
+    {
+      "id": "m66a08m1loj0",
+      "name": "Squat",
+      "category": "strength",
+      "primaryMetric": "weight"
+    },
+    {
+      "id": "hldbjl1yloj0",
+      "name": "Deadlift",
+      "category": "strength",
+      "primaryMetric": "weight"
+    },
+    {
+      "id": "ovfijfdhloj0",
+      "name": "Pull-ups",
+      "category": "strength",
+      "primaryMetric": "reps"
+    },
+    {
+      "id": "nf7b0muqloj0",
+      "name": "Running",
+      "category": "cardio",
+      "primaryMetric": "distance"
+    },
+    {
+      "id": "yjofhxszloj0",
+      "name": "Cycling",
+      "category": "cardio",
+      "primaryMetric": "distance"
+    },
+    {
+      "id": "09hfxfh6loj0",
+      "name": "Yoga",
+      "category": "mobility",
+      "primaryMetric": "duration"
+    }
+  ]
+}

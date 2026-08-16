@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-02",
+  "sleep": {
+    "hours": 7.1,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": false,
+    "read": false,
+    "meditate": true
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "ujd6ui3aloj1",
+      "description": "Groceries",
+      "amount": 49.58,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

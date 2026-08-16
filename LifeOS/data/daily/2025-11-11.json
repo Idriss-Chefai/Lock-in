@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-11",
+  "sleep": {
+    "hours": 7,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": false
+  },
+  "training": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "f4zbuyisloj1",
+      "description": "Streaming",
+      "amount": 13.33,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

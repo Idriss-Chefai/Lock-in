@@ -1,0 +1,39 @@
+{
+  "date": "2026-03-16",
+  "sleep": {
+    "hours": 7.5,
+    "quality": 8
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 6,
+  "habits": {
+    "gym": true,
+    "read": false,
+    "meditate": false,
+    "nocoffee-after-2": true
+  },
+  "training": [
+    {
+      "id": "97iab1okloj3",
+      "type": "Running",
+      "durationMinutes": 36
+    }
+  ],
+  "tasks": [
+    {
+      "id": "7uney1r5loj3",
+      "title": "Review project backlog",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "ucbrzcxtloj3",
+      "description": "Groceries",
+      "amount": 57.11,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

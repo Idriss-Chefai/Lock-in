@@ -1,0 +1,31 @@
+{
+  "date": "2025-08-28",
+  "sleep": {
+    "hours": 7.6,
+    "quality": 8
+  },
+  "energy": 6,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true
+  },
+  "training": [
+    {
+      "id": "cdvfila9loj1",
+      "type": "Yoga",
+      "durationMinutes": 20
+    }
+  ],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "sgzzr236loj1",
+      "description": "Coffee",
+      "amount": 3.67,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}

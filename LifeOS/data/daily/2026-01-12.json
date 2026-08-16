@@ -1,0 +1,37 @@
+{
+  "date": "2026-01-12",
+  "sleep": {
+    "hours": 6.9,
+    "quality": 7
+  },
+  "energy": 7,
+  "mood": 6,
+  "productivity": 5,
+  "habits": {
+    "gym": false,
+    "read": false,
+    "meditate": true
+  },
+  "training": [],
+  "tasks": [
+    {
+      "id": "2ovjdpobloj3",
+      "title": "Review project backlog",
+      "done": false
+    },
+    {
+      "id": "vr5rxhjsloj3",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "3ybswgz0loj3",
+      "description": "Streaming",
+      "amount": 12.72,
+      "category": "Subscriptions"
+    }
+  ],
+  "notes": ""
+}

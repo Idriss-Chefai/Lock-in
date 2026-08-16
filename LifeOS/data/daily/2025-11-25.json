@@ -1,0 +1,46 @@
+{
+  "date": "2025-11-25",
+  "sleep": {
+    "hours": 7.2,
+    "quality": 7
+  },
+  "energy": 6,
+  "mood": 5,
+  "productivity": 5,
+  "habits": {
+    "gym": true,
+    "read": true,
+    "meditate": true
+  },
+  "training": [
+    {
+      "id": "xipl0lskloj2",
+      "type": "Squat"
+    },
+    {
+      "id": "kr7bynwkloj2",
+      "type": "Bench Press"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "6yuvw78ploj2",
+      "title": "Review project backlog",
+      "done": true
+    },
+    {
+      "id": "6nwllpbzloj2",
+      "title": "Reply to emails",
+      "done": true
+    }
+  ],
+  "expenses": [
+    {
+      "id": "dzym1zftloj2",
+      "description": "Groceries",
+      "amount": 57.5,
+      "category": "Food"
+    }
+  ],
+  "notes": ""
+}
