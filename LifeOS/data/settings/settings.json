@@ -6,7 +6,7 @@
   "displayMode": "wide",
   "fontScale": 1,
   "hideTopBar": true,
-  "fullscreen": true,
+  "fullscreen": false,
   "windowControlsOnHover": true,
   "dataVersion": 1
 }

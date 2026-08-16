@@ -25,32 +25,8 @@ const FALLBACK_QUOTES = [
 ];
 
 function useDailyQuote() {
-  const [quote, setQuote] = useState(FALLBACK_QUOTES[0]);
-
-  useEffect(() => {
-    // Deterministic fallback pick so it doesn't flicker before the fetch resolves.
-    const dayIndex = new Date().getDate() % FALLBACK_QUOTES.length;
-    setQuote(FALLBACK_QUOTES[dayIndex]);
-
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 4000);
-    fetch("https://api.quotable.io/random?tags=motivational|inspirational", { signal: controller.signal })
-      .then((r) => (r.ok ? r.json() : Promise.reject()))
-      .then((data) => {
-        if (data?.content) setQuote({ text: data.content, author: data.author ?? "Unknown" });
-      })
-      .catch(() => {
-        // Offline or blocked — the deterministic fallback above already covers this.
-      })
-      .finally(() => clearTimeout(timeout));
-
-    return () => {
-      controller.abort();
-      clearTimeout(timeout);
-    };
-  }, []);
-
-  return quote;
+  const dayIndex = new Date().getDate() % FALLBACK_QUOTES.length;
+  return FALLBACK_QUOTES[dayIndex];
 }
 
 function Sparkline({ data, dataKey, color }: { data: any[]; dataKey: string; color: string }) {

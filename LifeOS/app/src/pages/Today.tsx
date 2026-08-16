@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useParams } from "react-router-dom";
 import { useDataStore } from "../services/datastore/context";
 import { newId, todayIso } from "../services/id";
@@ -29,6 +29,8 @@ export function TodayPage() {
   const [expenseDesc, setExpenseDesc] = useState("");
   const [expenseAmount, setExpenseAmount] = useState("");
   const [expenseCategory, setExpenseCategory] = useState("General");
+  const saveTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pendingLogRef = useRef<DailyLog | null>(null);
 
   useEffect(() => {
     Promise.all([store.getDailyLog(date), store.getHabits()]).then(([existing, h]) => {
@@ -38,57 +40,89 @@ export function TodayPage() {
     });
   }, [store, date]);
 
+  const flushSave = useCallback(async () => {
+    if (!pendingLogRef.current) return;
+    setSaving(true);
+    await store.saveDailyLog(pendingLogRef.current);
+    pendingLogRef.current = null;
+    setSaving(false);
+  }, [store]);
+
   const persist = useCallback(
-    async (next: DailyLog) => {
+    (next: DailyLog, immediate = false) => {
       setLog(next);
-      setSaving(true);
-      await store.saveDailyLog(next);
-      setSaving(false);
+      pendingLogRef.current = next;
+      if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
+
+      if (immediate) {
+        void flushSave();
+        return;
+      }
+
+      saveTimeoutRef.current = setTimeout(() => {
+        void flushSave();
+      }, 500);
     },
-    [store]
+    [flushSave]
   );
+
+  useEffect(() => {
+    return () => {
+      if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
+      void flushSave();
+    };
+  }, [flushSave]);
 
   function toggleHabit(habitId: string) {
     const done = isHabitDone(log, habitId);
-    persist({ ...log, habits: { ...log.habits, [habitId]: !done } });
+    persist({ ...log, habits: { ...log.habits, [habitId]: !done } }, true);
   }
 
   function addTask() {
     if (!newTaskTitle.trim()) return;
-    persist({
-      ...log,
-      tasks: [...log.tasks, { id: newId(), title: newTaskTitle.trim(), done: false }],
-    });
+    persist(
+      {
+        ...log,
+        tasks: [...log.tasks, { id: newId(), title: newTaskTitle.trim(), done: false }],
+      },
+      true
+    );
     setNewTaskTitle("");
   }
 
   function toggleTask(id: string) {
-    persist({
-      ...log,
-      tasks: log.tasks.map((t) => (t.id === id ? { ...t, done: !t.done } : t)),
-    });
+    persist(
+      {
+        ...log,
+        tasks: log.tasks.map((t) => (t.id === id ? { ...t, done: !t.done } : t)),
+      },
+      true
+    );
   }
 
   function removeTask(id: string) {
-    persist({ ...log, tasks: log.tasks.filter((t) => t.id !== id) });
+    persist({ ...log, tasks: log.tasks.filter((t) => t.id !== id) }, true);
   }
 
   function addExpense() {
     const amount = parseFloat(expenseAmount);
     if (!expenseDesc.trim() || Number.isNaN(amount)) return;
-    persist({
-      ...log,
-      expenses: [
-        ...log.expenses,
-        { id: newId(), description: expenseDesc.trim(), amount, category: expenseCategory },
-      ],
-    });
+    persist(
+      {
+        ...log,
+        expenses: [
+          ...log.expenses,
+          { id: newId(), description: expenseDesc.trim(), amount, category: expenseCategory },
+        ],
+      },
+      true
+    );
     setExpenseDesc("");
     setExpenseAmount("");
   }
 
   function removeExpense(id: string) {
-    persist({ ...log, expenses: log.expenses.filter((e) => e.id !== id) });
+    persist({ ...log, expenses: log.expenses.filter((e) => e.id !== id) }, true);
   }
 
   if (loading) return <div className="p-8 text-sm text-ink-faint">Loading…</div>;

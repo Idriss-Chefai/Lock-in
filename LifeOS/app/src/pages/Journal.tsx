@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type CSSProperties } from "react";
+import { List } from "react-window";
 import { Link } from "react-router-dom";
 import { useDataStore } from "../services/datastore/context";
 import { daysAgoIso, weekKeyOf } from "../services/analytics/analytics";
@@ -70,26 +71,35 @@ export function JournalPage() {
       {entries.length === 0 ? (
         <EmptyState message="Nothing written yet. Notes from Today and reviews from Reviews will show up here." />
       ) : (
-        <div className="space-y-3">
-          {entries.map((e, i) => (
-            <Card key={i}>
-              <div className="flex items-center gap-2 mb-1.5">
-                <span className="text-xs text-ink-faint">{e.date}</span>
-                {e.kind === "review" ? (
-                  <Badge tone="accent">review · {e.period}</Badge>
-                ) : (
-                  <Badge>daily note</Badge>
-                )}
-                {e.kind === "note" && (
-                  <Link to={`/day/${e.date}`} className="text-xs text-accent hover:underline ml-auto">
-                    Open day →
-                  </Link>
-                )}
+        <List<{ }>
+          style={{ height: 600, width: "100%" }}
+          rowCount={entries.length}
+          rowHeight={110}
+          rowProps={{} as Record<string, never>}
+          rowComponent={({ index, style }: { index: number; style: CSSProperties }) => {
+            const e = entries[index];
+            return (
+              <div style={style} className="pr-2">
+                <Card>
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <span className="text-xs text-ink-faint">{e.date}</span>
+                    {e.kind === "review" ? (
+                      <Badge tone="accent">review · {e.period}</Badge>
+                    ) : (
+                      <Badge>daily note</Badge>
+                    )}
+                    {e.kind === "note" && (
+                      <Link to={`/day/${e.date}`} className="text-xs text-accent hover:underline ml-auto">
+                        Open day →
+                      </Link>
+                    )}
+                  </div>
+                  <p className="text-sm text-ink line-clamp-2">{e.text}</p>
+                </Card>
               </div>
-              <p className="text-sm text-ink whitespace-pre-wrap">{e.text}</p>
-            </Card>
-          ))}
-        </div>
+            );
+          }}
+        />
       )}
 
       <Link to="/reviews" className="flex items-center gap-2 text-sm text-accent hover:underline">

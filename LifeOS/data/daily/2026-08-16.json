@@ -8,8 +8,8 @@
   "mood": 5,
   "productivity": 4,
   "habits": {
-    "gym": false,
-    "read": false,
+    "gym": true,
+    "read": true,
     "meditate": false,
     "nocoffee-after-2": false
   },

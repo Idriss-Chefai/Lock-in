@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type CSSProperties } from "react";
+import { List } from "react-window";
 import { useDataStore } from "../services/datastore/context";
 import { newId, todayIso } from "../services/id";
 import type { Task, Project } from "../services/validation/schemas";
@@ -103,32 +104,39 @@ export function TasksPage() {
       {visible.length === 0 ? (
         <EmptyState message="Nothing here." />
       ) : (
-        <div className="space-y-2">
-          {visible.map((t) => {
+        <List<{}>
+          style={{ height: 600, width: "100%" }}
+          rowCount={visible.length}
+          rowHeight={56}
+          rowProps={{} as Record<string, never>}
+          rowComponent={({ index, style }: { index: number; style: CSSProperties }) => {
+            const t = visible[index];
             const project = projects.find((p) => p.id === t.projectId);
             return (
-              <div key={t.id} className="bg-surface border border-border rounded-lg px-4 py-3 flex items-center gap-3 group">
-                <button
-                  onClick={() => updateStatus(t, t.status === "done" ? "todo" : "done")}
-                  className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 ${
-                    t.status === "done" ? "bg-accent border-accent" : "border-border"
-                  }`}
-                >
-                  {t.status === "done" && <Check size={11} className="text-white" />}
-                </button>
-                <span className={`flex-1 text-sm ${t.status === "done" ? "line-through text-ink-faint" : "text-ink"}`}>{t.title}</span>
-                {project && <Badge>{project.name}</Badge>}
-                <Badge tone={t.priority === "high" ? "danger" : t.priority === "medium" ? "warning" : "neutral"}>{t.priority}</Badge>
-                <Badge tone={t.status === "done" ? "accent" : t.status === "blocked" ? "danger" : "neutral"}>
-                  {t.status === "todo" ? "todo" : t.status === "in_progress" ? "in progress" : t.status === "blocked" ? "blocked" : "done"}
-                </Badge>
-                <button onClick={() => removeTask(t.id)} className="opacity-0 group-hover:opacity-100 text-ink-faint hover:text-danger p-1">
-                  <Trash2 size={13} />
-                </button>
+              <div style={style} className="pr-2">
+                <div className="bg-surface border border-border rounded-lg px-4 py-3 flex items-center gap-3 group h-full">
+                  <button
+                    onClick={() => updateStatus(t, t.status === "done" ? "todo" : "done")}
+                    className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 ${
+                      t.status === "done" ? "bg-accent border-accent" : "border-border"
+                    }`}
+                  >
+                    {t.status === "done" && <Check size={11} className="text-white" />}
+                  </button>
+                  <span className={`flex-1 text-sm ${t.status === "done" ? "line-through text-ink-faint" : "text-ink"}`}>{t.title}</span>
+                  {project && <Badge>{project.name}</Badge>}
+                  <Badge tone={t.priority === "high" ? "danger" : t.priority === "medium" ? "warning" : "neutral"}>{t.priority}</Badge>
+                  <Badge tone={t.status === "done" ? "accent" : t.status === "blocked" ? "danger" : "neutral"}>
+                    {t.status === "todo" ? "todo" : t.status === "in_progress" ? "in progress" : t.status === "blocked" ? "blocked" : "done"}
+                  </Badge>
+                  <button onClick={() => removeTask(t.id)} className="opacity-0 group-hover:opacity-100 text-ink-faint hover:text-danger p-1">
+                    <Trash2 size={13} />
+                  </button>
+                </div>
               </div>
             );
-          })}
-        </div>
+          }}
+        />
       )}
     </div>
   );

@@ -36,6 +36,8 @@ import {
  * script, which is scoped to the project's data/ and exports/ folders.
  */
 export class JsonDataStore implements DataStore {
+  private dailyLogCache = new Map<string, DailyLog>();
+
   // ---------- low-level read/write via IPC ----------
 
   private async readJson(relPath: string): Promise<unknown | null> {
@@ -53,14 +55,20 @@ export class JsonDataStore implements DataStore {
   // ---------- Daily Logs ----------
 
   async getDailyLog(date: string): Promise<DailyLog | null> {
+    if (this.dailyLogCache.has(date)) {
+      return this.dailyLogCache.get(date)!;
+    }
     const raw = await this.readJson(`daily/${date}.json`);
     if (!raw) return null;
-    return DailyLogSchema.parse(raw);
+    const parsed = DailyLogSchema.parse(raw);
+    this.dailyLogCache.set(date, parsed);
+    return parsed;
   }
 
   async saveDailyLog(log: DailyLog): Promise<void> {
     const validated = DailyLogSchema.parse(log);
     await this.writeJsonSafe(`daily/${validated.date}.json`, validated);
+    this.dailyLogCache.set(validated.date, validated);
   }
 
   async listDailyLogs(fromDate: string, toDate: string): Promise<DailyLog[]> {

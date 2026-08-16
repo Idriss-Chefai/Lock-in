@@ -239,6 +239,25 @@ function createWindow() {
     },
   });
 
+  win.webContents.setWindowOpenHandler(({ url }) => {
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+      shell.openExternal(url);
+    }
+    return { action: "deny" };
+  });
+
+  win.webContents.on("will-navigate", (event, url) => {
+    const isAppUrl = isDev
+      ? url.startsWith("http://localhost:1420")
+      : url.startsWith("file://");
+    if (!isAppUrl) {
+      event.preventDefault();
+      if (url.startsWith("http://") || url.startsWith("https://")) {
+        shell.openExternal(url);
+      }
+    }
+  });
+
   if (isDev) {
     win.webContents.openDevTools({ mode: "detach" });
   }
