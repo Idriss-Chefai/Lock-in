@@ -51,6 +51,7 @@ const CATEGORIES: CategoryDef[] = [
       { to: "/today", label: "Today" },
       { to: "/tasks", label: "Tasks" },
       { to: "/habits", label: "Habits" },
+      { to: "/lockin", label: "Lock In" },
       { to: "/journal", label: "Journal" },
       { to: "/reviews", label: "Reviews" },
     ],

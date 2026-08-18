@@ -4,6 +4,8 @@ import type {
   Goal,
   Project,
   Task,
+  Skill,
+  FocusSession,
   Transaction,
   TrainingSession,
   WeightEntry,
@@ -40,6 +42,17 @@ export interface DataStore {
   getGoals(): Promise<Goal[]>;
   saveGoal(goal: Goal): Promise<void>;
   deleteGoal(id: string): Promise<void>;
+
+  // Skills
+  getSkills(): Promise<Skill[]>;
+  saveSkill(skill: Skill): Promise<void>;
+  deleteSkill(id: string): Promise<void>;
+
+  // Focus sessions
+  getFocusSessions(month: string): Promise<FocusSession[]>;
+  saveFocusSession(month: string, session: FocusSession): Promise<void>;
+  deleteFocusSession(month: string, id: string): Promise<void>;
+  listAvailableFocusMonths(): Promise<string[]>;
 
   // Projects & tasks
   getProjects(): Promise<Project[]>;

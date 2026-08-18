@@ -73,7 +73,11 @@ export function ProjectsPage() {
   }
 
   async function toggleTaskDone(t: Task) {
-    await store.saveTask({ ...t, status: t.status === "done" ? "todo" : "done" });
+    await store.saveTask({
+      ...t,
+      status: t.status === "done" ? "todo" : "done",
+      completedAt: t.status === "done" ? undefined : todayIso(),
+    });
     refresh();
   }
 
@@ -145,93 +149,108 @@ export function ProjectsPage() {
           {projects.map((p) => {
             const linkedTasks = tasks.filter((t) => t.projectId === p.id);
             const doneCount = linkedTasks.filter((t) => t.status === "done").length;
-            // Completion is driven automatically by linked tasks once any
-            // exist; manual progress only applies when nothing is linked.
             const taskDriven = linkedTasks.length > 0;
             const pct = taskDriven ? Math.round((doneCount / linkedTasks.length) * 100) : p.progress;
             const isExpanded = expanded === p.id;
+            const deadline = p.targetDate ? (() => {
+              const deadlineDate = new Date(`${p.targetDate}T00:00:00`);
+              const today = new Date(`${todayIso()}T00:00:00`);
+              return Math.ceil((deadlineDate.getTime() - today.getTime()) / 86400000);
+            })() : null;
 
             return (
               <Card key={p.id}>
-                <div className="flex items-start justify-between mb-2">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                   <div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-medium text-ink">{p.name}</span>
-                      <Badge tone={STATUS_TONE[p.status]}>{p.status}</Badge>
+                    <div className="flex items-start justify-between mb-2">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium text-ink">{p.name}</span>
+                          <Badge tone={STATUS_TONE[p.status]}>{p.status}</Badge>
+                        </div>
+                        {p.description && <p className="text-sm text-ink-muted mt-0.5">{p.description}</p>}
+                        {p.nextAction && <p className="text-xs text-ink-faint mt-1">Next: {p.nextAction}</p>}
+                      </div>
+                      <button onClick={() => removeProject(p.id)} className="text-ink-faint hover:text-danger p-1">
+                        <Trash2 size={13} />
+                      </button>
                     </div>
-                    {p.description && <p className="text-sm text-ink-muted mt-0.5">{p.description}</p>}
-                    {p.nextAction && <p className="text-xs text-ink-faint mt-1">Next: {p.nextAction}</p>}
-                  </div>
-                  <button onClick={() => removeProject(p.id)} className="text-ink-faint hover:text-danger p-1">
-                    <Trash2 size={13} />
-                  </button>
-                </div>
 
-                <div className="flex items-center gap-3 mb-2">
-                  <ProgressBar value={pct} />
-                  <span className="text-xs text-ink-faint w-10 text-right">{pct}%</span>
-                </div>
+                    <div className="flex items-center gap-3 mb-2">
+                      <ProgressBar value={pct} />
+                      <span className="text-xs text-ink-faint w-10 text-right">{pct}%</span>
+                    </div>
 
-                <div className="flex items-center gap-2 mb-2">
-                  {taskDriven ? (
-                    <span className="text-xs text-ink-faint">
-                      {doneCount}/{linkedTasks.length} tasks done · driven by linked tasks
-                    </span>
-                  ) : (
-                    <>
-                      <Input
-                        type="number"
-                        min={0}
-                        max={100}
-                        value={p.progress}
-                        onChange={(e) =>
-                          updateProject(p, { progress: Math.max(0, Math.min(100, Number(e.target.value) || 0)) })
-                        }
-                        className="w-20"
+                    <div className="flex items-center gap-2 mb-2">
+                      {taskDriven ? (
+                        <span className="text-xs text-ink-faint">
+                          {doneCount}/{linkedTasks.length} tasks done · driven by linked tasks
+                        </span>
+                      ) : (
+                        <>
+                          <Input
+                            type="number"
+                            min={0}
+                            max={100}
+                            value={p.progress}
+                            onChange={(e) =>
+                              updateProject(p, { progress: Math.max(0, Math.min(100, Number(e.target.value) || 0)) })
+                            }
+                            className="w-20"
+                          />
+                          <span className="text-xs text-ink-faint">% complete (no tasks linked yet)</span>
+                        </>
+                      )}
+                      <Select
+                        value={p.status}
+                        onChange={(v) => updateProject(p, { status: v as Project["status"] })}
+                        options={STATUS_OPTIONS}
+                        className="ml-auto"
                       />
-                      <span className="text-xs text-ink-faint">% complete (no tasks linked yet)</span>
-                    </>
-                  )}
-                  <Select
-                    value={p.status}
-                    onChange={(v) => updateProject(p, { status: v as Project["status"] })}
-                    options={STATUS_OPTIONS}
-                    className="ml-auto"
-                  />
-                </div>
+                    </div>
+                  </div>
 
-                <button
-                  onClick={() => setExpanded(isExpanded ? null : p.id)}
-                  className="text-xs text-accent hover:underline"
-                >
-                  {isExpanded ? "Hide tasks" : `${linkedTasks.length > 0 ? "Manage" : "Add"} tasks`}
-                </button>
-
-                {isExpanded && (
-                  <div className="mt-3 space-y-2 border-t border-border pt-3">
-                    {linkedTasks.length === 0 ? (
-                      <p className="text-xs text-ink-faint">No tasks linked yet.</p>
+                  <div className="space-y-3">
+                    {p.targetDate ? (
+                      <div>
+                        <Badge tone={deadline !== null && deadline < 0 ? "danger" : "neutral"}>
+                          {deadline !== null && deadline < 0 ? `${Math.abs(deadline)} days overdue` : `${deadline ?? 0} days until deadline`}
+                        </Badge>
+                      </div>
                     ) : (
-                      <ul className="space-y-1">
-                        {linkedTasks.map((t) => (
-                          <li key={t.id} className="flex items-center gap-2 text-sm">
-                            <button onClick={() => toggleTaskDone(t)} className="text-ink-faint hover:text-accent">
-                              {t.status === "done" ? (
-                                <Check size={14} className="text-success" />
-                              ) : (
-                                <Circle size={14} />
-                              )}
-                            </button>
-                            <span className={t.status === "done" ? "line-through text-ink-faint" : "text-ink"}>
-                              {t.title}
-                            </span>
-                            {t.dueDate && (
-                              <span className="text-xs text-ink-faint ml-auto">due {t.dueDate}</span>
-                            )}
-                          </li>
-                        ))}
-                      </ul>
+                      <Badge tone="neutral">No deadline</Badge>
                     )}
+
+                    <div className="space-y-2">
+                      <div className="flex items-center justify-between text-xs text-ink-faint">
+                        <span>Linked tasks</span>
+                        <span>{linkedTasks.length}</span>
+                      </div>
+                      {linkedTasks.length === 0 ? (
+                        <p className="text-xs text-ink-faint">No tasks linked yet.</p>
+                      ) : (
+                        <ul className="space-y-1">
+                          {linkedTasks.map((t) => (
+                            <li key={t.id} className="flex items-center gap-2 text-sm">
+                              <button onClick={() => toggleTaskDone(t)} className="text-ink-faint hover:text-accent">
+                                {t.status === "done" ? (
+                                  <Check size={14} className="text-success" />
+                                ) : (
+                                  <Circle size={14} />
+                                )}
+                              </button>
+                              <span className={t.status === "done" ? "line-through text-ink-faint" : "text-ink"}>
+                                {t.title}
+                              </span>
+                              {t.dueDate && (
+                                <span className="text-xs text-ink-faint ml-auto">due {t.dueDate}</span>
+                              )}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+
                     <div className="flex gap-2">
                       <Input
                         value={newTaskTitle}
@@ -244,8 +263,19 @@ export function ProjectsPage() {
                         <Plus size={13} />
                       </Button>
                     </div>
+
+                    <div className="text-xs text-ink-faint">
+                      Focus hours invested: <span className="text-ink">{p.hoursInvested}h</span>
+                    </div>
                   </div>
-                )}
+                </div>
+
+                <button
+                  onClick={() => setExpanded(isExpanded ? null : p.id)}
+                  className="text-xs text-accent hover:underline mt-3 inline-block"
+                >
+                  {isExpanded ? "Hide extra controls" : "Show task controls"}
+                </button>
               </Card>
             );
           })}

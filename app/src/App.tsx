@@ -25,6 +25,7 @@ import { DashboardPage } from "./pages/Dashboard";
 import { TodayPage } from "./pages/Today";
 import { TasksPage } from "./pages/Tasks";
 import { HabitsPage } from "./pages/Habits";
+import { LockInPage } from "./pages/LockIn";
 import { GoalsPage } from "./pages/Goals";
 import { ProjectsPage } from "./pages/Projects";
 import { HealthPage } from "./pages/Health";
@@ -115,6 +116,7 @@ function Shell() {
           <Route path="/day/:date" element={<TodayPage />} />
           <Route path="/tasks" element={<TasksPage />} />
           <Route path="/habits" element={<HabitsPage />} />
+          <Route path="/lockin" element={<LockInPage />} />
           <Route path="/journal" element={<JournalPage />} />
           <Route path="/goals" element={<GoalsPage />} />
           <Route path="/projects" element={<ProjectsPage />} />

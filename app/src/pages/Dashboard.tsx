@@ -10,8 +10,9 @@ import {
   habitStats,
   overdueTasks,
   average,
+  splitCorrelation,
 } from "../services/analytics/analytics";
-import type { DailyLog, Habit, Goal, Project, Transaction, Task } from "../services/validation/schemas";
+import type { DailyLog, Habit, Goal, Project, Transaction, Task, FocusSession } from "../services/validation/schemas";
 import { Card, Badge, EmptyState, ProgressBar } from "../components/ui";
 import { AlertTriangle, Flame, CalendarRange, CheckCircle2, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -50,6 +51,7 @@ export function DashboardPage() {
   const [projects, setProjects] = useState<Project[]>([]);
   const [tasks, setTasks] = useState<Task[]>([]);
   const [transactions, setTransactions] = useState<Transaction[]>([]);
+  const [focusSessions, setFocusSessions] = useState<FocusSession[]>([]);
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(true);
   const quote = useDailyQuote();
@@ -65,8 +67,9 @@ export function DashboardPage() {
       store.getProjects(),
       store.getTasks(),
       store.getTransactions(date.slice(0, 7)),
+      store.getFocusSessions(date.slice(0, 7)),
       store.getSettings(),
-    ]).then(([t, week, month, h, g, p, tk, tx, settings]) => {
+    ]).then(([t, week, month, h, g, p, tk, tx, focus, settings]) => {
       setToday(t);
       setWeekLogs(week.sort((a, b) => a.date.localeCompare(b.date)));
       setMonthLogs(month.sort((a, b) => a.date.localeCompare(b.date)));
@@ -75,6 +78,7 @@ export function DashboardPage() {
       setProjects(p);
       setTasks(tk);
       setTransactions(tx);
+      setFocusSessions(focus);
       setName(settings.name);
       setLoading(false);
     });
@@ -119,6 +123,13 @@ export function DashboardPage() {
   const monthIncome = transactions.filter((t) => t.type === "income").reduce((s, t) => s + t.amount, 0);
   const cashFlow = monthIncome - monthExpenses;
 
+  const focusWindowStart = daysAgoIso(6);
+  const focusHoursThisWeek = focusSessions
+    .filter((session) => session.date >= focusWindowStart && session.date <= todayIso())
+    .reduce((sum, session) => sum + session.durationMinutes, 0) / 60;
+  const focusProgress = Math.min(100, (focusHoursThisWeek / 40) * 100);
+  const sleepVsProductivity = splitCorrelation(monthLogs, "sleep", 7, "productivity");
+
   const topHabits = habits.slice(0, 4).map((h) => ({ habit: h, stats: habitStats(h, monthLogs) }));
   const projectProgressData = activeProjects.slice(0, 5).map((p) => ({ name: p.name, progress: p.progress, hours: p.hoursInvested }));
 
@@ -160,6 +171,14 @@ export function DashboardPage() {
         <MetricTile label="Habits done" value={`${habitsDoneToday}/${habits.length}`} sub="today" icon={<CheckCircle2 size={12} />} />
         <MetricTile label="Cash flow" value={`$${cashFlow.toFixed(0)}`} sub="this month" icon={<TrendingUp size={12} />} />
       </div>
+
+      {sleepVsProductivity.aboveAvg !== null && sleepVsProductivity.belowAvg !== null && (
+        <div className="flex justify-end">
+          <Badge tone="accent">
+            Sleep ≥7h → productivity {sleepVsProductivity.aboveAvg} vs {sleepVsProductivity.belowAvg}
+          </Badge>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <Card title="Last 30 days — health & focus" className="lg:col-span-2">
@@ -243,15 +262,24 @@ export function DashboardPage() {
               <p className="text-lg font-semibold text-danger">{overdue.length}</p>
             </div>
           </div>
-          <div className="space-y-2">
-            <p className="text-xs text-ink-faint">Focus trend</p>
-            <ResponsiveContainer width="100%" height={90}>
-              <BarChart data={monthHealthData.slice(-7)}>
-                <XAxis dataKey="date" tick={{ fontSize: 9 }} />
-                <Tooltip />
-                <Bar dataKey="habitsDone" fill="var(--accent)" radius={[4, 4, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
+          <div className="space-y-3">
+            <div>
+              <div className="flex items-center justify-between text-xs text-ink-faint mb-1">
+                <span>Focus hours</span>
+                <span>{focusHoursThisWeek.toFixed(1)}h / 40h</span>
+              </div>
+              <ProgressBar value={focusProgress} />
+            </div>
+            <div className="space-y-2">
+              <p className="text-xs text-ink-faint">Focus trend</p>
+              <ResponsiveContainer width="100%" height={90}>
+                <BarChart data={monthHealthData.slice(-7)}>
+                  <XAxis dataKey="date" tick={{ fontSize: 9 }} />
+                  <Tooltip />
+                  <Bar dataKey="habitsDone" fill="var(--accent)" radius={[4, 4, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </div>
         </Card>
 

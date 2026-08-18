@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
+import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { useDataStore } from "../services/datastore/context";
 import { todayIso } from "../services/id";
-import type { Review } from "../services/validation/schemas";
+import type { DailyLog, Review } from "../services/validation/schemas";
 import { weekKeyOf, weeklySummary, daysAgoIso } from "../services/analytics/analytics";
+import { wordFrequency } from "../services/analytics/wordFrequency";
 import { Card, Button, Textarea, Select } from "../components/ui";
 
 const EMPTY_REVIEW = (period: string, startDate: string, endDate: string): Review => ({
@@ -31,6 +33,7 @@ export function ReviewsPage() {
   const [mode, setMode] = useState<"weekly" | "monthly">("weekly");
   const [review, setReview] = useState<Review | null>(null);
   const [summary, setSummary] = useState<ReturnType<typeof weeklySummary> | null>(null);
+  const [logs, setLogs] = useState<DailyLog[]>([]);
   const [loading, setLoading] = useState(true);
   const [savedAt, setSavedAt] = useState<string | null>(null);
 
@@ -40,6 +43,7 @@ export function ReviewsPage() {
     Promise.all([store.getReview(period), store.listDailyLogs(start, end)]).then(([existing, logs]) => {
       setReview(existing ?? EMPTY_REVIEW(period, start, end));
       setSummary(weeklySummary(logs));
+      setLogs(logs);
       setLoading(false);
     });
   }, [store, mode]);
@@ -52,8 +56,13 @@ export function ReviewsPage() {
 
   if (loading || !review || !summary) return <div className="p-8 text-sm text-ink-faint">Loading…</div>;
 
+  const scatterData = logs
+    .filter((log) => log.mood !== undefined && log.sleep?.hours !== undefined)
+    .map((log) => ({ x: log.sleep?.hours ?? 0, y: log.mood ?? 0, date: log.date }));
+  const topWords = wordFrequency(logs.flatMap((log) => (log.notes ? [log.notes] : [])), 10);
+
   return (
-    <div className="p-8 max-w-3xl space-y-5">
+    <div className="p-8 max-w-6xl space-y-5">
       <div className="flex items-center justify-between">
         <h1 className="text-xl font-semibold text-ink">Reviews</h1>
         <Select
@@ -66,54 +75,86 @@ export function ReviewsPage() {
         />
       </div>
 
-      <Card title={`Auto-summary — ${review.startDate} to ${review.endDate}`}>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
-          <div>
-            <div className="text-ink-faint text-xs">Avg sleep</div>
-            <div className="text-ink font-medium">{summary.avgSleep ?? "—"}h</div>
-          </div>
-          <div>
-            <div className="text-ink-faint text-xs">Avg energy</div>
-            <div className="text-ink font-medium">{summary.avgEnergy ?? "—"}</div>
-          </div>
-          <div>
-            <div className="text-ink-faint text-xs">Avg mood</div>
-            <div className="text-ink font-medium">{summary.avgMood ?? "—"}</div>
-          </div>
-          <div>
-            <div className="text-ink-faint text-xs">Avg productivity</div>
-            <div className="text-ink font-medium">{summary.avgProductivity ?? "—"}</div>
-          </div>
-        </div>
-        <p className="text-xs text-ink-faint mt-3">{summary.daysLogged} days logged in this period.</p>
-      </Card>
-
-      <Card title="Reflection">
-        <div className="space-y-3">
-          {(
-            [
-              ["wentWell", "What went well?"],
-              ["wentBadly", "What went badly?"],
-              ["learned", "What did I learn?"],
-              ["change", "What should change?"],
-              ["nextPriorities", "Next priorities"],
-            ] as const
-          ).map(([key, label]) => (
-            <div key={key}>
-              <label className="block text-xs text-ink-muted mb-1">{label}</label>
-              <Textarea
-                value={review[key]}
-                onChange={(e) => setReview({ ...review, [key]: e.target.value })}
-                rows={2}
-              />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="space-y-4">
+          <Card title={`Auto-summary — ${review.startDate} to ${review.endDate}`}>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
+              <div>
+                <div className="text-ink-faint text-xs">Avg sleep</div>
+                <div className="text-ink font-medium">{summary.avgSleep ?? "—"}h</div>
+              </div>
+              <div>
+                <div className="text-ink-faint text-xs">Avg energy</div>
+                <div className="text-ink font-medium">{summary.avgEnergy ?? "—"}</div>
+              </div>
+              <div>
+                <div className="text-ink-faint text-xs">Avg mood</div>
+                <div className="text-ink font-medium">{summary.avgMood ?? "—"}</div>
+              </div>
+              <div>
+                <div className="text-ink-faint text-xs">Avg productivity</div>
+                <div className="text-ink font-medium">{summary.avgProductivity ?? "—"}</div>
+              </div>
             </div>
-          ))}
-          <div className="flex items-center justify-between gap-3 pt-1">
-            <Button onClick={save}>Save review</Button>
-            {savedAt && <span className="text-[11px] text-ink-faint">Saved {savedAt}</span>}
-          </div>
+            <p className="text-xs text-ink-faint mt-3">{summary.daysLogged} days logged in this period.</p>
+          </Card>
+
+          <Card title="Reflection">
+            <div className="space-y-3">
+              {(
+                [
+                  ["wentWell", "What went well?"],
+                  ["wentBadly", "What went badly?"],
+                  ["learned", "What did I learn?"],
+                  ["change", "What should change?"],
+                  ["nextPriorities", "Next priorities"],
+                ] as const
+              ).map(([key, label]) => (
+                <div key={key}>
+                  <label className="block text-xs text-ink-muted mb-1">{label}</label>
+                  <Textarea
+                    value={review[key]}
+                    onChange={(e) => setReview({ ...review, [key]: e.target.value })}
+                    rows={2}
+                  />
+                </div>
+              ))}
+              <div className="flex items-center justify-between gap-3 pt-1">
+                <Button onClick={save}>Save review</Button>
+                {savedAt && <span className="text-[11px] text-ink-faint">Saved {savedAt}</span>}
+              </div>
+            </div>
+          </Card>
         </div>
-      </Card>
+
+        <div className="space-y-4">
+          <Card title="Sleep vs mood">
+            <ResponsiveContainer width="100%" height={220}>
+              <ScatterChart margin={{ top: 10, right: 12, bottom: 10, left: 0 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
+                <XAxis type="number" dataKey="x" name="sleep" unit="h" tick={{ fontSize: 10 }} />
+                <YAxis type="number" dataKey="y" name="mood" domain={[1, 10]} tick={{ fontSize: 10 }} />
+                <Tooltip cursor={{ strokeDasharray: "3 3" }} formatter={(value: number) => value} labelFormatter={(label, payload) => payload[0]?.payload?.date ?? label} />
+                <Scatter data={scatterData} fill="var(--accent)" />
+              </ScatterChart>
+            </ResponsiveContainer>
+          </Card>
+
+          <Card title="Top words">
+            <div className="flex flex-wrap items-end gap-2">
+              {topWords.map((entry) => (
+                <span
+                  key={entry.word}
+                  className="text-ink-muted"
+                  style={{ fontSize: `${Math.max(11, entry.count * 9)}px` }}
+                >
+                  {entry.word}
+                </span>
+              ))}
+            </div>
+          </Card>
+        </div>
+      </div>
     </div>
   );
 }

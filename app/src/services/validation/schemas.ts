@@ -101,12 +101,41 @@ export const TaskSchema = z.object({
   priority: z.enum(["low", "medium", "high"]).default("medium"),
   dueDate: isoDate.optional(),
   status: z.enum(["todo", "in_progress", "done", "blocked"]).default("todo"),
+  completedAt: isoDate.optional(),
   estimatedMinutes: z.number().min(0).optional(),
   actualMinutes: z.number().min(0).optional(),
   tags: z.array(z.string()).default([]),
   createdAt: isoDate,
 });
 export type Task = z.infer<typeof TaskSchema>;
+
+export const SkillSchema = z.object({
+  id,
+  name: z.string().min(1),
+  color: z.string().optional(),
+  createdAt: isoDate,
+});
+export type Skill = z.infer<typeof SkillSchema>;
+
+export const SkillsFileSchema = z.object({
+  skills: z.array(SkillSchema).default([]),
+});
+
+export const FocusSessionSchema = z.object({
+  id,
+  date: isoDate,
+  skillId: id.optional(),
+  mode: z.enum(["pomodoro", "freeform"]).default("pomodoro"),
+  durationMinutes: z.number().min(0),
+  startedAt: z.string().optional(),
+  notes: z.string().optional(),
+});
+export type FocusSession = z.infer<typeof FocusSessionSchema>;
+
+export const FocusSessionsFileSchema = z.object({
+  month: z.string().regex(/^\d{4}-\d{2}$/),
+  sessions: z.array(FocusSessionSchema).default([]),
+});
 
 export const ProjectSchema = z.object({
   id,

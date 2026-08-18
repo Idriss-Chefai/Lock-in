@@ -3,7 +3,8 @@ import { useDataStore } from "../services/datastore/context";
 import { newId, todayIso } from "../services/id";
 import type { Habit, DailyLog } from "../services/validation/schemas";
 import { Card, Button, Input, Select, Badge, EmptyState, ProgressBar } from "../components/ui";
-import { habitStats, daysAgoIso } from "../services/analytics/analytics";
+import { HeatmapGrid } from "../components/HeatmapGrid";
+import { habitStats, daysAgoIso, isHabitDone } from "../services/analytics/analytics";
 import { Plus, Trash2, Flame } from "lucide-react";
 
 export function HabitsPage() {
@@ -82,6 +83,7 @@ export function HabitsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {habits.map((h) => {
             const stats = habitStats(h, logs);
+            const heatmapData = logs.map((log) => ({ date: log.date, value: isHabitDone(log, h.id) ? 1 : 0 }));
             return (
               <Card key={h.id}>
                 <div className="flex items-start justify-between mb-2">
@@ -101,10 +103,20 @@ export function HabitsPage() {
                     </button>
                   </div>
                 </div>
-                <div className="flex items-center gap-1.5 mb-3">
+                <div className="flex items-center gap-1.5 mb-2">
                   <Flame size={14} className="text-warning" />
                   <span className="text-sm text-ink">{stats.currentStreak} day streak</span>
                   <span className="text-xs text-ink-faint ml-2">longest: {stats.longestStreak}</span>
+                </div>
+                <div className="grid grid-cols-2 gap-2 mb-3 text-xs">
+                  <div className="bg-surface-raised rounded-md px-2 py-1.5">
+                    <div className="text-ink-faint">Current</div>
+                    <div className="font-medium text-ink">{stats.currentStreak}d</div>
+                  </div>
+                  <div className="bg-surface-raised rounded-md px-2 py-1.5">
+                    <div className="text-ink-faint">Best</div>
+                    <div className="font-medium text-ink">{stats.longestStreak}d</div>
+                  </div>
                 </div>
                 <div className="space-y-2">
                   <div>
@@ -121,6 +133,9 @@ export function HabitsPage() {
                     </div>
                     <ProgressBar value={stats.monthlyConsistency} />
                   </div>
+                </div>
+                <div className="mt-4">
+                  <HeatmapGrid data={heatmapData} weeks={8} />
                 </div>
               </Card>
             );

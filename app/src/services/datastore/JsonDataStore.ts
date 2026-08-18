@@ -3,6 +3,8 @@ import {
   DailyLogSchema,
   HabitsFileSchema,
   GoalsFileSchema,
+  SkillsFileSchema,
+  FocusSessionsFileSchema,
   ProjectsFileSchema,
   TransactionsFileSchema,
   FinanceCategoriesFileSchema,
@@ -15,6 +17,8 @@ import {
   type DailyLog,
   type Habit,
   type Goal,
+  type Skill,
+  type FocusSession,
   type Project,
   type Task,
   type Transaction,
@@ -124,6 +128,62 @@ export class JsonDataStore implements DataStore {
   async deleteGoal(id: string): Promise<void> {
     const goals = (await this.getGoals()).filter((g) => g.id !== id);
     await this.writeJsonSafe("goals/goals.json", GoalsFileSchema.parse({ goals }));
+  }
+
+  // ---------- Skills ----------
+
+  async getSkills(): Promise<Skill[]> {
+    const raw = await this.readJson("skills/skills.json");
+    if (!raw) return [];
+    return SkillsFileSchema.parse(raw).skills;
+  }
+
+  async saveSkill(skill: Skill): Promise<void> {
+    const skills = await this.getSkills();
+    const idx = skills.findIndex((s) => s.id === skill.id);
+    if (idx >= 0) skills[idx] = skill;
+    else skills.push(skill);
+    await this.writeJsonSafe("skills/skills.json", SkillsFileSchema.parse({ skills }));
+  }
+
+  async deleteSkill(id: string): Promise<void> {
+    const skills = (await this.getSkills()).filter((s) => s.id !== id);
+    await this.writeJsonSafe("skills/skills.json", SkillsFileSchema.parse({ skills }));
+  }
+
+  // ---------- Focus sessions ----------
+
+  async getFocusSessions(month: string): Promise<FocusSession[]> {
+    const raw = await this.readJson(`focus/sessions/${month}.json`);
+    if (!raw) return [];
+    return FocusSessionsFileSchema.parse(raw).sessions;
+  }
+
+  async saveFocusSession(month: string, session: FocusSession): Promise<void> {
+    const sessions = await this.getFocusSessions(month);
+    const idx = sessions.findIndex((s) => s.id === session.id);
+    if (idx >= 0) sessions[idx] = session;
+    else sessions.push(session);
+    await this.writeJsonSafe(
+      `focus/sessions/${month}.json`,
+      FocusSessionsFileSchema.parse({ month, sessions })
+    );
+  }
+
+  async deleteFocusSession(month: string, id: string): Promise<void> {
+    const sessions = (await this.getFocusSessions(month)).filter((s) => s.id !== id);
+    await this.writeJsonSafe(
+      `focus/sessions/${month}.json`,
+      FocusSessionsFileSchema.parse({ month, sessions })
+    );
+  }
+
+  async listAvailableFocusMonths(): Promise<string[]> {
+    const entries = await window.lifeos.readDir("focus/sessions");
+    return entries
+      .filter((e) => e.isFile && e.name.endsWith(".json"))
+      .map((e) => e.name.replace(".json", ""))
+      .sort();
   }
 
   // ---------- Projects & Tasks ----------
@@ -382,20 +442,27 @@ export class JsonDataStore implements DataStore {
   // ---------- Data management ----------
 
   async exportAll(): Promise<Record<string, unknown>> {
-    const [habits, goals, projectsFile, health, books, media, settings, months] = await Promise.all([
+    const [habits, goals, skills, projectsFile, health, books, media, settings, txMonths, focusMonths] = await Promise.all([
       this.getHabits(),
       this.getGoals(),
+      this.getSkills(),
       this.getProjectsFile(),
       this.getHealthFile(),
       this.getBooks(),
       this.getMediaItems(),
       this.getSettings(),
       this.listAvailableTransactionMonths(),
+      this.listAvailableFocusMonths(),
     ]);
 
     const transactionsByMonth: Record<string, Transaction[]> = {};
-    for (const m of months) {
+    for (const m of txMonths) {
       transactionsByMonth[m] = await this.getTransactions(m);
+    }
+
+    const focusSessionsByMonth: Record<string, FocusSession[]> = {};
+    for (const m of focusMonths) {
+      focusSessionsByMonth[m] = await this.getFocusSessions(m);
     }
 
     const dailyLogs = await this.listDailyLogs("0000-01-01", "9999-12-31");
@@ -405,12 +472,14 @@ export class JsonDataStore implements DataStore {
       dailyLogs,
       habits,
       goals,
+      skills,
       projects: projectsFile.projects,
       tasks: projectsFile.tasks,
       health,
       books,
       media,
       transactionsByMonth,
+      focusSessionsByMonth,
       settings,
     };
   }
@@ -421,6 +490,7 @@ export class JsonDataStore implements DataStore {
     const dailyLogs = ((data.dailyLogs as unknown[]) ?? []).map((d) => DailyLogSchema.parse(d));
     const habits = HabitsFileSchema.parse({ habits: data.habits ?? [] });
     const goals = GoalsFileSchema.parse({ goals: data.goals ?? [] });
+    const skills = SkillsFileSchema.parse({ skills: data.skills ?? [] });
     const projectsFile = ProjectsFileSchema.parse({
       projects: data.projects ?? [],
       tasks: data.tasks ?? [],
@@ -430,11 +500,13 @@ export class JsonDataStore implements DataStore {
     const media = MediaFileSchema.parse({ items: data.media ?? [] });
     const settings = SettingsSchema.parse(data.settings ?? {});
     const transactionsByMonth = (data.transactionsByMonth as Record<string, unknown[]>) ?? {};
+    const focusSessionsByMonth = (data.focusSessionsByMonth as Record<string, unknown[]>) ?? {};
 
     // All validated — now commit.
     for (const log of dailyLogs) await this.saveDailyLog(log);
     await this.writeJsonSafe("habits/habits.json", habits);
     await this.writeJsonSafe("goals/goals.json", goals);
+    await this.writeJsonSafe("skills/skills.json", skills);
     await this.writeJsonSafe("projects/projects.json", projectsFile);
     await this.writeJsonSafe("health/training.json", health);
     await this.writeJsonSafe("knowledge/books/books.json", books);
@@ -444,6 +516,10 @@ export class JsonDataStore implements DataStore {
       const parsed = TransactionsFileSchema.parse({ month, transactions: txs });
       await this.writeJsonSafe(`finance/transactions/${month}.json`, parsed);
     }
+    for (const [month, sessions] of Object.entries(focusSessionsByMonth)) {
+      const parsed = FocusSessionsFileSchema.parse({ month, sessions });
+      await this.writeJsonSafe(`focus/sessions/${month}.json`, parsed);
+    }
   }
 
   async wipeAllData(): Promise<void> {
@@ -451,8 +527,10 @@ export class JsonDataStore implements DataStore {
       "daily",
       "habits",
       "goals",
+      "skills",
       "projects",
       "finance",
+      "focus",
       "health",
       "knowledge",
       "reviews",

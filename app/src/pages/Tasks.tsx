@@ -43,7 +43,11 @@ export function TasksPage() {
   }
 
   async function updateStatus(task: Task, status: Task["status"]) {
-    await store.saveTask({ ...task, status });
+    await store.saveTask({
+      ...task,
+      status,
+      completedAt: status === "done" ? todayIso() : undefined,
+    });
     refresh();
   }
 
@@ -61,7 +65,7 @@ export function TasksPage() {
   if (loading) return <div className="p-8 text-sm text-ink-faint">Loading…</div>;
 
   return (
-    <div className="p-8 max-w-4xl space-y-5">
+    <div className="p-8 max-w-6xl space-y-5">
       <h1 className="text-xl font-semibold text-ink">Tasks</h1>
 
       <Card title="New task">
