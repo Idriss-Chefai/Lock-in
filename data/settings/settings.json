@@ -8,5 +8,6 @@
   "hideTopBar": true,
   "fullscreen": false,
   "windowControlsOnHover": true,
+  "navStyle": "dock",
   "dataVersion": 1
 }

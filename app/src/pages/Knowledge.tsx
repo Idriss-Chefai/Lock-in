@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import {
   BarChart,
@@ -14,7 +14,10 @@ import { useDataStore } from "../services/datastore/context";
 import { newId } from "../services/id";
 import type { Book, MediaItem } from "../services/validation/schemas";
 import { Card, Button, Input, Select, Badge, EmptyState } from "../components/ui";
-import { Plus, Trash2, Star, ExternalLink, X, Link2, Film, Youtube, Mic2 } from "lucide-react";
+import { Plus, Trash2, ExternalLink, X, Link2, Film, Youtube, Mic2, Pencil } from "lucide-react";
+import { StarRating } from "../components/StarRating";
+
+const SketchModal = lazy(() => import("../components/SketchModal").then((module) => ({ default: module.SketchModal })));
 
 const BOOK_STATUS_TONE: Record<Book["status"], "neutral" | "accent" | "success"> = {
   queued: "neutral",
@@ -98,6 +101,7 @@ export function KnowledgePage() {
   const [url, setUrl] = useState("");
   const [coverUrlInput, setCoverUrlInput] = useState("");
   const [openError, setOpenError] = useState<string | null>(null);
+  const [sketchOpen, setSketchOpen] = useState(false);
 
   async function refresh() {
     const [bookList, mediaList] = await Promise.all([store.getBooks(), store.getMediaItems()]);
@@ -377,6 +381,7 @@ export function KnowledgePage() {
                       <Link2 size={10} className="text-white" />
                     </div>
                   )}
+                  {b.sketchData && <div className="absolute bottom-1 right-1 bg-black/50 rounded p-0.5"><Pencil size={10} className="text-white" /></div>}
                 </div>
                 <p className="text-xs font-medium text-ink mt-1.5 truncate group-hover:text-accent">{b.title}</p>
                 {b.author && <p className="text-[10px] text-ink-faint truncate">{b.author}</p>}
@@ -400,9 +405,11 @@ export function KnowledgePage() {
                   <div className="absolute bottom-1 left-1 bg-black/50 rounded p-0.5">
                     <Icon size={10} className="text-white" />
                   </div>
+                  {item.sketchData && <div className="absolute bottom-1 right-1 bg-black/50 rounded p-0.5"><Pencil size={10} className="text-white" /></div>}
                 </div>
                 <p className="text-xs font-medium text-ink mt-1.5 truncate group-hover:text-accent">{item.title}</p>
                 {item.creator && <p className="text-[10px] text-ink-faint truncate">{item.creator}</p>}
+                <StarRating value={item.rating} size={12} />
               </button>
             );
           })}
@@ -452,18 +459,15 @@ export function KnowledgePage() {
               </button>
             </div>
 
-            {selected.status === "finished" && (
-              <div className="flex items-center gap-0.5 mb-4">
-                {[1, 2, 3, 4, 5].map((n) => (
-                  <button key={n} onClick={() => {
-                    if (selectedIsBook) updateBook(selected, { rating: n });
-                    else updateMediaItem(selected, { rating: n });
-                  }}>
-                    <Star size={16} className={(selected.rating ?? 0) >= n ? "fill-warning text-warning" : "text-ink-faint"} />
-                  </button>
-                ))}
-              </div>
-            )}
+            <div className="mb-4">
+              <StarRating
+                value={selected.rating}
+                onChange={(rating) => {
+                  if (selectedIsBook) updateBook(selected, { rating });
+                  else updateMediaItem(selected, { rating });
+                }}
+              />
+            </div>
 
             <div className="space-y-2">
               <p className="text-xs text-ink-faint">Cover image</p>
@@ -488,6 +492,10 @@ export function KnowledgePage() {
                   <a href={selected.url} target="_blank" rel="noreferrer" className="flex-1 text-xs text-accent underline break-all">Open link</a>
                 </div>
               )}
+
+              <Button variant="secondary" className="w-full justify-center mt-2" onClick={() => setSketchOpen(true)}>
+                <Pencil size={14} /> {selected.sketchData ? "Edit sketch" : "Add sketch"}
+              </Button>
 
               {selected.notesLocation ? (
                 <div className="flex gap-2 mt-2">
@@ -516,6 +524,19 @@ export function KnowledgePage() {
             </div>
           </div>
         </div>
+      )}
+      {selected && sketchOpen && (
+        <Suspense fallback={<div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/50 text-sm text-white">Loading sketch…</div>}>
+          <SketchModal
+            key={selected.id}
+            initialData={selected.sketchData}
+            onSave={(sketchData) => {
+              if (selectedIsBook) updateBook(selected, { sketchData });
+              else updateMediaItem(selected, { sketchData });
+            }}
+            onClose={() => setSketchOpen(false)}
+          />
+        </Suspense>
       )}
     </div>
   );

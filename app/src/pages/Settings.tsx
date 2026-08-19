@@ -17,6 +17,7 @@ export function SettingsPage() {
   const [hideTopBar, setHideTopBar] = useState(false);
   const [fullscreen, setFullscreen] = useState(false);
   const [windowControlsOnHover, setWindowControlsOnHover] = useState(false);
+  const [navStyle, setNavStyle] = useState<"sidebar" | "dock">("sidebar");
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -28,6 +29,7 @@ export function SettingsPage() {
       setHideTopBar(s.hideTopBar);
       setFullscreen(s.fullscreen);
       setWindowControlsOnHover(s.windowControlsOnHover);
+      setNavStyle(s.navStyle);
       window.lifeos.applyUiState({ hideMenuBar: s.hideTopBar, fullscreen: s.fullscreen, windowControlsOnHover: s.windowControlsOnHover });
     });
   }, [store]);
@@ -50,6 +52,7 @@ export function SettingsPage() {
     hideTopBar: boolean;
     fullscreen: boolean;
     windowControlsOnHover: boolean;
+    navStyle: "sidebar" | "dock";
   }>) {
     const current = await store.getSettings();
     const updated = {
@@ -61,9 +64,11 @@ export function SettingsPage() {
       hideTopBar: next.hideTopBar ?? hideTopBar,
       fullscreen: next.fullscreen ?? fullscreen,
       windowControlsOnHover: next.windowControlsOnHover ?? windowControlsOnHover,
+      navStyle: next.navStyle ?? navStyle,
     };
 
     await store.saveSettings(updated);
+    window.dispatchEvent(new CustomEvent("lifeos-settings-changed", { detail: updated }));
     const root = document.documentElement;
     root.style.setProperty("--page-padding", updated.displayMode === "compact" ? "0.5rem" : updated.displayMode === "wide" ? "1.25rem" : "0.9rem");
     root.style.setProperty("font-size", `${updated.fontScale * 100}%`);
@@ -164,6 +169,22 @@ export function SettingsPage() {
                 { value: "compact", label: "Compact" },
                 { value: "normal", label: "Normal" },
                 { value: "wide", label: "Wide" },
+              ]}
+            />
+          </div>
+
+          <div className="flex items-center justify-between">
+            <span className="text-sm text-ink">Navigation</span>
+            <Select
+              value={navStyle}
+              onChange={async (value) => {
+                const next = value as "sidebar" | "dock";
+                setNavStyle(next);
+                await persistSettings({ navStyle: next });
+              }}
+              options={[
+                { value: "sidebar", label: "Sidebar" },
+                { value: "dock", label: "Dock (Mac-style)" },
               ]}
             />
           </div>

@@ -3,6 +3,9 @@ export {};
 declare global {
   interface Window {
     lifeos: {
+      isFirstRun(): Promise<boolean>;
+      pickDataDir(): Promise<string | null>;
+      completeSetup(dataDir: string): Promise<boolean>;
       exists(relPath: string): Promise<boolean>;
       readText(relPath: string): Promise<string>;
       writeTextSafe(relPath: string, content: string): Promise<void>;

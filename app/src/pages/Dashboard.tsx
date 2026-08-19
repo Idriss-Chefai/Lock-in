@@ -13,9 +13,10 @@ import {
   splitCorrelation,
 } from "../services/analytics/analytics";
 import type { DailyLog, Habit, Goal, Project, Transaction, Task, FocusSession } from "../services/validation/schemas";
-import { Card, Badge, EmptyState, ProgressBar } from "../components/ui";
+import { Card, Badge, Button, EmptyState, ProgressBar } from "../components/ui";
 import { AlertTriangle, Flame, CalendarRange, CheckCircle2, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useCoach } from "../services/coach/CoachContext";
 
 const FALLBACK_QUOTES = [
   { text: "The secret of getting ahead is getting started.", author: "Mark Twain" },
@@ -32,17 +33,29 @@ function useDailyQuote() {
 
 function Sparkline({ data, dataKey, color }: { data: any[]; dataKey: string; color: string }) {
   if (data.every((d) => d[dataKey] == null)) return <div className="h-8" />;
+  const latest = [...data].reverse().find((d) => d[dataKey] != null)?.[dataKey];
   return (
-    <ResponsiveContainer width="100%" height={32}>
-      <LineChart data={data}>
-        <Line type="monotone" dataKey={dataKey} stroke={color} strokeWidth={1.5} dot={false} connectNulls />
-      </LineChart>
-    </ResponsiveContainer>
+    <div>
+      <div className="flex items-baseline justify-between mb-1">
+        <span className="text-xs text-ink-faint">{data[0]?.date} – {data[data.length - 1]?.date}</span>
+        <span className="text-sm font-semibold text-ink">{latest ?? "—"}</span>
+      </div>
+      <ResponsiveContainer width="100%" height={40}>
+        <LineChart data={data}>
+          <Tooltip
+            contentStyle={{ fontSize: 11, padding: "4px 8px" }}
+            labelFormatter={(label) => label}
+          />
+          <Line type="monotone" dataKey={dataKey} stroke={color} strokeWidth={1.5} dot={false} connectNulls />
+        </LineChart>
+      </ResponsiveContainer>
+    </div>
   );
 }
 
 export function DashboardPage() {
   const store = useDataStore();
+  const coach = useCoach();
   const [today, setToday] = useState<DailyLog | null>(null);
   const [weekLogs, setWeekLogs] = useState<DailyLog[]>([]);
   const [monthLogs, setMonthLogs] = useState<DailyLog[]>([]);
@@ -55,6 +68,13 @@ export function DashboardPage() {
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(true);
   const quote = useDailyQuote();
+  const overdue = overdueTasks(tasks, todayIso());
+
+  useEffect(() => {
+    if (!loading && overdue.length > 0) {
+      coach.push(`${overdue.length} task${overdue.length === 1 ? "" : "s"} overdue. No excuses.`, "warning");
+    }
+  }, [loading, overdue.length, coach]);
 
   useEffect(() => {
     const date = todayIso();
@@ -91,7 +111,6 @@ export function DashboardPage() {
   const habitsDoneToday = today ? habits.filter((h) => isHabitDone(today, h.id)).length : 0;
   const activeProjects = projects.filter((p) => p.status === "active");
   const openTasks = tasks.filter((task) => task.status !== "done");
-  const overdue = overdueTasks(tasks, todayIso());
 
   const monthAvgSleep = average(monthLogs.map((l) => l.sleep?.hours ?? NaN));
   const monthAvgMood = average(monthLogs.map((l) => l.mood ?? NaN));
@@ -127,6 +146,9 @@ export function DashboardPage() {
   const focusHoursThisWeek = focusSessions
     .filter((session) => session.date >= focusWindowStart && session.date <= todayIso())
     .reduce((sum, session) => sum + session.durationMinutes, 0) / 60;
+  const todayFocusHours = focusSessions
+    .filter((session) => session.date === todayIso())
+    .reduce((sum, session) => sum + session.durationMinutes, 0) / 60;
   const focusProgress = Math.min(100, (focusHoursThisWeek / 40) * 100);
   const sleepVsProductivity = splitCorrelation(monthLogs, "sleep", 7, "productivity");
 
@@ -144,6 +166,16 @@ export function DashboardPage() {
             {new Date().toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" })}
           </p>
         </div>
+      </div>
+
+      <div className="flex items-center justify-between bg-accent-muted/50 border border-accent/20 rounded-xl px-4 py-3">
+        <div>
+          <p className="text-xs text-ink-faint uppercase tracking-wide">Today's focus</p>
+          <p className="text-2xl font-semibold text-ink">{todayFocusHours.toFixed(1)}h</p>
+        </div>
+        <Link to="/lockin">
+          <Button>Lock in <span aria-hidden="true">→</span></Button>
+        </Link>
       </div>
 
       <div className="bg-accent-muted border border-accent/20 rounded-xl px-4 py-3">

@@ -25,7 +25,7 @@ export function JournalPage() {
 
   useEffect(() => {
     async function load() {
-      const logs = await store.listDailyLogs(daysAgoIso(365), todayIso());
+      const logs = await store.listDailyLogs(daysAgoIso(89), todayIso());
       const noteEntries: JournalEntry[] = logs
         .filter((l: DailyLog) => l.notes && l.notes.trim().length > 0)
         .map((l) => ({ date: l.date, kind: "note" as const, text: l.notes }));

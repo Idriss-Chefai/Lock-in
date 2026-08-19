@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { DataStoreProvider, useDataStore } from "./services/datastore/context";
 
@@ -18,6 +18,7 @@ function applyDisplaySettings(settings: { displayMode?: "compact" | "normal" | "
   });
 }
 import { Sidebar } from "./components/Sidebar";
+import { NavDock } from "./components/NavDock";
 import { CalendarPanel } from "./components/CalendarPanel";
 import { useKeyboardShortcuts } from "./hooks/useKeyboardShortcuts";
 import { useTheme } from "./hooks/useTheme";
@@ -39,6 +40,12 @@ import { SettingsPage } from "./pages/Settings";
 import { GuidePage } from "./pages/Guide";
 import { LogsHomePage } from "./pages/LogsHome";
 import { AthleticsHomePage } from "./pages/AthleticsHome";
+import { SkillsPage } from "./pages/Skills";
+import { OnboardingPage } from "./pages/Onboarding";
+import { CoachProvider, useCoach } from "./services/coach/CoachContext";
+import { LockInCoach } from "./components/LockInCoach";
+import { useIdleTimer } from "./hooks/useIdleTimer";
+import type { Settings } from "./services/validation/schemas";
 
 function WindowControls() {
   const store = useDataStore();
@@ -92,24 +99,41 @@ function Shell() {
   useTheme();
   useKeyboardShortcuts();
   const store = useDataStore();
+  const coach = useCoach();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [settings, setSettings] = useState<Settings | null>(null);
+  const onIdle = useCallback(() => coach.push("Still there? Lock in.", "nudge"), [coach]);
+
+  useIdleTimer(180_000, onIdle);
 
   useEffect(() => {
     let active = true;
-    store.getSettings().then((settings) => {
+    store.getSettings().then((nextSettings) => {
       if (!active) return;
-      applyDisplaySettings(settings);
+      setSettings(nextSettings);
+      applyDisplaySettings(nextSettings);
     });
     return () => {
       active = false;
     };
   }, [store]);
 
+  useEffect(() => {
+    const onSettingsChanged = (event: Event) => {
+      const nextSettings = (event as CustomEvent<Settings>).detail;
+      setSettings(nextSettings);
+      applyDisplaySettings(nextSettings);
+    };
+    window.addEventListener("lifeos-settings-changed", onSettingsChanged);
+    return () => window.removeEventListener("lifeos-settings-changed", onSettingsChanged);
+  }, []);
+
   return (
     <div className="flex h-screen overflow-hidden app-shell">
       <WindowControls />
-      <Sidebar collapsed={sidebarCollapsed} onToggle={() => setSidebarCollapsed((c) => !c)} />
-      <main className="flex-1 overflow-y-auto bg-surface-sunken min-w-0 app-main">
+      <LockInCoach />
+      {settings?.navStyle === "dock" ? <NavDock /> : <Sidebar collapsed={sidebarCollapsed} onToggle={() => setSidebarCollapsed((c) => !c)} />}
+      <main className={`flex-1 overflow-y-auto bg-surface-sunken min-w-0 app-main ${settings?.navStyle === "dock" ? "pb-20" : ""}`}>
         <Routes>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/today" element={<TodayPage />} />
@@ -128,6 +152,7 @@ function Shell() {
           <Route path="/knowledge/media" element={<KnowledgePage />} />
           <Route path="/reviews" element={<ReviewsPage />} />
           <Route path="/analytics" element={<AnalyticsPage />} />
+          <Route path="/skills" element={<SkillsPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="/guide" element={<GuidePage />} />
           <Route path="/category/logs" element={<LogsHomePage />} />
@@ -143,11 +168,26 @@ function Shell() {
 }
 
 export default function App() {
+  const [checking, setChecking] = useState(true);
+  const [needsOnboarding, setNeedsOnboarding] = useState(false);
+
+  useEffect(() => {
+    window.lifeos.isFirstRun().then((firstRun) => {
+      setNeedsOnboarding(firstRun);
+      setChecking(false);
+    });
+  }, []);
+
+  if (checking) return null;
+  if (needsOnboarding) return <OnboardingPage onComplete={() => setNeedsOnboarding(false)} />;
+
   return (
     <DataStoreProvider>
-      <HashRouter>
-        <Shell />
-      </HashRouter>
+      <CoachProvider>
+        <HashRouter>
+          <Shell />
+        </HashRouter>
+      </CoachProvider>
     </DataStoreProvider>
   );
 }

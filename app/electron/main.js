@@ -11,10 +11,38 @@ const isDev = !app.isPackaged;
 const REPO_ROOT = isDev
   ? path.resolve(__dirname, "..", "..") // app/electron -> app -> repo root
   : path.dirname(process.execPath); // next to the packaged executable
-const DATA_ROOT = path.join(REPO_ROOT, "data");
-const EXPORTS_ROOT = path.join(REPO_ROOT, "exports");
+const CONFIG_PATH = path.join(app.getPath("userData"), "lifeos-config.json");
+let DATA_ROOT = null;
+let EXPORTS_ROOT = null;
+
+async function loadConfig() {
+  try {
+    const text = await fs.readFile(CONFIG_PATH, "utf-8");
+    return JSON.parse(text);
+  } catch {
+    return null;
+  }
+}
+
+async function saveConfig(config) {
+  await fs.mkdir(path.dirname(CONFIG_PATH), { recursive: true });
+  await fs.writeFile(CONFIG_PATH, JSON.stringify(config, null, 2), "utf-8");
+}
+
+async function initializeDataRoot() {
+  const config = await loadConfig();
+  if (config?.dataDir) {
+    DATA_ROOT = path.join(config.dataDir, "data");
+    EXPORTS_ROOT = path.join(config.dataDir, "exports");
+    await fs.mkdir(DATA_ROOT, { recursive: true });
+    await fs.mkdir(EXPORTS_ROOT, { recursive: true });
+    return true;
+  }
+  return false;
+}
 
 function resolveScoped(base, relPath) {
+  if (!base) throw new Error("Data directory not yet configured");
   // Prevent path traversal: resolve then verify the result is still inside
   // the allowed base directory before touching the filesystem.
   const resolved = path.resolve(base, relPath);
@@ -23,6 +51,26 @@ function resolveScoped(base, relPath) {
   }
   return resolved;
 }
+
+ipcMain.handle("config:isFirstRun", async () => {
+  const config = await loadConfig();
+  return !config?.dataDir;
+});
+
+ipcMain.handle("config:pickDataDir", async () => {
+  const result = await dialog.showOpenDialog({ properties: ["openDirectory", "createDirectory"] });
+  if (result.canceled || result.filePaths.length === 0) return null;
+  return result.filePaths[0];
+});
+
+ipcMain.handle("config:completeSetup", async (_e, dataDir) => {
+  if (typeof dataDir !== "string" || !path.isAbsolute(dataDir)) {
+    throw new Error("A valid data directory is required");
+  }
+  await saveConfig({ dataDir });
+  await initializeDataRoot();
+  return true;
+});
 
 async function ensureDir(filePath) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
@@ -102,7 +150,10 @@ ipcMain.handle("dialog:pickFile", async (_e, extensions) => {
     filters: extensions ? [{ name: "Files", extensions }] : undefined,
   });
   if (result.canceled || result.filePaths.length === 0) return null;
-  return result.filePaths[0];
+  const picked = result.filePaths[0];
+  const relativeToRoot = path.relative(REPO_ROOT, picked);
+  const isInsideProject = !relativeToRoot.startsWith("..") && !path.isAbsolute(relativeToRoot);
+  return isInsideProject ? relativeToRoot.replace(/\\/g, "/") : picked;
 });
 
 // Lets the user pick a book cover image from anywhere on disk; we copy it
@@ -265,7 +316,8 @@ function createWindow() {
   loadAppIntoWindow(win);
 }
 
-app.whenReady().then(() => {
+app.whenReady().then(async () => {
+  await initializeDataRoot();
   createWindow();
   app.on("activate", () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow();

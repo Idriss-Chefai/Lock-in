@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useDataStore } from "../services/datastore/context";
 import { newId, todayIso } from "../services/id";
-import type { FocusSession, Skill } from "../services/validation/schemas";
-import { Card, Button, Input, EmptyState } from "../components/ui";
+import type { FocusSession, Skill, Task, Project } from "../services/validation/schemas";
+import { Card, Button, Input, Select, EmptyState } from "../components/ui";
 import { Clock3, Play, Pause, RotateCcw, Sparkles } from "lucide-react";
+import { useCoach } from "../services/coach/CoachContext";
 
 const DEFAULT_WORK_MINUTES = 25;
 const DEFAULT_BREAK_MINUTES = 5;
+type TimerEvent = "work_started" | "work_finished" | "break_started" | "break_finished" | null;
 
 function formatMinutes(minutes: number): string {
   const totalMinutes = Math.max(0, Math.round(minutes));
@@ -18,11 +20,15 @@ function formatMinutes(minutes: number): string {
 
 export function LockInPage() {
   const store = useDataStore();
+  const coach = useCoach();
   const [skills, setSkills] = useState<Skill[]>([]);
+  const [tasks, setTasks] = useState<Task[]>([]);
+  const [projects, setProjects] = useState<Project[]>([]);
   const [sessions, setSessions] = useState<FocusSession[]>([]);
   const [loading, setLoading] = useState(true);
 
   const [selectedSkillId, setSelectedSkillId] = useState<string>("");
+  const [taskId, setTaskId] = useState<string>("");
   const [skillNameInput, setSkillNameInput] = useState("");
   const [workMinutes, setWorkMinutes] = useState(DEFAULT_WORK_MINUTES);
   const [breakMinutes, setBreakMinutes] = useState(DEFAULT_BREAK_MINUTES);
@@ -32,14 +38,20 @@ export function LockInPage() {
   const [isRunning, setIsRunning] = useState(false);
   const [secondsRemaining, setSecondsRemaining] = useState(workMinutes * 60);
   const [sessionStartedAt, setSessionStartedAt] = useState<number | null>(null);
+  const [activeEvent, setActiveEvent] = useState<TimerEvent>(null);
   const intervalRef = useRef<number | null>(null);
+  const eventTimeoutRef = useRef<number | null>(null);
 
   async function refresh() {
-    const [skillsList, monthSessions] = await Promise.all([
+    const [skillsList, tasksList, projectsList, monthSessions] = await Promise.all([
       store.getSkills(),
+      store.getTasks(),
+      store.getProjects(),
       store.getFocusSessions(todayIso().slice(0, 7)),
     ]);
     setSkills(skillsList);
+    setTasks(tasksList);
+    setProjects(projectsList);
     setSessions(monthSessions);
     setLoading(false);
   }
@@ -47,6 +59,12 @@ export function LockInPage() {
   useEffect(() => {
     void refresh();
   }, [store]);
+
+  useEffect(() => {
+    if (!isRunning && timerMode === "pomodoro") {
+      setSecondsRemaining((timerKind === "work" ? workMinutes : breakMinutes) * 60);
+    }
+  }, [workMinutes, breakMinutes, timerKind, isRunning, timerMode]);
 
   useEffect(() => {
     if (!isRunning || sessionStartedAt === null) return;
@@ -64,17 +82,16 @@ export function LockInPage() {
   }, [isRunning, sessionStartedAt]);
 
   useEffect(() => {
-    if (!isRunning || secondsRemaining > 0) return;
-    if (timerMode === "pomodoro" && timerKind === "work") {
-      void finalizePomodoroSession();
-    }
-  }, [secondsRemaining, isRunning, timerMode, timerKind]);
+    if (!isRunning || secondsRemaining > 0 || timerMode !== "pomodoro") return;
+    void onIntervalComplete();
+  }, [secondsRemaining, isRunning, timerMode]);
 
   useEffect(() => {
     return () => {
       if (intervalRef.current) {
         window.clearInterval(intervalRef.current);
       }
+      if (eventTimeoutRef.current) window.clearTimeout(eventTimeoutRef.current);
     };
   }, []);
 
@@ -144,19 +161,57 @@ export function LockInPage() {
     setIsRunning(true);
   }
 
+  function startPomodoro() {
+    setActiveEvent(timerKind === "work" ? "work_started" : "break_started");
+    setIsRunning(true);
+    setSessionStartedAt(Date.now());
+    setSecondsRemaining(secondsRemaining > 0 ? secondsRemaining : (timerKind === "work" ? workMinutes : breakMinutes) * 60);
+    eventTimeoutRef.current = window.setTimeout(() => setActiveEvent(null), 2500);
+  }
+
+  async function onIntervalComplete() {
+    const completedKind = timerKind;
+    coach.push(
+      completedKind === "work" ? "Rep done. Take your break." : "Break's over. Lock back in.",
+      completedKind === "work" ? "hype" : "nudge"
+    );
+    if (completedKind === "work" && sessionStartedAt !== null && selectedSkillId !== "") {
+      const elapsedMinutes = Math.max(1, Math.round((Date.now() - sessionStartedAt) / 60000));
+      const session: FocusSession = {
+        id: newId(),
+        date: todayIso(),
+        skillId: selectedSkillId || undefined,
+        taskId: taskId || undefined,
+        mode: "pomodoro",
+        durationMinutes: elapsedMinutes,
+        startedAt: new Date(sessionStartedAt).toISOString(),
+      };
+      await store.saveFocusSession(todayIso().slice(0, 7), session);
+      await refreshSessions();
+    }
+    setActiveEvent(completedKind === "work" ? "work_finished" : "break_finished");
+    setTimerKind(completedKind === "work" ? "break" : "work");
+    setSecondsRemaining((completedKind === "work" ? breakMinutes : workMinutes) * 60);
+    setSessionStartedAt(null);
+    setIsRunning(false);
+    eventTimeoutRef.current = window.setTimeout(() => setActiveEvent(null), 4000);
+  }
+
   async function finalizePomodoroSession() {
-    if (sessionStartedAt === null || selectedSkillId === "") return;
+    if (sessionStartedAt === null) return;
     const elapsedMinutes = Math.max(1, Math.round((Date.now() - sessionStartedAt) / 60000));
-    const session: FocusSession = {
-      id: newId(),
-      date: todayIso(),
-      skillId: selectedSkillId || undefined,
-      mode: "pomodoro",
-      durationMinutes: elapsedMinutes,
-      startedAt: new Date(sessionStartedAt).toISOString(),
-    };
-    await store.saveFocusSession(todayIso().slice(0, 7), session);
-    await refreshSessions();
+    if (selectedSkillId !== "") {
+      await store.saveFocusSession(todayIso().slice(0, 7), {
+        id: newId(),
+        date: todayIso(),
+        skillId: selectedSkillId,
+        taskId: taskId || undefined,
+        mode: "pomodoro",
+        durationMinutes: elapsedMinutes,
+        startedAt: new Date(sessionStartedAt).toISOString(),
+      });
+      await refreshSessions();
+    }
     setTimerKind("work");
     setSecondsRemaining(workMinutes * 60);
     setSessionStartedAt(null);
@@ -179,6 +234,7 @@ export function LockInPage() {
         id: newId(),
         date: todayIso(),
         skillId: selectedSkillId || undefined,
+        taskId: taskId || undefined,
         mode: "freeform",
         durationMinutes: elapsedMinutes,
         startedAt: new Date(sessionStartedAt).toISOString(),
@@ -215,9 +271,7 @@ export function LockInPage() {
       return;
     }
 
-    setIsRunning(true);
-    setSessionStartedAt(Date.now());
-    setSecondsRemaining(secondsRemaining > 0 ? secondsRemaining : workMinutes * 60);
+    startPomodoro();
   }
 
   if (loading) return <div className="p-8 text-sm text-ink-faint">Loading…</div>;
@@ -249,6 +303,7 @@ export function LockInPage() {
                 max={180}
                 value={workMinutes}
                 onChange={(e) => setWorkMinutes(Math.max(1, Number(e.target.value) || 1))}
+                disabled={isRunning}
                 className="w-20"
               />
               <span className="text-xs text-ink-faint">work</span>
@@ -258,6 +313,7 @@ export function LockInPage() {
                 max={180}
                 value={breakMinutes}
                 onChange={(e) => setBreakMinutes(Math.max(1, Number(e.target.value) || 1))}
+                disabled={isRunning}
                 className="w-20"
               />
               <span className="text-xs text-ink-faint">break</span>
@@ -281,7 +337,7 @@ export function LockInPage() {
             </div>
           )}
 
-          <div className="flex items-center justify-center py-5">
+          <div className="relative flex items-center justify-center py-5">
             <div className="rounded-full border border-border bg-surface-raised w-52 h-52 flex items-center justify-center flex-col">
               <Clock3 size={22} className="text-ink-faint mb-2" />
               <span className="text-3xl font-semibold text-ink">
@@ -293,6 +349,25 @@ export function LockInPage() {
                 {timerMode === "pomodoro" ? (timerKind === "work" ? "Work" : "Break") : "Live"}
               </span>
             </div>
+            {activeEvent && (
+              <div className="absolute inset-0 bg-surface/95 backdrop-blur-sm flex flex-col items-center justify-center rounded-xl z-10 animate-in fade-in">
+                <p className="text-lg font-semibold text-ink text-center px-4">
+                  {activeEvent === "work_started" && "Work session started"}
+                  {activeEvent === "work_finished" && "Work session complete — take a break"}
+                  {activeEvent === "break_started" && "Break started"}
+                  {activeEvent === "break_finished" && "Break's over — ready to lock back in?"}
+                </p>
+                <Button
+                  className="mt-3"
+                  onClick={() => {
+                    setActiveEvent(null);
+                    startPomodoro();
+                  }}
+                >
+                  Start {timerKind === "work" ? "work" : "break"}
+                </Button>
+              </div>
+            )}
           </div>
 
           <div className="flex flex-wrap gap-2 items-center">
@@ -306,6 +381,11 @@ export function LockInPage() {
           </div>
 
           <div className="flex flex-wrap items-center gap-2">
+            <Select
+              value={taskId}
+              onChange={setTaskId}
+              options={[{ value: "", label: "No linked task" }, ...tasks.map((task) => ({ value: task.id, label: task.title }))]}
+            />
             <Input
               list="skill-options"
               value={selectedSkill ? selectedSkill.name : skillNameInput}
@@ -340,6 +420,16 @@ export function LockInPage() {
                 <div key={session.id} className="flex items-center justify-between gap-2 text-sm border-b border-border pb-2 last:border-b-0 last:pb-0">
                   <div>
                     <div className="text-ink font-medium">{skills.find((skill) => skill.id === session.skillId)?.name ?? "Unassigned"}</div>
+                    {session.taskId && (
+                      <div className="text-[11px] text-ink-muted">
+                        {tasks.find((task) => task.id === session.taskId)?.title ?? "Unknown task"}
+                        {(() => {
+                          const projectId = tasks.find((task) => task.id === session.taskId)?.projectId;
+                          const project = projects.find((item) => item.id === projectId);
+                          return project ? ` · ${project.name}` : "";
+                        })()}
+                      </div>
+                    )}
                     <div className="text-[11px] text-ink-faint uppercase">{session.mode}</div>
                   </div>
                   <div className="text-right">

@@ -125,6 +125,7 @@ export const FocusSessionSchema = z.object({
   id,
   date: isoDate,
   skillId: id.optional(),
+  taskId: id.optional(),
   mode: z.enum(["pomodoro", "freeform"]).default("pomodoro"),
   durationMinutes: z.number().min(0),
   startedAt: z.string().optional(),
@@ -254,6 +255,8 @@ export const BookSchema = z.object({
   started: isoDate.optional(),
   finished: isoDate.optional(),
   rating: z.number().int().min(1).max(5).optional(),
+  // Excalidraw owns this versioned scene shape; keep it as an opaque serialized blob.
+  sketchData: z.string().optional(),
   topics: z.array(z.string()).default([]),
   notesLocation: z.string().optional(),
   coverUrl: z.string().optional(),
@@ -274,7 +277,9 @@ export const MediaItemSchema = z.object({
   status: z.enum(["queued", "watching", "finished", "abandoned"]).default("queued"),
   started: isoDate.optional(),
   finished: isoDate.optional(),
-  rating: z.number().int().min(1).max(5).optional(),
+  rating: z.number().min(0).max(5).optional(),
+  // Excalidraw owns this versioned scene shape; keep it as an opaque serialized blob.
+  sketchData: z.string().optional(),
   topics: z.array(z.string()).default([]),
   notesLocation: z.string().optional(),
   coverUrl: z.string().optional(),
@@ -314,6 +319,7 @@ export const SettingsSchema = z.object({
   hideTopBar: z.boolean().default(false),
   fullscreen: z.boolean().default(false),
   windowControlsOnHover: z.boolean().default(false),
+  navStyle: z.enum(["sidebar", "dock"]).default("sidebar"),
   dataVersion: z.number().int().default(1),
 });
 export type Settings = z.infer<typeof SettingsSchema>;

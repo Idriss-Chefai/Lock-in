@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { useDataStore } from "../services/datastore/context";
 import { todayIso } from "../services/id";
 import type { DailyLog, Review } from "../services/validation/schemas";
@@ -56,9 +55,6 @@ export function ReviewsPage() {
 
   if (loading || !review || !summary) return <div className="p-8 text-sm text-ink-faint">Loading…</div>;
 
-  const scatterData = logs
-    .filter((log) => log.mood !== undefined && log.sleep?.hours !== undefined)
-    .map((log) => ({ x: log.sleep?.hours ?? 0, y: log.mood ?? 0, date: log.date }));
   const topWords = wordFrequency(logs.flatMap((log) => (log.notes ? [log.notes] : [])), 10);
 
   return (
@@ -128,18 +124,6 @@ export function ReviewsPage() {
         </div>
 
         <div className="space-y-4">
-          <Card title="Sleep vs mood">
-            <ResponsiveContainer width="100%" height={220}>
-              <ScatterChart margin={{ top: 10, right: 12, bottom: 10, left: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
-                <XAxis type="number" dataKey="x" name="sleep" unit="h" tick={{ fontSize: 10 }} />
-                <YAxis type="number" dataKey="y" name="mood" domain={[1, 10]} tick={{ fontSize: 10 }} />
-                <Tooltip cursor={{ strokeDasharray: "3 3" }} formatter={(value: number) => value} labelFormatter={(label, payload) => payload[0]?.payload?.date ?? label} />
-                <Scatter data={scatterData} fill="var(--accent)" />
-              </ScatterChart>
-            </ResponsiveContainer>
-          </Card>
-
           <Card title="Top words">
             <div className="flex flex-wrap items-end gap-2">
               {topWords.map((entry) => (

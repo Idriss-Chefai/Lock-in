@@ -3,12 +3,14 @@ import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import clsx from "clsx";
 import {
   BarChart3,
+  LineChart,
   ClipboardList,
   HeartPulse,
   BookOpen,
   Wallet,
   Settings as SettingsIcon,
   HelpCircle,
+  Timer,
   PanelLeftClose,
   PanelLeftOpen,
   ChevronDown,
@@ -23,11 +25,11 @@ interface CategoryDef {
   items: { to: string; label: string }[];
 }
 
-const CATEGORIES: CategoryDef[] = [
+export const CATEGORIES: CategoryDef[] = [
   {
     key: "dashboard",
     label: "Dashboard",
-    icon: BarChart3,
+    icon: LineChart,
     rootPath: "/",
     items: [],
   },
@@ -38,9 +40,17 @@ const CATEGORIES: CategoryDef[] = [
     rootPath: "/analytics",
     items: [
       { to: "/analytics", label: "Analytics" },
+      { to: "/skills", label: "Skills" },
       { to: "/goals", label: "Goals" },
       { to: "/projects", label: "Projects" },
     ],
+  },
+  {
+    key: "lockin",
+    label: "Lock In",
+    icon: Timer,
+    rootPath: "/lockin",
+    items: [],
   },
   {
     key: "logs",
@@ -51,7 +61,6 @@ const CATEGORIES: CategoryDef[] = [
       { to: "/today", label: "Today" },
       { to: "/tasks", label: "Tasks" },
       { to: "/habits", label: "Habits" },
-      { to: "/lockin", label: "Lock In" },
       { to: "/journal", label: "Journal" },
       { to: "/reviews", label: "Reviews" },
     ],
@@ -85,7 +94,7 @@ const CATEGORIES: CategoryDef[] = [
   },
 ];
 
-function categoryForPath(path: string): string | null {
+export function categoryForPath(path: string): string | null {
   for (const cat of CATEGORIES) {
     if (cat.rootPath === path) return cat.key;
     if (cat.items.some((i) => path.startsWith(i.to.split("?")[0]) && i.to !== "/")) return cat.key;

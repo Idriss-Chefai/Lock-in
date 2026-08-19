@@ -5,6 +5,9 @@ const { contextBridge, ipcRenderer } = require("electron");
 // contextIsolation + no nodeIntegration block that. Every call here is
 // scoped server-side (in main.js) to the data/ or exports/ folders only.
 contextBridge.exposeInMainWorld("lifeos", {
+  isFirstRun: () => ipcRenderer.invoke("config:isFirstRun"),
+  pickDataDir: () => ipcRenderer.invoke("config:pickDataDir"),
+  completeSetup: (dataDir) => ipcRenderer.invoke("config:completeSetup", dataDir),
   exists: (relPath) => ipcRenderer.invoke("fs:exists", relPath),
   readText: (relPath) => ipcRenderer.invoke("fs:readText", relPath),
   writeTextSafe: (relPath, content) => ipcRenderer.invoke("fs:writeTextSafe", relPath, content),
