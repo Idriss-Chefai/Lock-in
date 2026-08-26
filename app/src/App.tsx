@@ -1,6 +1,8 @@
-import { useCallback, useEffect, useState } from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { HashRouter, Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import { DataStoreProvider, useDataStore } from "./services/datastore/context";
+import { TourOverlay } from "./components/TourOverlay";
+import { SplashScreen } from "./components/SplashScreen";
 
 function applyDisplaySettings(settings: { displayMode?: "compact" | "normal" | "wide"; fontScale?: number; hideTopBar?: boolean; fullscreen?: boolean; windowControlsOnHover?: boolean }) {
   const mode = settings.displayMode ?? "normal";
@@ -42,10 +44,9 @@ import { LogsHomePage } from "./pages/LogsHome";
 import { AthleticsHomePage } from "./pages/AthleticsHome";
 import { SkillsPage } from "./pages/Skills";
 import { OnboardingPage } from "./pages/Onboarding";
-import { CoachProvider, useCoach } from "./services/coach/CoachContext";
-import { LockInCoach } from "./components/LockInCoach";
-import { useIdleTimer } from "./hooks/useIdleTimer";
 import type { Settings } from "./services/validation/schemas";
+
+const MIN_SPLASH_MS = 2200;
 
 function WindowControls() {
   const store = useDataStore();
@@ -99,12 +100,10 @@ function Shell() {
   useTheme();
   useKeyboardShortcuts();
   const store = useDataStore();
-  const coach = useCoach();
+  const location = useLocation();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [settings, setSettings] = useState<Settings | null>(null);
-  const onIdle = useCallback(() => coach.push("Still there? Lock in.", "nudge"), [coach]);
-
-  useIdleTimer(180_000, onIdle);
+  const [touring, setTouring] = useState(false);
 
   useEffect(() => {
     let active = true;
@@ -128,13 +127,31 @@ function Shell() {
     return () => window.removeEventListener("lifeos-settings-changed", onSettingsChanged);
   }, []);
 
+  useEffect(() => {
+    if (settings && !settings.hasCompletedTour) setTouring(true);
+  }, [settings]);
+
+  useEffect(() => {
+    const onStartTour = () => setTouring(true);
+    window.addEventListener("start-tour", onStartTour);
+    return () => window.removeEventListener("start-tour", onStartTour);
+  }, []);
+
+  async function finishTour() {
+    setTouring(false);
+    const currentSettings = await store.getSettings();
+    const updatedSettings = { ...currentSettings, hasCompletedTour: true };
+    await store.saveSettings(updatedSettings);
+    setSettings(updatedSettings);
+  }
+
   return (
     <div className="flex h-screen overflow-hidden app-shell">
       <WindowControls />
-      <LockInCoach />
       {settings?.navStyle === "dock" ? <NavDock /> : <Sidebar collapsed={sidebarCollapsed} onToggle={() => setSidebarCollapsed((c) => !c)} />}
       <main className={`flex-1 overflow-y-auto bg-surface-sunken min-w-0 app-main ${settings?.navStyle === "dock" ? "pb-20" : ""}`}>
-        <Routes>
+        <div key={location.pathname} className="animate-in fade-in duration-200">
+          <Routes>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/today" element={<TodayPage />} />
           <Route path="/day/:date" element={<TodayPage />} />
@@ -155,14 +172,17 @@ function Shell() {
           <Route path="/skills" element={<SkillsPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="/guide" element={<GuidePage />} />
+          <Route path="/onboarding" element={<OnboardingReplayRoute />} />
           <Route path="/category/logs" element={<LogsHomePage />} />
           <Route path="/category/athletics" element={<AthleticsHomePage />} />
-        </Routes>
+          </Routes>
+        </div>
       </main>
       {/* Persistent calendar — hidden on narrow/docked windows, always on when there's room. */}
       <div className="hidden xl:block h-full">
         <CalendarPanel />
       </div>
+      {touring && <TourOverlay onFinish={() => void finishTour()} />}
     </div>
   );
 }
@@ -172,22 +192,35 @@ export default function App() {
   const [needsOnboarding, setNeedsOnboarding] = useState(false);
 
   useEffect(() => {
-    window.lifeos.isFirstRun().then((firstRun) => {
+    const staticSplash = document.getElementById("boot-splash");
+    if (staticSplash) staticSplash.remove();
+  }, []);
+
+  useEffect(() => {
+    const start = Date.now();
+    window.lifeos.isFirstRun().then(async (firstRun) => {
+      const elapsed = Date.now() - start;
+      const remaining = Math.max(0, MIN_SPLASH_MS - elapsed);
+      await new Promise((resolve) => setTimeout(resolve, remaining));
       setNeedsOnboarding(firstRun);
       setChecking(false);
     });
   }, []);
 
-  if (checking) return null;
-  if (needsOnboarding) return <OnboardingPage onComplete={() => setNeedsOnboarding(false)} />;
-
   return (
     <DataStoreProvider>
-      <CoachProvider>
+      {checking ? <SplashScreen /> : needsOnboarding ? (
+        <OnboardingPage mode="first-run" onComplete={() => setNeedsOnboarding(false)} />
+      ) : (
         <HashRouter>
           <Shell />
         </HashRouter>
-      </CoachProvider>
+      )}
     </DataStoreProvider>
   );
+}
+
+function OnboardingReplayRoute() {
+  const navigate = useNavigate();
+  return <OnboardingPage mode="replay" onComplete={() => navigate("/")} />;
 }

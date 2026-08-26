@@ -3,6 +3,7 @@ import { useDataStore } from "../services/datastore/context";
 import { useTheme } from "../hooks/useTheme";
 import { Card, Button, Select, Input } from "../components/ui";
 import { Download, Upload, Save } from "lucide-react";
+import { ConfirmTypedDialog } from "../components/ConfirmTypedDialog";
 
 const CURRENCIES = ["USD", "EUR", "GBP", "TND", "JPY", "CAD"];
 
@@ -18,7 +19,9 @@ export function SettingsPage() {
   const [fullscreen, setFullscreen] = useState(false);
   const [windowControlsOnHover, setWindowControlsOnHover] = useState(false);
   const [navStyle, setNavStyle] = useState<"sidebar" | "dock">("sidebar");
+  const [showWipeConfirm, setShowWipeConfirm] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const today = new Date().toISOString().slice(0, 10);
 
   useEffect(() => {
     store.getSettings().then((s) => {
@@ -36,7 +39,7 @@ export function SettingsPage() {
 
   async function confirmRestartIfNeeded(nextValue: boolean, currentValue: boolean, label: string) {
     if (nextValue === currentValue) return false;
-    const confirmed = window.confirm(`${label} requires restarting LifeOS. Restart now?`);
+    const confirmed = window.confirm(`${label} requires restarting Lock In. Restart now?`);
     if (confirmed) {
       await window.lifeos.restartApp();
       return true;
@@ -302,23 +305,7 @@ export function SettingsPage() {
             </div>
             <Button
               variant="danger"
-              onClick={async () => {
-                const today = new Date().toISOString().slice(0, 10);
-                const typed = window.prompt(`Type today's date to confirm full data wipe (${today}):`);
-                if (typed === null) return;
-                if (typed.trim() !== today) {
-                  setStatus("Wipe cancelled: the date did not match today.");
-                  return;
-                }
-                const confirmed = window.confirm("This permanently deletes all local LifeOS data. Are you absolutely sure?");
-                if (!confirmed) {
-                  setStatus("Wipe cancelled.");
-                  return;
-                }
-                await store.wipeAllData();
-                setStatus("All local data wiped. The app will reload with clean defaults.");
-                window.location.reload();
-              }}
+              onClick={() => setShowWipeConfirm(true)}
             >
               Wipe data
             </Button>
@@ -327,9 +314,25 @@ export function SettingsPage() {
         {status && <p className="text-xs text-ink-faint mt-3">{status}</p>}
       </Card>
 
+      {showWipeConfirm && (
+        <ConfirmTypedDialog
+          title="Wipe all local data?"
+          body={`This permanently deletes all local data. Type today's date (${today}) to confirm.`}
+          expectedValue={today}
+          confirmLabel="Wipe everything"
+          onConfirm={async () => {
+            setShowWipeConfirm(false);
+            await store.wipeAllData();
+            setStatus("All local data wiped. The app will reload with clean defaults.");
+            window.location.reload();
+          }}
+          onCancel={() => setShowWipeConfirm(false)}
+        />
+      )}
+
       <Card title="About">
         <p className="text-sm text-ink-muted">
-          LifeOS keeps all data in local JSON files under <code className="text-xs bg-surface-raised px-1 py-0.5 rounded">data/</code>.
+          Lock In keeps all data in local JSON files under <code className="text-xs bg-surface-raised px-1 py-0.5 rounded">data/</code>.
           Nothing leaves your machine. Commit that folder to Git yourself whenever you want a version history.
         </p>
       </Card>

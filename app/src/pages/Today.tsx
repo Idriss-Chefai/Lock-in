@@ -13,6 +13,7 @@ const EMPTY_LOG = (date: string): DailyLog => ({
   training: [],
   tasks: [],
   expenses: [],
+  income: [],
   notes: "",
 });
 
@@ -29,6 +30,9 @@ export function TodayPage() {
   const [expenseDesc, setExpenseDesc] = useState("");
   const [expenseAmount, setExpenseAmount] = useState("");
   const [expenseCategory, setExpenseCategory] = useState("General");
+  const [incomeDesc, setIncomeDesc] = useState("");
+  const [incomeAmount, setIncomeAmount] = useState("");
+  const [incomeCategory, setIncomeCategory] = useState("General");
   const saveTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pendingLogRef = useRef<DailyLog | null>(null);
 
@@ -125,6 +129,24 @@ export function TodayPage() {
     persist({ ...log, expenses: log.expenses.filter((e) => e.id !== id) }, true);
   }
 
+  function addIncome() {
+    const amount = parseFloat(incomeAmount);
+    if (!incomeDesc.trim() || Number.isNaN(amount)) return;
+    persist(
+      {
+        ...log,
+        income: [...log.income, { id: newId(), description: incomeDesc.trim(), amount, category: incomeCategory }],
+      },
+      true
+    );
+    setIncomeDesc("");
+    setIncomeAmount("");
+  }
+
+  function removeIncome(id: string) {
+    persist({ ...log, income: log.income.filter((i) => i.id !== id) }, true);
+  }
+
   if (loading) return <div className="p-8 text-sm text-ink-faint">Loading…</div>;
 
   return (
@@ -153,6 +175,34 @@ export function TodayPage() {
               value={log.sleep?.hours ?? ""}
               onChange={(e) => persist({ ...log, sleep: { ...log.sleep, hours: e.target.value ? Number(e.target.value) : undefined } })}
               placeholder="e.g. 7.5"
+            />
+          </div>
+          <div>
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-sm text-ink-muted">Hydration (ml)</span>
+              <span className="text-sm font-medium text-ink">{log.hydrationMl ?? "—"}</span>
+            </div>
+            <Input
+              type="number"
+              step={50}
+              min={0}
+              value={log.hydrationMl ?? ""}
+              onChange={(e) => persist({ ...log, hydrationMl: e.target.value ? Number(e.target.value) : undefined })}
+              placeholder="e.g. 2000"
+            />
+          </div>
+          <div>
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-sm text-ink-muted">Screen time (min)</span>
+              <span className="text-sm font-medium text-ink">{log.screenTimeMinutes ?? "—"}</span>
+            </div>
+            <Input
+              type="number"
+              step={1}
+              min={0}
+              value={log.screenTimeMinutes ?? ""}
+              onChange={(e) => persist({ ...log, screenTimeMinutes: e.target.value ? Number(e.target.value) : undefined })}
+              placeholder="e.g. 180"
             />
           </div>
           <Slider label="Energy" value={log.energy} onChange={(v) => persist({ ...log, energy: v })} />
@@ -249,6 +299,33 @@ export function TodayPage() {
                 <span className="text-ink-muted">{e.category}</span>
                 <span className="font-medium text-ink w-16 text-right">${e.amount.toFixed(2)}</span>
                 <button onClick={() => removeExpense(e.id)} className="opacity-0 group-hover:opacity-100 text-ink-faint hover:text-danger transition-opacity">
+                  <Trash2 size={13} />
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </Card>
+
+      <Card title="Income today">
+        <div className="flex gap-2 mb-3">
+          <Input value={incomeDesc} onChange={(e) => setIncomeDesc(e.target.value)} placeholder="Description" className="flex-1" />
+          <Input value={incomeAmount} onChange={(e) => setIncomeAmount(e.target.value)} type="number" step={0.01} placeholder="Amount" className="w-28" />
+          <Input value={incomeCategory} onChange={(e) => setIncomeCategory(e.target.value)} placeholder="Category" className="w-32" />
+          <Button onClick={addIncome}>
+            <Plus size={14} />
+          </Button>
+        </div>
+        {log.income.length === 0 ? (
+          <EmptyState message="No income logged today." />
+        ) : (
+          <ul className="space-y-1.5">
+            {log.income.map((i) => (
+              <li key={i.id} className="flex items-center gap-2 text-sm group">
+                <span className="flex-1 text-ink">{i.description}</span>
+                <span className="text-ink-muted">{i.category}</span>
+                <span className="font-medium text-success w-16 text-right">${i.amount.toFixed(2)}</span>
+                <button onClick={() => removeIncome(i.id)} className="opacity-0 group-hover:opacity-100 text-ink-faint hover:text-danger transition-opacity">
                   <Trash2 size={13} />
                 </button>
               </li>

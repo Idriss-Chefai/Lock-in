@@ -16,6 +16,7 @@ import type { Book, MediaItem } from "../services/validation/schemas";
 import { Card, Button, Input, Select, Badge, EmptyState } from "../components/ui";
 import { Plus, Trash2, ExternalLink, X, Link2, Film, Youtube, Mic2, Pencil } from "lucide-react";
 import { StarRating } from "../components/StarRating";
+import { TutorialTip } from "../components/TutorialTip";
 
 const SketchModal = lazy(() => import("../components/SketchModal").then((module) => ({ default: module.SketchModal })));
 
@@ -96,7 +97,9 @@ export function KnowledgePage() {
   const [range, setRange] = useState<"month" | "quarter" | "year">("month");
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
+  const [pages, setPages] = useState("");
   const [creator, setCreator] = useState("");
+  const [durationMinutes, setDurationMinutes] = useState("");
   const [kind, setKind] = useState<MediaItem["kind"]>("youtube");
   const [url, setUrl] = useState("");
   const [coverUrlInput, setCoverUrlInput] = useState("");
@@ -125,12 +128,14 @@ export function KnowledgePage() {
       id: newId(),
       title: title.trim(),
       author: author.trim() || undefined,
+      pages: pages ? Number(pages) : undefined,
       status: "queued",
       topics: [],
       coverUrl: coverUrlInput.trim() || undefined,
     });
     setTitle("");
     setAuthor("");
+    setPages("");
     setCoverUrlInput("");
     setShowAddForm(false);
     refresh();
@@ -143,6 +148,7 @@ export function KnowledgePage() {
       title: title.trim(),
       kind,
       creator: creator.trim() || undefined,
+      durationMinutes: durationMinutes ? Number(durationMinutes) : undefined,
       status: "queued",
       topics: [],
       url: url.trim() || undefined,
@@ -150,6 +156,7 @@ export function KnowledgePage() {
     });
     setTitle("");
     setCreator("");
+    setDurationMinutes("");
     setUrl("");
     setCoverUrlInput("");
     setShowAddForm(false);
@@ -236,6 +243,7 @@ export function KnowledgePage() {
 
   return (
     <div className="p-6 max-w-6xl space-y-4">
+      <TutorialTip tutorialKey="knowledge-page" title="Keep learning in one place" body="Save books and media, then use notes and ratings to build a useful reference library." />
       <div className="flex items-center justify-between gap-4">
         <div>
           <h1 className="text-lg font-semibold text-ink">Knowledge</h1>
@@ -332,7 +340,10 @@ export function KnowledgePage() {
             <div className="flex gap-2 flex-wrap">
               <Input value={title} onChange={(e) => setTitle(e.target.value)} placeholder={view === "books" ? "Title" : "Title / show name"} className="flex-1 min-w-[180px]" />
               {view === "books" ? (
-                <Input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Author" className="w-48" />
+                <>
+                  <Input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Author" className="w-48" />
+                  <Input value={pages} onChange={(e) => setPages(e.target.value)} type="number" min={0} step={1} placeholder="Pages" className="w-24" />
+                </>
               ) : (
                 <>
                   <Select
@@ -347,6 +358,7 @@ export function KnowledgePage() {
                     className="w-36"
                   />
                   <Input value={creator} onChange={(e) => setCreator(e.target.value)} placeholder="Creator" className="w-40" />
+                  <Input value={durationMinutes} onChange={(e) => setDurationMinutes(e.target.value)} type="number" min={0} step={1} placeholder="Minutes" className="w-24" />
                 </>
               )}
             </div>
@@ -385,6 +397,7 @@ export function KnowledgePage() {
                 </div>
                 <p className="text-xs font-medium text-ink mt-1.5 truncate group-hover:text-accent">{b.title}</p>
                 {b.author && <p className="text-[10px] text-ink-faint truncate">{b.author}</p>}
+                {b.pages !== undefined && <p className="text-[10px] text-ink-faint">{b.pages}p</p>}
               </button>
             ))}
           </div>
@@ -409,6 +422,7 @@ export function KnowledgePage() {
                 </div>
                 <p className="text-xs font-medium text-ink mt-1.5 truncate group-hover:text-accent">{item.title}</p>
                 {item.creator && <p className="text-[10px] text-ink-faint truncate">{item.creator}</p>}
+                {item.durationMinutes !== undefined && <p className="text-[10px] text-ink-faint">{item.durationMinutes} min</p>}
                 <StarRating value={item.rating} size={12} />
               </button>
             );
@@ -417,8 +431,8 @@ export function KnowledgePage() {
       ))}
 
       {selected && (
-        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-6" onClick={() => setSelected(null)}>
-          <div className="bg-surface border border-border rounded-xl p-6 max-w-md w-full" onClick={(e) => e.stopPropagation()}>
+        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-6 animate-in fade-in duration-150" onClick={() => setSelected(null)}>
+          <div className="bg-surface border border-border rounded-xl p-6 max-w-md w-full animate-in fade-in zoom-in-95 duration-150" onClick={(e) => e.stopPropagation()}>
             <div className="flex items-start justify-between mb-4">
               <div className="flex gap-4">
                 <div className="w-20 shrink-0">
@@ -486,6 +500,19 @@ export function KnowledgePage() {
                   From disk
                 </Button>
               </div>
+
+              <Input
+                type="number"
+                min={0}
+                step={1}
+                placeholder={selectedIsBook ? "Pages" : "Duration (minutes)"}
+                defaultValue={selectedIsBook ? selected.pages ?? "" : selected.durationMinutes ?? ""}
+                onBlur={(e) => {
+                  const value = e.target.value ? Number(e.target.value) : undefined;
+                  if (selectedIsBook) updateBook(selected, { pages: value });
+                  else updateMediaItem(selected, { durationMinutes: value });
+                }}
+              />
 
               {!selectedIsBook && selected.url && (
                 <div className="flex gap-2 pt-2">

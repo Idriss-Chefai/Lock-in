@@ -5,6 +5,7 @@ import type { Goal, Task } from "../services/validation/schemas";
 import { completionFromTasks } from "../services/analytics/analytics";
 import { Card, Button, Input, Select, Badge, EmptyState, ProgressBar, Textarea } from "../components/ui";
 import { Plus, Trash2 } from "lucide-react";
+import { TutorialTip } from "../components/TutorialTip";
 
 const STATUS_TONE: Record<Goal["status"], "neutral" | "success" | "warning"> = {
   not_started: "neutral",
@@ -89,6 +90,7 @@ export function GoalsPage() {
 
   return (
     <div className="p-6 max-w-4xl space-y-4">
+      <TutorialTip tutorialKey="goals-page" title="Turn direction into progress" body="Give goals a target, metric, and next actions so progress stays tangible." />
       <div className="flex items-center justify-between">
         <h1 className="text-lg font-semibold text-ink">Goals</h1>
         <Button onClick={() => setShowForm((s) => !s)}>

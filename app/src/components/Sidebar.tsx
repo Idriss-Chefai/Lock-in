@@ -14,6 +14,8 @@ import {
   PanelLeftClose,
   PanelLeftOpen,
   ChevronDown,
+  Bug,
+  Power,
 } from "lucide-react";
 import { LogoMark } from "./LogoMark";
 
@@ -135,7 +137,7 @@ export function Sidebar({ collapsed, onToggle }: { collapsed: boolean; onToggle:
         {!collapsed && (
           <div className="flex items-center gap-2 px-1">
             <LogoMark size={20} />
-            <span className="text-sm font-semibold tracking-wide text-ink">LifeOS</span>
+            <span className="text-sm font-semibold tracking-wide text-ink">Lock In</span>
           </div>
         )}
         <button
@@ -226,6 +228,25 @@ export function Sidebar({ collapsed, onToggle }: { collapsed: boolean; onToggle:
           <HelpCircle size={16} strokeWidth={2} />
           {!collapsed && "Guide"}
         </NavLink>
+        <a
+          href="https://lockin.app/report-bug"
+          target="_blank"
+          rel="noreferrer"
+          className={clsx("flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm text-ink-muted hover:text-ink hover:bg-surface-raised transition-colors", collapsed && "justify-center px-0")}
+          title="Report a bug"
+        >
+          <Bug size={16} strokeWidth={2} />
+          {!collapsed && "Report a bug"}
+        </a>
+        <button
+          type="button"
+          onClick={() => void window.lifeos.quitApp()}
+          className={clsx("w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm text-ink-muted hover:text-danger hover:bg-danger/10 transition-colors", collapsed && "justify-center px-0")}
+          title="Quit"
+        >
+          <Power size={16} strokeWidth={2} />
+          {!collapsed && "Quit"}
+        </button>
       </div>
     </aside>
   );

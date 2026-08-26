@@ -5,6 +5,7 @@ import { newId, todayIso } from "../services/id";
 import type { Task, Project } from "../services/validation/schemas";
 import { Card, Button, Input, Select, Badge, EmptyState } from "../components/ui";
 import { Plus, Trash2, Check } from "lucide-react";
+import { TutorialTip } from "../components/TutorialTip";
 
 export function TasksPage() {
   const store = useDataStore();
@@ -66,6 +67,7 @@ export function TasksPage() {
 
   return (
     <div className="p-8 max-w-6xl space-y-5">
+      <TutorialTip tutorialKey="tasks-page" title="Keep the next actions visible" body="Use priorities, due dates, and filters to keep today&apos;s work clear." />
       <h1 className="text-xl font-semibold text-ink">Tasks</h1>
 
       <Card title="New task">

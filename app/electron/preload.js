@@ -6,7 +6,9 @@ const { contextBridge, ipcRenderer } = require("electron");
 // scoped server-side (in main.js) to the data/ or exports/ folders only.
 contextBridge.exposeInMainWorld("lifeos", {
   isFirstRun: () => ipcRenderer.invoke("config:isFirstRun"),
+  getCurrentDataDir: () => ipcRenderer.invoke("config:getCurrentDataDir"),
   pickDataDir: () => ipcRenderer.invoke("config:pickDataDir"),
+  checkDataDir: (dirPath) => ipcRenderer.invoke("config:checkDataDir", dirPath),
   completeSetup: (dataDir) => ipcRenderer.invoke("config:completeSetup", dataDir),
   exists: (relPath) => ipcRenderer.invoke("fs:exists", relPath),
   readText: (relPath) => ipcRenderer.invoke("fs:readText", relPath),
@@ -25,5 +27,6 @@ contextBridge.exposeInMainWorld("lifeos", {
   restoreWindow: () => ipcRenderer.invoke("window:restore"),
   closeWindow: () => ipcRenderer.invoke("window:close"),
   restartApp: () => ipcRenderer.invoke("app:restart"),
+  quitApp: () => ipcRenderer.invoke("app:quit"),
   applyUiState: (state) => ipcRenderer.invoke("window:applyUiState", state),
 });

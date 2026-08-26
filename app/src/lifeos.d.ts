@@ -4,7 +4,9 @@ declare global {
   interface Window {
     lifeos: {
       isFirstRun(): Promise<boolean>;
+      getCurrentDataDir(): Promise<string | null>;
       pickDataDir(): Promise<string | null>;
+      checkDataDir(dirPath: string): Promise<{ hasExistingData: boolean; path: string }>;
       completeSetup(dataDir: string): Promise<boolean>;
       exists(relPath: string): Promise<boolean>;
       readText(relPath: string): Promise<string>;
@@ -22,6 +24,7 @@ declare global {
       restoreWindow(): Promise<void>;
       closeWindow(): Promise<void>;
       restartApp(): Promise<void>;
+      quitApp(): Promise<void>;
       applyUiState(state: { hideMenuBar?: boolean; fullscreen?: boolean; windowControlsOnHover?: boolean }): Promise<void>;
     };
   }

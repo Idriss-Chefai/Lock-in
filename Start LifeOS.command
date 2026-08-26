@@ -6,5 +6,5 @@ if [ ! -d "node_modules" ]; then
   npm install || { echo "Install failed. Make sure Node.js is installed: https://nodejs.org"; read -p "Press enter to close..."; exit 1; }
 fi
 
-echo "Starting LifeOS..."
+echo "Starting Lock In..."
 npm run dev

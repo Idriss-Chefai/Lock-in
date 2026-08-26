@@ -6,6 +6,7 @@ import type { TrainingSession, Exercise, ExerciseSet } from "../services/validat
 import type { WeightEntry } from "../services/datastore/DataStore";
 import { Card, Button, Input, Select, EmptyState, Badge } from "../components/ui";
 import { Plus, Trash2, ChevronDown, ChevronRight } from "lucide-react";
+import { TutorialTip } from "../components/TutorialTip";
 
 const CATEGORY_OPTIONS = [
   { value: "strength", label: "Strength" },
@@ -131,6 +132,7 @@ export function HealthPage() {
 
   return (
     <div className="p-6 max-w-5xl space-y-4">
+      <TutorialTip tutorialKey="health-page" title="Keep an eye on the inputs" body="Log training and weight here to connect daily choices with longer-term trends." />
       <h1 className="text-lg font-semibold text-ink">Health</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">

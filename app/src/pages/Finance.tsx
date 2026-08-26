@@ -16,6 +16,7 @@ import { newId, todayIso } from "../services/id";
 import type { Transaction, Settings } from "../services/validation/schemas";
 import { Card, Button, Input, Select, Badge, EmptyState } from "../components/ui";
 import { Plus, Trash2 } from "lucide-react";
+import { TutorialTip } from "../components/TutorialTip";
 
 const CURRENCIES = ["USD", "EUR", "GBP", "TND", "JPY", "CAD"];
 const AREA_COLORS = ["var(--accent)", "#8b5cf6", "#22c55e", "#f59e0b", "#ec4899", "#06b6d4"];
@@ -134,6 +135,7 @@ export function FinancePage() {
 
   return (
     <div className="p-6 max-w-5xl space-y-4">
+      <TutorialTip tutorialKey="finance-page" title="See the shape of your money" body="Set a default currency, record transactions, and use the charts to spot trends." />
       <div className="flex items-center justify-between">
         <h1 className="text-lg font-semibold text-ink">Finance</h1>
         <div className="flex items-center gap-2">

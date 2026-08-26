@@ -6,6 +6,7 @@ import { Card, Button, Input, Select, Badge, EmptyState, ProgressBar } from "../
 import { HeatmapGrid } from "../components/HeatmapGrid";
 import { habitStats, daysAgoIso, isHabitDone } from "../services/analytics/analytics";
 import { Plus, Trash2, Flame } from "lucide-react";
+import { TutorialTip } from "../components/TutorialTip";
 
 export function HabitsPage() {
   const store = useDataStore();
@@ -56,6 +57,7 @@ export function HabitsPage() {
 
   return (
     <div className="p-8 max-w-4xl space-y-5">
+      <TutorialTip tutorialKey="habits-page" title="Build consistency" body="Track daily or weekly routines and watch your streaks grow." />
       <h1 className="text-xl font-semibold text-ink">Habits</h1>
 
       <Card title="Add a habit">

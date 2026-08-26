@@ -5,6 +5,7 @@ import type { DailyLog, Review } from "../services/validation/schemas";
 import { weekKeyOf, weeklySummary, daysAgoIso } from "../services/analytics/analytics";
 import { wordFrequency } from "../services/analytics/wordFrequency";
 import { Card, Button, Textarea, Select } from "../components/ui";
+import { TutorialTip } from "../components/TutorialTip";
 
 const EMPTY_REVIEW = (period: string, startDate: string, endDate: string): Review => ({
   period,
@@ -59,6 +60,7 @@ export function ReviewsPage() {
 
   return (
     <div className="p-8 max-w-6xl space-y-5">
+      <TutorialTip tutorialKey="reviews-page" title="Use reflection as feedback" body="Review what went well, what did not, and what you will change next." />
       <div className="flex items-center justify-between">
         <h1 className="text-xl font-semibold text-ink">Reviews</h1>
         <Select

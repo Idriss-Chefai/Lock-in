@@ -1,4 +1,8 @@
 import { Card } from "../components/ui";
+import { Button } from "../components/ui";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { ConfirmTypedDialog } from "../components/ConfirmTypedDialog";
 
 function Kbd({ children }: { children: string }) {
   return (
@@ -9,11 +13,15 @@ function Kbd({ children }: { children: string }) {
 }
 
 export function GuidePage() {
+  const navigate = useNavigate();
+  const [showRedoConfirm, setShowRedoConfirm] = useState(false);
+  const today = new Date().toISOString().slice(0, 10);
+
   return (
     <div className="p-8 max-w-3xl space-y-5">
       <div>
         <h1 className="text-xl font-semibold text-ink">Guide</h1>
-        <p className="text-sm text-ink-muted">How LifeOS is meant to be used, day to day.</p>
+        <p className="text-sm text-ink-muted">How Lock In is meant to be used, day to day.</p>
       </div>
 
       <Card title="Daily workflow">
@@ -43,7 +51,7 @@ export function GuidePage() {
         <p className="text-sm text-ink-muted">
           Everything is plain JSON under <code className="text-xs bg-surface-raised px-1 py-0.5 rounded">data/</code> in
           this project folder — one file per day, month, or entity type. Nothing is sent anywhere.
-          Commit that folder to Git yourself whenever you want a version history; LifeOS never commits automatically.
+          Commit that folder to Git yourself whenever you want a version history; Lock In never commits automatically.
         </p>
       </Card>
 
@@ -63,6 +71,22 @@ export function GuidePage() {
           not proof that one causes the other. Use them as a prompt to notice patterns, not as a verdict.
         </p>
       </Card>
+
+      <Card title="Redo onboarding">
+        <p className="text-sm text-ink-muted">Walk through setup again to update your name, currency, or starting habits. Your data stays put unless you explicitly change its location.</p>
+        <Button className="mt-4" onClick={() => setShowRedoConfirm(true)}>Redo onboarding</Button>
+        <Button className="mt-4 ml-2" variant="secondary" onClick={() => window.dispatchEvent(new CustomEvent("start-tour"))}>Restart tour</Button>
+      </Card>
+      {showRedoConfirm && (
+        <ConfirmTypedDialog
+          title="Restart onboarding?"
+          body={`Type today's date (${today}) to confirm. Your existing data isn't affected unless you explicitly change its location during the walkthrough.`}
+          expectedValue={today}
+          confirmLabel="Restart onboarding"
+          onConfirm={() => { setShowRedoConfirm(false); navigate("/onboarding"); }}
+          onCancel={() => setShowRedoConfirm(false)}
+        />
+      )}
     </div>
   );
 }

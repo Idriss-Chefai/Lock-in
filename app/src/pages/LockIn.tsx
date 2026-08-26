@@ -4,7 +4,7 @@ import { newId, todayIso } from "../services/id";
 import type { FocusSession, Skill, Task, Project } from "../services/validation/schemas";
 import { Card, Button, Input, Select, EmptyState } from "../components/ui";
 import { Clock3, Play, Pause, RotateCcw, Sparkles } from "lucide-react";
-import { useCoach } from "../services/coach/CoachContext";
+import { TutorialTip } from "../components/TutorialTip";
 
 const DEFAULT_WORK_MINUTES = 25;
 const DEFAULT_BREAK_MINUTES = 5;
@@ -20,7 +20,6 @@ function formatMinutes(minutes: number): string {
 
 export function LockInPage() {
   const store = useDataStore();
-  const coach = useCoach();
   const [skills, setSkills] = useState<Skill[]>([]);
   const [tasks, setTasks] = useState<Task[]>([]);
   const [projects, setProjects] = useState<Project[]>([]);
@@ -171,10 +170,6 @@ export function LockInPage() {
 
   async function onIntervalComplete() {
     const completedKind = timerKind;
-    coach.push(
-      completedKind === "work" ? "Rep done. Take your break." : "Break's over. Lock back in.",
-      completedKind === "work" ? "hype" : "nudge"
-    );
     if (completedKind === "work" && sessionStartedAt !== null && selectedSkillId !== "") {
       const elapsedMinutes = Math.max(1, Math.round((Date.now() - sessionStartedAt) / 60000));
       const session: FocusSession = {
@@ -278,6 +273,7 @@ export function LockInPage() {
 
   return (
     <div className="p-6 max-w-5xl space-y-5">
+      <TutorialTip tutorialKey="lockin-page" title="Lock In" body="Pick a skill, set your work and break lengths, and hit start. You will see a clear notice when it is time to switch phases." />
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-xl font-semibold text-ink">Lock In</h1>

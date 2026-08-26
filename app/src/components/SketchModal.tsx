@@ -1,4 +1,4 @@
-import { useCallback, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Excalidraw, serializeAsJSON } from "@excalidraw/excalidraw";
 import type { ExcalidrawImperativeAPI } from "@excalidraw/excalidraw/types";
 import { Button } from "./ui";
@@ -9,8 +9,13 @@ interface SketchModalProps {
   onClose: () => void;
 }
 
+function getResolvedTheme(): "light" | "dark" {
+  return document.documentElement.classList.contains("dark") ? "dark" : "light";
+}
+
 export function SketchModal({ initialData, onSave, onClose }: SketchModalProps) {
   const excalidrawRef = useRef<ExcalidrawImperativeAPI | null>(null);
+  const [excalidrawTheme, setExcalidrawTheme] = useState<"light" | "dark">(getResolvedTheme);
   let parsedInitial: { elements?: never[]; appState?: Record<string, unknown> } | undefined;
 
   if (initialData) {
@@ -20,6 +25,12 @@ export function SketchModal({ initialData, onSave, onClose }: SketchModalProps) 
       parsedInitial = undefined;
     }
   }
+
+  useEffect(() => {
+    const observer = new MutationObserver(() => setExcalidrawTheme(getResolvedTheme()));
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+    return () => observer.disconnect();
+  }, []);
 
   const handleSave = useCallback(() => {
     if (!excalidrawRef.current) return;
@@ -34,8 +45,8 @@ export function SketchModal({ initialData, onSave, onClose }: SketchModalProps) 
   }, [onSave, onClose]);
 
   return (
-    <div className="fixed inset-0 bg-black/50 z-[60] flex items-center justify-center p-6">
-      <div className="bg-surface rounded-xl w-full h-full max-w-6xl flex flex-col overflow-hidden">
+    <div className="fixed inset-0 bg-black/50 z-[60] flex items-center justify-center p-6 animate-in fade-in duration-150">
+      <div className="bg-surface rounded-xl w-full h-full max-w-6xl flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-150">
         <div className="flex items-center justify-between px-4 py-2 border-b border-border">
           <span className="text-sm font-medium text-ink">Sketch</span>
           <div className="flex gap-2">
@@ -45,6 +56,7 @@ export function SketchModal({ initialData, onSave, onClose }: SketchModalProps) 
         </div>
         <div className="flex-1">
           <Excalidraw
+            theme={excalidrawTheme}
             excalidrawAPI={(api) => { excalidrawRef.current = api; }}
             initialData={parsedInitial}
           />

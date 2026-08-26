@@ -4,6 +4,7 @@ import { newId, todayIso } from "../services/id";
 import type { Project, Task } from "../services/validation/schemas";
 import { Card, Button, Input, Select, Badge, EmptyState, ProgressBar, Textarea } from "../components/ui";
 import { Plus, Trash2, Check, Circle } from "lucide-react";
+import { TutorialTip } from "../components/TutorialTip";
 
 const STATUS_TONE: Record<Project["status"], "neutral" | "success" | "warning" | "accent"> = {
   planned: "neutral",
@@ -101,6 +102,7 @@ export function ProjectsPage() {
 
   return (
     <div className="p-6 max-w-4xl space-y-4">
+      <TutorialTip tutorialKey="projects-page" title="Projects group the work" body="Use projects to keep related tasks, progress, and next actions together." />
       <div className="flex items-center justify-between">
         <h1 className="text-lg font-semibold text-ink">Projects</h1>
         <Button onClick={() => setShowForm((s) => !s)}>

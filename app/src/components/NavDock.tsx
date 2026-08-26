@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { HelpCircle, Settings as SettingsIcon } from "lucide-react";
+import { Bug, HelpCircle, Power, Settings as SettingsIcon } from "lucide-react";
 import { CATEGORIES, categoryForPath } from "./Sidebar";
+import { LogoMark } from "./LogoMark";
 
 export function NavDock() {
   const location = useLocation();
@@ -12,6 +13,8 @@ export function NavDock() {
   return (
     <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
       <div className="flex items-end gap-1 bg-surface/90 backdrop-blur-md border border-border rounded-2xl px-3 py-2 shadow-lg">
+        <LogoMark size={22} />
+        <div className="w-px h-8 bg-border mx-1 self-center" />
         {CATEGORIES.map((cat) => {
           const Icon = cat.icon;
           const isActive = activeCategory === cat.key;
@@ -82,6 +85,25 @@ export function NavDock() {
           aria-label="Guide"
         >
           <HelpCircle size={20} />
+        </button>
+        <a
+          href="https://lockin.app/report-bug"
+          target="_blank"
+          rel="noreferrer"
+          className="flex flex-col items-center justify-center w-11 h-11 rounded-xl transition-all duration-150 ease-out hover:scale-125 hover:-translate-y-1.5 text-ink-muted hover:text-ink"
+          title="Report a bug"
+          aria-label="Report a bug"
+        >
+          <Bug size={20} />
+        </a>
+        <button
+          type="button"
+          onClick={() => void window.lifeos.quitApp()}
+          className="flex flex-col items-center justify-center w-11 h-11 rounded-xl transition-all duration-150 ease-out hover:scale-125 hover:-translate-y-1.5 text-ink-muted hover:text-danger"
+          title="Quit"
+          aria-label="Quit"
+        >
+          <Power size={20} />
         </button>
       </div>
     </div>

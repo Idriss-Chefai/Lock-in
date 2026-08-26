@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, shell, dialog } = require("electron");
+const { app, BrowserWindow, ipcMain, shell, dialog, nativeTheme } = require("electron");
 const path = require("node:path");
 const fs = require("node:fs/promises");
 
@@ -57,10 +57,25 @@ ipcMain.handle("config:isFirstRun", async () => {
   return !config?.dataDir;
 });
 
+ipcMain.handle("config:getCurrentDataDir", async () => {
+  const config = await loadConfig();
+  return config?.dataDir ?? null;
+});
+
 ipcMain.handle("config:pickDataDir", async () => {
   const result = await dialog.showOpenDialog({ properties: ["openDirectory", "createDirectory"] });
   if (result.canceled || result.filePaths.length === 0) return null;
   return result.filePaths[0];
+});
+
+ipcMain.handle("config:checkDataDir", async (_e, dirPath) => {
+  const dataSubdir = path.join(dirPath, "data");
+  try {
+    const entries = await fs.readdir(dataSubdir);
+    return { hasExistingData: entries.length > 0, path: dirPath };
+  } catch {
+    return { hasExistingData: false, path: dirPath };
+  }
 });
 
 ipcMain.handle("config:completeSetup", async (_e, dataDir) => {
@@ -217,6 +232,10 @@ ipcMain.handle("app:restart", () => {
   app.exit(0);
 });
 
+ipcMain.handle("app:quit", () => {
+  app.quit();
+});
+
 ipcMain.handle("window:applyUiState", async (_e, { hideMenuBar, fullscreen, windowControlsOnHover } = {}) => {
   const win = BrowserWindow.getFocusedWindow() || BrowserWindow.getAllWindows()[0];
   if (!win) return;
@@ -278,16 +297,22 @@ function createWindow() {
     height: 800,
     minWidth: 960,
     minHeight: 640,
-    title: "LifeOS",
+    title: "Lock In",
     frame: false,
     titleBarStyle: "hidden",
     titleBarOverlay: undefined,
+    backgroundColor: nativeTheme.shouldUseDarkColors ? "#111521" : "#fffdfb",
+    show: false,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       contextIsolation: true,
       nodeIntegration: false,
       sandbox: true,
     },
+  });
+
+  win.once("ready-to-show", () => {
+    win.show();
   });
 
   win.webContents.setWindowOpenHandler(({ url }) => {

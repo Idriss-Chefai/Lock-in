@@ -16,7 +16,7 @@ import type { DailyLog, Habit, Goal, Project, Transaction, Task, FocusSession } 
 import { Card, Badge, Button, EmptyState, ProgressBar } from "../components/ui";
 import { AlertTriangle, Flame, CalendarRange, CheckCircle2, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
-import { useCoach } from "../services/coach/CoachContext";
+import { TutorialTip } from "../components/TutorialTip";
 
 const FALLBACK_QUOTES = [
   { text: "The secret of getting ahead is getting started.", author: "Mark Twain" },
@@ -55,7 +55,6 @@ function Sparkline({ data, dataKey, color }: { data: any[]; dataKey: string; col
 
 export function DashboardPage() {
   const store = useDataStore();
-  const coach = useCoach();
   const [today, setToday] = useState<DailyLog | null>(null);
   const [weekLogs, setWeekLogs] = useState<DailyLog[]>([]);
   const [monthLogs, setMonthLogs] = useState<DailyLog[]>([]);
@@ -69,12 +68,6 @@ export function DashboardPage() {
   const [loading, setLoading] = useState(true);
   const quote = useDailyQuote();
   const overdue = overdueTasks(tasks, todayIso());
-
-  useEffect(() => {
-    if (!loading && overdue.length > 0) {
-      coach.push(`${overdue.length} task${overdue.length === 1 ? "" : "s"} overdue. No excuses.`, "warning");
-    }
-  }, [loading, overdue.length, coach]);
 
   useEffect(() => {
     const date = todayIso();
@@ -123,6 +116,8 @@ export function DashboardPage() {
     energy: l.energy ?? null,
     mood: l.mood ?? null,
     productivity: l.productivity ?? null,
+    hydration: l.hydrationMl ?? null,
+    screenTime: l.screenTimeMinutes ?? null,
   }));
 
   const monthHealthData = monthLogs.map((l) => ({
@@ -130,6 +125,8 @@ export function DashboardPage() {
     sleep: l.sleep?.hours ?? null,
     mood: l.mood ?? null,
     productivity: l.productivity ?? null,
+    hydration: l.hydrationMl ?? null,
+    screenTime: l.screenTimeMinutes ?? null,
     habitsDone: habits.filter((habit) => isHabitDone(l, habit.id)).length,
   }));
 
@@ -157,6 +154,7 @@ export function DashboardPage() {
 
   return (
     <div className="p-6 max-w-[1600px] space-y-4">
+      <TutorialTip tutorialKey="dashboard" title="Your home base" body="Habit streaks, focus time, and trends at a glance." />
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-xl font-semibold text-ink">
@@ -229,6 +227,8 @@ export function DashboardPage() {
               <Area type="monotone" dataKey="sleep" stroke="#8b5cf6" fill="url(#sleepFill)" strokeWidth={2} name="Sleep" />
               <Line type="monotone" dataKey="mood" stroke="#22c55e" strokeWidth={2} dot={false} name="Mood" />
               <Line type="monotone" dataKey="productivity" stroke="var(--accent)" strokeWidth={2} dot={false} name="Productivity" />
+              <Line type="monotone" dataKey="hydration" stroke="#06b6d4" strokeWidth={2} dot={false} name="Hydration (ml)" />
+              <Line type="monotone" dataKey="screenTime" stroke="#ec4899" strokeWidth={2} dot={false} name="Screen time (min)" />
             </AreaChart>
           </ResponsiveContainer>
           <div className="grid grid-cols-4 gap-3 mt-4 pt-4 border-t border-border text-center">
@@ -373,6 +373,8 @@ export function DashboardPage() {
             <TrendBlock label="Energy" color="#f59e0b" data={sparkData} dataKey="energy" />
             <TrendBlock label="Mood" color="#22c55e" data={sparkData} dataKey="mood" />
             <TrendBlock label="Productivity" color="var(--accent)" data={sparkData} dataKey="productivity" />
+            <TrendBlock label="Hydration (ml)" color="#06b6d4" data={sparkData} dataKey="hydration" />
+            <TrendBlock label="Screen time (min)" color="#ec4899" data={sparkData} dataKey="screenTime" />
           </div>
           <div className="grid grid-cols-4 gap-4 mt-4 pt-4 border-t border-border text-center">
             <Stat label="Avg sleep" value={weekSummary.avgSleep ? `${weekSummary.avgSleep}h` : "—"} />

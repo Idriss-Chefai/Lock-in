@@ -76,6 +76,8 @@ export function AnalyticsPage() {
     energy: l.energy ?? null,
     mood: l.mood ?? null,
     productivity: l.productivity ?? null,
+    hydration: l.hydrationMl ?? null,
+    screenTime: l.screenTimeMinutes ?? null,
   }));
 
   const spendData = logs.map((l) => ({
@@ -127,6 +129,8 @@ export function AnalyticsPage() {
               name="Productivity"
               connectNulls
             />
+            <Line type="monotone" dataKey="hydration" stroke="#06b6d4" dot={false} name="Hydration (ml)" connectNulls />
+            <Line type="monotone" dataKey="screenTime" stroke="#ec4899" dot={false} name="Screen time (min)" connectNulls />
           </LineChart>
         </ResponsiveContainer>
       </Card>

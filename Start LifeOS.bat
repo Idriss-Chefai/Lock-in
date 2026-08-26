@@ -12,6 +12,6 @@ if not exist node_modules (
   )
 )
 
-echo Starting LifeOS...
+echo Starting Lock In...
 call npm run dev
 pause

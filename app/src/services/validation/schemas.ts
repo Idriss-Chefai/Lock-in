@@ -45,10 +45,13 @@ export const DailyLogSchema = z.object({
   energy: z.number().int().min(1).max(10).optional(),
   mood: z.number().int().min(1).max(10).optional(),
   productivity: z.number().int().min(1).max(10).optional(),
+  hydrationMl: z.number().min(0).optional(),
+  screenTimeMinutes: z.number().min(0).optional(),
   habits: z.record(z.string(), z.union([z.boolean(), z.number()])).default({}),
   training: z.array(TrainingRefSchema).default([]),
   tasks: z.array(TaskRefSchema).default([]),
   expenses: z.array(ExpenseRefSchema).default([]),
+  income: z.array(ExpenseRefSchema).default([]),
   notes: z.string().default(""),
 });
 export type DailyLog = z.infer<typeof DailyLogSchema>;
@@ -260,6 +263,7 @@ export const BookSchema = z.object({
   topics: z.array(z.string()).default([]),
   notesLocation: z.string().optional(),
   coverUrl: z.string().optional(),
+  pages: z.number().int().min(0).optional(),
 });
 export type Book = z.infer<typeof BookSchema>;
 
@@ -285,6 +289,7 @@ export const MediaItemSchema = z.object({
   coverUrl: z.string().optional(),
   url: z.string().optional(),
   creator: z.string().optional(),
+  durationMinutes: z.number().min(0).optional(),
 });
 export type MediaItem = z.infer<typeof MediaItemSchema>;
 
@@ -320,6 +325,8 @@ export const SettingsSchema = z.object({
   fullscreen: z.boolean().default(false),
   windowControlsOnHover: z.boolean().default(false),
   navStyle: z.enum(["sidebar", "dock"]).default("sidebar"),
+  seenTutorials: z.array(z.string()).default([]),
+  hasCompletedTour: z.boolean().default(false),
   dataVersion: z.number().int().default(1),
 });
 export type Settings = z.infer<typeof SettingsSchema>;
