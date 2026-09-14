@@ -40,7 +40,12 @@ export function ProjectsPage() {
   }
 
   useEffect(() => {
-    refresh();
+    refresh().catch((error) => {
+      console.warn("Projects page failed to load:", error);
+      setProjects([]);
+      setTasks([]);
+      setLoading(false);
+    });
   }, [store]);
 
   async function addProject() {

@@ -37,11 +37,18 @@ export function TodayPage() {
   const pendingLogRef = useRef<DailyLog | null>(null);
 
   useEffect(() => {
-    Promise.all([store.getDailyLog(date), store.getHabits()]).then(([existing, h]) => {
-      setLog(existing ?? EMPTY_LOG(date));
-      setHabits(h.filter((x) => x.active));
-      setLoading(false);
-    });
+    Promise.all([store.getDailyLog(date), store.getHabits()])
+      .then(([existing, h]) => {
+        setLog(existing ?? EMPTY_LOG(date));
+        setHabits(h.filter((x) => x.active));
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.warn("Today page failed to load:", error);
+        setLog(EMPTY_LOG(date));
+        setHabits([]);
+        setLoading(false);
+      });
   }, [store, date]);
 
   const flushSave = useCallback(async () => {

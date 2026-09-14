@@ -82,19 +82,24 @@ export function DashboardPage() {
       store.getTransactions(date.slice(0, 7)),
       store.getFocusSessions(date.slice(0, 7)),
       store.getSettings(),
-    ]).then(([t, week, month, h, g, p, tk, tx, focus, settings]) => {
-      setToday(t);
-      setWeekLogs(week.sort((a, b) => a.date.localeCompare(b.date)));
-      setMonthLogs(month.sort((a, b) => a.date.localeCompare(b.date)));
-      setHabits(h.filter((x) => x.active));
-      setGoals(g.filter((x) => x.status !== "completed" && x.status !== "abandoned"));
-      setProjects(p);
-      setTasks(tk);
-      setTransactions(tx);
-      setFocusSessions(focus);
-      setName(settings.name);
-      setLoading(false);
-    });
+    ])
+      .then(([t, week, month, h, g, p, tk, tx, focus, settings]) => {
+        setToday(t);
+        setWeekLogs(week.sort((a, b) => a.date.localeCompare(b.date)));
+        setMonthLogs(month.sort((a, b) => a.date.localeCompare(b.date)));
+        setHabits(h.filter((x) => x.active));
+        setGoals(g.filter((x) => x.status !== "completed" && x.status !== "abandoned"));
+        setProjects(p);
+        setTasks(tk);
+        setTransactions(tx);
+        setFocusSessions(focus);
+        setName(settings.name);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.warn("Dashboard failed to load:", error);
+        setLoading(false);
+      });
   }, [store]);
 
   if (loading) return <div className="p-8 text-sm text-ink-faint">Loading…</div>;

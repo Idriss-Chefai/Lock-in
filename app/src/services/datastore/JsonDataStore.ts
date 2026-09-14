@@ -45,10 +45,15 @@ export class JsonDataStore implements DataStore {
   // ---------- low-level read/write via IPC ----------
 
   private async readJson(relPath: string): Promise<unknown | null> {
-    const fileExists = await window.lifeos.exists(relPath);
-    if (!fileExists) return null;
-    const text = await window.lifeos.readText(relPath);
-    return JSON.parse(text);
+    try {
+      const fileExists = await window.lifeos.exists(relPath);
+      if (!fileExists) return null;
+      const text = await window.lifeos.readText(relPath);
+      return JSON.parse(text);
+    } catch (error) {
+      console.warn(`Failed to read JSON at ${relPath}:`, error);
+      return null;
+    }
   }
 
   private async writeJsonSafe(relPath: string, data: unknown): Promise<void> {
@@ -76,16 +81,21 @@ export class JsonDataStore implements DataStore {
   }
 
   async listDailyLogs(fromDate: string, toDate: string): Promise<DailyLog[]> {
-    const entries = await window.lifeos.readDir("daily");
-    const logs: DailyLog[] = [];
-    for (const entry of entries) {
-      if (!entry.isFile || !entry.name.endsWith(".json") || entry.name.endsWith(".tmp")) continue;
-      const date = entry.name.replace(".json", "");
-      if (date < fromDate || date > toDate) continue;
-      const log = await this.getDailyLog(date);
-      if (log) logs.push(log);
+    try {
+      const entries = await window.lifeos.readDir("daily");
+      const logs: DailyLog[] = [];
+      for (const entry of entries) {
+        if (!entry.isFile || !entry.name.endsWith(".json") || entry.name.endsWith(".tmp")) continue;
+        const date = entry.name.replace(".json", "");
+        if (date < fromDate || date > toDate) continue;
+        const log = await this.getDailyLog(date);
+        if (log) logs.push(log);
+      }
+      return logs.sort((a, b) => a.date.localeCompare(b.date));
+    } catch (error) {
+      console.warn("Failed to list daily logs:", error);
+      return [];
     }
-    return logs.sort((a, b) => a.date.localeCompare(b.date));
   }
 
   // ---------- Habits ----------
@@ -425,13 +435,20 @@ export class JsonDataStore implements DataStore {
   // ---------- Settings ----------
 
   async getSettings(): Promise<Settings> {
-    const raw = await this.readJson("settings/settings.json");
-    if (!raw) {
+    try {
+      const raw = await this.readJson("settings/settings.json");
+      if (!raw) {
+        const defaults = SettingsSchema.parse({});
+        await this.writeJsonSafe("settings/settings.json", defaults);
+        return defaults;
+      }
+      return SettingsSchema.parse(raw);
+    } catch (error) {
+      console.warn("Settings file invalid or unreadable; resetting defaults.", error);
       const defaults = SettingsSchema.parse({});
       await this.writeJsonSafe("settings/settings.json", defaults);
       return defaults;
     }
-    return SettingsSchema.parse(raw);
   }
 
   async saveSettings(settings: Settings): Promise<void> {

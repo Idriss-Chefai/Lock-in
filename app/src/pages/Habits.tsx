@@ -25,7 +25,12 @@ export function HabitsPage() {
   }
 
   useEffect(() => {
-    refresh();
+    refresh().catch((error) => {
+      console.warn("Habits page failed to load:", error);
+      setHabits([]);
+      setLogs([]);
+      setLoading(false);
+    });
   }, [store]);
 
   async function addHabit() {

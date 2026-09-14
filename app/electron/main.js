@@ -29,16 +29,42 @@ async function saveConfig(config) {
   await fs.writeFile(CONFIG_PATH, JSON.stringify(config, null, 2), "utf-8");
 }
 
+function getDefaultDataDirs() {
+  return {
+    dataRoot: path.join(REPO_ROOT, "data"),
+    exportsRoot: path.join(REPO_ROOT, "exports"),
+  };
+}
+
 async function initializeDataRoot() {
   const config = await loadConfig();
-  if (config?.dataDir) {
-    DATA_ROOT = path.join(config.dataDir, "data");
-    EXPORTS_ROOT = path.join(config.dataDir, "exports");
-    await fs.mkdir(DATA_ROOT, { recursive: true });
-    await fs.mkdir(EXPORTS_ROOT, { recursive: true });
-    return true;
+  const fallback = getDefaultDataDirs();
+  DATA_ROOT = fallback.dataRoot;
+  EXPORTS_ROOT = fallback.exportsRoot;
+
+  if (config?.dataDir && typeof config.dataDir === "string" && path.isAbsolute(config.dataDir)) {
+    const candidateDataRoot = path.join(config.dataDir, "data");
+    const candidateExportsRoot = path.join(config.dataDir, "exports");
+
+    try {
+      await fs.access(candidateDataRoot);
+      DATA_ROOT = candidateDataRoot;
+      EXPORTS_ROOT = candidateExportsRoot;
+      await fs.mkdir(DATA_ROOT, { recursive: true });
+      await fs.mkdir(EXPORTS_ROOT, { recursive: true });
+      return true;
+    } catch {
+      // This machine was previously configured for a different filesystem or
+      // another machine; ignore the stale path and fall back to the repo-local
+      // data folder so the app remains usable instead of hanging forever in
+      // every page's loading state.
+      await saveConfig({});
+    }
   }
-  return false;
+
+  await fs.mkdir(DATA_ROOT, { recursive: true });
+  await fs.mkdir(EXPORTS_ROOT, { recursive: true });
+  return true;
 }
 
 function resolveScoped(base, relPath) {
@@ -248,15 +274,20 @@ ipcMain.handle("window:applyUiState", async (_e, { hideMenuBar, fullscreen, wind
   // overlay. Keeping both active at once causes the odd blank inset seen after
   // a restart.
   if (windowControlsOnHover) {
-    win.setTitleBarOverlay(undefined);
     return;
   }
 
-  win.setTitleBarOverlay({
-    color: "#00000000",
-    symbolColor: "#edf1f8",
-    height: 26,
-  });
+  try {
+    if (typeof win.setTitleBarOverlay === "function") {
+      win.setTitleBarOverlay({
+        color: "#00000000",
+        symbolColor: "#edf1f8",
+        height: 26,
+      });
+    }
+  } catch (err) {
+    console.warn("setTitleBarOverlay failed:", err);
+  }
 });
 
 // Resolves a path relative to the repo root (as stored in JSON, so it

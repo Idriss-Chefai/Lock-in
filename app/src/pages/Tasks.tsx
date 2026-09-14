@@ -25,7 +25,12 @@ export function TasksPage() {
   }
 
   useEffect(() => {
-    refresh();
+    refresh().catch((error) => {
+      console.warn("Tasks page failed to load:", error);
+      setTasks([]);
+      setProjects([]);
+      setLoading(false);
+    });
   }, [store]);
 
   async function addTask() {

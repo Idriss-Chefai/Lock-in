@@ -198,13 +198,18 @@ export default function App() {
 
   useEffect(() => {
     const start = Date.now();
-    window.lifeos.isFirstRun().then(async (firstRun) => {
-      const elapsed = Date.now() - start;
-      const remaining = Math.max(0, MIN_SPLASH_MS - elapsed);
-      await new Promise((resolve) => setTimeout(resolve, remaining));
-      setNeedsOnboarding(firstRun);
-      setChecking(false);
-    });
+    window.lifeos.isFirstRun()
+      .then(async (firstRun) => {
+        const elapsed = Date.now() - start;
+        const remaining = Math.max(0, MIN_SPLASH_MS - elapsed);
+        await new Promise((resolve) => setTimeout(resolve, remaining));
+        setNeedsOnboarding(firstRun);
+        setChecking(false);
+      })
+      .catch(() => {
+        setNeedsOnboarding(false);
+        setChecking(false);
+      });
   }, []);
 
   return (

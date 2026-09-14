@@ -44,7 +44,12 @@ export function GoalsPage() {
   }
 
   useEffect(() => {
-    refresh();
+    refresh().catch((error) => {
+      console.warn("Goals page failed to load:", error);
+      setGoals([]);
+      setTasks([]);
+      setLoading(false);
+    });
   }, [store]);
 
   async function addGoal() {
